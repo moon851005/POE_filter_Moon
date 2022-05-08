@@ -2,6 +2,7 @@
 # EnableBlockGroups
 # Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
 # Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
+# version:3.18
 # 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
 # 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
 # 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
