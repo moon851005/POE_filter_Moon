@@ -2641,8 +2641,6 @@ Show #非傳奇災魘裝
     SetBorderColor 150 0 0
     SetFontSize 35
 	DisableDropSoundIfAlertSound
-<<<<<<< HEAD
-=======
 	
 # 2.22守望號令(3.18版本)
 
@@ -2675,7 +2673,6 @@ Show #重組裝置
     MinimapIcon 1 Yellow Square
     PlayEffect Yellow
 	DisableDropSoundIfAlertSound
->>>>>>> feature/Divination_Card
 
 #================================================================================================================================================
 # 3 命運卡
