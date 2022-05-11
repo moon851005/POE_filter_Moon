@@ -2669,13 +2669,27 @@ Show #動力核心
     SetBorderColor 22 69 7 255
     SetFontSize 40
     PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+    CustomAlertSoundOptional "Diablo2\27.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
     MinimapIcon 1 Yellow Square
     PlayEffect Yellow
 	DisableDropSoundIfAlertSound
 
+Show #重組裝置
+    Class "Stackable Currency"
+    BaseType "Power Core"
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 200 150 0 255
+    SetBorderColor 22 69 7 255
+    SetFontSize 40  
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+    CustomAlertSoundOptional "Diablo2\27.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+	DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
 # 3 命運卡
