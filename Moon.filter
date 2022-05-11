@@ -2640,24 +2640,6 @@ Show #非傳奇災魘裝
     SetBorderColor 150 0 0
     SetFontSize 35
 	DisableDropSoundIfAlertSound
-	
-# 2.21宿敵(3.17版本)
-
-Show #
-    Class "Archnemesis Mod"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 200 150 0 255
-    SetBorderColor 22 69 7 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
-	DisableDropSoundIfAlertSound
-	
-
 
 #================================================================================================================================================
 # 3 命運卡
