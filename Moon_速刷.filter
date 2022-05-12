@@ -87,6 +87,7 @@
 	# 2.19最後通牒(3.14版本)
 	# 2.20死境探險(3.15版本)
 	# 2.21轉世災魘(3.16版本)
+	# 2.21守望號令(3.18版本)
 # 3 命運卡
 # 4 技能寶石
 # 5 輿圖
@@ -2641,13 +2642,44 @@ Show #非傳奇災魘裝
     SetFontSize 35
 	DisableDropSoundIfAlertSound
 	
-# 2.21宿敵(3.17版本)
+# 2.22守望號令(3.18版本)
 
-Show #
-    Class "Archnemesis Mod"
-    SetTextColor 0 0 0 255
-    SetBackgroundColor 200 150 0 255
-    SetBorderColor 22 69 7 255
+Show #動力核心
+    Class "Stackable Currency"
+    BaseType "Power Core"
+    SetTextColor 60 140 255
+    SetBackgroundColor 40 50 60 255
+    SetBorderColor 127 127 127
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+    CustomAlertSoundOptional "Diablo2\27.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+	DisableDropSoundIfAlertSound
+
+Show #重組裝置
+    Class "Stackable Currency"
+    BaseType "Power Core"
+    SetTextColor 240 210 20 255
+    SetBackgroundColor 40 50 60 255
+    SetBorderColor 127 127 127
+    SetFontSize 40  
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+    CustomAlertSoundOptional "Diablo2\27.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+	DisableDropSoundIfAlertSound
+
+Show #潛行哨兵
+    Class "Sentinel Drone"
+    BaseType "Stalker Sentinel"
+    SetTextColor 210 0 0
+    SetBackgroundColor 60 140 255
+    SetBorderColor 210 0 0
     SetFontSize 40
     PlayAlertSoundPositional 3 150
     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
@@ -2656,8 +2688,36 @@ Show #
     MinimapIcon 1 Yellow Square
     PlayEffect Yellow
 	DisableDropSoundIfAlertSound
-	
 
+Show #萬劫哨兵
+    Class "Sentinel Drone"
+    BaseType "Pandemonium Sentinel"
+    SetTextColor 19 0 255
+    SetBackgroundColor 60 140 255
+    SetBorderColor 19 0 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+	DisableDropSoundIfAlertSound
+
+Show #巔峰守望
+    Class "Sentinel Drone"
+    BaseType "Apex Sentinel"
+    SetTextColor 255 205 0
+    SetBackgroundColor 60 140 255
+    SetBorderColor 255 205 0
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+	DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
 # 3 命運卡
@@ -2688,7 +2748,7 @@ Hide #印鈔 - 速刷 - 重複名稱debug區
 
 Show # T0命運卡
     Class "Divination Card"
-    BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "The Cheater" "Desecrated Virtue" "Brother's Stash" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal"
+    BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "The Cheater" "Desecrated Virtue" "Brother's Stash" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary"
     SetTextColor 255 0 0 255
     SetBackgroundColor 255 255 255
     SetBorderColor 255 0 0 255
@@ -2703,7 +2763,7 @@ Show # T0命運卡
 
 Show # T1命運卡
     Class "Divination Card"
-    BaseType "Abandoned Wealth" "Spark and the Flame" "Nook's Crown" "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "The Iron Bard" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "Saint's Treasure" "The Artist" "Deadly Joy" "The Aspirant" "The Scout" "Judging Voices" "Eternal Bonds"
+    BaseType "Abandoned Wealth" "Spark and the Flame" "Nook's Crown" "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "The Iron Bard" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "Saint's Treasure" "The Artist" "Deadly Joy" "The Aspirant" "The Scout" "Judging Voices" "Eternal Bonds" "Altered Perception" "A Fate Worse Than Death" "The Destination" "Home"
     SetTextColor 255 117 29
     SetBackgroundColor 114 110 210 200
     SetBorderColor 255 255 255
@@ -2718,7 +2778,7 @@ Show # T1命運卡
 
 Show # T2命運卡
     Class "Divination Card"
-    BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Insatiable" "The Jeweller's Boon" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Wind" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "The Hoarder" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Sephirot" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "A Dab of Ink" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Misery in Darkness" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette"
+    BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Insatiable" "The Jeweller's Boon" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Wind" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "The Hoarder" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Sephirot" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "A Dab of Ink" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Misery in Darkness" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "From Bone to Ashes" "Darker Half" "The Rabbit's Foot"
     SetTextColor 255 200 0
     SetBackgroundColor 114 110 210 200
     SetBorderColor 255 255 255
