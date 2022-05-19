@@ -2646,7 +2646,7 @@ Show #非傳奇災魘裝
 
 Show #動力核心
     Class "Stackable Currency"
-    BaseType "Power Core"
+    BaseType "Power Core" "Transforming Power Core" "Amplifying Power Core" "Augmenting Power Core"
     SetTextColor 60 140 255
     SetBackgroundColor 40 50 60 255
     SetBorderColor 127 127 127
@@ -2655,13 +2655,13 @@ Show #動力核心
     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
     CustomAlertSoundOptional "Diablo2\27.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
+    MinimapIcon 2 Grey Square
+    PlayEffect Grey
     DisableDropSoundIfAlertSound
 
 Show #重組裝置
     Class "Stackable Currency"
-    BaseType "Power Core"
+    BaseType "Armour Recombinator" "Weapon Recombinator" "Jewellery Recombinator"
     SetTextColor 240 210 20 255
     SetBackgroundColor 40 50 60 255
     SetBorderColor 127 127 127
@@ -2670,7 +2670,7 @@ Show #重組裝置
     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
     CustomAlertSoundOptional "Diablo2\27.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
-    MinimapIcon 1 Yellow Square
+    MinimapIcon 2 Yellow Square
     PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
@@ -2685,8 +2685,8 @@ Show #潛行哨兵
     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
     CustomAlertSoundOptional "Diablo2\49.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
+    MinimapIcon 1 Red Square
+    PlayEffect Red
     DisableDropSoundIfAlertSound
 
 Show #萬劫哨兵
@@ -2700,8 +2700,8 @@ Show #萬劫哨兵
     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
     CustomAlertSoundOptional "Diablo2\49.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
+    MinimapIcon 1 Blue Square
+    PlayEffect Blue
     DisableDropSoundIfAlertSound
 
 Show #巔峰守望
