@@ -98,26 +98,44 @@
     # 5.5 
     # 5.6 凋落輿圖
     # 5.7 一般輿圖
-# 6 裝備
-    # 6.1 傳奇裝備
-    # 6.2 商店配方
-    # 6.3 藥劑
-    # 6.4 珠寶
-    # 6.5 點機會石用基底
-    # 6.6 特殊詞綴掉落
-    # 6.7 勢力裝備基底
-    # 6.8 異界輿圖限定基底
-    # 6.9 高階金裝
-    # 6.10 高階基底
-    # 6.11 釣魚道具
-# 7 其他
-    # 7.1 迷宮
-    # 7.2 任務
-    # 7.3 隱藏
+# 6 已鑑定道具
+    # 6.1 物理武器
+    # 6.2 元素武器
+    # 6.3 寶石武器
+    # 6.4 施放武器
+    # 6.5 法術回音
+    # 6.6 頭盔
+    # 6.7 手套
+    # 6.8 鞋子
+    # 6.9 盾	
+    # 6.10 項鍊
+    # 6.11 戒指
+    # 6.12 箭袋
+    # 6.13 身體護甲
+    # 6.14 腰帶
+    # 6.15 珠寶
+    # 6.16 單詞(魔法也顯示)
+# 7 裝備
+    # 7.1 傳奇裝備
+    # 7.2 商店配方
+    # 7.3 藥劑
+    # 7.4 珠寶
+    # 7.5 點機會石用基底
+    # 7.6 特殊詞綴掉落
+    # 7.7 勢力裝備基底
+    # 7.8 異界輿圖限定基底
+    # 7.9 高階金裝
+    # 7.10 高階基底
+    # 7.11 釣魚道具
+# 8 其他
+    # 8.1 迷宮
+    # 8.2 任務
+    # 8.3 隱藏
 
 #================================================================================================================================================
 # 1 通貨
 #================================================================================================================================================
+
 # 1.1 通貨碎片
 
 Hide #印鈔 - 速刷 - 蛻變石碎片
@@ -210,8 +228,9 @@ Show #崇高石碎片
     SetBackgroundColor 55 1 59
     SetBorderColor 30 144 255
     SetFontSize 40
+    MinimapIcon 2 Orange Moon
+    PlayEffect Orange
     PlayAlertSoundPositional 10 300
-    CustomAlertSoundOptional "" 300
     CustomAlertSoundOptional "Diablo2\29.mp3" 300
     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_刻印.mp3" 300
@@ -298,6 +317,14 @@ Show #玷污的磨刀石
     MinimapIcon 2 Grey Circle
     DisableDropSoundIfAlertSound
 
+Show #印鈔 - 磨刀石(堆疊>=8)
+    Class "Stackable Currency"
+    BaseType "Blacksmith's Whetstone"
+    StackSize >= 8
+    SetBorderColor 210 0 0
+    SetFontSize 35
+    DisableDropSoundIfAlertSound
+
 Hide #印鈔 - 速刷 - 磨刀石
     Class "Stackable Currency"
     BaseType "Blacksmith's Whetstone"
@@ -312,6 +339,14 @@ Show #玷污的護甲片
     SetBorderColor 150 0 0
     SetFontSize 38
     MinimapIcon 2 Grey Circle
+    DisableDropSoundIfAlertSound
+
+Show #印鈔 - 護甲片(堆疊>=8)
+    Class "Stackable Currency"
+    BaseType "Armourer's Scrap"
+    StackSize >= 8
+    SetBorderColor 210 0 0
+    SetFontSize 35
     DisableDropSoundIfAlertSound
 
 Hide #印鈔 - 速刷 - 護甲片
@@ -504,7 +539,7 @@ Show #羅盤
     Class "Stackable Currency"
     BaseType "Surveyor's Compass" "Charged Compass"
     SetTextColor 222 183 83
-    SetBorderColor 30 144 255
+    SetBorderColor 130 50 240 
     SetFontSize 40
     PlayAlertSoundPositional 6 200
     CustomAlertSoundOptional "bubu\bubu-精華六分儀.mp3" 300
@@ -646,22 +681,7 @@ Hide #印鈔 - 速刷 - 工匠石
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
-Show #重鑄石(堆疊>=2)
-    Class "Stackable Currency"
-    BaseType "Orb of Scouring"
-    StackSize >= 2
-    SetTextColor 255 255 255
-    SetBorderColor 255 192 203
-    SetFontSize 38
-    PlayAlertSoundPositional 4 100
-    CustomAlertSoundOptional "bubu\bubu-重鑄石.mp3" 300
-    CustomAlertSoundOptional "Diablo2\2.mp3" 100
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-    MinimapIcon 2 White Circle
-    PlayEffect White Temp
-    DisableDropSoundIfAlertSound
-
-Hide #印鈔 - 速刷 - 重鑄石
+Show #重鑄石
     Class "Stackable Currency"
     BaseType "Orb of Scouring"
     SetTextColor 255 255 255
@@ -1153,9 +1173,9 @@ Show #喚醒者之玉
     PlayEffect Pink
     DisableDropSoundIfAlertSound
 
-Show #衝突寶珠、支配之玉
+Show #支配之玉
     Class "Stackable Currency"
-    BaseType "Orb of Dominance" "Orb of Conflict"
+    BaseType "Orb of Dominance"
     SetTextColor 246 173 255
     SetBackgroundColor 5 8 123 255
     SetBorderColor 255 200 0
@@ -1164,6 +1184,21 @@ Show #衝突寶珠、支配之玉
     CustomAlertSoundOptional "bubu\bubu-釋界玉.mp3" 300
     CustomAlertSoundOptional "Diablo2\40.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_All Hail Britannia3.mp3" 300
+    MinimapIcon 0 Purple Moon
+    PlayEffect Purple
+    DisableDropSoundIfAlertSound
+
+Show #衝突寶珠
+    Class "Stackable Currency"
+    BaseType "Orb of Conflict"
+    SetTextColor 246 173 255
+    SetBackgroundColor 5 8 123 255
+    SetBorderColor 255 200 0
+    SetFontSize 45
+    PlayAlertSoundPositional ShGeneral 300
+    CustomAlertSoundOptional "bubu\bubu-釋界玉.mp3" 300
+    CustomAlertSoundOptional "Diablo2\40.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧5.mp3" 200
     MinimapIcon 0 Purple Moon
     PlayEffect Purple
     DisableDropSoundIfAlertSound
@@ -1306,6 +1341,7 @@ Show #卡蘭德的魔鏡,永恆寶珠
 #================================================================================================================================================
 # 2 賽季
 #================================================================================================================================================
+
 # 2.1魔符聯盟(2.1版本)
 
 Hide #印鈔 - 速刷 - 魔符
@@ -1329,7 +1365,7 @@ Hide #印鈔 - 速刷 - 普蘭德斯金幣
 
 # 2.3精髓聯盟(2.3版本)
 
-Show # 低階精髓
+Show #低階精髓
     AreaLevel <= 80
     Class "Stackable Currency"
     BaseType "Essence of Greed" "Essence of Contempt" "Essence of Hatred" "Essence of Woe" "Essence of Fear" "Essence of Anger" "Essence of Torment" "Essence of Sorrow" "Essence of Rage" "Essence of Suffering" "Essence of Wrath" "Essence of Doubt" "Essence of Loathing" "Essence of Zeal" "Essence of Anguish" "Essence of Spite" "Essence of Scorn" "Essence of Envy" "Essence of Misery" "Essence of Dread"
@@ -1339,7 +1375,7 @@ Show # 低階精髓
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Show # 高階精髓
+Show #高階精髓
     Class "Stackable Currency"
     BaseType "Screaming Essence" "Shrieking Essence" "Deafening Essence"
     SetTextColor 24 208 255
@@ -1348,7 +1384,7 @@ Show # 高階精髓
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Hide # 高T圖隱藏低階精髓
+Hide #高T圖隱藏低階精髓
     Class "Stackable Currency"
     BaseType "Essence of Greed" "Essence of Contempt" "Essence of Hatred" "Essence of Woe" "Essence of Fear" "Essence of Anger" "Essence of Torment" "Essence of Sorrow" "Essence of Rage" "Essence of Suffering" "Essence of Wrath" "Essence of Doubt" "Essence of Loathing" "Essence of Zeal" "Essence of Anguish" "Essence of Spite" "Essence of Scorn" "Essence of Envy" "Essence of Misery" "Essence of Dread"
     SetTextColor 24 208 255
@@ -1357,7 +1393,7 @@ Hide # 高T圖隱藏低階精髓
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Show # 汙染器皿
+Show #汙染器皿
     Class "Stackable Currency"
     BaseType "Remnant of Corruption"
     SetTextColor 210 0 0
@@ -1366,7 +1402,7 @@ Show # 汙染器皿
     SetFontSize 40
     DisableDropSoundIfAlertSound
     
-Show # 汙染精髓
+Show #汙染精髓
     Class "Stackable Currency"
     BaseType "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Essence of Hysteria"
     SetTextColor 255 255 0
@@ -1609,6 +1645,7 @@ Show #催眠之眼珠寶(汙染凝視)
 Show #催眠之眼珠寶(最高階基底)
     ItemLevel >= 86
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Hypnotic Eye Jewel"
     SetTextColor 10 60 10
@@ -1620,6 +1657,7 @@ Show #催眠之眼珠寶(最高階基底)
 Hide #印鈔 - 速刷 - 催眠之眼珠寶(高階基底)
     ItemLevel >= 82
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Hypnotic Eye Jewel"
     SetTextColor 0 87 255
@@ -1630,6 +1668,7 @@ Hide #印鈔 - 速刷 - 催眠之眼珠寶(高階基底)
 
 Hide #印鈔 - 速刷 - 催眠之眼珠寶
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Hypnotic Eye Jewel"
     SetTextColor 0 87 255
@@ -1650,6 +1689,7 @@ Show #極懼之眼珠寶(汙染凝視)
 Show #極懼之眼珠寶(最高階基底)
     ItemLevel >= 86
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Ghastly Eye Jewel"
     SetTextColor 10 60 10
@@ -1661,6 +1701,7 @@ Show #極懼之眼珠寶(最高階基底)
 Hide #印鈔 - 速刷 - 極懼之眼珠寶(高階基底)
     ItemLevel >= 82
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Ghastly Eye Jewel"
     SetTextColor 156 112 0
@@ -1671,6 +1712,7 @@ Hide #印鈔 - 速刷 - 極懼之眼珠寶(高階基底)
 
 Hide #印鈔 - 速刷 - 極懼之眼珠寶
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Ghastly Eye Jewel"
     SetTextColor 156 112 0
@@ -1691,6 +1733,7 @@ Show #勘查之眼珠寶(汙染凝視)
 Show #勘查之眼珠寶(最高階基底)
     ItemLevel >= 86
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Searching Eye Jewel"
     SetTextColor 10 60 10
@@ -1702,6 +1745,7 @@ Show #勘查之眼珠寶(最高階基底)
 Hide #印鈔 - 速刷 - 勘查之眼珠寶(高階基底)
     ItemLevel >= 82
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Searching Eye Jewel"
     SetTextColor 180 208 245
@@ -1712,6 +1756,7 @@ Hide #印鈔 - 速刷 - 勘查之眼珠寶(高階基底)
 
 Hide #印鈔 - 速刷 - 勘查之眼珠寶
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Searching Eye Jewel"
     SetTextColor 180 208 245
@@ -1732,6 +1777,7 @@ Show #殺戮之眼珠寶(汙染凝視)
 Show #殺戮之眼珠寶(最高階基底)
     ItemLevel >= 86
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Murderous Eye Jewel"
     SetTextColor 10 60 10
@@ -1743,6 +1789,7 @@ Show #殺戮之眼珠寶(最高階基底)
 Hide #印鈔 - 速刷 - 殺戮之眼珠寶(高階基底)
     ItemLevel >= 82
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Murderous Eye Jewel"
     SetTextColor 255 0 98
@@ -1753,6 +1800,7 @@ Hide #印鈔 - 速刷 - 殺戮之眼珠寶(高階基底)
 
 Hide #印鈔 - 速刷 - 殺戮之眼珠寶
     Rarity <= Rare
+    Corrupted False
     Class "Abyss Jewel"
     BaseType "Murderous Eye Jewel"
     SetTextColor 255 0 98
@@ -1763,6 +1811,7 @@ Hide #印鈔 - 速刷 - 殺戮之眼珠寶
 Show #深淵腰帶(最高階基底)
     ItemLevel >= 86
     Rarity <= Rare
+    Corrupted False
     Class "Belt"
     BaseType "Stygian Vise"
     SetTextColor 10 60 10
@@ -1774,6 +1823,7 @@ Show #深淵腰帶(最高階基底)
 Show #深淵腰帶(高階基底)
     ItemLevel >= 84
     Rarity <= Rare
+    Corrupted False
     Class "Belt"
     BaseType "Stygian Vise"
     SetTextColor 77 156 86
@@ -2594,6 +2644,7 @@ Show #探險日誌
 Show #保護基底
     Rarity <= Rare
     BaseType "Runic Helm" "Runic Crest" "Runic Crown" "Runic Greaves" "Runic Sollerets" "Runic Sabatons" "Runic Gloves" "Runic Gages" "Runic Gauntlets"
+    Corrupted False
     SetTextColor 66 148 202
     SetBackgroundColor 255 255 255
     SetBorderColor 66 148 202
@@ -2674,7 +2725,25 @@ Show #重組裝置
     PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
-Show #潛行哨兵
+Show #潛行守望(傳奇)
+    Rarity > Rare
+    Class "Sentinel Drone"
+    BaseType "Stalker Sentinel"
+    SetTextColor 210 0 0
+    SetBackgroundColor 60 140 255
+    SetBorderColor 180 81 0
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 0 Orange Square
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #潛行守望(稀有)
+    Rarity = Rare
+    AreaLevel >= 70
     Class "Sentinel Drone"
     BaseType "Stalker Sentinel"
     SetTextColor 210 0 0
@@ -2685,11 +2754,59 @@ Show #潛行哨兵
     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
     CustomAlertSoundOptional "Diablo2\49.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Red Square
-    PlayEffect Red
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
-Show #萬劫哨兵
+Hide #潛行守望(普通/魔法)
+    Rarity < Rare
+    AreaLevel >= 70
+    Class "Sentinel Drone"
+    BaseType "Stalker Sentinel"
+    SetTextColor 210 0 0
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
+Hide #潛行守望(低等區域)
+    Class "Sentinel Drone"
+    BaseType "Stalker Sentinel"
+    SetTextColor 210 0 0
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
+Show #萬劫守望(傳奇)
+    Rarity > Rare
+    Class "Sentinel Drone"
+    BaseType "Pandemonium Sentinel"
+    SetTextColor 19 0 255
+    SetBackgroundColor 60 140 255
+    SetBorderColor 180 81 0
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 0 Orange Square
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #萬劫守望(稀有)
+    Rarity = Rare
+    AreaLevel >= 70
     Class "Sentinel Drone"
     BaseType "Pandemonium Sentinel"
     SetTextColor 19 0 255
@@ -2700,11 +2817,59 @@ Show #萬劫哨兵
     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
     CustomAlertSoundOptional "Diablo2\49.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Blue Square
+    MinimapIcon 1 Yellow Square
+    PlayEffect Yellow
+    DisableDropSoundIfAlertSound
+
+Hide #萬劫守望(普通/魔法)
+    Rarity < Rare
+    AreaLevel >= 70
+    Class "Sentinel Drone"
+    BaseType "Pandemonium Sentinel"
+    SetTextColor 19 0 255
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
     PlayEffect Blue
     DisableDropSoundIfAlertSound
 
-Show #巔峰守望
+Show #萬劫守望(低等區域)
+    Class "Sentinel Drone"
+    BaseType "Pandemonium Sentinel"
+    SetTextColor 19 0 255
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
+Show #巔峰守望(傳奇)
+    Rarity > Rare
+    Class "Sentinel Drone"
+    BaseType "Apex Sentinel"
+    SetTextColor 255 205 0
+    SetBackgroundColor 60 140 255
+    SetBorderColor 180 81 0
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 0 Orange Square
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #巔峰守望(稀有)
+    Rarity = Rare
+    AreaLevel >= 70
     Class "Sentinel Drone"
     BaseType "Apex Sentinel"
     SetTextColor 255 205 0
@@ -2719,9 +2884,40 @@ Show #巔峰守望
     PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
+Hide #巔峰守望(普通/魔法)
+    Rarity < Rare
+    AreaLevel >= 70
+    Class "Sentinel Drone"
+    BaseType "Apex Sentinel"
+    SetTextColor 255 205 0
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
+Show #巔峰守望(低等區域)
+    Class "Sentinel Drone"
+    BaseType "Apex Sentinel"
+    SetTextColor 255 205 0
+    SetBackgroundColor 60 140 255
+    SetFontSize 40
+    PlayAlertSoundPositional 3 150
+    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+    CustomAlertSoundOptional "Diablo2\49.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+    MinimapIcon 2 Blue Square
+    PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
 #================================================================================================================================================
 # 3 命運卡
 #================================================================================================================================================
+
 Show # 豐裕牌組
     Class "Stackable Currency"
     BaseType "Stacked Deck"
@@ -2746,7 +2942,7 @@ Hide #印鈔 - 速刷 - 重複名稱debug區
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Show # T0命運卡
+Show #T0命運卡
     Class "Divination Card"
     BaseType "House of Mirrors" "The Doctor" "The Fiend" "Beauty Through Death" "Alluring Bounty" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "The Cheater" "Desecrated Virtue" "Brother's Stash" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary"
     SetTextColor 255 0 0 255
@@ -2761,7 +2957,7 @@ Show # T0命運卡
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
-Show # T1命運卡
+Show #T1命運卡
     Class "Divination Card"
     BaseType "Abandoned Wealth" "Spark and the Flame" "Nook's Crown" "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "The Iron Bard" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "Saint's Treasure" "The Artist" "Deadly Joy" "The Aspirant" "The Scout" "Judging Voices" "Eternal Bonds" "Altered Perception" "A Fate Worse Than Death" "The Destination" "Home"
     SetTextColor 255 117 29
@@ -2776,9 +2972,9 @@ Show # T1命運卡
     PlayEffect Orange
     DisableDropSoundIfAlertSound
 
-Show # T2命運卡
+Show #T2命運卡
     Class "Divination Card"
-    BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Insatiable" "The Jeweller's Boon" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Wind" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "The Hoarder" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Sephirot" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "A Dab of Ink" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Misery in Darkness" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "From Bone to Ashes" "Darker Half" "The Rabbit's Foot"
+    BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Insatiable" "The Jeweller's Boon" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Wind" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "The Hoarder" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Sephirot" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "A Dab of Ink" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Misery in Darkness" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "From Bone to Ashes" "Darker Half" "The Rabbit's Foot" "The Price of Protection"
     SetTextColor 255 200 0
     SetBackgroundColor 114 110 210 200
     SetBorderColor 255 255 255
@@ -2793,14 +2989,14 @@ Show # T2命運卡
 
 Hide #印鈔 - 速刷 - T3命運卡
     Class "Divination Card"
-    BaseType "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Wretched" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Wolf" "Standoff" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Garish Power" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "The Mad King" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "The Side Quest" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "Friendship" "The Pack Leader" "The Gladiator" "The Lion" "The Hale Heart" "Monochrome" "More is Never Enough" "Baited Expectations" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "The Heroic Shot" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Anarchy's Price" "Audacity" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Visionary" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Cursed Words" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The Last Supper" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculate" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Tranquillity" "Light and Truth" "Rain Tempter" "The Lich" "The Price of Protection" "Prosperity" "The Tower" "Thunderous Skies" "The Conduit" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "The Long Watch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "The Tireless Extractor" "Parasitic Passengers" "Duality" "The Transformation" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
+    BaseType "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Wretched" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Wolf" "Standoff" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Garish Power" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "The Mad King" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "The Side Quest" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "Friendship" "The Pack Leader" "The Gladiator" "The Lion" "The Hale Heart" "Monochrome" "More is Never Enough" "Baited Expectations" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "The Heroic Shot" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Anarchy's Price" "Audacity" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Visionary" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Cursed Words" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The Last Supper" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculate" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Tranquillity" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Conduit" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "The Long Watch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "The Tireless Extractor" "Parasitic Passengers" "Duality" "The Transformation" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
     SetTextColor 255 255 255 200
     SetBackgroundColor 114 110 210 200
     SetBorderColor 255 255 255 200
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Show # 請更新過濾器
+Show #請更新過濾器
     Class "Divination Card"
     SetTextColor 30 144 255
     SetBackgroundColor 114 110 210 200
@@ -2813,6 +3009,7 @@ Show # 請更新過濾器
 #================================================================================================================================================
 # 4 技能寶石
 #================================================================================================================================================
+
 Show #雙瓦寶石
     Quality > 20
     GemLevel > 20
@@ -2965,6 +3162,7 @@ Hide #印鈔 - 速刷 - 品質寶石
 #================================================================================================================================================
 # 5 輿圖
 #================================================================================================================================================
+
 # 5.1 聖甲蟲
 
 Show #鏽蝕聖甲蟲
@@ -3043,7 +3241,7 @@ Show #任務報告
     BaseType "Report"
     SetTextColor 74 230 58
     SetBackgroundColor 82 18 18 255
-    SetBorderColor 74 230 58
+    SetBorderColor 130 50 240 
     SetFontSize 38
     PlayAlertSoundPositional 2 200
     CustomAlertSoundOptional "bubu\bubu-任務契約書.mp3" 300
@@ -3052,7 +3250,6 @@ Show #任務報告
     MinimapIcon 0 Green Cross
     PlayEffect Green
     DisableDropSoundIfAlertSound
-
 
 # 5.3 輿圖道具
 
@@ -3367,9 +3564,10 @@ Show T16
     DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
-# 6 裝備
+# 7 裝備
 #================================================================================================================================================
-# 6.1 傳奇裝備
+
+# 7.1 傳奇裝備
 
 Show #傳奇裝備(全)
     Rarity = Unique
@@ -3386,7 +3584,7 @@ Show #傳奇裝備(全)
     PlayEffect Orange
     DisableDropSoundIfAlertSound
 
-# 6.2 商店配方
+# 7.2 商店配方
 
 Hide #印鈔 - 速刷 - 幻色石配方(1*3)
     SocketGroup "RGB"
@@ -3440,7 +3638,7 @@ Show #印鈔 - 6S裝備 工匠石配方
     MinimapIcon 1 White UpsideDownHouse
     DisableDropSoundIfAlertSound
 
-Hide #印鈔 - 速刷 - 白槌子 製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
+Hide #製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
     Rarity = Normal
     BaseType "Stone Hammer" "Rock Breaker" "Gavel"
     SetTextColor 170 158 130
@@ -3449,7 +3647,7 @@ Hide #印鈔 - 速刷 - 白槌子 製圖釘配方(1釘子=20Q槌子+隨便一張
     MinimapIcon 2 Grey UpsideDownHouse
     DisableDropSoundIfAlertSound
 
-# 6.3 藥劑
+# 7.3 藥劑
 
 Hide #印鈔 - 速刷 - 顯示高等高品質魔力藥劑
     Quality >= 10
@@ -3565,7 +3763,7 @@ Hide #印鈔 - 速刷 - 功能性藥劑
     MinimapIcon 2 Green Raindrop
     DisableDropSoundIfAlertSound
 
-# 6.4 珠寶
+# 7.4 珠寶
 
 Hide #印鈔 - 速刷 - 一般非稀有珠寶
     Rarity <= Magic
@@ -3576,18 +3774,18 @@ Hide #印鈔 - 速刷 - 一般非稀有珠寶
     SetFontSize 33
     DisableDropSoundIfAlertSound
 
-# 6.5 點機會石用基底
+# 7.5 點機會石用基底
 
-Hide #潛能魔棒/獵首/空向
+Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣
     Rarity = Normal
-    BaseType "Prophecy Wand" "Sorcerer Boots" "Leather Belt"
+    BaseType "Prophecy Wand" "Sorcerer Boots" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather"
     SetTextColor 255 255 255
     SetBackgroundColor 255 59 25 145
     SetBorderColor 184 218 242
     SetFontSize 30
     DisableDropSoundIfAlertSound
 
-# 6.6 特殊詞綴掉落
+# 7.6 特殊詞綴掉落
 
 Show #附魔詞綴
     AnyEnchantment True
@@ -3623,6 +3821,7 @@ Hide #附魔詞綴(腐化)
     
 Show #軍團詞綴
     HasExplicitMod "Mutewind" "Brinerot" "Redblade"
+    Corrupted False
     SetTextColor 136 136 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 210 0 0
@@ -3727,7 +3926,7 @@ Hide #印鈔 - 速刷 - 複製詞綴
     PlayEffect White
     DisableDropSoundIfAlertSound
 
-# 6.7 勢力裝備基底
+# 7.7 勢力裝備基底
 
 Show #異界尊師
     ElderItem True
@@ -3819,7 +4018,7 @@ Show #總督軍
     PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
-Show #
+Hide #灼烙總督
     HasSearingExarchImplicit >= 1
     Rarity <= Rare
     SetTextColor 255 52 0 255
@@ -3834,7 +4033,7 @@ Show #
     PlayEffect Orange
     DisableDropSoundIfAlertSound
 
-Show #
+Hide #吞噬天地
     HasEaterOfWorldsImplicit >= 1
     Rarity <= Rare
     SetTextColor 0 245 152 255
@@ -3849,7 +4048,7 @@ Show #
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
-# 6.8 異界輿圖限定基底
+# 7.8 異界輿圖限定基底
 
 Show #最高階異界輿圖限定基底
     ItemLevel >= 86
@@ -3891,22 +4090,32 @@ Show #異界輿圖限定基底(稀有)
     PlayEffect Purple
     DisableDropSoundIfAlertSound
 
-# 6.9 高階金裝
+# 7.9 高階金裝
 
-Hide #印鈔 - 速刷 - 高階金裝
+Show #高階金裝(項鍊鑑定+1寶)
+    Identified False
     Rarity = Rare
-    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger"
+    Class "Amulet"
     SetTextColor 237 201 128
     SetBorderColor 255 255 0
     SetFontSize 35
     DisableDropSoundIfAlertSound
 
-# 6.10 高階基底
+Hide #印鈔 - 速刷 - 高階金裝
+    Identified False
+    Rarity = Rare
+    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow"
+    SetTextColor 237 201 128
+    SetBorderColor 255 255 0
+    SetFontSize 35
+    DisableDropSoundIfAlertSound
+
+# 7.10 高階基底
 
 Show #最高階基底(84)
     ItemLevel >= 86
     Rarity < Rare
-    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Ezomyte Dagger" "Fiend Dagger"
+    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
     SetTextColor 30 30 30
     SetBackgroundColor 184 218 242
     SetBorderColor 255 255 255
@@ -3916,23 +4125,23 @@ Show #最高階基底(84)
 Hide #印鈔 - 速刷 - 高階基底
     ItemLevel >= 84
     Rarity < Rare
-    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Ezomyte Dagger" "Fiend Dagger"
+    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
     SetTextColor 184 218 242
     SetBackgroundColor 30 30 30
     SetBorderColor 255 255 255
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Hide #印鈔 - 速刷 - 基底
+Hide #基底
     ItemLevel < 84
     Rarity < Rare
-    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Ezomyte Dagger" "Fiend Dagger"
+    BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
     SetTextColor 184 218 242
     SetBackgroundColor 30 30 30
     SetFontSize 35
     DisableDropSoundIfAlertSound
 
-# 6.11 釣魚道具
+# 7.11 釣魚道具
 
 Show #釣竿
     BaseType "Fishing Rod"
@@ -3955,9 +4164,652 @@ Show #白化的羽毛
     DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
-# 7 其他
+# 6 已鑑定道具
 #================================================================================================================================================
-# 7.1 迷宮
+
+# 6.1 物理武器
+
+Show #物理
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Wands" "Warstaves"
+	HasExplicitMod "Merciless" "Tyrannical" "Cruel" "of the Underground" "Subterranean" "of Many" "of Tacati" "Tacati's"
+	HasExplicitMod >=3 "Merciless" "Tyrannical" "Flaring" "Dictator's" "Emperor's" "of Celebration" "of Incision" "of Dissolution" "of the Underground" "Subterranean" "of Many" "of Tacati" "Tacati's"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 100 0 0
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #純物理
+	Identified True
+	Corrupted False
+	DropLevel >= 55
+	Rarity Rare
+	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Wands" "Warstaves"
+	HasExplicitMod "Merciless" "Tyrannical" "Cruel" "of the Underground" "Subterranean" "of Many" "of Tacati" "Tacati's"
+	HasExplicitMod >=2 "Merciless" "Tyrannical" "Flaring" "Dictator's" "Emperor's" "of Celebration" "of Incision" "of Dissolution" "of the Underground" "Subterranean" "of Many" "of Tacati" "Tacati's"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 100 0 0
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.2 元素武器
+
+Show #元素
+	Identified True
+	Rarity Rare
+	BaseType   "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Imbued Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
+	HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many"
+	HasExplicitMod >=4 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of Celebration" "of Infamy" "of Fame" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury" "Devastating" "Overpowering" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Many"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 100 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #純元素
+	Identified True
+	Corrupted False
+	Rarity Rare
+	BaseType   "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Imbued Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
+	HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many"
+	HasExplicitMod >=3 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of Celebration" "of Infamy" "of Fame" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury" "Devastating" "Overpowering" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Many"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 100 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.3 寶石武器
+
+Show # 弓寶
+	Identified True
+	Rarity Rare
+	Class "Bows"
+	HasExplicitMod >=2 "Paragon's" "Sharpshooter's" "of Dissolution"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 100 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show # 施放寶石
+	Identified True
+	Rarity Rare
+	Class "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "of Many" "Martinet's" "Matatl's" "Tacati" "Topotante's" "Magister's"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 100 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show # $長杖寶石
+	Identified True
+	Rarity Rare
+	Class "Staves"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "of Many" "Martinet's" "Matatl's" "Tacati" "Topotante's" "Lava Conjurer's" "Winter Beckoner's" "Tempest Master's" "Splintermind's" "Tecton's"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 100 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.4 施放武器
+
+Show #火焰
+	Identified True
+	Rarity Rare
+	Class   "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Flame Shaper's" "Electrocuting" "Discharging" "Shocking" "Entombing" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Flame Shaper's" "Electrocuting" "Discharging" "Shocking" "Entombing" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Polar" "Blasting" "Corrosive" "Dissolving" "of Ashes" "of Conflagrating" "of Combusting" "of the Fanatical" "of the Zealous" "of Dissolution" "of Melting" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #冰冷
+	Identified True
+	Rarity Rare
+	Class   "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Tul's" "Cryomancer's" "Crystalline" "Frost Singer's" "Electrocuting" "Entombing" "Polar" "Glaciated" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Tul's" "Cryomancer's" "Crystalline" "Frost Singer's" "Electrocuting" "Entombing" "Polar" "Glaciated" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Blasting" "Mortifying" "Festering" "of Glaciation" "of Heartstopping" "of the Gelid" "of Dissolution" "of Melting" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #閃電
+	Identified True
+	Rarity Rare
+	Class   "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Esh's" "Ionising" "Smiting" "Thunderhand's" "Electrocuting" "Entombing" "Cremating" "Blasting" "Incinerating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Esh's" "Ionising" "Smiting" "Thunderhand's" "Electrocuting" "Entombing" "Cremating" "Blasting" "Incinerating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Polar" "Excruciating" "Harrowing" "of Arcing" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #物理
+	Identified True
+	Rarity Rare
+	Class   "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Electrocuting" "Discharging" "Entombing" "Polar" "Cremating" "Blasting"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Electrocuting" "Discharging" "Entombing" "Polar" "Cremating" "Blasting" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "of Exsanguinating" "of Hemorrhaging" "of Phlebotomising" "of Dissolution" "of Melting" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #混沌
+	Identified True
+	Rarity Rare
+	Class   "Rune Daggers" "Sceptres" "Wands"
+	HasExplicitMod "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Mad Lord's" "Electrocuting" "Entombing" "Cremating"
+	HasExplicitMod >=4 "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "Runic" "Glyphic" "Incanter's" "Mad Lord's" "Electrocuting" "Entombing" "Cremating" "of Unmaking" "of Ruin" "of Calamity" "of Finesse" "of Sortilege" "of Destruction" "of Ferocity" "of Fury" "Lich's" "Archmage's" "Mage's" "Zaffre" "Blue" "Discharging" "Polar" "Blasting" "of Disintegrating" "of Atrophying" "of Deteriorating" "of Dissolution" "of Melting" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+    
+# 6.5 法術回音
+
+Show #法術回音
+	Identified True
+	Rarity Rare
+	Class   "Wands"
+	HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "of Tacati" "Tacati's" "Runic" "Glyphic"
+	HasExplicitMod >=3 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Martinet's" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many" "Magister's" "Empress's" "Queen's" "Lithomancer's" "of Tacati" "Tacati's" "Runic" "Glyphic" "of the Essence" "Essences" "Veiled" "of the Veil" "of Celebration" "of Infamy" "of Destruction" "of Ferocity" "of Unmaking" "of Ruin" "Flame Shaper's" "Frost Singer's" "Thunderhand's" "Mad Lord's"
+	SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBackgroundColor 0 100 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.6 頭盔
+
+Show #生命
+	Identified True
+	Rarity Rare
+	Class "Helmets"
+	HasExplicitMod "Fecund" "Athlete's" "Virile" "Necromancer's" "of Everlasting" "of Youth"
+	HasExplicitMod >=4 "of Puhuarte" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "Necromancer's" "Summoner's" "of Nullification" "of Abjuration" "of Revoking" "of Ardour" "of Buffering" "of Dispersal" "of Lioneye" "of the Ranger" "of the Marksman" "of Everlasting" "of Youth" "of Vivification" "of Recuperation" "Impregnable" "Girded" "Mirage's" "Nightmare's" "Sturdy" "Durable" "Inspired" "Interpolated" "Illusory" "Unreal" "Enveloped" "Encased" "Elusory" "Vaporous" "Legend's" "Hero's" "Beatified" "Hallowed" "Spirit's" "Cherub's" "Abbot's" "Prior's" "Ram's" "Fawn's" "Nautilus's" "Urchin's" "Fecund" "Athlete's" "Virile"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #能量護盾
+	Identified True
+	Rarity Rare
+	Class "Helmets"
+	HasExplicitMod >=2 "Unassailable" "Indomitable" "Blazing" "Seething" "Necromancer's"
+	HasExplicitMod >=4 "of Puhuarte" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "Necromancer's" "Summoner's" "of Nullification" "of Abjuration" "of Revoking" "of Ardour" "of Buffering" "of Dispersal" "of Lioneye" "of the Ranger" "of the Marksman" "of Everlasting" "of Youth" "of Vivification" "of Recuperation" "Blazing" "Seething" "Pulsing" "Unassailable" "Indomitable" "Priest's" "Abbot's" "Seraphim's" "Djinn's" "Fecund" "Athlete's"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.7 手套
+
+Show #生命
+	Identified True
+	Rarity Rare
+	Class "Gloves"
+	HasExplicitMod "Athlete's" "Virile" "of Puhuarte" "of the Underground" "Subterranean" "Elevated "
+	HasExplicitMod >=4 "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Ardour" "of Buffering" "of Dispersal" "of Everlasting" "of Youth" "of Vivification" "of Grandmastery" "of Mastery" "of Lioneye" "of the Ranger" "Zaffre" "Impregnable" "Girded" "Mirage's" "Nightmare's" "Sturdy" "Durable" "Inspired" "Interpolated" "Illusory" "Unreal" "Enveloped" "Encased" "Elusory" "Vaporous" "Legend's" "Hero's" "Beatified" "Hallowed" "Spirit's" "Cherub's" "Abbot's" "Prior's" "Ram's" "Fawn's" "Nautilus's" "Urchin's" "Athlete's" "Virile" "Rotund" "of Puhuarte" "of the Underground" "Subterranean" "Elevated "
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #能量護盾
+	Identified True
+	Rarity Rare
+	Class "Gloves"
+	HasExplicitMod "Blazing" "Seething" "Unassailable" "Indomitable" "Priest's" "Abbot's" "Seraphim's" "Athlete's" "of Puhuarte" "of the Underground" "Subterranean" "Elevated "
+	HasExplicitMod >=4 "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Ardour" "of Buffering" "of Dispersal" "of Everlasting" "of Youth" "of Vivification" "of Grandmastery" "of Mastery" "of Lioneye" "of the Ranger" "Zaffre" "Blazing" "Seething" "Pulsing" "Unassailable" "Indomitable" "Priest's" "Abbot's" "Seraphim's" "Djinn's" "Athlete's" "Virile" "of Puhuarte" "of the Underground" "Subterranean" "Elevated " "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.8 鞋子
+
+Show #生命
+	Identified True
+	Rarity Rare
+	Class "Boots"
+	HasExplicitMod "Athlete's" "Hellion's" "Cheetah's"
+	HasExplicitMod >=4 "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Ardour" "of Buffering" "of Dispersal" "of Everlasting" "of Youth" "of Vivification" "Impregnable" "Girded" "Mirage's" "Nightmare's" "Sturdy" "Durable" "Inspired" "Interpolated" "Illusory" "Unreal" "Enveloped" "Encased" "Elusory" "Vaporous" "Legend's" "Hero's" "Beatified" "Hallowed" "Spirit's" "Cherub's" "Abbot's" "Prior's" "Ram's" "Fawn's" "Nautilus's" "Urchin's" "Athlete's" "Virile" "Rotund" "Hellion's" "Cheetah's" "Matatl's" "of the Underground" "Subterranean" "Elevated " "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #能量護盾
+	Identified True
+	Rarity Rare
+	Class "Boots"
+	HasExplicitMod "Hellion's" "Cheetah's"
+	HasExplicitMod >=4 "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Ardour" "of Buffering" "of Dispersal" "of Everlasting" "of Youth" "of Vivification" "Blazing" "Seething" "Pulsing" "Unassailable" "Indomitable" "Priest's" "Abbot's" "Seraphim's" "Djinn's" "Athlete's" "Virile" "Hellion's" "Cheetah's" "Matatl's" "of the Underground" "Subterranean" "Elevated " "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.9 盾	
+
+Show #能量護盾
+	Identified True
+	Rarity Rare
+	Class "Shields"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "Incandescent" "Scintillating" "Blazing" "Unfaltering" "Unassailable"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of Life-giving" "of Recuperation" "of the Conservator" "of the Protector" "of the Keeper" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Will" "of Fortitude" "of Resolve" "of the Citadel" "of the Sentinel" "of the Buttress" "of the Bastion" "of the Barricade" "of Second Wind" "of Vigour" "of Ardour" "of Buffering" "of Revitalization" "of Rebounding" "of Obstruction" "of Interference" "of Deadening" "of Everlasting" "of Youth" "of Vivification" "of the Deathless" "of Harmony" "of the Lightning Rod" "of the Mammoth" "of the Solar Storm" "of Unmaking" "Vigorous" "Incandescent" "Scintillating" "Blazing" "Unfaltering" "Unassailable" "Priest's" "Abbot's" "Seraphim's" "Djinn's" "Lithomancer's" "Mad Lord's" "Thunderhand's" "Frost Singer's" "Flame Shaper's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting" "of Nirvana" "of Ruin" "of Calamity"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 100 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #防禦
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Shields"
+	HasExplicitMod >=2 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "Unmoving" "Abating" "Lissome" "Adroit" "Adaptable" "Resilient" "Saintly" "Consecrated" "Apparition's" "Eidolon's" "Impenetrable" "Impregnable" "Illusion's" "Mirage's" "Victor's" "Sturdy" "Interpermeated" "Inspired" "Incorporeal" "Illusory" "Vigorous" "Fecund" "Athlete's" "of the Citadel" "of the Sentinel" "of the Bastion" "of Obstruction" "of Interference" "of Everlasting" "of Youth"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of Life-giving" "of Recuperation" "of the Conservator" "of the Protector" "of the Keeper" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Will" "of Fortitude" "of Resolve" "of the Citadel" "of the Sentinel" "of the Buttress" "of the Bastion" "of the Barricade" "of Second Wind" "of Vigour" "of Ardour" "of Buffering" "of Revitalization" "of Rebounding" "of Obstruction" "of Interference" "of Deadening" "of Everlasting" "of Youth" "of Vivification" "of the Deathless" "of Harmony" "of the Lightning Rod" "of the Mammoth" "of the Solar Storm" "of Unmaking" "Vigorous" "Fecund" "Athlete's" "of the Ranger" "of Mastery" "Impenetrable" "Impregnable" "Illusion's" "Mirage's" "Victor's" "Sturdy" "Interpermeated" "Inspired" "Incorporeal" "Illusory" "Unmoving" "Abating" "Lissome" "Adroit" "Adaptable" "Resilient" "Saintly" "Consecrated" "Apparition's" "Eidolon's" "Abbot's" "Prior's" "Ram's" "Fawn's" "Nautilus's" "Urchin's"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 100 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #施放
+	Identified True
+	Rarity Rare
+	Class "Shields"
+	HasExplicitMod "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "Lithomancer's" "Mad Lord's" "Thunderhand's" "Frost Singer's" "Flame Shaper's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting" "of Unmaking"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of Life-giving" "of Recuperation" "of the Conservator" "of the Protector" "of the Keeper" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Will" "of Fortitude" "of Resolve" "of the Citadel" "of the Sentinel" "of the Buttress" "of the Bastion" "of the Barricade" "of Second Wind" "of Vigour" "of Ardour" "of Buffering" "of Revitalization" "of Rebounding" "of Obstruction" "of Interference" "of Deadening" "of Everlasting" "of Youth" "of Vivification" "of the Deathless" "of Harmony" "of the Lightning Rod" "of the Mammoth" "of the Solar Storm" "of Unmaking" "Vigorous" "Fecund" "Athlete's" "Lithomancer's" "Mad Lord's" "Thunderhand's" "Frost Singer's" "Flame Shaper's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting" "of Nirvana" "of Ruin" "of Calamity" "Incandescent" "Scintillating" "Unfaltering" "Unassailable"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 100 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #生命
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Shields"
+	HasExplicitMod "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "Vigorous" "Fecund"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Elevated " "Topotante's" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of Life-giving" "of Recuperation" "of the Conservator" "of the Protector" "of the Keeper" "of Nullification" "of Abjuration" "of Revoking" "of Snuffing" "of Will" "of Fortitude" "of Resolve" "of the Citadel" "of the Sentinel" "of the Buttress" "of the Bastion" "of the Barricade" "of Second Wind" "of Vigour" "of Ardour" "of Buffering" "of Revitalization" "of Rebounding" "of Obstruction" "of Interference" "of Deadening" "of Everlasting" "of Youth" "of Vivification" "of the Deathless" "of Harmony" "of the Lightning Rod" "of the Mammoth" "of the Solar Storm" "of Unmaking" "Vigorous" "Fecund" "Athlete's" "Lithomancer's" "Mad Lord's" "Thunderhand's" "Frost Singer's" "Flame Shaper's" "Runic" "Glyphic" "Incanter's" "Xoph's" "Pyroclastic" "Magmatic" "Tul's" "Cryomancer's" "Crystalline" "Esh's" "Ionising" "Smiting" "of Nirvana" "of Ruin" "of Calamity" "Unmoving" "Abating" "Lissome" "Adroit" "Adaptable" "Resilient" "Saintly" "Consecrated" "Apparition's" "Eidolon's" "Impenetrable" "Impregnable" "Illusion's" "Mirage's" "Victor's" "Sturdy" "Interpermeated" "Inspired" "Incorporeal" "Illusory" "Incandescent" "Scintillating" "Unfaltering" "Unassailable"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 100 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.10 項鍊
+
+Show #施放
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Legerdemain" "of Expertise" "Wizard's" "Thaumaturgist's" "Zaffre" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of Dissolution" "of Melting" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #施放2
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Legerdemain" "of Expertise" "Wizard's" "Thaumaturgist's" "Zaffre" "of Immolation" "of Flames" "of Floe" "of Rime" "of Discharge" "of Voltage" "of Dissolution" "of Melting" "of Destruction" "of Ferocity" "of Fury" "of Incision" "of Penetrating"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #DOT
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Legerdemain" "Wizard's" "Thaumaturgist's" "Devastating" "Overpowering" "of the Ranger" "of the Marksman" "of Immolation" "of Floe" "of Dissolution" "of Melting" "of Liquefaction"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #DOT2
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Legerdemain" "Wizard's" "Thaumaturgist's" "Devastating" "Overpowering" "of the Ranger" "of the Marksman" "of Immolation" "of Floe" "of Dissolution" "of Melting" "of Liquefaction"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #攻擊
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod "Athlete's" "Virile" "Rotund" "Dazzling" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Dissolution" "of the Multiverse" "Unassailable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Ferocity" "of Fury" "of Rage" "of Incision" "of Penetrating" "Cremating" "Entombing" "Electrocuting" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Flaring" "Tempered"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #攻擊2
+	Identified True
+	Rarity Rare
+	Class "Amulets"
+	HasExplicitMod >=2 "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of Destruction" "of Ferocity" "of Dissolution" "of Melting" "of the Multiverse" "of the Infinite" "Unassailable" "Indomitable"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Puhuarte" "Guatelitzi's" "Exalter's" "Vulcanist's" "Rimedweller's" "Stormbrewer's" "Behemoth's" "Provocateur's" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of the Multiverse" "of the Infinite" "of the Universe" "of Nirvana" "of Euphoria" "Impregnable" "Vaporous" "Unassailable" "Athlete's" "Virile" "Rotund" "Ultramarine" "Dazzling" "Resplendent" "of Destruction" "of Ferocity" "of Fury" "of Rage" "of Incision" "of Penetrating" "Cremating" "Entombing" "Electrocuting" "of the Ranger" "of the Marksman" "Devastating" "Overpowering" "Unleashed" "Flaring" "Tempered"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.11 戒指
+
+Show #施放
+	Identified True
+	Rarity Rare
+	Class "Rings"
+	HasExplicitMod "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent" "of the Ranger" "Ultramarine"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nirvana" "of Euphoria" "of the Comet" "of Legerdemain" "of Expertise" "of Flames" "of Rime" "of Voltage" "Ultramarine" "Zaffre" "Blue"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #攻擊
+	Identified True
+	Rarity Rare
+	Class "Rings"
+	HasExplicitMod "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Dazzling" "Resplendent" "of the Ranger" "Ultramarine"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Quintessential" "Guatelitzi's" "of the Essence" "Essences" "Veiled" "of the Veil" "Athlete's" "Virile" "Rotund" "Robust" "Dazzling" "Resplendent" "Incandescent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of the Blur" "of the Wind" "of the Phantom" "of the Jaguar" "of the Polymath" "of the Genius" "of the Virtuoso" "of the Savant" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Nirvana" "of Euphoria" "of the Comet" "Devastating" "Overpowering" "Unleashed" "of the Ranger" "of the Marksman" "of the Sniper" "Flaring" "Tempered" "Cremating" "Blasting" "Entombing" "Polar" "Electrocuting" "Discharging" "of Skill" "of Flames" "of Rime" "of Voltage"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 0 0 100 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.12 箭袋
+
+Show #直擊
+	Identified True
+	Rarity Rare
+	Class "Quivers"
+	HasExplicitMod "Impaling" "of the Underground" "Subterranean" "Elevated " "of Splintering" "Fecund" "Athlete's" "Virile" "of Destruction" "of Ferocity" "of Mastery" "of Dissolution" "of Melting" "of Rending" "Devastating"
+	HasExplicitMod >=4 "Impaling" "Lacerating" "Incisive" "of the Underground" "Subterranean" "Elevated " "of Splintering" "Fecund" "Athlete's" "Virile" "of the Blur" "of the Wind" "of the Phantom" "of Tzteosh" "of the Magma" "of the Volcano" "of Haast" "of the Ice" "of the Polar Bear" "of Ephij" "of the Lightning" "of the Maelstrom" "of Bameth" "of Exile" "of Expulsion" "of the Essence" "Essences" "Veiled" "of the Veil" "Flaring" "Tempered" "Cremating" "Blasting" "Entombing" "Polar" "Electrocuting" "Discharging" "Devastating" "Overpowering" "of Mastery" "of Ease" "of the Ranger" "of the Marksman" "of Dissolution" "of the Gale" "of Destruction" "of Ferocity" "of Fury" "of Rending" "of Incision" "of Penetrating"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 0 100 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #DOT
+	Identified True
+	Rarity Rare
+	Class "Quivers"
+	HasExplicitMod "Impaling" "of the Underground" "Subterranean" "Elevated " "of Splintering" "Fecund" "Athlete's" "Virile" "of Destruction" "of Ferocity" "of Mastery" "of Dissolution" "of Melting" "of Rending" "Devastating"
+	HasExplicitMod >=4 "Impaling" "Lacerating" "Incisive" "of the Underground" "Subterranean" "Elevated " "of Splintering" "Fecund" "Athlete's" "Virile" "of the Blur" "of the Wind" "of the Phantom" "of Tzteosh" "of the Magma" "of the Volcano" "of Haast" "of the Ice" "of the Polar Bear" "of Ephij" "of the Lightning" "of the Maelstrom" "of Bameth" "of Exile" "of Expulsion" "of the Essence" "Essences" "Veiled" "of the Veil" "Cremating" "Blasting" "Flaring" "Tempered" "Devastating" "Overpowering" "of Mastery" "of Ease" "of the Ranger" "of the Marksman" "of Dissolution" "of Melting" "of Liquefaction" "of the Gale" "of Destruction" "of Rending"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 0 100 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.13 身體護甲
+
+Show #生命
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Body Armours"
+	HasExplicitMod "Prime" "Rapturous" "Vigorous" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's"
+	HasExplicitMod >=5 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of the Conservator" "of the Protector" "of Nullification" "of Abjuration" "of Second Wind" "of Vigour" "Prime" "Rapturous" "Vigorous" "Crocodile's" "Nautilus's" "Ibex's" "Ram's" "Exarch's" "of Tacati" "Impervious" "Unmoving" "Fugitive" "Lissome" "Versatile" "Adaptable" "Phantasm's" "Apparition's" "Godly" "Saintly" "Interpermeated" "Inspired" "Interpolated" "Impenetrable" "Impregnable" "Girded" "Illusion's" "Mirage's" "Nightmare's" "Victor's" "Legend's" "Hero's" "Incorporeal" "Illusory" "Unreal"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #防禦
+	Identified True
+	Corrupted False
+	DropLevel >= 55
+	Rarity Rare
+	Class "Body Armours"
+	HasExplicitMod >=2 "Prime" "Rapturous" "Vigorous" "Impervious" "Unmoving" "Fugitive" "Lissome" "Versatile" "Adaptable" "Phantasm's" "Apparition's" "Godly" "Saintly" "Interpermeated" "Inspired" "Interpolated" "Impenetrable" "Impregnable" "Girded" "Illusion's" "Mirage's" "Nightmare's" "Victor's" "Legend's" "Hero's" "Incorporeal" "Illusory" "Unreal"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of the Conservator" "of the Protector" "of Nullification" "of Abjuration" "of Second Wind" "of Vigour" "Prime" "Rapturous" "Vigorous" "Crocodile's" "Nautilus's" "Ibex's" "Ram's" "Exarch's" "of Tacati" "Impervious" "Unmoving" "Fugitive" "Lissome" "Versatile" "Adaptable" "Phantasm's" "Apparition's" "Godly" "Saintly" "Interpermeated" "Inspired" "Interpolated" "Impenetrable" "Impregnable" "Girded" "Illusion's" "Mirage's" "Nightmare's" "Victor's" "Legend's" "Hero's" "Incorporeal" "Illusory" "Unreal"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #生命/防禦
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Body Armours"
+	HasExplicitMod >=2 "Prime" "Rapturous" "Vigorous" "Impervious" "Unmoving" "Fugitive" "Lissome" "Versatile" "Adaptable" "Phantasm's" "Apparition's" "Godly" "Saintly" "Interpermeated" "Inspired" "Interpolated" "Impenetrable" "Impregnable" "Girded" "Illusion's" "Mirage's" "Nightmare's" "Victor's" "Legend's" "Hero's" "Incorporeal" "Illusory" "Unreal"
+	HasExplicitMod "Prime" "Rapturous" "Vigorous" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of the Conservator" "of the Protector" "of Nullification" "of Abjuration" "of Second Wind" "of Vigour" "Prime" "Rapturous" "Vigorous" "Crocodile's" "Nautilus's" "Ibex's" "Ram's" "Exarch's" "of Tacati" "Impervious" "Unmoving" "Fugitive" "Lissome" "Versatile" "Adaptable" "Phantasm's" "Apparition's" "Godly" "Saintly" "Interpermeated" "Inspired" "Interpolated" "Impenetrable" "Impregnable" "Girded" "Illusion's" "Mirage's" "Nightmare's" "Victor's" "Legend's" "Hero's" "Incorporeal" "Illusory" "Unreal"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #能量護盾
+	Identified True
+	DropLevel >= 55
+	Rarity Rare
+	Class "Body Armours"
+	HasExplicitMod >=2 "Resplendent" "Incandescent" "Unfaltering" "Unassailable" "Indomitable" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's"
+	HasExplicitMod >=4 "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "Elevated " "Guatelitzi's" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Bameth" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Convalescence" "of the Conservator" "of the Protector" "of Nullification" "of Abjuration" "of Second Wind" "of Vigour" "Resplendent" "Incandescent" "Unfaltering" "Unassailable" "Indomitable" "Seraphim's" "Djinn's" "Bishop's" "Priest's" "Exarch's" "Abbot's" "of Tacati" "Prime" "Rapturous"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 47 0 74 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.14 腰帶
+
+Show #一般
+	Identified True
+	Rarity Rare
+	Class "Belts"
+	HasExplicitMod "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Dazzling" "Devastating" "Magnifying" "of Reveling" "Blue" "of the Godslayer"
+	HasExplicitMod >=4 "of the Underground" "Subterranean" "Guatelitzi's" "Fecund" "Athlete's" "Virile" "Dazzling" "Resplendent" "of the Godslayer" "of the Gods" "of the Titan" "of the Leviathan" "of Tzteosh" "of the Magma" "of the Volcano" "of Haast" "of the Ice" "of the Polar Bear" "of Ephij" "of the Lightning" "of the Maelstrom" "of Bameth" "of Exile" "of Expulsion" "of Recuperation" "Enveloped" "Encased" "Carapaced" "Magnifying" "Condensing" "of Reveling" "of Relishing" "Devastating" "Overpowering" "Unleashed" "Blue" "Mazarine" "of the Essence" "Essences" "Veiled" "of the Veil"
+	SetFontSize 45
+    SetTextColor 76 255 0
+    SetBackgroundColor 100 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.15 珠寶
+
+Show #潛在
+	Identified True
+	Rarity Rare
+	Class "Jewel"
+	HasExplicitMod >=3 "Vivid" "Shimmering" "of Potency" "of Entropy" "of Blasting" "of Berserking" "of Zeal" "of Resistance" "of Combat" "of Archery" "of Wounding" "of Enchanting" "Piercing" "Rupturing" "Puncturing" "Infernal" "Arctic" "Surging" "of the Elements" "of Unmaking" "Master's" "of Resilience" "Leadership"
+	SetFontSize 45
+    SetTextColor 255 162 178
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 255 255 119
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+# 6.16 單詞(魔法也顯示)
+
+Show #+1法寶/+1召喚寶
+	Identified True
+	Rarity <= Rare
+	Class "Rune Daggers" "Sceptres" "Shields" "Wands"
+	HasExplicitMod >=1 "Magister's" "Martinet's"
+	SetFontSize 45
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 136 136 255
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+    
+Show #+2箭矢
+	Identified True
+	Rarity <= Rare
+	Class "Bows"
+	HasExplicitMod >=1 "of Many"
+	SetFontSize 45
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 136 136 255
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #+1箭矢
+	Identified True
+	Rarity <= Rare
+	Class "Quivers"
+	HasExplicitMod >=1 "of Splintering"
+	SetFontSize 45
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 136 136 255
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+Show #+1全寶項鍊
+	Identified True
+	Rarity <= Rare
+	Class "Amulets"
+	HasExplicitMod >=1 "Exalter's"
+	SetFontSize 45
+    SetTextColor 136 136 255
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 136 136 255
+	PlayAlertSound 3 300
+	PlayEffect Purple
+	MinimapIcon 1 Pink UpsideDownHouse
+
+#================================================================================================================================================
+# 8 其他
+#================================================================================================================================================
+
+# 8.1 迷宮
 
 Show #迷宮鑰匙
     BaseType "Golden Key" "Treasure Key" "Silver Key"
@@ -3975,7 +4827,7 @@ Show #迷宮道具
     SetBorderColor 255 192 203
     DisableDropSoundIfAlertSound
 
-# 7.2 任務
+# 8.2 任務
 
 Show #任務道具
     Class "Quest Item"
@@ -3987,7 +4839,7 @@ Show #任務道具
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_所有條件都成立了.mp3" 300
     DisableDropSoundIfAlertSound
 
-# 7.3 隱藏
+# 8.3 隱藏
 
 # 白裝(色碼表每10等一色)
 
@@ -4107,7 +4959,18 @@ Show #混沌石配方(裝備)
     SetBorderColor 255 255 0 155
     DisableDropSoundIfAlertSound
 
-Hide #印鈔 - 速刷 - 顯示縮小腐化裝(已鑑定)
+Hide #掩藏高等區域縮小腐化裝(已鑑定)
+    AreaLevel >= 80
+    Scourged False
+    Identified True
+    Corrupted True
+    Rarity = Rare
+    SetBorderColor 220 0 0
+    SetFontSize 29
+    DisableDropSoundIfAlertSound
+
+Show #顯示縮小腐化裝(已鑑定)
+    AreaLevel < 80
     Scourged False
     Identified True
     Corrupted True
@@ -4118,11 +4981,13 @@ Hide #印鈔 - 速刷 - 顯示縮小腐化裝(已鑑定)
 
 Show #顯示縮小金裝(已鑑定)
     Identified True
+    Corrupted False
     Rarity = Rare
     SetFontSize 29
     DisableDropSoundIfAlertSound
 
 Show #顯示縮小金裝
+    Corrupted False
     ItemLevel < 60
     Rarity = Rare
     SetFontSize 29
