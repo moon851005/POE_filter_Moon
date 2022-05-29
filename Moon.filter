@@ -14,7 +14,7 @@
 #         Circle(圓形):通貨、物品化預言、化石、譫妄玉、盜賊之印
 #        Diamond(鑽石):高階通貨、劫盜通貨
 #      Hexagon(六邊形):六分儀
-#         Square(方形):星團珠寶/命運卡
+#         Square(方形):星團珠寶/命運卡/聯盟道具
 #           Star(星星):勢力
 #       Triangle(三角):特殊輿圖道具
 #          Cross(十字):輿圖
@@ -366,7 +366,7 @@ Show #印鈔 - 祝福石
     CustomAlertSoundOptional "bubu\bubu-祝福石.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Yellow Circle
+    MinimapIcon 1 Yellow Circle
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
@@ -380,7 +380,7 @@ Show #印鈔 - 工程石
     CustomAlertSoundOptional "bubu\bubu-工程石.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Blue Circle
+    MinimapIcon 1 Blue Circle
     PlayEffect Blue Temp
     DisableDropSoundIfAlertSound
 
@@ -395,7 +395,7 @@ Show #催化劑
     CustomAlertSoundOptional "bubu\bubu-催化劑.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_儘管來挑戰我吧.mp3" 200
-    MinimapIcon 0 Pink Raindrop
+    MinimapIcon 1 Pink Raindrop
     PlayEffect Pink Temp
      DisableDropSoundIfAlertSound
 
@@ -442,7 +442,7 @@ Show #印鈔 - 玻璃彈珠(堆疊>=2)
     CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_認同我吧.mp3" 300
-    MinimapIcon 2 Green Circle
+    MinimapIcon 1 Green Circle
     PlayEffect Green Temp
     DisableDropSoundIfAlertSound
 
@@ -502,7 +502,7 @@ Show #印鈔 - 地平石
     CustomAlertSoundOptional "bubu\bubu-地平石.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_別否定我.mp3" 300
-    MinimapIcon 2 Blue Circle
+    MinimapIcon 1 Blue Circle
     PlayEffect Blue Temp
     DisableDropSoundIfAlertSound
 
@@ -517,7 +517,7 @@ Show #製圖釘(堆疊>=2)
     CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_別否定我.mp3" 300
-    MinimapIcon 2 Blue Circle
+    MinimapIcon 1 Blue Circle
     PlayEffect Blue Temp
     DisableDropSoundIfAlertSound
 
@@ -545,8 +545,8 @@ Show #羅盤
     CustomAlertSoundOptional "bubu\bubu-精華六分儀.mp3" 300
     CustomAlertSoundOptional "Diablo2\29.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 100
-    MinimapIcon 1 Yellow Hexagon
-    PlayEffect Yellow Temp
+    MinimapIcon 1 White Hexagon
+    PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
 Show #製圖六分儀．覺醒
@@ -559,7 +559,7 @@ Show #製圖六分儀．覺醒
     CustomAlertSoundOptional "bubu\bubu-覺醒六分儀.mp3" 300
     CustomAlertSoundOptional "Diablo2\31.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 100
-    MinimapIcon 0 Red Hexagon
+    MinimapIcon 1 Red Hexagon
     PlayEffect Red Temp
     DisableDropSoundIfAlertSound
 
@@ -619,7 +619,7 @@ Show #印鈔 - 鏈結石(堆疊>=1)
     CustomAlertSoundOptional "bubu\bubu-鏈結石.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-    MinimapIcon 2 White Circle
+    MinimapIcon 1 White Circle
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
@@ -663,7 +663,7 @@ Show #印鈔 - 工匠石(堆疊>=2)
     CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-    MinimapIcon 2 White Circle
+    MinimapIcon 1 White Circle
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
@@ -691,7 +691,7 @@ Show #重鑄石
     CustomAlertSoundOptional "bubu\bubu-重鑄石.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-    MinimapIcon 2 White Circle
+    MinimapIcon 1 White Circle
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
@@ -706,7 +706,7 @@ Show #改造石(堆疊>=6)
     CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Pink Circle
+    MinimapIcon 0 Pink Circle
     PlayEffect Pink Temp
     DisableDropSoundIfAlertSound
 
@@ -721,7 +721,7 @@ Show #印鈔 - 改造石(堆疊>=2)
     CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Pink Circle
+    MinimapIcon 1 Pink Circle
     PlayEffect Pink Temp
     DisableDropSoundIfAlertSound
 
@@ -765,7 +765,7 @@ Show #印鈔 - 幻色石(堆疊>=2)
     CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Pink Circle
+    MinimapIcon 1 Pink Circle
     PlayEffect Pink Temp
     DisableDropSoundIfAlertSound
 
@@ -809,7 +809,7 @@ Show #印鈔 - 機會石(堆疊>=4)
     CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
     CustomAlertSoundOptional "Diablo2\2.mp3" 100
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-    MinimapIcon 2 Pink Circle
+    MinimapIcon 1 Pink Circle
     PlayEffect Pink Temp
     DisableDropSoundIfAlertSound
 
@@ -870,7 +870,7 @@ Show #隱匿混沌石
     CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
     CustomAlertSoundOptional "Diablo2\28.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍3.mp3" 300
-    MinimapIcon 1 Cyan Diamond
+    MinimapIcon 0 Cyan Diamond
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
@@ -900,7 +900,7 @@ Show #異能的混沌石
     CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
     CustomAlertSoundOptional "Diablo2\28.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍3.mp3" 300
-    MinimapIcon 1 Cyan Diamond
+    MinimapIcon 0 Cyan Diamond
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
@@ -1047,7 +1047,7 @@ Show #撤銷石
     CustomAlertSoundOptional "bubu\bubu-撤銷石.mp3" 300
     CustomAlertSoundOptional "Diablo2\27.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_消失吧.mp3" 300
-    MinimapIcon 0 Blue Diamond
+    MinimapIcon 1 Blue Diamond
     PlayEffect Blue
     DisableDropSoundIfAlertSound
 
@@ -1199,7 +1199,7 @@ Show #衝突寶珠
     CustomAlertSoundOptional "bubu\bubu-釋界玉.mp3" 300
     CustomAlertSoundOptional "Diablo2\40.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧5.mp3" 200
-    MinimapIcon 0 Purple Moon
+    MinimapIcon 1 Purple Moon
     PlayEffect Purple
     DisableDropSoundIfAlertSound
 
@@ -1259,7 +1259,7 @@ Show #卓越異能灰燼
     CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
     CustomAlertSoundOptional "Diablo2\26.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧5.mp3" 300
-    MinimapIcon 0 Red Moon
+    MinimapIcon 1 Red Moon
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
@@ -1319,7 +1319,7 @@ Show #卓越異能靈液
     CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
     CustomAlertSoundOptional "Diablo2\26.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧5.mp3" 300
-    MinimapIcon 0 Cyan Moon
+    MinimapIcon 1 Cyan Moon
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
@@ -1976,6 +1976,7 @@ Show #終極煉金鑄新儀
     CustomAlertSoundOptional "bubu\bubu-鑄新儀.mp3" 300
     CustomAlertSoundOptional "Diablo2\40.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_回答.mp3" 300
+    MinimapIcon 1 Brown Circle
     PlayEffect Brown
     DisableDropSoundIfAlertSound
 
@@ -2031,7 +2032,7 @@ Show #培育器
     CustomAlertSoundOptional "bubu\bubu-培育器.mp3" 300
     CustomAlertSoundOptional "Diablo2\22.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_早安.mp3" 300
-    MinimapIcon 0 Brown Circle
+    MinimapIcon 1 Brown Circle
     PlayEffect Brown Temp
     DisableDropSoundIfAlertSound
 
@@ -2182,7 +2183,7 @@ Show #印鈔 - 速刷 - 低階油瓶
     CustomAlertSoundOptional "bubu\bubu-凋落油瓶.mp3" 200
     CustomAlertSoundOptional "Diablo2\5.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 100
-    MinimapIcon 1 White Raindrop
+    MinimapIcon 2 White Raindrop
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
@@ -2210,7 +2211,7 @@ Show #高階油瓶
     CustomAlertSoundOptional "bubu\bubu-高階凋落油瓶.mp3" 300
     CustomAlertSoundOptional "Diablo2\45.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
-    MinimapIcon 1 Brown Raindrop
+    MinimapIcon 0 Brown Raindrop
     PlayEffect Brown
     DisableDropSoundIfAlertSound
 
@@ -2224,7 +2225,8 @@ Show #汙染油瓶
     CustomAlertSoundOptional "bubu\bubu-高階凋落油瓶.mp3" 300
     CustomAlertSoundOptional "Diablo2\45.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
-    PlayEffect Brown
+    MinimapIcon 0 Grey Raindrop
+    PlayEffect Grey
     DisableDropSoundIfAlertSound
 
 Show #精油淬鍊
@@ -2237,7 +2239,8 @@ Show #精油淬鍊
     CustomAlertSoundOptional "bubu\bubu-高階凋落油瓶.mp3" 300
     CustomAlertSoundOptional "Diablo2\45.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
-    PlayEffect Brown
+    MinimapIcon 0 Grey Raindrop
+    PlayEffect Grey
     DisableDropSoundIfAlertSound
 
 # 2.14鍊獄幻魔(3.9版本)
@@ -2406,7 +2409,7 @@ Show #實驗基底
     SetBackgroundColor 82 18 18 255
     SetBorderColor 255 215 0
     SetFontSize 38
-    MinimapIcon 0 Green UpsideDownHouse
+    MinimapIcon 1 Green UpsideDownHouse
     PlayEffect Green
     DisableDropSoundIfAlertSound
 
@@ -2448,7 +2451,7 @@ Show #契約書(任務)
     PlayAlertSoundPositional 2 200
     CustomAlertSoundOptional "bubu\bubu-任務契約書.mp3" 300
     CustomAlertSoundOptional "Diablo2\16.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_愚蠢的主謀者.mp3" 200
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_所有條件都成立了.mp3" 300
     MinimapIcon 0 Green Cross
     PlayEffect Green
     DisableDropSoundIfAlertSound
@@ -2465,7 +2468,7 @@ Show #契約書
     CustomAlertSoundOptional "bubu\bubu-契約書.mp3" 300
     CustomAlertSoundOptional "Diablo2\16.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_愚蠢的主謀者.mp3" 200
-    MinimapIcon 0 Grey Cross
+    MinimapIcon 1 Grey Cross
     PlayEffect Grey
     DisableDropSoundIfAlertSound
 
@@ -2481,6 +2484,22 @@ Show #初階篩分之鏡、次階篩分之鏡、淬鍊石、裁縫石
     CustomAlertSoundOptional "Diablo2\27.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_一個破壞世界 創造世界的男人.mp3" 300
     MinimapIcon 0 Red Diamond
+    PlayEffect Red
+    DisableDropSoundIfAlertSound
+
+Show #盜賊之印(堆疊>=1000)
+    Class "Stackable Currency"
+    BaseType "Rogue's Marker"
+    StackSize >= 1000
+    SetTextColor 209 40 0 220
+    SetBackgroundColor 82 18 18 255
+    SetBorderColor 0 0 0 255
+    SetFontSize 38
+    PlayAlertSoundPositional 4 100
+    CustomAlertSoundOptional "bubu\bubu-盜賊之印.mp3" 200
+    CustomAlertSoundOptional "Diablo2\2.mp3" 100
+    CustomAlertSoundOptional "Lelouch\Lelouch-槍聲.mp3" 100
+    MinimapIcon 1 Red Circle
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
@@ -2518,7 +2537,7 @@ Show #贗品傳奇
     CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
     CustomAlertSoundOptional "Diablo2\33.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-    MinimapIcon 0 Orange UpsideDownHouse
+    MinimapIcon 1 Orange UpsideDownHouse
     PlayEffect Orange
     DisableDropSoundIfAlertSound
 
@@ -2721,8 +2740,8 @@ Show #重組裝置
     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
     CustomAlertSoundOptional "Diablo2\27.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
-    MinimapIcon 2 Yellow Square
-    PlayEffect Yellow
+    MinimapIcon 1 Grey Square
+    PlayEffect Grey
     DisableDropSoundIfAlertSound
 
 Show #潛行守望(傳奇)
@@ -3037,7 +3056,7 @@ Show #高等寶石
     CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
     CustomAlertSoundOptional "Diablo2\9.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧1.mp3" 300
-    MinimapIcon 1 Cyan Pentagon
+    MinimapIcon 2 Cyan Pentagon
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
@@ -3052,7 +3071,7 @@ Show #高品質寶石
     CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
     CustomAlertSoundOptional "Diablo2\9.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧1.mp3" 300
-    MinimapIcon 1 Cyan Pentagon
+    MinimapIcon 2 Cyan Pentagon
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
@@ -3067,7 +3086,7 @@ Show #覺醒寶石
     CustomAlertSoundOptional "bubu\bubu-覺醒技能.mp3" 300
     CustomAlertSoundOptional "Diablo2\21.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
-    MinimapIcon 1 Orange Pentagon
+    MinimapIcon 0 Orange Pentagon
     PlayEffect Orange
     DisableDropSoundIfAlertSound
 
@@ -3082,7 +3101,7 @@ Show #物品數量寶石
     CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
     CustomAlertSoundOptional "Diablo2\21.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
-    MinimapIcon 1 Red Pentagon
+    MinimapIcon 0 Red Pentagon
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
@@ -3102,7 +3121,7 @@ Show #瓦爾裂痕、時空之門
     SetBackgroundColor 0 0 0
     SetBorderColor 255 255 255
     SetFontSize 38
-    MinimapIcon 1 White Pentagon
+    MinimapIcon 2 White Pentagon
     PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
@@ -3117,7 +3136,7 @@ Show #啟蒙/增幅/賦予
     CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
     CustomAlertSoundOptional "Diablo2\21.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧3.mp3" 300
-    MinimapIcon 1 Purple Pentagon
+    MinimapIcon 0 Purple Pentagon
     PlayEffect Purple
     DisableDropSoundIfAlertSound
 
@@ -3221,6 +3240,8 @@ Show #展翅聖甲蟲
     CustomAlertSoundOptional "bubu\bubu-高階聖甲蟲.mp3" 300
     CustomAlertSoundOptional "Diablo2\3.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 300
+    MinimapIcon 0 Cyan Square
+    PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
 # 5.2 虛空石
@@ -3244,10 +3265,10 @@ Show #任務報告
     SetBorderColor 130 50 240 
     SetFontSize 38
     PlayAlertSoundPositional 2 200
-    CustomAlertSoundOptional "bubu\bubu-任務契約書.mp3" 300
+    CustomAlertSoundOptional "bubu\bubu-任務道具(粵語).mp3" 300
     CustomAlertSoundOptional "Diablo2\16.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_愚蠢的主謀者.mp3" 200
-    MinimapIcon 0 Green Cross
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_所有條件都成立了.mp3" 300
+    MinimapIcon 2 Green Cross
     PlayEffect Green
     DisableDropSoundIfAlertSound
 
@@ -3264,6 +3285,8 @@ Show #眾神聖器
     CustomAlertSoundOptional "bubu\bubu-眾神聖器.mp3" 300    
     CustomAlertSoundOptional "Diablo2\3.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_人生來並非平等.mp3" 300
+    MinimapIcon 2 Yellow Hexagon
+    PlayEffect Yellow 
     DisableDropSoundIfAlertSound
     
 Show #巴倫刻紋
@@ -3379,7 +3402,7 @@ Show #新月裂片
     CustomAlertSoundOptional "bubu\bubu-新月裂片.mp3" 200
     CustomAlertSoundOptional "Diablo2\1.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_有那個覺悟的話.mp3" 200
-    MinimapIcon 2 Purple Kite
+    MinimapIcon 1 Purple Kite
     PlayEffect Purple
     DisableDropSoundIfAlertSound
 
@@ -3512,7 +3535,7 @@ Show #印鈔 - 速刷 - 白圖
     CustomAlertSoundOptional "Diablo2\34.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_仲裁.mp3" 100
     MinimapIcon 2 White Cross
-    PlayEffect White
+    PlayEffect White Temp
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 黃圖
@@ -3528,7 +3551,7 @@ Show #印鈔 - 速刷 - 黃圖
     CustomAlertSoundOptional "Diablo2\34.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_仲裁.mp3" 100
     MinimapIcon 1 Yellow Cross
-    PlayEffect Yellow
+    PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
 Show #紅圖
@@ -3543,11 +3566,11 @@ Show #紅圖
     CustomAlertSoundOptional "bubu\bubu-地圖.mp3" 300
     CustomAlertSoundOptional "Diablo2\34.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_仲裁.mp3" 100
-    MinimapIcon 0 Red Cross
+    MinimapIcon 1 Red Cross
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
-Show T16
+Show #T16
     Rarity <= Rare
     MapTier = 16
     Class "Maps"
@@ -3569,7 +3592,7 @@ Show T16
 
 # 6.1 物理武器
 
-Show #物理
+Show # 物理
 	Identified True
 	DropLevel >= 55
 	Rarity Rare
@@ -3584,10 +3607,11 @@ Show #物理
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
-Show #純物理
+Show # 純物理
 	Identified True
 	Corrupted False
 	DropLevel >= 55
@@ -3603,12 +3627,13 @@ Show #純物理
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.2 元素武器
 
-Show #元素
+Show # 元素
 	Identified True
 	Rarity Rare
 	BaseType   "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Imbued Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
@@ -3622,10 +3647,11 @@ Show #元素
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
-Show #純元素
+Show # 純元素
 	Identified True
 	Corrupted False
 	Rarity Rare
@@ -3640,8 +3666,9 @@ Show #純元素
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.3 寶石武器
 
@@ -3658,8 +3685,9 @@ Show # 弓寶
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show # 施放寶石
 	Identified True
@@ -3674,8 +3702,9 @@ Show # 施放寶石
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show # $長杖寶石
 	Identified True
@@ -3690,8 +3719,9 @@ Show # $長杖寶石
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.4 施放武器
 
@@ -3709,8 +3739,9 @@ Show #火焰
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #冰冷
 	Identified True
@@ -3726,8 +3757,9 @@ Show #冰冷
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #閃電
 	Identified True
@@ -3743,8 +3775,9 @@ Show #閃電
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #物理
 	Identified True
@@ -3760,8 +3793,9 @@ Show #物理
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #混沌
 	Identified True
@@ -3777,8 +3811,9 @@ Show #混沌
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
     
 # 6.5 法術回音
 
@@ -3796,8 +3831,9 @@ Show #法術回音
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.6 頭盔
 
@@ -3815,8 +3851,9 @@ Show #生命
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #能量護盾
 	Identified True
@@ -3832,8 +3869,9 @@ Show #能量護盾
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.7 手套
 
@@ -3851,8 +3889,9 @@ Show #生命
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #能量護盾
 	Identified True
@@ -3868,8 +3907,9 @@ Show #能量護盾
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.8 鞋子
 
@@ -3887,8 +3927,9 @@ Show #生命
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #能量護盾
 	Identified True
@@ -3904,8 +3945,9 @@ Show #能量護盾
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.9 盾	
 
@@ -3923,8 +3965,9 @@ Show #能量護盾
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #防禦
 	Identified True
@@ -3941,8 +3984,9 @@ Show #防禦
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #施放
 	Identified True
@@ -3958,8 +4002,9 @@ Show #施放
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #生命
 	Identified True
@@ -3976,8 +4021,9 @@ Show #生命
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.10 項鍊
 
@@ -3995,8 +4041,9 @@ Show #施放
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #施放2
 	Identified True
@@ -4012,8 +4059,9 @@ Show #施放2
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #DOT
 	Identified True
@@ -4029,8 +4077,9 @@ Show #DOT
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #DOT2
 	Identified True
@@ -4046,8 +4095,9 @@ Show #DOT2
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #攻擊
 	Identified True
@@ -4063,8 +4113,9 @@ Show #攻擊
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #攻擊2
 	Identified True
@@ -4080,8 +4131,9 @@ Show #攻擊2
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.11 戒指
 
@@ -4099,8 +4151,9 @@ Show #施放
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #攻擊
 	Identified True
@@ -4116,8 +4169,9 @@ Show #攻擊
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.12 箭袋
 
@@ -4135,8 +4189,9 @@ Show #直擊
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #DOT
 	Identified True
@@ -4152,8 +4207,9 @@ Show #DOT
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.13 身體護甲
 
@@ -4172,8 +4228,9 @@ Show #生命
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #防禦
 	Identified True
@@ -4191,8 +4248,9 @@ Show #防禦
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #生命/防禦
 	Identified True
@@ -4210,8 +4268,9 @@ Show #生命/防禦
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #能量護盾
 	Identified True
@@ -4228,8 +4287,9 @@ Show #能量護盾
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.14 腰帶
 
@@ -4247,8 +4307,9 @@ Show #一般
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.15 珠寶
 
@@ -4265,8 +4326,9 @@ Show #潛在
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 # 6.16 單詞(魔法也顯示)
 
@@ -4283,8 +4345,9 @@ Show #+1法寶/+1召喚寶
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
     
 Show #+2箭矢
 	Identified True
@@ -4299,8 +4362,9 @@ Show #+2箭矢
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #+1箭矢
 	Identified True
@@ -4315,8 +4379,9 @@ Show #+1箭矢
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 Show #+1全寶項鍊
 	Identified True
@@ -4331,8 +4396,9 @@ Show #+1全寶項鍊
     CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-	PlayEffect Pink
 	MinimapIcon 1 Pink UpsideDownHouse
+	PlayEffect Pink
+    DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
 # 7 裝備
@@ -4406,7 +4472,7 @@ Show #印鈔 - 6S裝備 工匠石配方
     CustomAlertSoundOptional "bubu\bubu-6洞裝備.mp3" 300
     CustomAlertSoundOptional "Diablo2\10.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵從ZERO吧2.mp3" 300
-    MinimapIcon 2 White UpsideDownHouse
+    MinimapIcon 1 White UpsideDownHouse
     DisableDropSoundIfAlertSound
 
 Hide #製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
@@ -4558,7 +4624,7 @@ Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖�
 
 # 7.6 特殊詞綴掉落
 
-Show #附魔詞綴
+Show #印鈔 - 附魔詞綴
     AnyEnchantment True
     Corrupted False
     Rarity <= Rare
@@ -4574,7 +4640,7 @@ Show #附魔詞綴
     PlayEffect Green Temp
     DisableDropSoundIfAlertSound
 
-Hide #附魔詞綴(腐化)
+Hide #印鈔 - 附魔詞綴(腐化)
     AnyEnchantment True
     Corrupted True
     Rarity <= Rare
@@ -4586,7 +4652,7 @@ Hide #附魔詞綴(腐化)
     CustomAlertSoundOptional "bubu\bubu-附魔裝備.mp3" 200    
     CustomAlertSoundOptional "Diablo2\44.mp3" 200
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_命令.mp3" 300
-    MinimapIcon 1 Green UpsideDownHouse
+    MinimapIcon 2 Green UpsideDownHouse
     PlayEffect Green Temp
     DisableDropSoundIfAlertSound
     
@@ -4657,7 +4723,7 @@ Show #工藝詞綴
     PlayEffect Blue
     DisableDropSoundIfAlertSound
 
-Show #隱匿詞綴(限定)
+Show #印鈔 - 隱匿詞綴(限定)
     HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
     SetTextColor 111 189 163
     SetBackgroundColor 89 83 71
@@ -4698,7 +4764,7 @@ Show #印鈔 - 速刷 - 複製詞綴
 
 # 7.7 勢力裝備基底
 
-Show #異界尊師
+Show #印鈔 - 異界尊師
     ElderItem True
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4713,7 +4779,7 @@ Show #異界尊師
     PlayEffect Grey
     DisableDropSoundIfAlertSound
 
-Show #塑界者
+Show #印鈔 - 塑界者
     ShaperItem True
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4728,7 +4794,7 @@ Show #塑界者
     PlayEffect Purple
     DisableDropSoundIfAlertSound
 
-Show #聖戰士
+Show #印鈔 - 聖戰士
     HasInfluence Crusader
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4743,7 +4809,7 @@ Show #聖戰士
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
-Show #救贖者
+Show #印鈔 - 救贖者
     HasInfluence Redeemer
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4758,7 +4824,7 @@ Show #救贖者
     PlayEffect Blue
     DisableDropSoundIfAlertSound
 
-Show #狩獵者
+Show #印鈔 - 狩獵者
     HasInfluence Hunter
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4773,7 +4839,7 @@ Show #狩獵者
     PlayEffect Green
     DisableDropSoundIfAlertSound
 
-Show #總督軍
+Show #印鈔 - 總督軍
     HasInfluence Warlord
     Rarity <= Rare
     SetTextColor 176 113 157
@@ -4788,7 +4854,7 @@ Show #總督軍
     PlayEffect Yellow
     DisableDropSoundIfAlertSound
 
-Hide #灼烙總督
+Hide #印鈔 - 灼烙總督
     HasSearingExarchImplicit >= 1
     Rarity <= Rare
     SetTextColor 255 52 0 255
@@ -4803,7 +4869,7 @@ Hide #灼烙總督
     PlayEffect Orange Temp
     DisableDropSoundIfAlertSound
 
-Hide #吞噬天地
+Hide #印鈔 - 吞噬天地
     HasEaterOfWorldsImplicit >= 1
     Rarity <= Rare
     SetTextColor 0 245 152 255
@@ -4820,7 +4886,7 @@ Hide #吞噬天地
 
 # 7.8 異界輿圖限定基底
 
-Show #最高階異界輿圖限定基底
+Show #印鈔 - 最高階異界輿圖限定基底
     ItemLevel >= 86
     Rarity < Rare
     BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -4828,7 +4894,7 @@ Show #最高階異界輿圖限定基底
     SetBackgroundColor 255 192 203
     SetBorderColor 255 255 255
     SetFontSize 41
-    MinimapIcon 1 Purple UpsideDownHouse
+    MinimapIcon 0 Purple UpsideDownHouse
     PlayEffect Purple
     DisableDropSoundIfAlertSound
     
@@ -4851,11 +4917,11 @@ Show #印鈔 - 速刷 - 異界輿圖限定基底
     SetTextColor 255 192 203
     SetBackgroundColor 74 0 160 200
     SetFontSize 35
-    MinimapIcon 1 Purple UpsideDownHouse
+    MinimapIcon 2 Purple UpsideDownHouse
     PlayEffect Purple Temp
     DisableDropSoundIfAlertSound
 
-Show #異界輿圖限定基底(稀有)
+Show #印鈔 - 異界輿圖限定基底(稀有)
     Rarity = Rare
     BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
     SetTextColor 255 192 203
@@ -4868,7 +4934,7 @@ Show #異界輿圖限定基底(稀有)
 
 # 7.9 高階金裝
 
-Show #高階金裝(項鍊鑑定+1寶)
+Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
     Identified False
     Rarity = Rare
     Class "Amulet"
@@ -4888,7 +4954,7 @@ Show #印鈔 - 速刷 - 高階金裝
 
 # 7.10 高階基底
 
-Show #最高階基底(84)
+Show #印鈔 - 最高階基底(86)
     ItemLevel >= 86
     Rarity < Rare
     BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
@@ -4975,6 +5041,8 @@ Show #任務道具
     SetFontSize 42
     CustomAlertSoundOptional "bubu\bubu-任務道具(粵語).mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_所有條件都成立了.mp3" 300
+    MinimapIcon 1 Green UpsideDownHouse
+    PlayEffect Green
     DisableDropSoundIfAlertSound
 
 # 8.3 隱藏
