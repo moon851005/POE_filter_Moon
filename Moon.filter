@@ -2118,7 +2118,7 @@ Show #永恆瓦爾裂片
     DisableDropSoundIfAlertSound
 
 Show #永恆聖宗徽印
-    BaseType "Timeless lar Emblem"
+    BaseType "Timeless Templar Emblem"
     SetTextColor 0 0 0 255
     SetBackgroundColor 0 128 0
     SetBorderColor 128 0 128 255
@@ -2132,7 +2132,7 @@ Show #永恆聖宗徽印
     DisableDropSoundIfAlertSound
 
 Show #永恆聖宗裂片
-    BaseType "Timeless lar Splinter"
+    BaseType "Timeless Templar Splinter"
     SetTextColor 0 128 0 200
     SetBackgroundColor 0 0 0 255
     SetFontSize 40
