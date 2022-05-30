@@ -3029,6 +3029,62 @@ Show #請更新過濾器
 # 4 技能寶石
 #================================================================================================================================================
 
+Show #物品數量寶石
+    Class "Skill Gems"
+    BaseType "Item Quantity"
+    SetTextColor 27 162 155
+    SetBackgroundColor 150 0 0
+    SetBorderColor 27 162 155
+    SetFontSize 42
+    PlayAlertSoundPositional 15 100
+    CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
+    CustomAlertSoundOptional "Diablo2\21.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
+    MinimapIcon 0 Red Pentagon
+    PlayEffect Red
+    DisableDropSoundIfAlertSound
+
+Show #覺醒寶石
+    Class "Skill Gems"
+    BaseType "Awakened"
+    SetTextColor 27 162 155
+    SetBackgroundColor 52 29 0
+    SetBorderColor 255 200 0
+    SetFontSize 42
+    PlayAlertSoundPositional 15 100
+    CustomAlertSoundOptional "bubu\bubu-覺醒技能.mp3" 300
+    CustomAlertSoundOptional "Diablo2\21.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
+    MinimapIcon 0 Orange Pentagon
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #瓦爾裂痕、時空之門
+    Class "Skill Gems"
+    BaseType "Portal" "Vaal Breach"
+    SetTextColor 27 162 155
+    SetBackgroundColor 0 0 0
+    SetBorderColor 255 255 255
+    SetFontSize 38
+    MinimapIcon 2 White Pentagon
+    PlayEffect White Temp
+    DisableDropSoundIfAlertSound
+
+Show #啟蒙/增幅/賦予
+    Class "Skill Gems"
+    BaseType "Enlighten" "Enhance" "Empower"
+    SetTextColor 27 162 155
+    SetBackgroundColor 0 0 0
+    SetBorderColor 136 136 255
+    SetFontSize 42
+    PlayAlertSoundPositional 10 100
+    CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
+    CustomAlertSoundOptional "Diablo2\21.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧3.mp3" 300
+    MinimapIcon 0 Purple Pentagon
+    PlayEffect Purple
+    DisableDropSoundIfAlertSound
+
 Show #雙瓦寶石
     Quality > 20
     GemLevel > 20
@@ -3075,36 +3131,6 @@ Show #高品質寶石
     PlayEffect Cyan
     DisableDropSoundIfAlertSound
 
-Show #覺醒寶石
-    Class "Skill Gems"
-    BaseType "Awakened"
-    SetTextColor 27 162 155
-    SetBackgroundColor 52 29 0
-    SetBorderColor 255 200 0
-    SetFontSize 42
-    PlayAlertSoundPositional 15 100
-    CustomAlertSoundOptional "bubu\bubu-覺醒技能.mp3" 300
-    CustomAlertSoundOptional "Diablo2\21.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
-    MinimapIcon 0 Orange Pentagon
-    PlayEffect Orange
-    DisableDropSoundIfAlertSound
-
-Show #物品數量寶石
-    Class "Skill Gems"
-    BaseType "Item Quantity"
-    SetTextColor 27 162 155
-    SetBackgroundColor 150 0 0
-    SetBorderColor 27 162 155
-    SetFontSize 42
-    PlayAlertSoundPositional 15 100
-    CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
-    CustomAlertSoundOptional "Diablo2\21.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
-    MinimapIcon 0 Red Pentagon
-    PlayEffect Red
-    DisableDropSoundIfAlertSound
-
 Show #瓦爾寶石
     Class "Skill Gems"
     BaseType "Vaal"
@@ -3112,32 +3138,6 @@ Show #瓦爾寶石
     SetBackgroundColor 0 0 0
     SetBorderColor 187 8 11
     SetFontSize 33
-    DisableDropSoundIfAlertSound
-
-Show #瓦爾裂痕、時空之門
-    Class "Skill Gems"
-    BaseType "Portal" "Vaal Breach"
-    SetTextColor 27 162 155
-    SetBackgroundColor 0 0 0
-    SetBorderColor 255 255 255
-    SetFontSize 38
-    MinimapIcon 2 White Pentagon
-    PlayEffect White Temp
-    DisableDropSoundIfAlertSound
-
-Show #啟蒙/增幅/賦予
-    Class "Skill Gems"
-    BaseType "Enlighten" "Enhance" "Empower"
-    SetTextColor 27 162 155
-    SetBackgroundColor 0 0 0
-    SetBorderColor 136 136 255
-    SetFontSize 42
-    PlayAlertSoundPositional 10 100
-    CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
-    CustomAlertSoundOptional "Diablo2\21.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧3.mp3" 300
-    MinimapIcon 0 Purple Pentagon
-    PlayEffect Purple
     DisableDropSoundIfAlertSound
 
 Hide #印鈔 - 速刷 - 高等級寶石
