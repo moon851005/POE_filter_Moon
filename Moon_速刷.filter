@@ -2793,7 +2793,7 @@ Hide #潛行守望(普通/魔法)
     PlayEffect Blue
     DisableDropSoundIfAlertSound
 
-Hide #潛行守望(低等區域)
+Show #潛行守望(低等區域)
     Class "Sentinel Drone"
     BaseType "Stalker Sentinel"
     SetTextColor 210 0 0
