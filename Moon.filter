@@ -2370,9 +2370,9 @@ Show #小型星團珠寶
 Show #神聖之花
     Class "Map Fragment"
     BaseType "Sacred Blossom"
-    SetTextColor 0 0 0 200
-    SetBackgroundColor 0 109 255 200
-    SetBorderColor 0 0 0 255
+    SetTextColor 0 109 255 255
+    SetBackgroundColor 184 218 242 200
+    SetBorderColor 0 109 255 255
     SetFontSize 40
     PlayAlertSoundPositional 2 300
     CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
@@ -2380,6 +2380,62 @@ Show #神聖之花
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
     MinimapIcon 0 Blue Triangle
     PlayEffect Blue
+    DisableDropSoundIfAlertSound
+
+Show #野性結晶生靈之力
+    Class "Stackable Currency"
+    BaseType "Wild Crystallised Lifeforce"
+    SetTextColor 0 0 0 200
+    SetBackgroundColor 208 32 144 200
+    SetBorderColor 0 0 0 255
+    SetFontSize 38
+    CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+    CustomAlertSoundOptional "Diablo2\1.mp3" 200
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+    MinimapIcon 2 Grey Kite
+    PlayEffect Grey
+    DisableDropSoundIfAlertSound
+
+Show #靈現結晶生靈之力 
+    Class "Stackable Currency"
+    BaseType "Vivid Crystallised Lifeforce"
+    SetTextColor 0 0 0 200
+    SetBackgroundColor 255 200 0 200
+    SetBorderColor 0 0 0 255
+    SetFontSize 38
+    CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+    CustomAlertSoundOptional "Diablo2\1.mp3" 200
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+    MinimapIcon 2 Grey Kite
+    PlayEffect Grey
+    DisableDropSoundIfAlertSound
+
+Show #原始結晶生靈之力
+    Class "Stackable Currency"
+    BaseType "Primal Crystallised Lifeforce"
+    SetTextColor 0 0 0 200
+    SetBackgroundColor 0 109 255 200
+    SetBorderColor 0 0 0 255
+    SetFontSize 38
+    CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+    CustomAlertSoundOptional "Diablo2\1.mp3" 200
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+    MinimapIcon 2 Grey Kite
+    PlayEffect Grey
+    DisableDropSoundIfAlertSound
+
+Show #神聖結晶生靈之力
+    Class "Stackable Currency"
+    BaseType "Sacred Crystallised Lifeforce"
+    SetTextColor 0 0 0 200
+    SetBackgroundColor 184 218 242 200
+    SetBorderColor 0 0 0 255
+    SetFontSize 40
+    CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+    CustomAlertSoundOptional "Diablo2\1.mp3" 200
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+    MinimapIcon 0 White Kite
+    PlayEffect White
     DisableDropSoundIfAlertSound
 
 # 2.17劫盜潛行(3.12版本)
