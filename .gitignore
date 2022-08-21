@@ -1,4 +1,5 @@
 *.ini
 *.dmp
 *.txt
+#線上過濾器
 OnlineFilters/
