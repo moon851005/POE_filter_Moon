@@ -4525,6 +4525,22 @@ Show #+1全寶項鍊
 #================================================================================================================================================
 
 # 7.1 傳奇裝備
+Show #傳奇碎片
+    Class "Pieces"
+    Rarity = Unique
+    Replica false
+    SetTextColor 0 0 0 255
+    SetBackgroundColor 227 92 9 220
+    SetBorderColor 0 0 0 255
+    SetFontSize 41
+    PlayAlertSoundPositional 1 300
+    CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+    CustomAlertSoundOptional "Diablo2\33.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+    MinimapIcon 0 Orange UpsideDownHouse
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
 
 Show #傳奇裝備(全)
     Rarity = Unique
