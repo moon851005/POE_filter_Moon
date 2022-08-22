@@ -227,9 +227,9 @@ Show #崇高石碎片
     Class "Stackable Currency"
     BaseType "Exalted Shard"
     SetTextColor 255 144 0 255
-    SetBackgroundColor 55 1 59
+    SetBackgroundColor 37 54 112
     SetBorderColor 30 144 255
-    SetFontSize 40
+    SetFontSize 38
     MinimapIcon 2 Orange Moon
     PlayEffect Orange
     PlayAlertSoundPositional 10 300
@@ -1134,7 +1134,7 @@ Show #崇高石
     Class "Stackable Currency"
     BaseType "Exalted Orb"
     SetTextColor 255 144 0 255
-    SetBackgroundColor 55 1 59
+    SetBackgroundColor 37 54 112
     SetBorderColor 255 200 0
     SetFontSize 43
     PlayAlertSoundPositional ShExalted 300
@@ -1149,7 +1149,7 @@ Show #神聖石
     Class "Stackable Currency"
     BaseType "Divine Orb"
     SetTextColor 236 242 145
-    SetBackgroundColor 37 54 112
+    SetBackgroundColor 55 1 59
     SetBorderColor 255 200 0
     SetFontSize 45
     PlayAlertSoundPositional ShDivine 300
