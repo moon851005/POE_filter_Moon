@@ -2786,20 +2786,20 @@ Show #非傳奇災魘裝
     
 # 2.22守望號令(3.18版本)
 
-Show #動力核心
-    Class "Stackable Currency"
-    BaseType "Power Core" "Transforming Power Core" "Amplifying Power Core" "Augmenting Power Core"
-    SetTextColor 60 140 255
-    SetBackgroundColor 40 50 60 255
-    SetBorderColor 127 127 127
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
-    CustomAlertSoundOptional "Diablo2\27.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
-    MinimapIcon 2 Grey Square
-    PlayEffect Grey
-    DisableDropSoundIfAlertSound
+# Show #動力核心
+#     Class "Stackable Currency"
+#     BaseType "Power Core" "Transforming Power Core" "Amplifying Power Core" "Augmenting Power Core"
+#     SetTextColor 60 140 255
+#     SetBackgroundColor 40 50 60 255
+#     SetBorderColor 127 127 127
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\27.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
+#     MinimapIcon 2 Grey Square
+#     PlayEffect Grey
+#     DisableDropSoundIfAlertSound
 
 Show #重組裝置
     Class "Stackable Currency"
@@ -2816,194 +2816,194 @@ Show #重組裝置
     PlayEffect Grey
     DisableDropSoundIfAlertSound
 
-Show #潛行守望(傳奇)
-    Rarity > Rare
-    Class "Sentinel Drone"
-    BaseType "Stalker Sentinel"
-    SetTextColor 210 0 0
-    SetBackgroundColor 60 140 255
-    SetBorderColor 180 81 0
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 0 Orange Square
-    PlayEffect Orange
-    DisableDropSoundIfAlertSound
+# Show #潛行守望(傳奇)
+#     Rarity > Rare
+#     Class "Sentinel Drone"
+#     BaseType "Stalker Sentinel"
+#     SetTextColor 210 0 0
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 180 81 0
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 0 Orange Square
+#     PlayEffect Orange
+#     DisableDropSoundIfAlertSound
 
-Show #潛行守望(稀有)
-    Rarity = Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Stalker Sentinel"
-    SetTextColor 210 0 0
-    SetBackgroundColor 60 140 255
-    SetBorderColor 210 0 0
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
-    DisableDropSoundIfAlertSound
+# Show #潛行守望(稀有)
+#     Rarity = Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Stalker Sentinel"
+#     SetTextColor 210 0 0
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 210 0 0
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 1 Yellow Square
+#     PlayEffect Yellow
+#     DisableDropSoundIfAlertSound
 
-Hide #潛行守望(普通/魔法)
-    Rarity < Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Stalker Sentinel"
-    SetTextColor 210 0 0
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Hide #潛行守望(普通/魔法)
+#     Rarity < Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Stalker Sentinel"
+#     SetTextColor 210 0 0
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
-Show #潛行守望(低等區域)
-    Class "Sentinel Drone"
-    BaseType "Stalker Sentinel"
-    SetTextColor 210 0 0
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Show #潛行守望(低等區域)
+#     Class "Sentinel Drone"
+#     BaseType "Stalker Sentinel"
+#     SetTextColor 210 0 0
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
-Show #萬劫守望(傳奇)
-    Rarity > Rare
-    Class "Sentinel Drone"
-    BaseType "Pandemonium Sentinel"
-    SetTextColor 19 0 255
-    SetBackgroundColor 60 140 255
-    SetBorderColor 180 81 0
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 0 Orange Square
-    PlayEffect Orange
-    DisableDropSoundIfAlertSound
+# Show #萬劫守望(傳奇)
+#     Rarity > Rare
+#     Class "Sentinel Drone"
+#     BaseType "Pandemonium Sentinel"
+#     SetTextColor 19 0 255
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 180 81 0
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 0 Orange Square
+#     PlayEffect Orange
+#     DisableDropSoundIfAlertSound
 
-Show #萬劫守望(稀有)
-    Rarity = Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Pandemonium Sentinel"
-    SetTextColor 19 0 255
-    SetBackgroundColor 60 140 255
-    SetBorderColor 19 0 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
-    DisableDropSoundIfAlertSound
+# Show #萬劫守望(稀有)
+#     Rarity = Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Pandemonium Sentinel"
+#     SetTextColor 19 0 255
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 19 0 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 1 Yellow Square
+#     PlayEffect Yellow
+#     DisableDropSoundIfAlertSound
 
-Hide #萬劫守望(普通/魔法)
-    Rarity < Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Pandemonium Sentinel"
-    SetTextColor 19 0 255
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Hide #萬劫守望(普通/魔法)
+#     Rarity < Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Pandemonium Sentinel"
+#     SetTextColor 19 0 255
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
-Show #萬劫守望(低等區域)
-    Class "Sentinel Drone"
-    BaseType "Pandemonium Sentinel"
-    SetTextColor 19 0 255
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Show #萬劫守望(低等區域)
+#     Class "Sentinel Drone"
+#     BaseType "Pandemonium Sentinel"
+#     SetTextColor 19 0 255
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
-Show #巔峰守望(傳奇)
-    Rarity > Rare
-    Class "Sentinel Drone"
-    BaseType "Apex Sentinel"
-    SetTextColor 255 205 0
-    SetBackgroundColor 60 140 255
-    SetBorderColor 180 81 0
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 0 Orange Square
-    PlayEffect Orange
-    DisableDropSoundIfAlertSound
+# Show #巔峰守望(傳奇)
+#     Rarity > Rare
+#     Class "Sentinel Drone"
+#     BaseType "Apex Sentinel"
+#     SetTextColor 255 205 0
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 180 81 0
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 0 Orange Square
+#     PlayEffect Orange
+#     DisableDropSoundIfAlertSound
 
-Show #巔峰守望(稀有)
-    Rarity = Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Apex Sentinel"
-    SetTextColor 255 205 0
-    SetBackgroundColor 60 140 255
-    SetBorderColor 255 205 0
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 1 Yellow Square
-    PlayEffect Yellow
-    DisableDropSoundIfAlertSound
+# Show #巔峰守望(稀有)
+#     Rarity = Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Apex Sentinel"
+#     SetTextColor 255 205 0
+#     SetBackgroundColor 60 140 255
+#     SetBorderColor 255 205 0
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 1 Yellow Square
+#     PlayEffect Yellow
+#     DisableDropSoundIfAlertSound
 
-Hide #巔峰守望(普通/魔法)
-    Rarity < Rare
-    AreaLevel >= 70
-    Class "Sentinel Drone"
-    BaseType "Apex Sentinel"
-    SetTextColor 255 205 0
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Hide #巔峰守望(普通/魔法)
+#     Rarity < Rare
+#     AreaLevel >= 70
+#     Class "Sentinel Drone"
+#     BaseType "Apex Sentinel"
+#     SetTextColor 255 205 0
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
-Show #巔峰守望(低等區域)
-    Class "Sentinel Drone"
-    BaseType "Apex Sentinel"
-    SetTextColor 255 205 0
-    SetBackgroundColor 60 140 255
-    SetFontSize 40
-    PlayAlertSoundPositional 3 150
-    CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-    CustomAlertSoundOptional "Diablo2\49.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-    MinimapIcon 2 Blue Square
-    PlayEffect Blue
-    DisableDropSoundIfAlertSound
+# Show #巔峰守望(低等區域)
+#     Class "Sentinel Drone"
+#     BaseType "Apex Sentinel"
+#     SetTextColor 255 205 0
+#     SetBackgroundColor 60 140 255
+#     SetFontSize 40
+#     PlayAlertSoundPositional 3 150
+#     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
+#     CustomAlertSoundOptional "Diablo2\49.mp3" 300
+#     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
+#     MinimapIcon 2 Blue Square
+#     PlayEffect Blue
+#     DisableDropSoundIfAlertSound
 
 # 2.23卡蘭德迷湖(3.19版本)
 Show
