@@ -99,6 +99,7 @@
     # 5.5 
     # 5.6 凋落輿圖
     # 5.7 一般輿圖
+    # 5.8 記憶
 # 6 已鑑定道具
     # 6.1 物理武器
     # 6.2 元素武器
@@ -3658,6 +3659,23 @@ Show #T16
     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修.mp3" 100
     MinimapIcon 0 Purple Cross
     PlayEffect Purple
+    DisableDropSoundIfAlertSound
+
+# 5.8 記憶
+
+Show #記憶
+    Class "Memory"
+    BaseType "Niko's Memory" "Alva's Memory" "Kirac's Memory" "Einhar's Memory"
+    SetTextColor 5 8 123 255
+    SetBackgroundColor 198 216 255 255
+    SetBorderColor 74 0 160 200
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+    CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+    CustomAlertSoundOptional "Diablo2\50.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+    MinimapIcon 0 Blue Hexagon
+    PlayEffect Blue
     DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
