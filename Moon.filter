@@ -2678,6 +2678,21 @@ Show #最後通牒雕刻
     PlayEffect Red
     DisableDropSoundIfAlertSound
 
+Show #最後通牒雕刻(新版)
+    Class "Map"
+    BaseType "Engraved Ultimatum"
+    SetTextColor 210 0 0
+    SetBackgroundColor 0 0 0 255
+    SetBorderColor 255 40 0 220
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+    CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+    CustomAlertSoundOptional "Diablo2\42.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+    MinimapIcon 0 Red Triangle
+    PlayEffect Red
+    DisableDropSoundIfAlertSound
+
 # 2.20死境探險(3.15版本)
 
 Show #探險NPC刷新道具
@@ -4540,7 +4555,6 @@ Show #傳奇碎片
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
     DisableDropSoundIfAlertSound
-
 
 Show #傳奇裝備(全)
     Rarity = Unique
