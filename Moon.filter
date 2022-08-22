@@ -966,21 +966,6 @@ Show #玷污的神聖淚珠
     PlayEffect Grey
     DisableDropSoundIfAlertSound
 
-Show #神聖石
-    Class "Stackable Currency"
-    BaseType "Divine Orb"
-    SetTextColor 236 242 145
-    SetBackgroundColor 37 54 112
-    SetBorderColor 255 200 0
-    SetFontSize 43
-    PlayAlertSoundPositional ShDivine 300
-    CustomAlertSoundOptional "bubu\bubu-神聖石.mp3" 300
-    CustomAlertSoundOptional "Diablo2\27.mp3" 300
-    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
-    MinimapIcon 0 Orange Diamond
-    PlayEffect Orange
-    DisableDropSoundIfAlertSound
-
 Show #異能的無效石
     Class "Stackable Currency"
     BaseType "Eldritch Orb of Annulment"
@@ -1151,9 +1136,24 @@ Show #崇高石
     SetTextColor 255 144 0 255
     SetBackgroundColor 55 1 59
     SetBorderColor 255 200 0
-    SetFontSize 45
+    SetFontSize 43
     PlayAlertSoundPositional ShExalted 300
     CustomAlertSoundOptional "bubu\bubu-崇高石.mp3" 300
+    CustomAlertSoundOptional "Diablo2\27.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
+    MinimapIcon 0 Orange Diamond
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #神聖石
+    Class "Stackable Currency"
+    BaseType "Divine Orb"
+    SetTextColor 236 242 145
+    SetBackgroundColor 37 54 112
+    SetBorderColor 255 200 0
+    SetFontSize 45
+    PlayAlertSoundPositional ShDivine 300
+    CustomAlertSoundOptional "bubu\bubu-神聖石.mp3" 300
     CustomAlertSoundOptional "Diablo2\26.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
     MinimapIcon 0 Orange Moon
@@ -4599,7 +4599,7 @@ Show #印鈔 - 速刷 - 5L裝備
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
-Show #6L裝備 神聖石配方
+Show #6L裝備 鏈結石配方
     LinkedSockets = 6
     SetTextColor 255 165 0
     SetBackgroundColor 127 127 127
