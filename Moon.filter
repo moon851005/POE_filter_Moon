@@ -1570,7 +1570,7 @@ Show #聯盟石
 
 Show #古典遺鑰(I)、古朽遺鑰(II)、瓦爾遺鑰
     Class "Misc Map Items"
-    BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+    BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key" "Forgotten Reliquary Key" "Visceral Reliquary Key" "Shiny Reliquary Key" "Archive Reliquary Key" "Oubliette Reliquary Key" "Cosmic Reliquary Key" "Decaying Reliquary Key"
     SetTextColor 186 102 31 #
     SetBackgroundColor 56 32 8
     SetBorderColor 0 128 0
@@ -1883,7 +1883,7 @@ Show #覺醒之罈、因果之罈、統御之罈、命運之罈、獻祭之罈�
     DisableDropSoundIfAlertSound
 
 Show #阿茲瓦特史記
-    Class "Misc Map Item"
+    Class "Misc Map Items"
     BaseType "Chronicle of Atzoatl"
     SetTextColor 210 0 0
     SetBackgroundColor 140 110 49
@@ -2290,7 +2290,8 @@ Show #譫妄玉
     PlayEffect Grey
     DisableDropSoundIfAlertSound
         
-Show #幻象斷片
+Show #幻像斷片
+    Class "Stackable Currency"
     BaseType "Simulacrum Splinter"
     SetTextColor 162 134 109
     SetBackgroundColor 207 207 207
@@ -2304,7 +2305,8 @@ Show #幻象斷片
     PlayEffect Grey Temp
     DisableDropSoundIfAlertSound
 
-Show #幻象異界
+Show #幻像異界
+    Class "Map Fragment"
     BaseType "Simulacrum"
     SetTextColor 162 134 109
     SetBackgroundColor 207 207 207
@@ -2662,7 +2664,7 @@ Show #浸血碑器
 # 2.19最後通牒(3.14版本)
 
 Show #最後通牒雕刻
-    Class "Misc Map Item"
+    Class "Misc Map Items"
     BaseType "Inscribed Ultimatum"
     SetTextColor 210 0 0
     SetBackgroundColor 0 0 0 255
@@ -3018,6 +3020,21 @@ Show #卡蘭德迷糊限定戒指
     PlayEffect Purple Temp
     DisableDropSoundIfAlertSound
     
+
+Show #鏡像碑牌
+    Class "Misc Map Items"
+    BaseType "Mirrored Tablet"
+    SetTextColor 162 134 109
+    SetBackgroundColor 207 207 207
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayAlertSoundPositional 2 300
+    CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+    CustomAlertSoundOptional "Diablo2\42.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+    MinimapIcon 0 Grey Triangle
+    PlayEffect Grey
+    DisableDropSoundIfAlertSound
 
 #================================================================================================================================================
 # 3 命運卡
@@ -3447,7 +3464,7 @@ Show #釋界之令
     SetFontSize 42
     DisableDropSoundIfAlertSound
 
-Show #釋界之邀
+Show #釋界之邀、纏繞之邀、尖嘯之邀、極地之邀、熾熱之邀
     Class "Misc Map Items"
     BaseType "Maven's Invitation" "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
     SetTextColor 246 173 255
