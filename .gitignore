@@ -1,6 +1,7 @@
 *.ini
 *.dmp
 *.txt
+*.png
 *.credentials
 #線上過濾器
 OnlineFilters/

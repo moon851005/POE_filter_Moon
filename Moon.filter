@@ -137,9 +137,7 @@
 #================================================================================================================================================
 # 1 通貨
 #================================================================================================================================================
-
 # 1.1 通貨碎片
-
 Show #印鈔 - 速刷 - 蛻變石碎片
     Class "Stackable Currency"
     BaseType "Transmutation Shard"
@@ -252,7 +250,6 @@ Show #魔鏡碎片
     DisableDropSoundIfAlertSound
 
 # 1.2 低階通貨
-
 Show #印鈔 - 知識卷軸(堆疊>=8)
     Class "Stackable Currency"
     BaseType "Scroll of Wisdom" "Scroll Fragment"
@@ -309,7 +306,6 @@ Show #印鈔 - 速刷 - 增幅石
     DisableDropSoundIfAlertSound
 
 # 1.3 品質通貨
-
 Show #玷污的磨刀石
     Class "Stackable Currency"
     BaseType "Tainted Blacksmith's Whetstone"
@@ -432,7 +428,6 @@ Show #費斯特之鏡
     DisableDropSoundIfAlertSound
 
 # 1.4 藥劑通貨
-
 Show #印鈔 - 玻璃彈珠(堆疊>=2)
     Class "Stackable Currency"
     BaseType "Glassblower's Bauble"
@@ -493,7 +488,6 @@ Show #點燃石
     DisableDropSoundIfAlertSound
 
 # 1.5 輿圖通貨
-
 Show #印鈔 - 地平石
     Class "Stackable Currency"
     BaseType "Orb of Horizons"
@@ -580,7 +574,6 @@ Show #製圖六分儀．高尚
     DisableDropSoundIfAlertSound
 
 # 1.6 中階通貨
-
 Show #印鈔 - 速刷 - 束縛石
     Class "Stackable Currency"
     BaseType "Orb of Binding"
@@ -830,7 +823,6 @@ Show #印鈔 - 速刷 - 機會石
     DisableDropSoundIfAlertSound
 
 # 1.7 高階通貨
-
 Show #印鈔 - 後悔石
     Class "Stackable Currency"
     BaseType "Orb of Regret"
@@ -1039,7 +1031,6 @@ Show #撤銷石
     DisableDropSoundIfAlertSound
 
 # 1.8 稀有通貨
-
 Show #聖戰士的崇高石
     Class "Stackable Currency"
     BaseType "Crusader's Exalted Orb"
@@ -1343,9 +1334,7 @@ Show #卡蘭德的魔鏡,永恆寶珠
 #================================================================================================================================================
 # 2 賽季
 #================================================================================================================================================
-
 # 2.1魔符聯盟(2.1版本)
-
 Show #印鈔 - 速刷 - 魔符
     Rarity < Unique
     BaseType "Talisman"
@@ -1356,7 +1345,6 @@ Show #印鈔 - 速刷 - 魔符
     DisableDropSoundIfAlertSound
 
 # 2.2普蘭德斯(2.2版本)
-
 Show #印鈔 - 速刷 - 普蘭德斯金幣
     BaseType "Perandus Coin"
     SetTextColor 255 255 0
@@ -1366,7 +1354,6 @@ Show #印鈔 - 速刷 - 普蘭德斯金幣
     DisableDropSoundIfAlertSound
 
 # 2.3精髓聯盟(2.3版本)
-
 Show #低階精髓
     AreaLevel <= 80
     Class "Stackable Currency"
@@ -1415,7 +1402,6 @@ Show #汙染精髓
     DisableDropSoundIfAlertSound
 
 # 2.5裂痕聯盟(2.5版本)
-
 Show #印鈔 - 速刷 - 裂痕戒指
     BaseType "Breach Ring"
     SetTextColor 128 0 128
@@ -1560,7 +1546,6 @@ Show #夏烏拉裂片
     DisableDropSoundIfAlertSound
 
 # 2.6不朽聯盟(2.6版本)
-
 Show #聯盟石
     BaseType "Leaguestone"
     SetTextColor 214 210 255
@@ -1584,7 +1569,6 @@ Show #古典遺鑰(I)、古朽遺鑰(II)、瓦爾遺鑰
     DisableDropSoundIfAlertSound
 
 # 2.7神諭聯盟(3.0版本)
-
 Show #神諭傳奇升級卷軸
     BaseType "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
     SetTextColor 0 0 255 255
@@ -1633,7 +1617,6 @@ Show #女神之贈
     DisableDropSoundIfAlertSound
 
 # 2.8深淵聯盟(3.1版本)
-
 Show #催眠之眼珠寶(汙染凝視)
     HasExplicitMod >=5 ""
     Class "Abyss Jewel"
@@ -1846,7 +1829,6 @@ Show #深淵腰帶
     DisableDropSoundIfAlertSound
 
 # 2.9穿越聯盟(3.3版本)
-
 Show #祭禮束衣
     Rarity <= Rare
     BaseType "Sacrificial Garb"
@@ -1898,7 +1880,6 @@ Show #阿茲瓦特史記
     DisableDropSoundIfAlertSound
 
 # 2.10掘獄聯盟(3.4版本)
-
 Show #化石
     Class "Stackable Currency"
     BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Deft Fossil" "Fundamental Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
@@ -1997,7 +1978,6 @@ Show #終極混沌鑄新儀
     DisableDropSoundIfAlertSound
 
 # 2.11追憶聯盟(3.6版本)
-
 Show #破碎之物
     Rarity <= Rare
     SetTextColor 0 100 150 200
@@ -2023,7 +2003,6 @@ Show #追憶之物
     DisableDropSoundIfAlertSound
 
 # 2.12戰亂聯盟(3.7版本)
-
 Show #培育器
     Class "Incubator"
     SetTextColor 0 0 0 255
@@ -2174,7 +2153,6 @@ Show #永恆馬拉克斯裂片
     DisableDropSoundIfAlertSound
 
 # 2.13凋落聯盟(3.8版本)
-
 Show #印鈔 - 速刷 - 低階油瓶
     BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil"
     SetTextColor 255 255 255 200
@@ -2260,7 +2238,6 @@ Show #映像油瓶
     DisableDropSoundIfAlertSound
 
 # 2.14鍊獄幻魔(3.9版本)
-
 Show #鍊魔器官
     Class "Metamorph Sample"
     SetTextColor 0 0 0 255
@@ -2274,7 +2251,6 @@ Show #鍊魔器官
     DisableDropSoundIfAlertSound
     
 # 2.15譫妄異域(3.10版本)
-
 Show #譫妄玉
     Class "Stackable Currency"
     BaseType "Delirium Orb"
@@ -2369,7 +2345,6 @@ Show #小型星團珠寶
     DisableDropSoundIfAlertSound
 
 # 2.16豐收聯盟(3.11版本)
-
 Show #神聖之花
     Class "Map Fragment"
     BaseType "Sacred Blossom"
@@ -2442,7 +2417,6 @@ Show #神聖結晶生靈之力
     DisableDropSoundIfAlertSound
 
 # 2.17劫盜潛行(3.12版本)
-
 Show #盜賊飾品
     Class "Trinket"
     BaseType "Thief's Trinket"
@@ -2616,7 +2590,6 @@ Show #贗品傳奇
     DisableDropSoundIfAlertSound
 
 # 2.18邪靈祭祀(3.13版本)
-
 Show #祭祀限定基底
     Rarity <= Rare
     BaseType "Dreamquest Slippers" "Brimstone Treads" "Stormrider Boots" "Debilitation Gauntlets" "Sinistral Gloves" "Nexus Gloves" "Blizzard Crown" "Archdemon Crown"
@@ -2662,7 +2635,6 @@ Show #浸血碑器
     DisableDropSoundIfAlertSound
 
 # 2.19最後通牒(3.14版本)
-
 Show #最後通牒雕刻
     Class "Misc Map Items"
     BaseType "Inscribed Ultimatum"
@@ -2694,7 +2666,6 @@ Show #最後通牒雕刻(新版)
     DisableDropSoundIfAlertSound
 
 # 2.20死境探險(3.15版本)
-
 Show #探險NPC刷新道具
     Class "Stackable Currency"
     BaseType "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
@@ -2760,7 +2731,6 @@ Show #保護基底
     DisableDropSoundIfAlertSound
     
 # 2.21轉世災魘(3.16版本)
-
 Show #玷污的祝福
     BaseType "Tainted Blessing"
     SetTextColor 184 255 180 175
@@ -2802,7 +2772,6 @@ Show #非傳奇災魘裝
     DisableDropSoundIfAlertSound
     
 # 2.22守望號令(3.18版本)
-
 # Show #動力核心
 #     Class "Stackable Currency"
 #     BaseType "Power Core" "Transforming Power Core" "Amplifying Power Core" "Augmenting Power Core"
@@ -2817,7 +2786,6 @@ Show #非傳奇災魘裝
 #     MinimapIcon 2 Grey Square
 #     PlayEffect Grey
 #     DisableDropSoundIfAlertSound
-
 Show #重組裝置
     Class "Stackable Currency"
     BaseType "Armour Recombinator" "Weapon Recombinator" "Jewellery Recombinator"
@@ -2848,7 +2816,6 @@ Show #重組裝置
 #     MinimapIcon 0 Orange Square
 #     PlayEffect Orange
 #     DisableDropSoundIfAlertSound
-
 # Show #潛行守望(稀有)
 #     Rarity = Rare
 #     AreaLevel >= 70
@@ -2865,7 +2832,6 @@ Show #重組裝置
 #     MinimapIcon 1 Yellow Square
 #     PlayEffect Yellow
 #     DisableDropSoundIfAlertSound
-
 # Hide #潛行守望(普通/魔法)
 #     Rarity < Rare
 #     AreaLevel >= 70
@@ -2881,7 +2847,6 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # Show #潛行守望(低等區域)
 #     Class "Sentinel Drone"
 #     BaseType "Stalker Sentinel"
@@ -2895,7 +2860,6 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # Show #萬劫守望(傳奇)
 #     Rarity > Rare
 #     Class "Sentinel Drone"
@@ -2911,7 +2875,6 @@ Show #重組裝置
 #     MinimapIcon 0 Orange Square
 #     PlayEffect Orange
 #     DisableDropSoundIfAlertSound
-
 # Show #萬劫守望(稀有)
 #     Rarity = Rare
 #     AreaLevel >= 70
@@ -2928,7 +2891,6 @@ Show #重組裝置
 #     MinimapIcon 1 Yellow Square
 #     PlayEffect Yellow
 #     DisableDropSoundIfAlertSound
-
 # Hide #萬劫守望(普通/魔法)
 #     Rarity < Rare
 #     AreaLevel >= 70
@@ -2944,7 +2906,6 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # Show #萬劫守望(低等區域)
 #     Class "Sentinel Drone"
 #     BaseType "Pandemonium Sentinel"
@@ -2958,7 +2919,6 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # Show #巔峰守望(傳奇)
 #     Rarity > Rare
 #     Class "Sentinel Drone"
@@ -2974,7 +2934,6 @@ Show #重組裝置
 #     MinimapIcon 0 Orange Square
 #     PlayEffect Orange
 #     DisableDropSoundIfAlertSound
-
 # Show #巔峰守望(稀有)
 #     Rarity = Rare
 #     AreaLevel >= 70
@@ -2991,7 +2950,6 @@ Show #重組裝置
 #     MinimapIcon 1 Yellow Square
 #     PlayEffect Yellow
 #     DisableDropSoundIfAlertSound
-
 # Hide #巔峰守望(普通/魔法)
 #     Rarity < Rare
 #     AreaLevel >= 70
@@ -3007,7 +2965,6 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # Show #巔峰守望(低等區域)
 #     Class "Sentinel Drone"
 #     BaseType "Apex Sentinel"
@@ -3021,9 +2978,9 @@ Show #重組裝置
 #     MinimapIcon 2 Blue Square
 #     PlayEffect Blue
 #     DisableDropSoundIfAlertSound
-
 # 2.23卡蘭德迷湖(3.19版本)
 
+# 2.22守望號令(3.20版本)
 Show #卡蘭德迷糊限定戒指
     Rarity = Rare
     BaseType "Dusk Ring" "Penumbra Ring" "Gloam Ring" "Tenebrous Ring" "Shadowed Ring"
@@ -3054,7 +3011,6 @@ Show #鏡像碑牌
 #================================================================================================================================================
 # 3 命運卡
 #================================================================================================================================================
-
 Show # 豐裕牌組
     Class "Stackable Currency"
     BaseType "Stacked Deck"
@@ -3146,7 +3102,6 @@ Show #請更新過濾器
 #================================================================================================================================================
 # 4 技能寶石
 #================================================================================================================================================
-
 Show #物品數量寶石
     Class "Skill Gems"
     BaseType "Item Quantity"
@@ -3299,9 +3254,7 @@ Show #印鈔 - 速刷 - 品質寶石
 #================================================================================================================================================
 # 5 輿圖
 #================================================================================================================================================
-
 # 5.1 聖甲蟲
-
 Show #鏽蝕聖甲蟲
     Class "Map Fragments"
     BaseType "Rusted"
@@ -3363,7 +3316,6 @@ Show #展翅聖甲蟲
     DisableDropSoundIfAlertSound
 
 # 5.2 虛空石
-
 Show #虛空石
     Class "Atlas Upgrade Item"
     BaseType "Ceremonial Voidstone" "Decayed Voidstone" "Grasping Voidstone" "Omniscient Voidstone"
@@ -3391,7 +3343,6 @@ Show #任務報告
     DisableDropSoundIfAlertSound
 
 # 5.3 輿圖道具
-
 Show #眾神聖器
     Class "Map Fragments"
     BaseType "Divine Vessel"
@@ -3525,7 +3476,6 @@ Show #新月裂片
     DisableDropSoundIfAlertSound
 
 # 5.4 斷片圖
-
 Show #勢力王
     Class "Maps"
     HasInfluence Crusader Redeemer Hunter Warlord 
@@ -3571,9 +3521,7 @@ Show #尊師
     PlayEffect Green
     DisableDropSoundIfAlertSound
 # 5.5 
-
 # 5.6 凋落輿圖
-
 Show #白圖凋落
     MapTier <= 5
     BlightedMap True
@@ -3640,7 +3588,6 @@ Show #紅圖凋落
     DisableDropSoundIfAlertSound
 
 # 5.7 一般輿圖
-
 Show #印鈔 - 速刷 - 白圖
     Rarity <= Rare
     MapTier <= 5
@@ -3705,7 +3652,6 @@ Show #T16
     DisableDropSoundIfAlertSound
 
 # 5.8 記憶
-
 Show #記憶
     Class "Memory"
     BaseType "Niko's Memory" "Alva's Memory" "Kirac's Memory" "Einhar's Memory"
@@ -3724,9 +3670,7 @@ Show #記憶
 #================================================================================================================================================
 # 6 已鑑定道具
 #================================================================================================================================================
-
 # 6.1 物理武器
-
 Show # 物理
 	Identified True
 	DropLevel >= 55
@@ -3767,7 +3711,6 @@ Show # 純物理
     DisableDropSoundIfAlertSound
 
 # 6.2 元素武器
-
 Show # 元素
 	Identified True
 	Rarity Rare
@@ -3806,7 +3749,6 @@ Show # 純元素
     DisableDropSoundIfAlertSound
 
 # 6.3 寶石武器
-
 Show # 弓寶
 	Identified True
 	Rarity Rare
@@ -3859,7 +3801,6 @@ Show # $長杖寶石
     DisableDropSoundIfAlertSound
 
 # 6.4 施放武器
-
 Show #火焰
 	Identified True
 	Rarity Rare
@@ -3951,7 +3892,6 @@ Show #混沌
     DisableDropSoundIfAlertSound
     
 # 6.5 法術回音
-
 Show #法術回音
 	Identified True
 	Rarity Rare
@@ -3971,7 +3911,6 @@ Show #法術回音
     DisableDropSoundIfAlertSound
 
 # 6.6 頭盔
-
 Show #生命
 	Identified True
 	Rarity Rare
@@ -4009,7 +3948,6 @@ Show #能量護盾
     DisableDropSoundIfAlertSound
 
 # 6.7 手套
-
 Show #生命
 	Identified True
 	Rarity Rare
@@ -4047,7 +3985,6 @@ Show #能量護盾
     DisableDropSoundIfAlertSound
 
 # 6.8 鞋子
-
 Show #生命
 	Identified True
 	Rarity Rare
@@ -4085,7 +4022,6 @@ Show #能量護盾
     DisableDropSoundIfAlertSound
 
 # 6.9 盾	
-
 Show #能量護盾
 	Identified True
 	Rarity Rare
@@ -4161,7 +4097,6 @@ Show #生命
     DisableDropSoundIfAlertSound
 
 # 6.10 項鍊
-
 Show #施放
 	Identified True
 	Rarity Rare
@@ -4271,7 +4206,6 @@ Show #攻擊2
     DisableDropSoundIfAlertSound
 
 # 6.11 戒指
-
 Show #施放
 	Identified True
 	Rarity Rare
@@ -4309,7 +4243,6 @@ Show #攻擊
     DisableDropSoundIfAlertSound
 
 # 6.12 箭袋
-
 Show #直擊
 	Identified True
 	Rarity Rare
@@ -4347,7 +4280,6 @@ Show #DOT
     DisableDropSoundIfAlertSound
 
 # 6.13 身體護甲
-
 Show #生命
 	Identified True
 	DropLevel >= 55
@@ -4427,7 +4359,6 @@ Show #能量護盾
     DisableDropSoundIfAlertSound
 
 # 6.14 腰帶
-
 Show #一般
 	Identified True
 	Rarity Rare
@@ -4447,7 +4378,6 @@ Show #一般
     DisableDropSoundIfAlertSound
 
 # 6.15 珠寶
-
 Show #潛在
 	Identified True
 	Rarity Rare
@@ -4466,7 +4396,6 @@ Show #潛在
     DisableDropSoundIfAlertSound
 
 # 6.16 單詞(魔法也顯示)
-
 Show #+1法寶/+1召喚寶
 	Identified True
 	Rarity <= Rare
@@ -4538,7 +4467,6 @@ Show #+1全寶項鍊
 #================================================================================================================================================
 # 7 裝備
 #================================================================================================================================================
-
 # 7.1 傳奇裝備
 Show #傳奇碎片
     Class "Pieces"
@@ -4572,7 +4500,6 @@ Show #傳奇裝備(全)
     DisableDropSoundIfAlertSound
 
 # 7.2 商店配方
-
 Show #印鈔 - 速刷 - 幻色石配方(1*3)
     SocketGroup "RGB"
     Height = 3
@@ -4635,7 +4562,6 @@ Hide #製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
     DisableDropSoundIfAlertSound
 
 # 7.3 藥劑
-
 Show #印鈔 - 速刷 - 顯示高等高品質魔力藥劑
     Quality >= 10
     Class "Mana Flask"
@@ -4751,7 +4677,6 @@ Show #印鈔 - 速刷 - 功能性藥劑
     DisableDropSoundIfAlertSound
 
 # 7.4 珠寶
-
 Show #印鈔 - 速刷 - 一般非稀有珠寶
     Rarity <= Magic
     Class "Jewel"
@@ -4762,7 +4687,6 @@ Show #印鈔 - 速刷 - 一般非稀有珠寶
     DisableDropSoundIfAlertSound
 
 # 7.5 點機會石用基底
-
 Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣
     Rarity = Normal
     BaseType "Prophecy Wand" "Sorcerer Boots" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather"
@@ -4773,7 +4697,6 @@ Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖�
     DisableDropSoundIfAlertSound
 
 # 7.6 特殊詞綴掉落
-
 Show #印鈔 - 附魔詞綴
     AnyEnchantment True
     Corrupted False
@@ -4913,7 +4836,6 @@ Show #印鈔 - 速刷 - 複製詞綴
     DisableDropSoundIfAlertSound
 
 # 7.7 勢力裝備基底
-
 Show #印鈔 - 異界尊師
     ElderItem True
     Rarity <= Rare
@@ -5035,7 +4957,6 @@ Hide #印鈔 - 吞噬天地
     DisableDropSoundIfAlertSound
 
 # 7.8 異界輿圖限定基底
-
 Show #印鈔 - 最高階異界輿圖限定基底
     ItemLevel >= 86
     Rarity < Rare
@@ -5083,7 +5004,6 @@ Show #印鈔 - 異界輿圖限定基底(稀有)
     DisableDropSoundIfAlertSound
 
 # 7.9 高階金裝
-
 Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
     Identified False
     Rarity = Rare
@@ -5103,7 +5023,6 @@ Show #印鈔 - 速刷 - 高階金裝
     DisableDropSoundIfAlertSound
 
 # 7.10 高階基底
-
 Show #印鈔 - 最高階基底(86)
     ItemLevel >= 86
     Rarity < Rare
@@ -5138,7 +5057,6 @@ Hide #基底
     DisableDropSoundIfAlertSound
 
 # 7.11 釣魚道具
-
 Show #釣竿
     BaseType "Fishing Rod"
     SetTextColor 0 43 160 200
@@ -5162,9 +5080,7 @@ Show #白化的羽毛
 #================================================================================================================================================
 # 8 其他
 #================================================================================================================================================
-
 # 8.1 迷宮
-
 Show #迷宮鑰匙
     BaseType "Golden Key" "Treasure Key" "Silver Key"
     SetTextColor 127 127 127
@@ -5182,7 +5098,6 @@ Show #迷宮道具
     DisableDropSoundIfAlertSound
 
 # 8.2 任務
-
 Show #任務道具
     Class "Quest Item"
     SetTextColor 74 230 58
@@ -5196,9 +5111,7 @@ Show #任務道具
     DisableDropSoundIfAlertSound
 
 # 8.3 隱藏
-
 # 白裝(色碼表每10等一色)
-
 Hide #60~69白裝基底(藍框)
     ItemLevel > 59
     Rarity = Normal
