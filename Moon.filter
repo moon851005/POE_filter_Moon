@@ -142,14 +142,12 @@ Show #印鈔 - 速刷 - 蛻變石碎片
     Class "Stackable Currency"
     BaseType "Transmutation Shard"
     SetTextColor 255 94 97
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 改造石碎片
     Class "Stackable Currency"
     BaseType "Alteration Shard"
     SetTextColor 124 255 196 202
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 混沌石碎片
@@ -157,7 +155,6 @@ Show #印鈔 - 速刷 - 混沌石碎片
     BaseType "Chaos Shard"
     SetTextColor 136 136 255
     SetBackgroundColor 150 0 0
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
     
 Show #印鈔 - 速刷 - 富豪石碎片
@@ -165,7 +162,6 @@ Show #印鈔 - 速刷 - 富豪石碎片
     BaseType "Regal Shard"
     SetTextColor 136 136 255
     SetBackgroundColor 150 0 0
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 點金石碎片
@@ -173,35 +169,30 @@ Show #印鈔 - 速刷 - 點金石碎片
     BaseType "Alchemy Shard"
     SetTextColor 136 136 255
     SetBackgroundColor 150 0 0
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 地平石碎片
     Class "Stackable Currency"
     BaseType "Horizon Shard"
     SetTextColor 231 180 120
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 工程石碎片
     Class "Stackable Currency"
     BaseType "Engineer's Shard"
     SetTextColor 231 180 120
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #印鈔 - 速刷 - 束縛石碎片
     Class "Stackable Currency"
     BaseType "Binding Shard"
     SetTextColor 231 180 120
-    SetBorderColor 30 144 255
     DisableDropSoundIfAlertSound
 
 Show #無效石碎片
     Class "Stackable Currency"
     BaseType "Annulment Shard"
     SetTextColor 30 144 255
-    SetBorderColor 30 144 255
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
@@ -209,7 +200,6 @@ Show #神諭石碎片
     Class "Stackable Currency"
     BaseType "Harbinger's Shard"
     SetTextColor 30 144 255
-    SetBorderColor 30 144 255
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
@@ -217,7 +207,6 @@ Show #古變石碎片
     Class "Stackable Currency"
     BaseType "Ancient Shard"
     SetTextColor 180 81 0
-    SetBorderColor 30 144 255
     SetFontSize 38
     DisableDropSoundIfAlertSound
 
@@ -226,7 +215,6 @@ Show #崇高石碎片
     BaseType "Exalted Shard"
     SetTextColor 255 144 0 255
     SetBackgroundColor 37 54 112
-    SetBorderColor 30 144 255
     SetFontSize 38
     MinimapIcon 2 Orange Moon
     PlayEffect Orange
@@ -235,7 +223,21 @@ Show #崇高石碎片
     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
     CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_刻印.mp3" 300
     DisableDropSoundIfAlertSound
-    
+
+Show #破裂石碎片
+    Class "Stackable Currency"
+    BaseType "Fracturing Shard"
+    SetTextColor 81 106 243 249
+    SetBackgroundColor 0 0 60
+    SetFontSize 38
+    MinimapIcon 2 Orange Moon
+    PlayEffect Orange
+    PlayAlertSoundPositional 10 300
+    CustomAlertSoundOptional "Diablo2\29.mp3" 300
+    CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_刻印.mp3" 300
+    DisableDropSoundIfAlertSound
+
 Show #魔鏡碎片
     Class "Stackable Currency"
     BaseType "Mirror Shard"
@@ -1141,6 +1143,21 @@ Show #神聖石
     BaseType "Divine Orb"
     SetTextColor 236 242 145
     SetBackgroundColor 55 1 59
+    SetBorderColor 255 200 0
+    SetFontSize 45
+    PlayAlertSoundPositional ShDivine 300
+    CustomAlertSoundOptional "bubu\bubu-神聖石.mp3" 300
+    CustomAlertSoundOptional "Diablo2\26.mp3" 300
+    CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
+    MinimapIcon 0 Orange Moon
+    PlayEffect Orange
+    DisableDropSoundIfAlertSound
+
+Show #破裂石
+    Class "Stackable Currency"
+    BaseType "Fracturing Orb"
+    SetTextColor 81 106 243 249
+    SetBackgroundColor 0 0 60
     SetBorderColor 255 200 0
     SetFontSize 45
     PlayAlertSoundPositional ShDivine 300
