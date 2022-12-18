@@ -1340,7 +1340,7 @@
             SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional ShMirror 300
-            CustomAlertSoundOptional "bubu\bubu-卡蘭德的魔鏡".mp3 300
+            CustomAlertSoundOptional "bubu\bubu-卡蘭德的魔鏡.mp3" 300
             CustomAlertSoundOptional "Diablo2\25.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_All Hail Britannia4.mp3" 300
             MinimapIcon 0 Brown Moon
