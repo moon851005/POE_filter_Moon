@@ -214,12 +214,6 @@
             SetTextColor 255 144 0 255
             SetBackgroundColor 37 54 112
             SetFontSize 38
-            MinimapIcon 2 Orange Moon
-            PlayEffect Orange
-            PlayAlertSoundPositional 10 300
-            CustomAlertSoundOptional "Diablo2\29.mp3" 300
-            CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_刻印.mp3" 300
             DisableDropSoundIfAlertSound
 
         Show #破裂石碎片
