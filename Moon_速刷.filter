@@ -4691,7 +4691,6 @@
             DisableDropSoundIfAlertSound
         
         Show #85水銀
-            AreaLevel >= 83
             ItemLevel >= 85
             BaseType "Quicksilver Flask"
             Class "Utility Flasks"
@@ -4705,18 +4704,7 @@
             MinimapIcon 0 Green Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #隱藏T16低等功能性藥劑
-            AreaLevel >= 83
-            ItemLevel < 84
-            Class "Utility Flasks"
-            SetTextColor 172 233 76
-            SetBackgroundColor 0 0 0
-            SetBorderColor 184 218 242
-            SetFontSize 38
-            DisableDropSoundIfAlertSound
-
-        Show #顯示T16高等功能性藥劑
-            AreaLevel >= 83
+        Show #顯示高等功能性藥劑
             ItemLevel >= 84
             Class "Utility Flasks"
             SetTextColor 172 233 76
@@ -4727,6 +4715,16 @@
             CustomAlertSoundOptional "Diablo2\7.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
             MinimapIcon 1 Green Raindrop
+            DisableDropSoundIfAlertSound
+
+        Hide #隱藏T16低等功能性藥劑
+            AreaLevel >= 83
+            ItemLevel < 84
+            Class "Utility Flasks"
+            SetTextColor 172 233 76
+            SetBackgroundColor 0 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 38
             DisableDropSoundIfAlertSound
 
         Show #功能性藥劑
