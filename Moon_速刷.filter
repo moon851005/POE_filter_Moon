@@ -4886,7 +4886,19 @@
             PlayEffect Cyan 
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 速刷 - 複製詞綴
+        Hide #複製詞綴(高T隱藏)
+            AreaLevel >= 78
+            Mirrored True
+            Rarity = Rare
+            SetTextColor 255 255 255
+            SetBackgroundColor 7 6 28
+            SetBorderColor 255 255 255
+            SetFontSize 35
+            MinimapIcon 1 White UpsideDownHouse
+            DisableDropSoundIfAlertSound
+
+        Show #複製詞綴
+            AreaLevel < 78
             Mirrored True
             Rarity = Rare
             SetTextColor 255 255 255
@@ -4896,9 +4908,10 @@
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
+            MinimapIcon 1 White UpsideDownHouse
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
-
+    
     # 7.7 勢力裝備基底
         Show #印鈔 - 異界尊師
             ElderItem True
