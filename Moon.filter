@@ -3015,19 +3015,28 @@
             DisableDropSoundIfAlertSound
 
     # 2.24禁忌聖域(3.20版本)
-        Show #遺物
-            Class "Relic"
-            SetTextColor 216 192 15
-            SetBackgroundColor 255 215 0 50
-            SetBorderColor 0 0 0 255
+        Show #利希亞祈禱
+            Class "Stackable Currency"
+            BaseType "Lycia's Invocation"
+            SetTextColor 255 118 90 240
+            SetBackgroundColor 122 103 0 200
+            SetBorderColor 255 118 90 240
             SetFontSize 40
-            MinimapIcon 1 Yellow Pentagon
-            PlayEffect Yellow
-        Show #神聖遺物
+            MinimapIcon 0 Pink Pentagon
+            PlayEffect Pink
+        Show #神化聖物
             Class "Sanctified Relic"
             SetTextColor 216 192 15
-            SetBackgroundColor 255 215 0 50
+            SetBackgroundColor 122 103 0 200
             SetBorderColor 216 192 15
+            SetFontSize 40
+            MinimapIcon 0 Yellow Pentagon
+            PlayEffect Yellow
+        Show #聖物
+            Class "Relic"
+            SetTextColor 202 186 151
+            SetBackgroundColor 122 103 0 200 
+            SetBorderColor 202 186 151
             SetFontSize 40
             MinimapIcon 1 Yellow Pentagon
             PlayEffect Yellow
