@@ -4538,7 +4538,17 @@
             SetBorderColor 50 230 100
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 5L裝備 
+        Show #5L裝備 
+            AreaLevel < 81
+            LinkedSockets = 5
+            SetTextColor 222 222 92
+            SetBackgroundColor 0 100 156 180
+            SetBorderColor 255 40 0 220
+            SetFontSize 38
+            DisableDropSoundIfAlertSound
+
+        Hide #5L裝備(高T隱藏)
+            AreaLevel >= 81
             LinkedSockets = 5
             SetTextColor 222 222 92
             SetBackgroundColor 0 100 156 180
