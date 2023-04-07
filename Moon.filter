@@ -1,33 +1,38 @@
-#>>>>>>>>>>>>>Info<<<<<<<<<<<<<
-# Script edited with Filtration - https://github.com/ben-wallis/Filtration
-# EnableBlockGroups
-# Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
-# Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
-# version:3.18
-# 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
-# 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
-# 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
-# 印鈔→利用ctrl+f 全部取代功能將"Show #印鈔"改為"Hide #印鈔" 
-# 速刷→利用ctrl+f 全部取代功能將"Show #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
+#L1 >>>>>>>>>>>>>Info<<<<<<<<<<<<<
+    # Script edited with Filtration - https://github.com/ben-wallis/Filtration
+    # EnableBlockGroups
+    # Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
+    # Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
+    # version:3.18
+    # 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
+    # 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
+    # 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
+    # 印鈔→利用ctrl+f 全部取代功能將"Show #印鈔"改為"Hide #印鈔" 
+    # 速刷→利用ctrl+f 全部取代功能將"Show #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
+    #end
 
-#>>>>>>>>>>>>>圖示<<<<<<<<<<<<<
-#         Circle(圓形):通貨、物品化預言、化石、譫妄玉、盜賊之印
-#        Diamond(鑽石):高階通貨、劫盜通貨
-#      Hexagon(六邊形):六分儀
-#         Square(方形):星團珠寶/命運卡/聯盟道具
-#           Star(星星):勢力
-#       Triangle(三角):特殊輿圖道具
-#          Cross(十字):輿圖
-#           Moon(月亮):稀有通貨
-#       Raindrop(水滴):油瓶、藥劑
-#           Kite(風箏):碎片
-#       Pentagon(五角):技能
-#UpsideDownHouse(盾牌):裝備
+#L1 >>>>>>>>>>>>>圖示<<<<<<<<<<<<<
+    #         Circle(圓形):通貨、物品化預言、化石、譫妄玉、盜賊之印
+    #        Diamond(鑽石):高階通貨、劫盜通貨
+    #      Hexagon(六邊形):六分儀
+    #         Square(方形):星團珠寶/命運卡/聯盟道具
+    #           Star(星星):勢力
+    #       Triangle(三角):特殊輿圖道具
+    #          Cross(十字):輿圖
+    #           Moon(月亮):稀有通貨
+    #       Raindrop(水滴):油瓶、藥劑
+    #           Kite(風箏):碎片
+    #       Pentagon(五角):技能
+    #UpsideDownHouse(盾牌):裝備
 
-#>>>>>>>>>>>>>配色<<<<<<<<<<<<<
+    #end
+
+#L1 >>>>>>>>>>>>>配色<<<<<<<<<<<<<
     #Red(紅), Green(綠), Blue(藍), Brown(棕), White(白), Yellow(黃), Cyan(青), Grey(灰), Orange(橘), Pink(粉), Purple(紫)
+    
+    #end
 
-#>>>>>>>>>>>>>音效<<<<<<<<<<<<<
+#>L1 >>>>>>>>>>>>音效<<<<<<<<<<<<<
     #PlayAlertSoundPositional 1 傳奇道具
     #PlayAlertSoundPositional 2 輿圖道具
     #PlayAlertSoundPositional 3 升級卷軸/連通之石/罈/油瓶/培育器/器官/譫妄玉
@@ -55,7 +60,9 @@
     #PlayAlertSoundPositional ShRegal 富豪
     #PlayAlertSoundPositional ShVaal 瓦爾寶珠
 
-#>>>>>>>>>>>>>目錄<<<<<<<<<<<<<
+    #end
+
+#L1 >>>>>>>>>>>>>目錄<<<<<<<<<<<<<
     # 1 通貨
         # 1.1 通貨碎片
         # 1.2 低階通貨
@@ -134,6 +141,9 @@
     # 8.1 迷宮
     # 8.2 任務
     # 8.3 隱藏
+
+    #end
+
 
 #L1 >>>>>>>>>>>>>過濾器<<<<<<<<<<<<<
     #L2 1 通貨
@@ -1433,7 +1443,7 @@
                 DisableDropSoundIfAlertSound
 
             Show #索伏祝福/裂痕石
-                BaseType "Blessing of Xoph" "Xoph's Breachstone" "Xoph's Charged Breachstone" "Xoph's Enriched Breachstone" "Xoph's Pure Breachstone" "Xoph's Flawless Breachstone"
+                BaseType "Blessing of Xoph" "Xoph's Breachstone" "Xoph's Flawless Breachstone"
                 SetTextColor 80 0 80
                 SetBackgroundColor 210 0 3 255
                 SetBorderColor 128 0 128
@@ -1460,7 +1470,7 @@
                 DisableDropSoundIfAlertSound
 
             Show #艾許祝福/裂痕石
-                BaseType "Blessing of Esh" "Esh's Breachstone" "Esh's Charged Breachstone" "Esh's Enriched Breachstone" "Esh's Pure Breachstone" "Esh's Flawless Breachstone"
+                BaseType "Blessing of Esh" "Esh's Breachstone" "Esh's Flawless Breachstone"
                 SetTextColor 80 0 80
                 SetBackgroundColor 30 144 255
                 SetBorderColor 128 0 128
@@ -1487,7 +1497,7 @@
                 DisableDropSoundIfAlertSound
 
             Show #托沃祝福/裂痕石
-                BaseType "Blessing of Tul" "Tul's Breachstone" "Tul's Charged Breachstone" "Tul's Enriched Breachstone" "Tul's Pure Breachstone" "Tul's Flawless Breachstone"
+                BaseType "Blessing of Tul" "Tul's Breachstone" "Tul's Flawless Breachstone"
                 SetTextColor 80 0 80
                 SetBackgroundColor 184 218 242
                 SetBorderColor 128 0 128
@@ -1514,7 +1524,7 @@
                 DisableDropSoundIfAlertSound
 
             Show #烏爾尼多祝福/裂痕石
-                BaseType "Blessing of Uul-Netol" "Uul-Netol's Breachstone" "Uul-Netol's Charged Breachstone" "Uul-Netol's Enriched Breachstone" "Uul-Netol's Pure Breachstone" "Uul-Netol's Flawless Breachstone"
+                BaseType "Blessing of Uul-Netol" "Uul-Netol's Breachstone" "Uul-Netol's Flawless Breachstone"
                 SetTextColor 80 0 80
                 SetBackgroundColor 170 158 130
                 SetBorderColor 128 0 128
@@ -1541,7 +1551,7 @@
                 DisableDropSoundIfAlertSound
 
             Show #夏烏拉祝福/裂痕石
-                BaseType "Blessing of Chayula" "Chayula's Breachstone" "Chayula's Charged Breachstone" "Chayula's Enriched Breachstone" "Chayula's Pure Breachstone" "Chayula's Flawless Breachstone"
+                BaseType "Blessing of Chayula" "Chayula's Breachstone" "Chayula's Flawless Breachstone"
                 SetTextColor 80 0 80
                 SetBackgroundColor 194 73 216
                 SetBorderColor 128 0 128
@@ -3069,6 +3079,18 @@
                 SetFontSize 40
                 MinimapIcon 1 Yellow Pentagon
                 PlayEffect Yellow
+
+            #end
+            
+        # 2.25熔火冥獄(3.21版本)
+            Show #Crucible天賦
+                HasCruciblePassiveTree True
+                SetTextColor 202 186 151
+                SetBackgroundColor 122 103 0 200 
+                SetBorderColor 202 186 151
+                SetFontSize 40
+                MinimapIcon 1 Orange UpsideDownHouse
+                PlayEffect Orange
 
             #end
         #end
