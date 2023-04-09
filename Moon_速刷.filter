@@ -3,7 +3,7 @@
     # EnableBlockGroups
     # Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
     # Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
-    # version:3.18
+    # version:3.21
     # 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
     # 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
     # 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
@@ -32,7 +32,7 @@
     
     #end
 
-#>L1 >>>>>>>>>>>>音效<<<<<<<<<<<<<
+#L1 >>>>>>>>>>>>>音效<<<<<<<<<<<<<
     #PlayAlertSoundPositional 1 傳奇道具
     #PlayAlertSoundPositional 2 輿圖道具
     #PlayAlertSoundPositional 3 升級卷軸/連通之石/罈/油瓶/培育器/器官/譫妄玉
@@ -61,89 +61,6 @@
     #PlayAlertSoundPositional ShVaal 瓦爾寶珠
 
     #end
-
-#L1 >>>>>>>>>>>>>目錄<<<<<<<<<<<<<
-    # 1 通貨
-        # 1.1 通貨碎片
-        # 1.2 低階通貨
-        # 1.3 品質通貨
-        # 1.4 藥劑通貨
-        # 1.5 輿圖通貨
-        # 1.6 中階通貨
-        # 1.7 高階通貨
-        # 1.8 稀有通貨
-    # 2 賽季
-        # 2.1魔符聯盟(2.1版本)
-        # 2.2普蘭德斯(2.2版本)
-        # 2.3精髓聯盟(2.3版本)
-        # 2.4預言聯盟(2.4版本)
-        # 2.5裂痕聯盟(2.5版本)
-        # 2.6不朽聯盟(2.6版本)
-        # 2.7神諭聯盟(3.0版本)
-        # 2.8深淵聯盟(3.1版本)
-        # 2.9穿越聯盟(3.3版本)
-        # 2.10掘獄聯盟(3.4版本)
-        # 2.11追憶聯盟(3.6版本)
-        # 2.12戰亂聯盟(3.7版本)
-        # 2.13凋落聯盟(3.8版本)
-        # 2.14鍊獄幻魔(3.9版本)
-        # 2.15譫妄異域(3.10版本)
-        # 2.16豐收聯盟(3.11版本)
-        # 2.17劫盜潛行(3.12版本)
-        # 2.18邪靈祭祀(3.13版本)
-        # 2.19最後通牒(3.14版本)
-        # 2.20死境探險(3.15版本)
-        # 2.21轉世災魘(3.16版本)
-        # 2.22守望號令(3.18版本)
-        # 2.23卡蘭德迷湖(3.19版本)
-        # 2.24禁忌聖域(3.20版本)
-        # 2.25熔火冥獄(3.21版本)
-    # 3 命運卡
-    # 4 技能寶石
-    # 5 輿圖
-        # 5.1 聖甲蟲
-        # 5.2 虛空石
-        # 5.3 輿圖道具
-        # 5.4 斷片圖 
-        # 5.5 凋落輿圖
-        # 5.6 一般輿圖
-        # 5.7 記憶
-    # 6 已鑑定道具
-        # 6.1 物理武器
-        # 6.2 元素武器
-        # 6.3 寶石武器
-        # 6.4 施放武器
-        # 6.5 法術回音
-        # 6.6 頭盔
-        # 6.7 手套
-        # 6.8 鞋子
-        # 6.9 盾	
-        # 6.10 項鍊
-        # 6.11 戒指
-        # 6.12 箭袋
-        # 6.13 身體護甲
-        # 6.14 腰帶
-        # 6.15 珠寶
-        # 6.16 單詞(魔法也顯示)
-    # 7 裝備
-        # 7.1 傳奇裝備
-        # 7.2 商店配方
-        # 7.3 藥劑
-        # 7.4 珠寶
-        # 7.5 點機會石用基底
-        # 7.6 特殊詞綴掉落
-        # 7.7 勢力裝備基底
-        # 7.8 異界輿圖限定基底
-        # 7.9 高階金裝
-        # 7.10 高階基底
-        # 7.11 釣魚道具
-    # 8 其他
-    # 8.1 迷宮
-    # 8.2 任務
-    # 8.3 隱藏
-
-    #end
-
 
 #L1 >>>>>>>>>>>>>過濾器<<<<<<<<<<<<<
     #L2 1 通貨
@@ -257,12 +174,20 @@
                 
             #end
         #L3 1.2 低階通貨
+            Show #低等區域知識卷軸
+                Class "Stackable Currency"
+                BaseType "Scroll of Wisdom" "Scroll Fragment"
+                AreaLevel < 68
+                SetBorderColor 210 0 0
+                SetFontSize 40
+                DisableDropSoundIfAlertSound
+
             Show #印鈔 - 知識卷軸(堆疊>=8)
                 Class "Stackable Currency"
                 BaseType "Scroll of Wisdom" "Scroll Fragment"
                 StackSize >= 8
                 SetBorderColor 210 0 0
-                SetFontSize 35
+                SetFontSize 40
                 DisableDropSoundIfAlertSound
 
             Hide #印鈔 - 速刷 - 知識卷軸
@@ -272,12 +197,20 @@
                 SetFontSize 35
                 DisableDropSoundIfAlertSound
 
+            Show #低等區域傳送卷軸
+                Class "Stackable Currency"
+                BaseType "Portal Scroll"
+                AreaLevel < 68
+                SetBorderColor 0 0 255
+                SetFontSize 40
+                DisableDropSoundIfAlertSound
+
             Show #印鈔 - 傳送卷軸(堆疊>=8)
                 Class "Stackable Currency"
                 BaseType "Portal Scroll"
                 StackSize >= 8
                 SetBorderColor 0 0 255
-                SetFontSize 35
+                SetFontSize 40
                 DisableDropSoundIfAlertSound
 
             Hide #印鈔 - 速刷 - 傳送卷軸
@@ -2387,8 +2320,8 @@
                 MinimapIcon 0 Purple Square
                 PlayEffect Purple
                 DisableDropSoundIfAlertSound
-
-            # 2.16豐收聯盟(3.11版本)
+            #end
+        #L3 2.16豐收聯盟(3.11版本)
             Show #神聖之花
                 Class "Map Fragment"
                 BaseType "Sacred Blossom"
@@ -2633,8 +2566,8 @@
                 MinimapIcon 1 Orange UpsideDownHouse
                 PlayEffect Orange
                 DisableDropSoundIfAlertSound
-
-            # 2.18邪靈祭祀(3.13版本)
+            #end
+        #L3 2.18邪靈祭祀(3.13版本)
             Show #祭祀限定基底
                 Rarity <= Rare
                 BaseType "Dreamquest Slippers" "Brimstone Treads" "Stormrider Boots" "Debilitation Gauntlets" "Sinistral Gloves" "Nexus Gloves" "Blizzard Crown" "Archdemon Crown"
@@ -2679,7 +2612,7 @@
                 PlayAlertSoundPositional 14 300
                 DisableDropSoundIfAlertSound
 
-                #end
+            #end
         #L3 2.19最後通牒(3.14版本)
             Show #最後通牒雕刻
                 Class "Misc Map Items"
@@ -2710,8 +2643,8 @@
                 MinimapIcon 0 Red Triangle
                 PlayEffect Red
                 DisableDropSoundIfAlertSound
-
-            # 2.20死境探險(3.15版本)
+            #end
+        #L3 2.20死境探險(3.15版本)
             Show #探險NPC刷新道具
                 Class "Stackable Currency"
                 BaseType "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
@@ -2775,8 +2708,8 @@
                 SetBorderColor 66 148 202
                 SetFontSize 38
                 DisableDropSoundIfAlertSound
-                
-            # 2.21轉世災魘(3.16版本)
+            #end
+        #L3 2.21轉世災魘(3.16版本)
             Show #玷污的祝福
                 BaseType "Tainted Blessing"
                 SetTextColor 184 255 180 175
@@ -2817,7 +2750,7 @@
                 SetFontSize 35
                 DisableDropSoundIfAlertSound
             
-                #end
+            #end
         #L3 2.22守望號令(3.18版本)
             # Show #動力核心
             #     Class "Stackable Currency"
@@ -3054,7 +2987,7 @@
                 PlayEffect Grey
                 DisableDropSoundIfAlertSound
 
-                #end
+            #end
         #L3 2.24禁忌聖域(3.20版本)
             Show #利希亞祈禱
                 Class "Stackable Currency"
@@ -3100,7 +3033,7 @@
 
             Show #晶洞
                 Class Stackable Currency
-                BaseType "Igneous Geode" "Igneous Geode"
+                BaseType "Igneous Geode" "Crystalline Geode"
                 SetTextColor 150 40 0
                 SetBackgroundColor 255 114 0
                 SetBorderColor 0 0 0
@@ -5242,6 +5175,7 @@
         #L3 7.9 高階金裝
             Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
                 Identified False
+                ItemLevel >= 75;
                 Rarity = Rare
                 Class "Amulet"
                 SetTextColor 237 201 128
@@ -5259,11 +5193,11 @@
                 DisableDropSoundIfAlertSound
 
                 #end
-        #L3 7.10 高階基底
+        #L3 7.10 一般基底
             Show #印鈔 - 最高階基底(86)
                 ItemLevel >= 86
                 Rarity < Rare
-                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
+                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets" "Thicket Bow" 
                 SetTextColor 30 30 30
                 SetBackgroundColor 184 218 242
                 SetBorderColor 255 255 255
@@ -5275,7 +5209,7 @@
             Hide #印鈔 - 速刷 - 高階基底
                 ItemLevel >= 84
                 Rarity < Rare
-                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
+                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets" "Thicket Bow" 
                 SetTextColor 184 218 242
                 SetBackgroundColor 30 30 30
                 SetBorderColor 255 255 255
@@ -5284,10 +5218,20 @@
                 PlayEffect Yellow Temp
                 DisableDropSoundIfAlertSound
 
+            Hide #印鈔 - 速刷 - 機制消耗性基底
+                ItemLevel < 84
+                BaseType "Convoking Wand" "Calling Wand"
+                Rarity < Rare
+                SetTextColor 255 255 255 220
+                SetBackgroundColor 255 114 0 200
+                SetBorderColor 255 114 0
+                SetFontSize 35
+                DisableDropSoundIfAlertSound
+
             Hide #基底
                 ItemLevel < 84
                 Rarity < Rare
-                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets"
+                BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets" "Thicket Bow" 
                 SetTextColor 184 218 242
                 SetBackgroundColor 30 30 30
                 SetFontSize 35
