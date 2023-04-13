@@ -5175,7 +5175,7 @@
         #L3 7.9 高階金裝
             Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
                 Identified False
-                ItemLevel >= 75;
+                ItemLevel >= 75
                 Rarity = Rare
                 Class "Amulet"
                 SetTextColor 237 201 128
