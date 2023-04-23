@@ -783,6 +783,22 @@
                 PlayEffect Yellow Temp
                 DisableDropSoundIfAlertSound
 
+            Show #印鈔 - 點金石(堆疊>=4)
+                Class "Stackable Currency"
+                BaseType "Orb of Alchemy"
+                StackSize >= 2
+                SetTextColor 136 136 255
+                SetBackgroundColor 150 0 0
+                SetBorderColor 255 165 0
+                SetFontSize 43
+                PlayAlertSoundPositional ShAlchemy 300
+                CustomAlertSoundOptional "bubu\bubu-點金石.mp3" 300
+                CustomAlertSoundOptional "Diablo2\28.mp3" 200
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+                MinimapIcon 1 Yellow Diamond
+                PlayEffect Yellow Temp
+                DisableDropSoundIfAlertSound
+
             Show #印鈔 - 速刷 - 點金石
                 Class "Stackable Currency"
                 BaseType "Orb of Alchemy"
@@ -794,7 +810,7 @@
                 CustomAlertSoundOptional "bubu\bubu-點金石.mp3" 300
                 CustomAlertSoundOptional "Diablo2\28.mp3" 200
                 CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-                MinimapIcon 1 Yellow Diamond
+                MinimapIcon 2 Yellow Diamond
                 PlayEffect Yellow Temp
                 DisableDropSoundIfAlertSound
 
