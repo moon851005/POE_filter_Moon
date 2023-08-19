@@ -2612,7 +2612,7 @@
                 PlayAlertSoundPositional 9 300
                 CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
                 CustomAlertSoundOptional "Diablo2\1.mp3" 200
-                CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 100
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
                 MinimapIcon 2 Red Kite
                 PlayEffect Red Temp
                 DisableDropSoundIfAlertSound
@@ -3013,6 +3013,7 @@
                 SetFontSize 40
                 MinimapIcon 0 Pink Pentagon
                 PlayEffect Pink
+
             Show #神化聖物
                 Class "Sanctified Relic"
                 SetTextColor 216 192 15
@@ -3021,6 +3022,7 @@
                 SetFontSize 40
                 MinimapIcon 0 Yellow Pentagon
                 PlayEffect Yellow
+
             Show #聖物
                 Class "Relic"
                 SetTextColor 202 186 151
@@ -3029,6 +3031,7 @@
                 SetFontSize 40
                 MinimapIcon 1 Yellow Pentagon
                 PlayEffect Yellow
+
             Show #聖域研究
                 Class "Sanctum Research"
                 SetTextColor 191 162 0 200
@@ -3042,6 +3045,7 @@
                 MinimapIcon 0 Yellow Triangle
                 PlayEffect Yellow
                 DisableDropSoundIfAlertSound
+
             #end
             
         #L3 2.25熔火冥獄(3.21版本)
@@ -3133,6 +3137,66 @@
                 MinimapIcon 1 Purple Circle
                 PlayEffect Purple Temp
                 DisableDropSoundIfAlertSound
+
+            Show #榮譽紋身
+                Class "Stackable Currency"
+                BaseType "Honoured Tattoo of the"
+                SetTextColor 33 82 117 255
+                SetBackgroundColor 126 207 208 255
+                SetBorderColor 20 128 142 255
+                SetFontSize 42
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
+                CustomAlertSoundOptional "Diablo2\27.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_有那個覺悟的話.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
+            Show #紋身
+                Class "Stackable Currency"
+                BaseType "Tattoo of the"
+                SetTextColor 33 82 117 255
+                SetBackgroundColor 126 207 208 255
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
+            Show #悉妮蔻拉之鎖
+                Class "Stackable Currency"
+                BaseType "Hinekora's Lock"
+                SetTextColor 55 33 117 255
+                SetBackgroundColor 139 126 208 255
+                SetBorderColor 126 0 220
+                SetFontSize 42
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+                CustomAlertSoundOptional "Diablo2\27.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
+            Show #預兆
+                Class "Stackable Currency"
+                BaseType "Omen of"
+                SetTextColor 55 33 117 255
+                SetBackgroundColor 139 126 208 255
+                SetBorderColor 75 20 142 255
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
             #end
         #end
             
@@ -3598,7 +3662,7 @@
                 PlayAlertSoundPositional 9 300
                 CustomAlertSoundOptional "bubu\bubu-新月裂片.mp3" 200
                 CustomAlertSoundOptional "Diablo2\1.mp3" 200
-                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_有那個覺悟的話.mp3" 200
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 300
                 MinimapIcon 1 Purple Kite
                 PlayEffect Purple
                 DisableDropSoundIfAlertSound
