@@ -3107,7 +3107,22 @@
 
             #end
         #end
-
+        #L3 2.26祖靈的試煉(3.22版本)
+        Show #銀幣
+            Class "Stackable Currency"
+            BaseType "Silver Coin"
+            SetTextColor 194 194 194 234
+            SetBackgroundColor 120 0 205 200
+            SetBorderColor 0 0 0
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-銀幣.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_發現.mp3" 300
+            MinimapIcon 1 Purple Circle
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+            
     #L2 3 命運卡
         Show # 豐裕牌組
             Class "Stackable Currency"
