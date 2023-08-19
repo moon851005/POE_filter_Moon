@@ -2456,7 +2456,7 @@
 
             Show #不尋常寶石
                 AlternateQuality True
-                Class "Active Skill Gem" "Support Skill Gem"
+                Class "Skill Gem" "Support Gem"
                 SetTextColor 27 162 155
                 SetBackgroundColor 82 18 18 255
                 SetBorderColor 210 0 220
@@ -3216,7 +3216,7 @@
 
     #L2 4 技能寶石
         Show #物品數量寶石
-            Class "Skill Gems"
+            Class "Support Gem"
             BaseType "Item Quantity"
             SetTextColor 27 162 155
             SetBackgroundColor 150 0 0
@@ -3231,7 +3231,7 @@
             DisableDropSoundIfAlertSound
 
         Show #覺醒寶石
-            Class "Skill Gems"
+            Class "Support Gem"
             BaseType "Awakened"
             SetTextColor 27 162 155
             SetBackgroundColor 52 29 0
@@ -3246,7 +3246,7 @@
             DisableDropSoundIfAlertSound
 
         Show #瓦爾裂痕、時空之門
-            Class "Skill Gems"
+            Class "Skill Gem"
             BaseType "Portal" "Vaal Breach"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0
@@ -3257,7 +3257,7 @@
             DisableDropSoundIfAlertSound
 
         Show #啟蒙/增幅/賦予
-            Class "Skill Gems"
+            Class "Support Gem"
             BaseType "Enlighten" "Enhance" "Empower"
             SetTextColor 100 0 100
             SetBackgroundColor 20 180 160
@@ -3274,7 +3274,7 @@
         Show #雙瓦寶石
             Quality > 20
             GemLevel > 20
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 118 8 8 255
             SetBorderColor 255 40 0 220
@@ -3289,7 +3289,7 @@
 
         Show #高等寶石
             GemLevel >= 20
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 118 8 8 255
             SetBorderColor 231 180 120
@@ -3304,7 +3304,7 @@
 
         Show #高品質寶石
             Quality >= 20
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 118 8 8 255
             SetBorderColor 231 180 120
@@ -3318,7 +3318,7 @@
             DisableDropSoundIfAlertSound
 
         Show #瓦爾寶石
-            Class "Skill Gems"
+            Class "Skill Gem"
             BaseType "Vaal"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0
@@ -3328,7 +3328,7 @@
 
         Show #印鈔 - 速刷 - 高等級寶石
             GemLevel >= 15
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0
             SetBorderColor 231 180 120
@@ -3338,7 +3338,7 @@
         Hide #遮蔽高等地區寶石
             Quality = 0
             AreaLevel >= 45
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0 85
             SetBorderColor 27 162 155
@@ -3348,7 +3348,7 @@
         Show #顯示低等地區寶石
             Quality = 0
             AreaLevel < 45
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0 85
             SetBorderColor 27 162 155
@@ -3357,7 +3357,7 @@
 
         Show #印鈔 - 速刷 - 品質寶石
             Quality > 0
-            Class "Skill Gems"
+            Class "Skill Gem" "Support Gem"
             SetTextColor 27 162 155
             SetBackgroundColor 0 0 0
             SetBorderColor 27 162 155
