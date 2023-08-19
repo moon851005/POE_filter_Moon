@@ -3062,36 +3062,6 @@
                 PlayEffect Orange
                 DisableDropSoundIfAlertSound
 
-            Show #火炎精晶
-                Class Stackable Currency
-                BaseType "Igneous Geode"
-                SetTextColor 150 40 0
-                SetBackgroundColor 255 114 0 
-                SetBorderColor 0 0 0
-                SetFontSize 45
-                PlayAlertSoundPositional 2 300
-                CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
-                CustomAlertSoundOptional "Diablo2\42.mp3"
-                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
-                MinimapIcon 1 Orange Triangle
-                PlayEffect Orange
-                DisableDropSoundIfAlertSound
-
-            Show #水晶精晶
-                Class Stackable Currency
-                BaseType "Crystalline Geode"
-                SetTextColor 240 240 0
-                SetBackgroundColor 255 114 0
-                SetBorderColor 240 240 0
-                SetFontSize 45
-                PlayAlertSoundPositional 2 300
-                CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
-                CustomAlertSoundOptional "Diablo2\42.mp3"
-                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
-                MinimapIcon 0 Orange Triangle
-                PlayEffect Orange
-                DisableDropSoundIfAlertSound
-
             Show #史前遺跡
                 BaseType "Primeval Remnant" "Primordial Remnant" 
                 SetTextColor 150 40 0
@@ -3103,21 +3073,6 @@
                 CustomAlertSoundOptional "Diablo2\42.mp3"
                 CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
                 MinimapIcon 0 Orange Triangle
-                PlayEffect Orange
-                DisableDropSoundIfAlertSound
-
-            Show #岩礦
-                Class Stackable Currency
-                BaseType "Magmatic Ore"
-                SetTextColor 255 178 36
-                SetBackgroundColor 0 0 0 220
-                SetBorderColor 210 0 0
-                SetFontSize 45
-                PlayAlertSoundPositional 8 100
-                CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
-                CustomAlertSoundOptional "Diablo2\3.mp3" 300
-                CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_儘管來挑戰我吧.mp3" 300
-                MinimapIcon 1 Orange Diamond
                 PlayEffect Orange
                 DisableDropSoundIfAlertSound
 
