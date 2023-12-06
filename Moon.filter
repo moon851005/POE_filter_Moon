@@ -2454,20 +2454,6 @@
                 PlayEffect Green
                 DisableDropSoundIfAlertSound
 
-            Show #不尋常寶石
-                AlternateQuality True
-                Class "Skill Gem" "Support Gem"
-                SetTextColor 27 162 155
-                SetBackgroundColor 82 18 18 255
-                SetBorderColor 210 0 220
-                SetFontSize 42
-                CustomAlertSoundOptional "bubu\bubu-不尋常寶石.mp3" 300
-                CustomAlertSoundOptional "Diablo2\21.mp3" 300
-                CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
-                MinimapIcon 1 Cyan Pentagon
-                PlayEffect Cyan
-                DisableDropSoundIfAlertSound
-
             Show #藍圖
                 Class "Blueprint"
                 SetTextColor 30 144 255
@@ -3247,6 +3233,20 @@
         #end
 
     #L2 4 技能寶石
+        Show #變異寶石
+            TransfiguredGem True
+            Class "Skill Gem" "Support Gem"
+            SetTextColor 27 162 155
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 210 0 220
+            SetFontSize 42
+            CustomAlertSoundOptional "bubu\bubu-不尋常寶石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\21.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
+            MinimapIcon 1 Cyan Pentagon
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
         Show #物品數量寶石
             Class "Support Gem"
             BaseType "Item Quantity"
