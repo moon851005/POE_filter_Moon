@@ -3140,6 +3140,50 @@
 
             #end
         #end
+        #L3 2.27禁咒荒林(3.23版本)
+            Show #萃取物
+                Class "Tincture"
+                SetTextColor 255 55 90
+                SetBackgroundColor 21 28 83 200
+                SetBorderColor 255 55 90
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+                MinimapIcon 1 Red Circle
+                PlayEffect Red Temp
+                DisableDropSoundIfAlertSound
+
+            Show #咒語
+                Class "Charms"
+                SetTextColor 151 109 78
+                SetBackgroundColor 21 28 83 200
+                SetBorderColor 151 109 78
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
+            Show #屍體
+                Class "Corpses"
+                SetTextColor 27 162 93
+                SetBackgroundColor 21 28 83 200
+                SetBorderColor 27 162 93
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+                MinimapIcon 1 Cyan Circle
+                PlayEffect Cyan Temp
+                DisableDropSoundIfAlertSound
+            #end
+        #end
             
     #L2 3 命運卡
         Show # 豐裕牌組
