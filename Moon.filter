@@ -3109,6 +3109,21 @@
                 MinimapIcon 1 Cyan Circle
                 PlayEffect Cyan Temp
                 DisableDropSoundIfAlertSound
+
+            Show #瓦爾多的謎盒
+                BaseType "Valdo's Puzzle Box"
+                Class "Stackable Currency"
+                SetTextColor 255 205 0
+                SetBackgroundColor 55 17 0 200
+                SetBorderColor 231 180 120
+                SetFontSize 45
+                PlayAlertSoundPositional 3 300
+                CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+                CustomAlertSoundOptional "Diablo2\48.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+                MinimapIcon 0 Brown Triangle
+                PlayEffect Brown
+                DisableDropSoundIfAlertSound
             #end
         #end
             
