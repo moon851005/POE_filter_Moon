@@ -2603,6 +2603,36 @@
 
             #end
         #L3 2.19最後通牒(3.14版本)
+            Show #最後通牒雕刻
+                Class "Misc Map Items"
+                BaseType "Inscribed Ultimatum"
+                SetTextColor 210 0 0
+                SetBackgroundColor 0 0 0 255
+                SetBorderColor 255 40 0 220
+                SetFontSize 45
+                PlayAlertSoundPositional 2 300
+                CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+                CustomAlertSoundOptional "Diablo2\42.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+                MinimapIcon 0 Red Triangle
+                PlayEffect Red
+                DisableDropSoundIfAlertSound
+
+            Show #最後通牒雕刻(新版)
+                Class "Map"
+                BaseType "Engraved Ultimatum"
+                SetTextColor 210 0 0
+                SetBackgroundColor 0 0 0 255
+                SetBorderColor 255 40 0 220
+                SetFontSize 45
+                PlayAlertSoundPositional 2 300
+                CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+                CustomAlertSoundOptional "Diablo2\42.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+                MinimapIcon 0 Red Triangle
+                PlayEffect Red
+                DisableDropSoundIfAlertSound
+                
             #end
         #L3 2.20死境探險(3.15版本)
             Show #探險NPC刷新道具
@@ -3062,6 +3092,21 @@
                 CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
                 CustomAlertSoundOptional "Diablo2\27.mp3" 300
                 CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
+                MinimapIcon 1 Purple Circle
+                PlayEffect Purple Temp
+                DisableDropSoundIfAlertSound
+
+            Show #預兆
+                Class "Stackable Currency"
+                BaseType "Omen of"
+                SetTextColor 55 33 117 255
+                SetBackgroundColor 139 126 208 255
+                SetBorderColor 75 20 142 255
+                SetFontSize 38
+                PlayAlertSoundPositional 9 300
+                CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+                CustomAlertSoundOptional "Diablo2\24.mp3" 300
+                CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
                 MinimapIcon 1 Purple Circle
                 PlayEffect Purple Temp
                 DisableDropSoundIfAlertSound
