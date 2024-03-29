@@ -3069,6 +3069,23 @@
             MinimapIcon 0 Brown Triangle
             PlayEffect Brown
             DisableDropSoundIfAlertSound
+
+        #end
+    #L2 2.26魔影墓場(3.24版本)
+        Show #餘燼
+            Class "Embers of the Allflame"
+            SetTextColor 172 219 229
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 38
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 1 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
         #end
     #end
         
