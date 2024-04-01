@@ -3365,7 +3365,7 @@
 
         Show #圓滑聖甲蟲
             Class "Map Fragments"
-            BaseType "Polished"
+            BaseType "Scarab"
             SetTextColor 55 237 228
             SetBackgroundColor 128 0 128 255
             SetBorderColor 184 218 242
