@@ -1503,7 +1503,7 @@
             #end
     #L2 2.7深淵聯盟(3.1版本)
         Show #催眠之眼珠寶(汙染凝視)
-            HasExplicitMod >=5 ""
+            Identified False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 10 60 10
@@ -1547,7 +1547,7 @@
             DisableDropSoundIfAlertSound
 
         Show #極懼之眼珠寶(汙染凝視)
-            HasExplicitMod >=5 ""
+            Identified False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 10 60 10
@@ -1591,7 +1591,7 @@
             DisableDropSoundIfAlertSound
 
         Show #勘查之眼珠寶(汙染凝視)
-            HasExplicitMod >=5 ""
+            Identified False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 10 60 10
@@ -1635,7 +1635,7 @@
             DisableDropSoundIfAlertSound
 
         Show #殺戮之眼珠寶(汙染凝視)
-            HasExplicitMod >=5 ""
+            Identified False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 10 60 10
@@ -3348,8 +3348,8 @@
 
 #L1 5 輿圖
     #L2 5.1 聖甲蟲
-        Show #鍍金聖甲蟲
-            Class "Map Fragments"
+        Show #隱匿聖甲蟲
+            Class "Stackable Currency"
             BaseType "Scarab"
             SetTextColor 55 237 228
             SetBackgroundColor 128 0 128 255
@@ -3360,6 +3360,21 @@
             CustomAlertSoundOptional "Diablo2\31.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 300
             MinimapIcon 0 Cyan Square
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #圓滑聖甲蟲
+            Class "Map Fragments"
+            BaseType "Polished"
+            SetTextColor 55 237 228
+            SetBackgroundColor 128 0 128 255
+            SetBorderColor 184 218 242
+            SetFontSize 40
+            PlayAlertSoundPositional 14 200
+            CustomAlertSoundOptional "bubu\bubu-聖甲蟲.mp3" 200
+            CustomAlertSoundOptional "Diablo2\41.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 200
+            MinimapIcon 1 Cyan Square
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
