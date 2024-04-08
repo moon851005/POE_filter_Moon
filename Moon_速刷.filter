@@ -1,11 +1,19 @@
-# Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
-# Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
-# version:3.24
-# 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
-# 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
-# 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
-# 印鈔→利用ctrl+f 全部取代功能將"Show #印鈔"改為"Hide #印鈔" 
-# 速刷→利用ctrl+f 全部取代功能將"Hide #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
+#L1 Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
+    #L2 Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
+        #end
+    #L2 version:3.24
+        #end
+    #L2 語音包有1.Lelouch 2.Diablo2 3.bubu 可以選用，將壓縮檔內整個資料夾丟到過濾器位置即可
+        #end
+    #L2 若一次丟三種語音包進去，則讀取順序會是Lelouch > Diablo2 > bubu
+        #end
+    #L2 文件編輯器載點: https://notepad-plus-plus.org/downloads/ → Installer
+        #end
+    #L2 印鈔→利用ctrl+f 全部取代功能將"Show #印鈔"改為"Hide #印鈔" 
+        #end
+    #L2 速刷→利用ctrl+f 全部取代功能將"Hide #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
+        #end
+    #end
 
 #L1 1 通貨
     #L2 1.1 通貨碎片
@@ -1224,7 +1232,7 @@
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.2普蘭德斯(2.2版本)
         Hide #印鈔 - 速刷 - 普蘭德斯金幣
             BaseType "Perandus Coin"
@@ -1234,7 +1242,7 @@
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.3精髓聯盟(2.3版本)
         Show #低階精髓
             AreaLevel <= 80
@@ -1283,7 +1291,7 @@
             CustomAlertSoundOptional "bubu\bubu-精髓.mp3" 300
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.4裂痕聯盟(2.5版本)
         Show #印鈔 - 裂痕戒指
             BaseType "Breach Ring"
@@ -1428,7 +1436,7 @@
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.5不朽聯盟(2.6版本)
         Show #聯盟石
             BaseType "Leaguestone"
@@ -1451,7 +1459,7 @@
             PlayEffect Brown
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.6神諭聯盟(3.0版本)
         Show #神諭傳奇升級卷軸
             BaseType "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
@@ -1500,7 +1508,7 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧2.mp3" 300
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.7深淵聯盟(3.1版本)
         Show #催眠之眼珠寶(汙染凝視)
             Identified False
@@ -1713,7 +1721,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.8穿越聯盟(3.3版本)
         Show #祭禮束衣
             Rarity <= Rare
@@ -1765,7 +1773,7 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.9掘獄聯盟(3.4版本)
         Show #化石
             Class "Stackable Currency"
@@ -1866,7 +1874,7 @@
             PlayEffect Brown
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.10追憶聯盟(3.6版本)
         Show #破碎之物
             Rarity <= Rare
@@ -1892,7 +1900,7 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-反Geass.mp3" 300
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.11戰亂聯盟(3.7版本)
         Show #培育器
             Class "Incubator"
@@ -2043,7 +2051,7 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.12凋落聯盟(3.8版本)
         Hide #印鈔 - 速刷 - 低階油瓶
             BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil"
@@ -2129,7 +2137,7 @@
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.13譫妄異域(3.10版本)
         Show #譫妄玉
             Class "Stackable Currency"
@@ -2223,6 +2231,7 @@
             MinimapIcon 0 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
+
         #end
     #L2 2.14豐收聯盟(3.11版本)
         Show #神聖之花
@@ -2296,7 +2305,7 @@
             PlayEffect White
             DisableDropSoundIfAlertSound
 
-            #end
+        #end
     #L2 2.15劫盜潛行(3.12版本)
         Show #盜賊飾品
             Class "Trinket"
@@ -2455,6 +2464,7 @@
             MinimapIcon 1 Orange UpsideDownHouse
             PlayEffect Orange
             DisableDropSoundIfAlertSound
+
         #end
     #L2 2.16邪靈祭祀(3.13版本)
         Show #祭祀限定基底
@@ -2642,20 +2652,6 @@
         
         #end
     #L2 2.20守望號令(3.18版本)
-        # Show #動力核心
-        #     Class "Stackable Currency"
-        #     BaseType "Power Core" "Transforming Power Core" "Amplifying Power Core" "Augmenting Power Core"
-        #     SetTextColor 60 140 255
-        #     SetBackgroundColor 40 50 60 255
-        #     SetBorderColor 127 127 127
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-水啦.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\27.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
-        #     MinimapIcon 2 Grey Square
-        #     PlayEffect Grey
-        #     DisableDropSoundIfAlertSound
         Show #重組裝置
             Class "Stackable Currency"
             BaseType "Armour Recombinator" "Weapon Recombinator" "Jewellery Recombinator"
@@ -2671,184 +2667,7 @@
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        # Show #潛行守望(傳奇)
-        #     Rarity > Rare
-        #     Class "Sentinel Drone"
-        #     BaseType "Stalker Sentinel"
-        #     SetTextColor 210 0 0
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 180 81 0
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 0 Orange Square
-        #     PlayEffect Orange
-        #     DisableDropSoundIfAlertSound
-        # Show #潛行守望(稀有)
-        #     Rarity = Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Stalker Sentinel"
-        #     SetTextColor 210 0 0
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 210 0 0
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 1 Yellow Square
-        #     PlayEffect Yellow
-        #     DisableDropSoundIfAlertSound
-        # Hide #潛行守望(普通/魔法)
-        #     Rarity < Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Stalker Sentinel"
-        #     SetTextColor 210 0 0
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-        # Show #潛行守望(低等區域)
-        #     Class "Sentinel Drone"
-        #     BaseType "Stalker Sentinel"
-        #     SetTextColor 210 0 0
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-        # Show #萬劫守望(傳奇)
-        #     Rarity > Rare
-        #     Class "Sentinel Drone"
-        #     BaseType "Pandemonium Sentinel"
-        #     SetTextColor 19 0 255
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 180 81 0
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 0 Orange Square
-        #     PlayEffect Orange
-        #     DisableDropSoundIfAlertSound
-        # Show #萬劫守望(稀有)
-        #     Rarity = Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Pandemonium Sentinel"
-        #     SetTextColor 19 0 255
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 19 0 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 1 Yellow Square
-        #     PlayEffect Yellow
-        #     DisableDropSoundIfAlertSound
-        # Hide #萬劫守望(普通/魔法)
-        #     Rarity < Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Pandemonium Sentinel"
-        #     SetTextColor 19 0 255
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-        # Show #萬劫守望(低等區域)
-        #     Class "Sentinel Drone"
-        #     BaseType "Pandemonium Sentinel"
-        #     SetTextColor 19 0 255
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-        # Show #巔峰守望(傳奇)
-        #     Rarity > Rare
-        #     Class "Sentinel Drone"
-        #     BaseType "Apex Sentinel"
-        #     SetTextColor 255 205 0
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 180 81 0
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 0 Orange Square
-        #     PlayEffect Orange
-        #     DisableDropSoundIfAlertSound
-        # Show #巔峰守望(稀有)
-        #     Rarity = Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Apex Sentinel"
-        #     SetTextColor 255 205 0
-        #     SetBackgroundColor 60 140 255
-        #     SetBorderColor 255 205 0
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 1 Yellow Square
-        #     PlayEffect Yellow
-        #     DisableDropSoundIfAlertSound
-        # Hide #巔峰守望(普通/魔法)
-        #     Rarity < Rare
-        #     AreaLevel >= 70
-        #     Class "Sentinel Drone"
-        #     BaseType "Apex Sentinel"
-        #     SetTextColor 255 205 0
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-        # Show #巔峰守望(低等區域)
-        #     Class "Sentinel Drone"
-        #     BaseType "Apex Sentinel"
-        #     SetTextColor 255 205 0
-        #     SetBackgroundColor 60 140 255
-        #     SetFontSize 40
-        #     PlayAlertSoundPositional 3 150
-        #     CustomAlertSoundOptional "bubu\bubu-器官.mp3" 300
-        #     CustomAlertSoundOptional "Diablo2\49.mp3" 300
-        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_跟我一起活下去或者跟我一起死.mp3" 300
-        #     MinimapIcon 2 Blue Square
-        #     PlayEffect Blue
-        #     DisableDropSoundIfAlertSound
-            #end
+        #end
     #L2 2.21卡蘭德迷湖(3.19版本)
         Show #卡蘭德迷糊限定戒指
             Rarity = Rare
@@ -2859,8 +2678,7 @@
             SetFontSize 41
             MinimapIcon 1 Purple UpsideDownHouse
             PlayEffect Purple Temp
-            DisableDropSoundIfAlertSound
-            
+            DisableDropSoundIfAlertSound            
 
         Show #鏡像碑牌
             Class "Misc Map Items"
@@ -3072,10 +2890,10 @@
             
         #end
     #L2 2.26魔影墓場(3.24版本)
-        Show #高價餘燼
-            BaseType "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Rats"
+        Show #無價餘燼
+            BaseType "Allflame Ember of Manifested Wealth"
             Class "Embers of the Allflame"
-            SetTextColor 255 200 0
+            SetTextColor 255 52 212
             SetBackgroundColor 89 99 101
             SetBorderColor 91 121 127
             SetFontSize 45
@@ -3087,6 +2905,51 @@
             PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
 
+        Show #高價餘燼
+            BaseType "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Rats" "Allflame Ember of Anarchy"
+            Class "Embers of the Allflame"
+            SetTextColor 255 200 0
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 0 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
+        Show #經驗餘燼
+            BaseType "Allflame Ember of Untainted"
+            Class "Embers of the Allflame"
+            SetTextColor 0 255 0
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 0 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
+        Show #工藝餘燼
+            BaseType "Flaring Allflame Ember of the Vaal" "Flaring Allflame Ember of Breachlords" "Flaring Allflame Ember of Wildwood Cultists" "Flaring Allflame Ember of Abyss" "Flaring Allflame Ember of The First Ones" "Flaring Allflame Ember of Kalguurans" "Flaring Allflame Ember of Scientists"
+            Class "Embers of the Allflame"
+            SetTextColor 170 255 170
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\24.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 200
+            MinimapIcon 0 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
         Show #餘燼
             Class "Embers of the Allflame"
             SetTextColor 172 219 229
@@ -3094,9 +2957,9 @@
             SetBorderColor 91 121 127
             SetFontSize 38
             PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 100
+            CustomAlertSoundOptional "Diablo2\24.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 100
             MinimapIcon 1 Cyan Circle
             PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
@@ -3777,7 +3640,7 @@
             CustomAlertSoundOptional "bubu\bubu-地圖.mp3" 300
             CustomAlertSoundOptional "Diablo2\34.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_仲裁.mp3" 100
-            MinimapIcon 1 Red Cross
+            MinimapIcon 2 Red Cross
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
@@ -3793,15 +3656,16 @@
             CustomAlertSoundOptional "bubu\bubu-高階地圖.mp3" 300
             CustomAlertSoundOptional "Diablo2\42.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修.mp3" 100
-            MinimapIcon 0 Purple Cross
+            MinimapIcon 2 Purple Cross
             PlayEffect Purple
             DisableDropSoundIfAlertSound
+
         Show #T17
             Rarity <= Rare
             MapTier = 17
             Class "Maps"
             SetTextColor 202 137 255
-            SetBackgroundColor 28 87 54
+            SetBackgroundColor 28 7 54
             SetBorderColor 169 113 160
             SetFontSize 45
             PlayAlertSoundPositional 2 300
@@ -3811,6 +3675,7 @@
             MinimapIcon 0 Purple Cross
             PlayEffect Purple
             DisableDropSoundIfAlertSound
+
             #end
     #L2 5.7 記憶
         Show #記憶
@@ -4907,18 +4772,7 @@
             DisableDropSoundIfAlertSound
         
             #end
-    #L2 7.4 珠寶
-        Show #一般非稀有珠寶
-            Rarity <= Magic
-            Class "Jewel"
-            BaseType "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel"
-            SetTextColor 47 151 225
-            SetBorderColor 47 151 225
-            SetFontSize 33
-            DisableDropSoundIfAlertSound
-
-            #end
-    #L2 7.5 點機會石用基底
+    #L2 7.4 點機會石用基底
         Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣
             Rarity = Normal
             BaseType "Prophecy Wand" "Sorcerer Boots" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather"
@@ -4929,7 +4783,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.6 特殊詞綴掉落
+    #L2 7.5 特殊詞綴掉落
         Show #印鈔 - 附魔詞綴
             AnyEnchantment True
             Corrupted False
@@ -5082,7 +4936,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.7 勢力裝備基底
+    #L2 7.6 勢力裝備基底
         Show #印鈔 - 異界尊師
             ElderItem True
             Rarity <= Rare
@@ -5192,7 +5046,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.8 異界輿圖限定基底
+    #L2 7.7 異界輿圖限定基底
         Show #印鈔 - 最高階異界輿圖限定基底
             ItemLevel >= 86
             Rarity < Rare
@@ -5240,7 +5094,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.9 高階金裝
+    #L2 7.8 高階金裝
         Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
@@ -5254,14 +5108,22 @@
         Hide #印鈔 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Bone Ring" "Mechanical Belt"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Bone Ring" "Mechanical Belt"
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+            
+        Show #一般珠寶
+            Class "Jewel"
+            BaseType "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel"
             SetTextColor 237 201 128
             SetBorderColor 255 255 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.10 一般基底
+    #L2 7.9 一般基底
         Show #印鈔 - 最高階基底(86)
             ItemLevel >= 86
             Rarity < Rare
@@ -5306,7 +5168,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.11 釣魚道具
+    #L2 7.10 釣魚道具
         Show #釣竿
             BaseType "Fishing Rod"
             SetTextColor 0 43 160 200
