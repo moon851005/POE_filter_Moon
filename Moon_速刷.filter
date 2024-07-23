@@ -11,7 +11,7 @@
         #end
     #L2 印鈔→利用ctrl+f 全部取代功能將"Show #印鈔"改為"Hide #印鈔" 
         #end
-    #L2 速刷→利用ctrl+f 全部取代功能將"Hide #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
+    #L2 速刷→利用ctrl+f 全部取代功能將"Show #印鈔 - 速刷"改為"Hide #印鈔 - 速刷" 
         #end
     #end
 
@@ -195,6 +195,15 @@
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 38
+            DisableDropSoundIfAlertSound
+        
+        Show #金幣
+            Class "Gold"
+            BaseType "Gold"
+            SetTextColor 255 255 0
+            SetBackgroundColor 125 147 0 101
+            SetBorderColor 255 192 203
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
             DisableDropSoundIfAlertSound
         
         #end
@@ -419,13 +428,27 @@
             SetBorderColor 30 144 255
             SetFontSize 38
             PlayAlertSoundPositional 4 100
-            CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 300
+            CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 200
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_別否定我.mp3" 300
             MinimapIcon 2 Blue Circle
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
+        Show #釋界製圖釘
+            Class "Stackable Currency"
+            BaseType "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Scarabs" "Maven's Chisel of Avarice"
+            SetTextColor 246 173 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 0 Purple Hexagon
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+            
             #end
     #L2 1.6 中階通貨
         Hide #印鈔 - 速刷 - 束縛石
@@ -1777,7 +1800,7 @@
     #L2 2.9掘獄聯盟(3.4版本)
         Show #化石
             Class "Stackable Currency"
-            BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Perfect Fossil" "Deft Fossil" "Fundamental Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
+            BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Opulent Fossil" "Deft Fossil" "Fundamental Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
             SetTextColor 0 0 0
             SetBackgroundColor 255 40 0 220
             SetBorderColor 255 200 0
@@ -2109,20 +2132,6 @@
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        Show #精油淬鍊
-            BaseType "Oil Extractor"
-            SetTextColor 210 0 0
-            SetBackgroundColor 0 0 0 255
-            SetBorderColor 131 156 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 3 200
-            CustomAlertSoundOptional "bubu\bubu-高階凋落油瓶.mp3" 300
-            CustomAlertSoundOptional "Diablo2\45.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
-            MinimapIcon 0 Grey Raindrop
-            PlayEffect Grey
-            DisableDropSoundIfAlertSound
-
         Show #映像油瓶
             BaseType "Reflective Oil"
             SetTextColor 0 0 0
@@ -2135,6 +2144,20 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
             MinimapIcon 0 Grey Raindrop
             PlayEffect Grey
+            DisableDropSoundIfAlertSound
+
+        Show #三相油瓶
+            BaseType "Prismatic Oil"
+            SetTextColor 39 255 29
+            SetBackgroundColor 0 0 0 255
+            SetBorderColor 131 156 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 3 200
+            CustomAlertSoundOptional "bubu\bubu-高階凋落油瓶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\45.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你若是魔女的話 那我成為魔王就行了.mp3" 200
+            MinimapIcon 0 Green Raindrop
+            PlayEffect Green
             DisableDropSoundIfAlertSound
 
         #end
@@ -2469,7 +2492,7 @@
     #L2 2.16邪靈祭祀(3.13版本)
         Show #祭祀限定基底
             Rarity <= Rare
-            BaseType "Dreamquest Slippers" "Brimstone Treads" "Stormrider Boots" "Debilitation Gauntlets" "Sinistral Gloves" "Nexus Gloves" "Blizzard Crown" "Archdemon Crown"
+            BaseType "Dreamquest Slippers" "Brimstone Treads" "Stormrider Boots" "Thwarting Gauntlets" "Trapsetter Gloves" "Nexus Gloves" "Blizzard Crown" "Archdemon Crown"
             SetTextColor 255 200 0
             SetBackgroundColor 170 158 130
             SetBorderColor 150 0 0
@@ -2693,6 +2716,21 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
             MinimapIcon 0 Grey Triangle
             PlayEffect Grey
+            DisableDropSoundIfAlertSound            
+
+        Show #反射霧
+            Class "Stackable Currency"
+            BaseType "Reflecting Mist"
+            SetTextColor 162 134 109
+            SetBackgroundColor 207 207 207
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+            MinimapIcon 0 Grey Triangle
+            PlayEffect Grey
             DisableDropSoundIfAlertSound
 
         #end
@@ -2888,80 +2926,37 @@
             PlayEffect Brown
             DisableDropSoundIfAlertSound
             
-        #end
-    #L2 2.26魔影墓場(3.24版本)
-        Show #無價餘燼
-            BaseType "Allflame Ember of Manifested Wealth"
-            Class "Embers of the Allflame"
-            SetTextColor 255 52 212
-            SetBackgroundColor 89 99 101
-            SetBorderColor 91 121 127
+        Show #謁王之約
+            Class "Map Fragment"
+            BaseType "An Audience With The King"
+            SetTextColor 139 96 176
+            SetBackgroundColor 21 28 83
+            SetBorderColor 119 82 151
             SetFontSize 45
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 0 Cyan Circle
-            PlayEffect Cyan Temp
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        Show #高價餘燼
-            BaseType "Allflame Ember of Frogs" "Allflame Ember of Meatsacks" "Allflame Ember of Rats" "Allflame Ember of Anarchy"
-            Class "Embers of the Allflame"
-            SetTextColor 255 200 0
-            SetBackgroundColor 89 99 101
-            SetBorderColor 91 121 127
+        #end
+
+    #L2 2.27卡爾葛拓荒者(3.25版本)
+        Show #盧恩符文
+            Class "Stackable Currency"
+            BaseType "Rune"
+            SetTextColor 0 73 165 200
+            SetBackgroundColor 152 184 191
+            SetBorderColor 153 213 243
             SetFontSize 42
             PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "bubu\bubu-探險文物.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 0 Cyan Circle
-            PlayEffect Cyan Temp
-            DisableDropSoundIfAlertSound
-
-        Show #經驗餘燼
-            BaseType "Allflame Ember of Untainted"
-            Class "Embers of the Allflame"
-            SetTextColor 0 255 0
-            SetBackgroundColor 89 99 101
-            SetBorderColor 91 121 127
-            SetFontSize 42
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 0 Cyan Circle
-            PlayEffect Cyan Temp
-            DisableDropSoundIfAlertSound
-
-        Show #工藝餘燼
-            BaseType "Flaring Allflame Ember of the Vaal" "Flaring Allflame Ember of Breachlords" "Flaring Allflame Ember of Wildwood Cultists" "Flaring Allflame Ember of Abyss" "Flaring Allflame Ember of The First Ones" "Flaring Allflame Ember of Kalguurans" "Flaring Allflame Ember of Scientists"
-            Class "Embers of the Allflame"
-            SetTextColor 170 255 170
-            SetBackgroundColor 89 99 101
-            SetBorderColor 91 121 127
-            SetFontSize 42
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
-            CustomAlertSoundOptional "Diablo2\24.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 200
-            MinimapIcon 0 Cyan Circle
-            PlayEffect Cyan Temp
-            DisableDropSoundIfAlertSound
-
-        Show #餘燼
-            Class "Embers of the Allflame"
-            SetTextColor 172 219 229
-            SetBackgroundColor 89 99 101
-            SetBorderColor 91 121 127
-            SetFontSize 38
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 100
-            CustomAlertSoundOptional "Diablo2\24.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_發現.mp3" 300
             MinimapIcon 1 Cyan Circle
-            PlayEffect Cyan Temp
+            PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
         #end
@@ -3241,22 +3236,21 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #展翅聖甲蟲
-            Class "Map Fragments"
-            BaseType "Divination Scarab of Completion" "Divination Scarab of Curation" "Bestiary Scarab of the Shadowed Crow" "Reliquary Scarab of Vision"
-            SetTextColor 55 237 228
-            SetBackgroundColor 128 0 128 255
-            SetBorderColor 175 96 37
-            SetFontSize 45
-            PlayAlertSoundPositional 14 300
-            CustomAlertSoundOptional "bubu\bubu-高階聖甲蟲.mp3" 300
-            CustomAlertSoundOptional "Diablo2\3.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 300
-            MinimapIcon 0 Cyan Square
-            PlayEffect Cyan
-            DisableDropSoundIfAlertSound
+        # Show #高階聖甲蟲
+        #     Class "Map Fragments"
+        #     SetTextColor 55 237 228
+        #     SetBackgroundColor 128 0 128 255
+        #     SetBorderColor 175 96 37
+        #     SetFontSize 45
+        #     PlayAlertSoundPositional 14 300
+        #     CustomAlertSoundOptional "bubu\bubu-高階聖甲蟲.mp3" 300
+        #     CustomAlertSoundOptional "Diablo2\3.mp3" 300
+        #     CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 300
+        #     MinimapIcon 0 Cyan Square
+        #     PlayEffect Cyan
+        #     DisableDropSoundIfAlertSound
 
-        Show #圓滑聖甲蟲
+        Show #聖甲蟲
             Class "Map Fragments"
             BaseType "Scarab"
             SetTextColor 55 237 228
