@@ -1925,18 +1925,42 @@
 
         #end
     #L2 2.11戰亂聯盟(3.7版本)
-        Show #培育器
+        Show #高階培育器
             Class "Incubator"
+            BaseType "Diviner's Incubator" "Skittering Incubator" "Ornate Incubator" "Foreboding Incubator"
             SetTextColor 0 0 0 255
             SetBackgroundColor 191 153 7 255
             SetBorderColor 128 0 128 255
-            SetFontSize 40
+            SetFontSize 42
             PlayAlertSoundPositional 3 200
             CustomAlertSoundOptional "bubu\bubu-培育器.mp3" 300
             CustomAlertSoundOptional "Diablo2\22.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_早安.mp3" 300
             MinimapIcon 1 Brown Circle
             PlayEffect Brown Temp
+            DisableDropSoundIfAlertSound
+            
+        Show #印鈔 - 有用培育器
+            Class "Incubator"
+            BaseType "Singular Incubator" "Kalguuran Incubator" "Fossilised Incubator"
+            SetTextColor 0 0 0 255
+            SetBackgroundColor 191 153 7 255
+            SetBorderColor 191 153 7 255
+            SetFontSize 38
+            PlayAlertSoundPositional 3 200
+            CustomAlertSoundOptional "bubu\bubu-培育器.mp3" 300
+            CustomAlertSoundOptional "Diablo2\22.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_早安.mp3" 300
+            MinimapIcon 1 Brown Circle
+            PlayEffect Brown Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 速刷 - 培育器
+            Class "Incubator"
+            SetTextColor 0 0 0 255
+            SetBackgroundColor 191 153 7 255
+            SetBorderColor 191 153 7 0
+            SetFontSize 38
             DisableDropSoundIfAlertSound
 
         Show #永恆不朽帝國徽印
