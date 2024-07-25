@@ -5131,6 +5131,42 @@
             SetBorderColor 255 255 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 高階金裝(新基底頭盔)
+            Identified False
+            Rarity = Rare
+            BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask"
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 高階金裝(新基底胸甲)
+            Identified False
+            Rarity = Rare
+            BaseType "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour"
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 高階金裝(新基底手套)
+            Identified False
+            Rarity = Rare
+            BaseType "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts"
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 高階金裝(新基底鞋子)
+            Identified False
+            Rarity = Rare
+            BaseType "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
             
         Show #一般珠寶
             Class "Jewel"
@@ -5154,10 +5190,34 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
+        Show #印鈔 - 最高階基底(86)(新基底)
+            ItemLevel >= 86
+            Rarity < Rare
+            BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
+            SetTextColor 30 30 30
+            SetBackgroundColor 184 218 242
+            SetBorderColor 255 255 255
+            SetFontSize 41
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
         Hide #印鈔 - 速刷 - 高階基底
             ItemLevel >= 84
             Rarity < Rare
             BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Titan Gauntlets" "Thicket Bow" 
+            SetTextColor 184 218 242
+            SetBackgroundColor 30 30 30
+            SetBorderColor 255 255 255
+            SetFontSize 38
+            MinimapIcon 1 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 高階基底(新基底)
+            ItemLevel >= 84
+            Rarity < Rare
+            BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
             SetTextColor 184 218 242
             SetBackgroundColor 30 30 30
             SetBorderColor 255 255 255
