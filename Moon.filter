@@ -201,7 +201,7 @@
             Class "Gold"
             BaseType "Gold"
             SetTextColor 246 220 130
-            SetBackgroundColor 246 220 130 0
+            SetBackgroundColor 0 0 0 240
             SetBorderColor 246 220 130 0
             SetFontSize 33
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
