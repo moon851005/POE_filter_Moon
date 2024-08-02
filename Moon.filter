@@ -4774,13 +4774,14 @@
         
             #end
     #L2 7.4 點機會石用基底
-        Hide #潛能魔棒/空向/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣
+        Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
+            ItemLevel >= 78
             Rarity = Normal
-            BaseType "Prophecy Wand" "Sorcerer Boots" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather"
-            SetTextColor 255 255 255
-            SetBackgroundColor 255 59 25 145
-            SetBorderColor 184 218 242
-            SetFontSize 30
+            BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
+            SetTextColor 255 255 255 220
+            SetBackgroundColor 255 114 0 200
+            SetBorderColor 255 114 0
+            SetFontSize 35
             DisableDropSoundIfAlertSound
 
             #end
@@ -5210,7 +5211,7 @@
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 機制消耗性基底
-            ItemLevel < 84
+            AreaLevel < 68
             BaseType "Convoking Wand" "Calling Wand"
             Rarity < Rare
             SetTextColor 255 255 255 220
