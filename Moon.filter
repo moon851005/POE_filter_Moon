@@ -4829,7 +4829,8 @@
             DisableDropSoundIfAlertSound
         
             #end
-    #L2 7.4 點機會石用基底
+    #L2 7.4 點機會石用基底            
+        Import "Custom/Chance.filter" Optional
         Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
             ItemLevel >= 78
             Rarity = Normal
