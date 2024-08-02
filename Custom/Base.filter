@@ -1,0 +1,91 @@
+Show #最高階基底(86) ES 瓦爾法衣 靈主之環 術士手套 術士長靴
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Vaal Regalia" "Hubris Circlet" "Sorcerer Gloves" "Sorcerer Boots"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+Show #最高階基底(86) 閃避 獅首皮盔 
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Lion Pelt"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+Show #最高階基底(86) 護甲 皇室堅盔 星芒戰鎧 巨人護手
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Royal Burgonet" "Astral Plate" "Titan Gauntlets"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+Show #最高階基底(86) 盾牌 巨型塔盾 霸者刺盾
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Colossal Tower Shield" "Supreme Spiked Shield"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+Show #最高階基底(86) 弓 脊弓 馬拉克斯弓 林野獵弓
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Spine Bow" "Maraketh Bow" "Thicket Bow"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+Show #最高階基底(86)(新基底)
+    ItemLevel >= 86
+    Rarity <= Rare
+    BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
+    SetTextColor 30 30 30
+    SetBackgroundColor 184 218 242
+    SetBorderColor 255 255 255
+    SetFontSize 41
+    MinimapIcon 0 Yellow UpsideDownHouse
+    PlayEffect Yellow Temp
+    DisableDropSoundIfAlertSound
+
+# Hide #隱藏拓荒基底(召喚)
+#     AreaLevel < 68
+#     BaseType "Convoking Wand" "Calling Wand"
+#     Rarity < Rare
+#     SetTextColor 255 255 255 220
+#     SetBackgroundColor 255 114 0 200
+#     SetBorderColor 255 114 0
+#     SetFontSize 35
+#     DisableDropSoundIfAlertSound
+
+# Show #拓荒基底
+#     AreaLevel < 68
+#     BaseType ""
+#     Rarity < Rare
+#     SetTextColor 255 255 255 220
+#     SetBackgroundColor 255 114 0 200
+#     SetBorderColor 255 114 0
+#     SetFontSize 35
+#     DisableDropSoundIfAlertSound

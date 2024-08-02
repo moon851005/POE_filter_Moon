@@ -5300,6 +5300,7 @@
 
             #end
     #L2 7.8 高階金裝
+        Import "Custom/Rare.filter" Optional
         Show #印鈔 - 速刷 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
@@ -5365,29 +5366,7 @@
 
             #end
     #L2 7.9 一般基底
-        Show #印鈔 - 最高階基底(86)
-            ItemLevel >= 86
-            Rarity < Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
-            SetTextColor 30 30 30
-            SetBackgroundColor 184 218 242
-            SetBorderColor 255 255 255
-            SetFontSize 41
-            MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
-        Show #印鈔 - 最高階基底(86)(新基底)
-            ItemLevel >= 86
-            Rarity < Rare
-            BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
-            SetTextColor 30 30 30
-            SetBackgroundColor 184 218 242
-            SetBorderColor 255 255 255
-            SetFontSize 41
-            MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
+        Import "Custom/Base.filter" Optional
 
         Show #印鈔 - 速刷 - 高階基底
             ItemLevel >= 84
@@ -5409,7 +5388,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 機制消耗性基底
+        Show #拓荒基底
             AreaLevel < 68
             BaseType "Convoking Wand" "Calling Wand"
             Rarity < Rare
