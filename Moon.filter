@@ -2146,7 +2146,7 @@
             Continue
 
         Show #巨型星團珠寶(高價)
-            EnchantmentPassiveNode "Minion"
+            EnchantmentPassiveNode "Minion Damage"
             SetFontSize 45
             MinimapIcon 0 Purple Square
 
@@ -2221,7 +2221,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
         Show #小型星團珠寶(高價)
-            EnchantmentPassiveNode "Reservation"
+            EnchantmentPassiveNode "Reservation Efficiency"
             EnchantmentPassiveNum = 3
             SetFontSize 45
             MinimapIcon 0 Purple Square
