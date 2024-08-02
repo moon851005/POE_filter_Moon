@@ -442,7 +442,7 @@
             CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 200
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_別否定我.mp3" 300
-            MinimapIcon 2 Blue Circle
+            MinimapIcon 2 Blue Hexagon
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
@@ -3377,7 +3377,7 @@
             CustomAlertSoundOptional "bubu\bubu-眾神聖器.mp3" 300    
             CustomAlertSoundOptional "Diablo2\3.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_人生來並非平等.mp3" 300
-            MinimapIcon 2 Yellow Hexagon
+            MinimapIcon 1 Yellow Hexagon
             PlayEffect Yellow 
             DisableDropSoundIfAlertSound
             
@@ -3754,8 +3754,8 @@
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
             CustomAlertSoundOptional "Diablo2\50.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
-            MinimapIcon 0 Blue Hexagon
-            PlayEffect Blue
+            MinimapIcon 0 Cyan Hexagon
+            PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
         #end
