@@ -206,6 +206,16 @@
             SetFontSize 33
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             DisableDropSoundIfAlertSound
+            Continue
+
+        Show #印鈔 - 金幣(堆疊>=100)
+            StackSize >= 100
+            SetFontSize 35
+            Continue
+
+        Show #印鈔 - 金幣(堆疊>=400)
+            StackSize >= 400
+            SetFontSize 38            
         
         #end
     #L2 1.3 品質通貨
