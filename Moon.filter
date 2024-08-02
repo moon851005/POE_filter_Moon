@@ -779,12 +779,12 @@
             SetTextColor 136 136 255
             SetBackgroundColor 45 0 0
             SetBorderColor 150 0 0
-            SetFontSize 43
+            SetFontSize 45
             PlayAlertSoundPositional ShChaos 300
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍3.mp3" 300
-            MinimapIcon 1 Grey Diamond
+            MinimapIcon 0 Grey Diamond
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
@@ -854,13 +854,28 @@
             SetTextColor 236 242 145
             SetBackgroundColor 45 0 0
             SetBorderColor 150 0 0
-            SetFontSize 43
+            SetFontSize 45
             PlayAlertSoundPositional ShDivine 300
             CustomAlertSoundOptional "bubu\bubu-神聖石.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
             MinimapIcon 0 Grey Diamond
             PlayEffect Grey
+            DisableDropSoundIfAlertSound
+
+        Show #玷污的神話石
+            Class "Stackable Currency"
+            BaseType "Tainted Mythic Orb"
+            SetTextColor 124 255 196 202
+            SetBackgroundColor 45 0 0
+            SetBorderColor 150 0 0
+            SetFontSize 43
+            PlayAlertSoundPositional 4 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍3.mp3" 300
+            MinimapIcon 0 Grey Moon
+            PlayEffect Grey 
             DisableDropSoundIfAlertSound
 
         Show #異能的無效石
