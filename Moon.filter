@@ -72,21 +72,21 @@
             Class "Stackable Currency"
             BaseType "Annulment Shard"
             SetTextColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #神諭石碎片
             Class "Stackable Currency"
             BaseType "Harbinger's Shard"
             SetTextColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #古變石碎片
             Class "Stackable Currency"
             BaseType "Ancient Shard"
             SetTextColor 180 81 0
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #崇高石碎片
@@ -94,7 +94,7 @@
             BaseType "Exalted Shard"
             SetTextColor 255 144 0 255
             SetBackgroundColor 37 54 112
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #破裂石碎片
@@ -102,7 +102,7 @@
             BaseType "Fracturing Shard"
             SetTextColor 81 106 243 249
             SetBackgroundColor 0 0 60
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 2 Blue Moon
             PlayEffect Blue
             PlayAlertSoundPositional 10 300
@@ -134,22 +134,33 @@
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
+        Show #印鈔 - 知識卷軸(堆疊>=8)
+            StackSize >= 8            
+            Class "Stackable Currency"
+            BaseType "Scroll of Wisdom" "Scroll Fragment"
+            SetBorderColor 210 0 0
+            SetFontSize 40
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 速刷 - 知識卷軸
             Class "Stackable Currency"
             BaseType "Scroll of Wisdom" "Scroll Fragment"
             SetBorderColor 210 0 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
-            Continue
-
-        Show #印鈔 - 知識卷軸(堆疊>=8)
-            StackSize >= 8
-            SetFontSize 40
 
         Show #低等區域傳送卷軸
             Class "Stackable Currency"
             BaseType "Portal Scroll"
             AreaLevel < 68
+            SetBorderColor 0 0 255
+            SetFontSize 40
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 傳送卷軸(堆疊>=8)
+            StackSize >= 8
+            Class "Stackable Currency"
+            BaseType "Portal Scroll"
             SetBorderColor 0 0 255
             SetFontSize 40
             DisableDropSoundIfAlertSound
@@ -160,37 +171,63 @@
             SetBorderColor 0 0 255
             SetFontSize 35
             DisableDropSoundIfAlertSound
-            Continue
 
-        Show #印鈔 - 傳送卷軸(堆疊>=8)
-            StackSize >= 8
+        Show #印鈔 - 蛻變石(堆疊>=8)
+            StackSize >= 8            
+            Class "Stackable Currency"
+            BaseType "Orb of Transmutation"
+            SetTextColor 255 94 97
+            SetBorderColor 255 192 203
             SetFontSize 40
+            DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 蛻變石
             Class "Stackable Currency"
             BaseType "Orb of Transmutation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
-            Continue
 
-        Show #印鈔 - 蛻變石(堆疊>=8)
+        Show #印鈔 - 增幅石(堆疊>=8)
             StackSize >= 8
-            SetFontSize 40
+            Class "Stackable Currency"
+            BaseType "Orb of Augmentation"
+            SetTextColor 255 94 97
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 增幅石
             Class "Stackable Currency"
             BaseType "Orb of Augmentation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 增幅石(堆疊>=8)
-            StackSize >= 8
-            SetFontSize 38
-        
+        Show #印鈔 - 金幣(堆疊>=400)
+            StackSize >= 400
+            Class "Gold"
+            BaseType "Gold"
+            SetTextColor 246 220 130
+            SetBackgroundColor 0 0 0 240
+            SetBorderColor 246 220 130 0
+            SetFontSize 39    
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            DisableDropSoundIfAlertSound    
+
+        Show #印鈔 - 金幣(堆疊>=100)
+            StackSize >= 100
+            Class "Gold"
+            BaseType "Gold"
+            SetTextColor 246 220 130
+            SetBackgroundColor 0 0 0 240
+            SetBorderColor 246 220 130 0
+            SetFontSize 36
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            DisableDropSoundIfAlertSound
+
         Show #金幣
             Class "Gold"
             BaseType "Gold"
@@ -199,18 +236,8 @@
             SetBorderColor 246 220 130 0
             SetFontSize 33
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
-            DisableDropSoundIfAlertSound
-            Continue
+            DisableDropSoundIfAlertSound    
 
-        Show #印鈔 - 金幣(堆疊>=100)
-            StackSize >= 100
-            SetFontSize 35
-            Continue
-
-        Show #印鈔 - 金幣(堆疊>=400)
-            StackSize >= 400
-            SetFontSize 38            
-        
             #end
     #L2 1.3 品質通貨
         Show #玷污的磨刀石
@@ -218,7 +245,7 @@
             BaseType "Tainted Blacksmith's Whetstone"
             SetBackgroundColor 45 0 0
             SetBorderColor 150 0 0
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 2 Grey Circle
             DisableDropSoundIfAlertSound
 
@@ -242,7 +269,7 @@
             BaseType "Tainted Armourer's Scrap"
             SetBackgroundColor 45 0 0
             SetBorderColor 150 0 0
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 2 Grey Circle
             DisableDropSoundIfAlertSound
 
@@ -266,7 +293,7 @@
             BaseType "Engineer's Orb"
             SetTextColor 231 180 120
             SetBorderColor 210 0 0
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-工程石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -281,7 +308,7 @@
             SetTextColor 184 218 242
             SetBackgroundColor 63 0 169 192
             SetBorderColor 210 0 0
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-催化劑.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -328,7 +355,7 @@
             StackSize >= 2
             SetTextColor 184 255 180
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -342,7 +369,7 @@
             BaseType "Glassblower's Bauble"
             SetTextColor 184 255 180
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -388,7 +415,7 @@
             BaseType "Orb of Horizons"
             SetTextColor 231 180 120
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-地平石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -403,7 +430,7 @@
             StackSize >= 2
             SetTextColor 231 180 120
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -417,7 +444,7 @@
             BaseType "Cartographer's Chisel" 
             SetTextColor 231 180 120
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 200
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -447,7 +474,7 @@
             BaseType "Orb of Binding"
             SetTextColor 231 180 120
             SetBorderColor 210 0 0
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-束縛石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -471,12 +498,13 @@
             PlayEffect Grey 
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 鏈結石
+        Show #印鈔 - 鏈結石(堆疊>=1)
+            StackSize >= 1
             Class "Stackable Currency"
             BaseType "Orb of Fusing"
             SetTextColor 255 255 255
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional ShFusing 300
             CustomAlertSoundOptional "bubu\bubu-鏈結石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -484,10 +512,20 @@
             MinimapIcon 2 White Circle
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
-            Continue
 
-        Show #印鈔 - 鏈結石(堆疊>=1)
-            StackSize >= 1
+        Show #印鈔 - 速刷 - 鏈結石
+            Class "Stackable Currency"
+            BaseType "Orb of Fusing"
+            SetTextColor 255 255 255
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional ShFusing 300
+            CustomAlertSoundOptional "bubu\bubu-鏈結石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 2 White Circle
+            PlayEffect White Temp
+            DisableDropSoundIfAlertSound
 
         Show #玷污的工匠石
             Class "Stackable Currency"
@@ -503,13 +541,14 @@
             MinimapIcon 1 Grey Diamond
             PlayEffect Grey
             DisableDropSoundIfAlertSound
-
-        Show #印鈔 - 速刷 - 工匠石
+            
+        Show #印鈔 - 工匠石(堆疊>=2)
+            StackSize >= 2
             Class "Stackable Currency"
             BaseType "Jeweller's Orb"
             SetTextColor 255 255 255
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -517,17 +556,27 @@
             MinimapIcon 2 White Circle
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
-            Continue
-            
-        Show #印鈔 - 工匠石(堆疊>=2)
-            StackSize >= 2
+
+        Show #印鈔 - 速刷 - 工匠石
+            Class "Stackable Currency"
+            BaseType "Jeweller's Orb"
+            SetTextColor 255 255 255
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 2 White Circle
+            PlayEffect White Temp
+            DisableDropSoundIfAlertSound
 
         Show #重鑄石
             Class "Stackable Currency"
             BaseType "Orb of Scouring"
             SetTextColor 255 255 255
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-重鑄石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -535,13 +584,43 @@
             MinimapIcon 1 White Circle
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
+        
+        Show #改造石(堆疊>=6)
+            StackSize >= 6
+            Class "Stackable Currency"
+            BaseType "Orb of Alteration"
+            SetTextColor 124 255 196 202
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
+            MinimapIcon 0 Pink Circle
+            PlayEffect Pink Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 改造石(堆疊>=2)
+            StackSize >= 2
+            Class "Stackable Currency"
+            BaseType "Orb of Alteration"
+            SetTextColor 124 255 196 202
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
+            MinimapIcon 1 Pink Circle
+            PlayEffect Pink Temp
+            DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 改造石
             Class "Stackable Currency"
             BaseType "Orb of Alteration"
             SetTextColor 124 255 196 202
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -549,17 +628,6 @@
             MinimapIcon 2 Pink Circle
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
-            Continue
-            
-        Show #印鈔 - 改造石(堆疊>=2)
-            StackSize >= 2
-            MinimapIcon 1 Pink Circle
-            Continue
-
-        
-        Show #改造石(堆疊>=6)
-            StackSize >= 6
-            MinimapIcon 0 Pink Circle
 
         Show #玷污的幻色石
             Class "Stackable Currency"
@@ -576,12 +644,13 @@
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 幻色石
+        Show #印鈔 - 幻色石(堆疊>=2)
+            StackSize >= 2
             Class "Stackable Currency"
             BaseType "Chromatic Orb"
             SetTextColor 124 255 196 202
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -589,30 +658,48 @@
             MinimapIcon 2 Pink Circle
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
-            Continue
 
-        Show #印鈔 - 幻色石(堆疊>=2)
-            StackSize >= 2
+        Show #印鈔 - 速刷 - 幻色石
+            Class "Stackable Currency"
+            BaseType "Chromatic Orb"
+            SetTextColor 124 255 196 202
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
+            MinimapIcon 2 Pink Circle
+            PlayEffect Pink Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 機會石(堆疊>=4)
+            StackSize >= 4
+            Class "Stackable Currency"
+            BaseType "Orb of Chance"
+            SetTextColor 124 255 196 202
+            SetBorderColor 255 192 203
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
+            MinimapIcon 1 Pink Circle
+            PlayEffect Pink Temp
+            DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 機會石
             Class "Stackable Currency"
             BaseType "Orb of Chance"
             SetTextColor 124 255 196 202
             SetBorderColor 255 192 203
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
             MinimapIcon 2 Pink Circle
             PlayEffect Pink Temp
-            DisableDropSoundIfAlertSound
-            Continue
-
-        Show #印鈔 - 機會石(堆疊>=4)
-            StackSize >= 4
-            SetFontSize 38
-            MinimapIcon 1 Pink Circle
             DisableDropSoundIfAlertSound
 
             #end
@@ -646,6 +733,22 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
+        Show #印鈔 - 點金石(堆疊>=4)
+            StackSize >= 2
+            Class "Stackable Currency"
+            BaseType "Orb of Alchemy"
+            SetTextColor 136 136 255
+            SetBackgroundColor 150 0 0
+            SetBorderColor 255 165 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShAlchemy 300
+            CustomAlertSoundOptional "bubu\bubu-點金石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 速刷 - 點金石
             Class "Stackable Currency"
             BaseType "Orb of Alchemy"
@@ -658,13 +761,6 @@
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
             MinimapIcon 2 Yellow Diamond
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound  
-            Continue      
-
-        Show #印鈔 - 點金石(堆疊>=4)
-            StackSize >= 2
-            MinimapIcon 1 Yellow Diamond
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
@@ -1210,7 +1306,7 @@
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #高階精髓
@@ -1219,7 +1315,7 @@
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #高T圖隱藏低階精髓
@@ -1228,7 +1324,7 @@
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #汙染器皿
@@ -1486,7 +1582,7 @@
             SetTextColor 0 87 255
             SetBackgroundColor 10 60 10
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 催眠之眼珠寶
@@ -1530,7 +1626,7 @@
             SetTextColor 156 112 0
             SetBackgroundColor 10 60 10
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 極懼之眼珠寶
@@ -1574,7 +1670,7 @@
             SetTextColor 180 208 245
             SetBackgroundColor 10 60 10
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 勘查之眼珠寶
@@ -1653,7 +1749,7 @@
             SetBackgroundColor 10 60 10
             SetBorderColor 255 200 0
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #深淵腰帶
@@ -1674,7 +1770,7 @@
             SetTextColor 255 255 255
             SetBackgroundColor 140 110 49
             SetBorderColor 255 40 0 220
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #連通之石,閃粉之器
@@ -1726,7 +1822,7 @@
             SetTextColor 0 0 0
             SetBackgroundColor 255 40 0 220
             SetBorderColor 255 200 0
-            SetFontSize 42
+            SetFontSize 45
             CustomAlertSoundOptional "bubu\bubu-化石.mp3" 300
             CustomAlertSoundOptional "Diablo2\22.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
@@ -1737,10 +1833,10 @@
         Show #化石
             Class "Stackable Currency"
             BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Prismatic Fossil" "Aetheric Fossil" "Lucent Fossil" "Opulent Fossil" "Deft Fossil" "Fundamental Fossil"
-            SetTextColor 255 200 0
+            SetTextColor 0 0 0
             SetBackgroundColor 255 40 0 220
-            SetBorderColor 0 0 0
-            SetFontSize 38
+            SetBorderColor 255 255 255 100
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-化石.mp3" 300
             CustomAlertSoundOptional "Diablo2\22.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
@@ -1799,7 +1895,7 @@
             SetTextColor 0 100 150 200
             SetBackgroundColor 184 218 242
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             FracturedItem True
             CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
             CustomAlertSoundOptional "Diablo2\44.mp3" 300
@@ -1811,7 +1907,7 @@
             SetTextColor 0 0 255 255
             SetBackgroundColor 184 218 242
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             SynthesisedItem True
             CustomAlertSoundOptional "bubu\bubu-追憶裝備.mp3" 300
             CustomAlertSoundOptional "Diablo2\44.mp3" 300
@@ -1841,7 +1937,7 @@
             SetTextColor 0 0 0 255
             SetBackgroundColor 191 153 7 255
             SetBorderColor 191 153 7 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 3 200
             CustomAlertSoundOptional "bubu\bubu-培育器.mp3" 300
             CustomAlertSoundOptional "Diablo2\22.mp3" 300
@@ -1855,7 +1951,7 @@
             SetTextColor 0 0 0 255
             SetBackgroundColor 191 153 7 255
             SetBorderColor 191 153 7 0
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #永恆不朽帝國徽印
@@ -2014,7 +2110,7 @@
             SetTextColor 200 156 0 255
             SetBackgroundColor 0 0 0 255
             SetBorderColor 131 156 0 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 3 200
             CustomAlertSoundOptional "bubu\bubu-凋落油瓶.mp3" 200
             CustomAlertSoundOptional "Diablo2\5.mp3" 200
@@ -2124,8 +2220,27 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
             MinimapIcon 0 Grey Triangle
             PlayEffect Grey
+            DisableDropSoundIfAlertSound        
+
+        Show #巨型星團珠寶(高價 84 12天)        
+            Rarity <= Rare
+            ItemLevel >= 84
+            EnchantmentPassiveNum = 12
+            EnchantmentPassiveNode "Minion Damage"
+            Class "Jewel"
+            BaseType "Large Cluster Jewel"
+            SetTextColor 8 11 113 255
+            SetBackgroundColor 235 159 42 240
+            SetBorderColor 117 0 179
+            SetFontSize 45
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-巨型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 0 Purple Square
+            PlayEffect Purple
             DisableDropSoundIfAlertSound
-        
+
         Show #巨型星團珠寶(84 12天)
             Rarity <= Rare
             ItemLevel >= 84
@@ -2143,12 +2258,6 @@
             MinimapIcon 1 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
-            Continue
-
-        Show #巨型星團珠寶(高價)
-            EnchantmentPassiveNode "Minion Damage"
-            SetFontSize 45
-            MinimapIcon 0 Purple Square
 
         Show #巨型星團珠寶(8天)        
             Rarity <= Rare
@@ -2165,8 +2274,26 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
             MinimapIcon 1 Purple Square
             PlayEffect Purple
-            DisableDropSoundIfAlertSound
+            DisableDropSoundIfAlertSound        
 
+        Hide #巨型星團珠寶(高T隱藏)
+            AreaLevel >= 81
+            ItemLevel < 84   
+            Rarity <= Rare
+            Class "Jewel"
+            BaseType "Large Cluster Jewel"
+            SetTextColor 235 159 42 240
+            SetBackgroundColor 8 11 113 255
+            SetBorderColor 117 0 179
+            SetFontSize 40
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-巨型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 2 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+        
         Show #巨型星團珠寶
             Rarity <= Rare
             Class "Jewel"
@@ -2182,11 +2309,6 @@
             MinimapIcon 2 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
-            Continue
-
-        Hide #巨型星團珠寶(高T隱藏)
-            AreaLevel >= 81
-            ItemLevel < 84
 
         Show #中型星團珠寶
             Rarity <= Rare
@@ -2198,6 +2320,25 @@
             SetFontSize 40
             PlayAlertSoundPositional 11 100
             CustomAlertSoundOptional "bubu\bubu-中型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 0 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #小型星團珠寶(高價 84 3天)
+            Rarity <= Rare
+            Class "Jewel"
+            BaseType "Small Cluster Jewel"
+            ItemLevel >= 84
+            EnchantmentPassiveNode "Reservation Efficiency"
+            EnchantmentPassiveNum = 3
+            SetTextColor 8 11 113 255
+            SetBackgroundColor 235 159 42 240
+            SetBorderColor 117 0 179
+            SetFontSize 45
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-小型星團珠寶.mp3" 300
             CustomAlertSoundOptional "Diablo2\19.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
             MinimapIcon 0 Purple Square
@@ -2220,12 +2361,25 @@
             MinimapIcon 1 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
-        Show #小型星團珠寶(高價)
-            EnchantmentPassiveNode "Reservation Efficiency"
-            EnchantmentPassiveNum = 3
-            SetFontSize 45
-            MinimapIcon 0 Purple Square
-        
+                
+        Hide #小型星團珠寶(高T隱藏)
+            AreaLevel >= 81
+            ItemLevel < 84
+            Rarity <= Rare
+            Class "Jewel"
+            BaseType "Small Cluster Jewel"
+            SetTextColor 235 159 42 240
+            SetBackgroundColor 8 11 113 255
+            SetBorderColor 117 0 179
+            SetFontSize 40
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-小型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 2 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
         Show #小型星團珠寶
             Rarity <= Rare
             Class "Jewel"
@@ -2241,11 +2395,6 @@
             MinimapIcon 2 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
-            Continue
-        
-        Hide #小型星團珠寶(高T隱藏)
-            AreaLevel >= 81
-            ItemLevel < 84
 
         #end
     #L2 2.14豐收聯盟(3.11版本)
@@ -2270,7 +2419,7 @@
             SetTextColor 0 0 0 200
             SetBackgroundColor 208 32 144 200
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
             CustomAlertSoundOptional "Diablo2\1.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
@@ -2284,7 +2433,7 @@
             SetTextColor 0 0 0 200
             SetBackgroundColor 255 200 0 200
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
             CustomAlertSoundOptional "Diablo2\1.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
@@ -2298,7 +2447,7 @@
             SetTextColor 0 0 0 200
             SetBackgroundColor 0 109 255 200
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
             CustomAlertSoundOptional "Diablo2\1.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
@@ -2338,7 +2487,7 @@
             SetTextColor 208 32 144
             SetBackgroundColor 82 18 18 255
             SetBorderColor 255 215 0
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 1 Red UpsideDownHouse
             PlayEffect Red
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
@@ -2352,7 +2501,7 @@
             SetTextColor 208 32 144
             SetBackgroundColor 255 255 255 0
             SetBorderColor 255 215 0
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #實驗基底
@@ -2361,7 +2510,7 @@
             SetTextColor 147 187 32
             SetBackgroundColor 82 18 18 255
             SetBorderColor 255 215 0
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 1 Green UpsideDownHouse
             PlayEffect Green
             DisableDropSoundIfAlertSound
@@ -2386,7 +2535,7 @@
             SetTextColor 74 230 58
             SetBackgroundColor 82 18 18 255
             SetBorderColor 74 230 58
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 2 200
             CustomAlertSoundOptional "bubu\bubu-任務契約書.mp3" 300
             CustomAlertSoundOptional "Diablo2\16.mp3" 300
@@ -2402,7 +2551,7 @@
             SetTextColor 82 151 105
             SetBackgroundColor 82 18 18 255
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 2 200
             CustomAlertSoundOptional "bubu\bubu-契約書.mp3" 300
             CustomAlertSoundOptional "Diablo2\16.mp3" 300
@@ -2433,7 +2582,7 @@
             SetTextColor 209 40 0 220
             SetBackgroundColor 82 18 18 255
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-盜賊之印.mp3" 200
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
@@ -2448,7 +2597,7 @@
             SetTextColor 209 40 0 220
             SetBackgroundColor 82 18 18 255
             SetBorderColor 0 0 0 255
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 2 Red Circle
             PlayEffect Red Temp
             DisableDropSoundIfAlertSound
@@ -2592,7 +2741,7 @@
             SetTextColor 184 218 242
             SetBackgroundColor 45 55 87
             SetBorderColor 135 155 210
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #探險日誌
@@ -2617,7 +2766,7 @@
             SetTextColor 66 148 202
             SetBackgroundColor 255 255 255
             SetBorderColor 66 148 202
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
         #end
     #L2 2.19轉世災魘(3.16版本)
@@ -2773,7 +2922,7 @@
             SetTextColor 255 114 0
             SetBackgroundColor 91 53 1 204
             SetBorderColor 255 155 64 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -2817,7 +2966,7 @@
             BaseType "Tattoo of the"
             SetTextColor 33 82 117 255
             SetBackgroundColor 126 207 208 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
@@ -2862,7 +3011,7 @@
             SetTextColor 55 33 117 255
             SetBackgroundColor 139 126 208 255
             SetBorderColor 75 20 142 255
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 9 200
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
             CustomAlertSoundOptional "Diablo2\24.mp3" 200
@@ -2893,7 +3042,7 @@
             SetTextColor 255 55 90
             SetBackgroundColor 21 28 83 200
             SetBorderColor 255 55 90
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 1 Red UpsideDownHouse
             PlayEffect Red Temp
             DisableDropSoundIfAlertSound
@@ -2903,7 +3052,7 @@
             SetTextColor 255 55 90
             SetBackgroundColor 21 28 83 200
             SetBorderColor 255 55 90
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #咒語
@@ -2911,7 +3060,7 @@
             SetTextColor 151 109 78
             SetBackgroundColor 21 28 83 200
             SetBorderColor 151 109 78
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
@@ -2925,7 +3074,7 @@
             SetTextColor 27 162 93
             SetBackgroundColor 21 28 83 200
             SetBorderColor 27 162 93
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
@@ -2992,7 +3141,7 @@
         SetTextColor 255 255 255 200
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
-        SetFontSize 38
+        SetFontSize 39
         DisableDropSoundIfAlertSound
 
     Show #T0命運卡
@@ -3046,14 +3195,14 @@
         SetTextColor 255 255 255 200
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255 200
-        SetFontSize 38
+        SetFontSize 39
         DisableDropSoundIfAlertSound
 
     Show #請更新過濾器
         Class "Divination Card"
         SetTextColor 30 144 255
         SetBackgroundColor 114 110 210 200
-        SetFontSize 38
+        SetFontSize 39
         CustomAlertSoundOptional "bubu\bubu-請更新過濾器.mp3" 300
         CustomAlertSoundOptional "Diablo2\39.mp3" 300
         CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_Orange.mp3" 300
@@ -3112,7 +3261,7 @@
         SetTextColor 27 162 155
         SetBackgroundColor 0 0 0
         SetBorderColor 255 255 255
-        SetFontSize 38
+        SetFontSize 39
         MinimapIcon 2 White Pentagon
         PlayEffect White Temp
         DisableDropSoundIfAlertSound
@@ -3154,7 +3303,7 @@
         SetTextColor 27 162 155
         SetBackgroundColor 118 8 8 255
         SetBorderColor 231 180 120
-        SetFontSize 38
+        SetFontSize 39
         PlayAlertSoundPositional 15 100
         CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
         CustomAlertSoundOptional "Diablo2\9.mp3" 300
@@ -3169,7 +3318,7 @@
         SetTextColor 27 162 155
         SetBackgroundColor 118 8 8 255
         SetBorderColor 231 180 120
-        SetFontSize 38
+        SetFontSize 39
         PlayAlertSoundPositional 15 100
         CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
         CustomAlertSoundOptional "Diablo2\9.mp3" 300
@@ -3293,7 +3442,7 @@
             SetTextColor 74 230 58
             SetBackgroundColor 82 18 18 255
             SetBorderColor 130 50 240 
-            SetFontSize 38
+            SetFontSize 39
             PlayAlertSoundPositional 2 200
             CustomAlertSoundOptional "bubu\bubu-任務道具(粵語).mp3" 300
             CustomAlertSoundOptional "Diablo2\16.mp3" 300
@@ -3630,15 +3779,27 @@
             MinimapIcon 2 Red Cross
             PlayEffect Red
             DisableDropSoundIfAlertSound
-            Continue
 
         Show #中階紅圖
+            Rarity <= Rare
             MapTier >= 14
             MapTier <= 15
-            Continue
+            Class "Maps"
+            SetTextColor 255 47 71
+            SetBorderColor 74 0 160 200
+            SetFontSize 43
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-地圖.mp3" 300
+            CustomAlertSoundOptional "Diablo2\34.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_仲裁.mp3" 100
+            MinimapIcon 2 Red Cross
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
 
         Show #高階紅圖
+            Rarity <= Rare
             MapTier = 16
+            Class "Maps"
             SetTextColor 210 0 0
             SetBackgroundColor 45 8 92 255
             SetBorderColor 210 0 0
@@ -4560,7 +4721,7 @@
             SetTextColor 222 222 92
             SetBackgroundColor 0 100 156 180
             SetBorderColor 255 40 0 220
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #5L裝備(高T隱藏)
@@ -4570,7 +4731,7 @@
             SetTextColor 222 222 92
             SetBackgroundColor 0 100 156 180
             SetBorderColor 255 40 0 220
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #6L裝備 鏈結石配方
@@ -4751,9 +4912,9 @@
             MinimapIcon 2 Purple Raindrop
             DisableDropSoundIfAlertSound
         
-        Show #85水銀
+        Show #85水銀真銀
             ItemLevel >= 85
-            BaseType "Quicksilver Flask"
+            BaseType "Quicksilver Flask" "Silver Flask"
             Class "Utility Flasks"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
@@ -4784,7 +4945,7 @@
             SetTextColor 172 233 76
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-功能藥劑.mp3" 300
             CustomAlertSoundOptional "Diablo2\7.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
@@ -4797,7 +4958,7 @@
             SetTextColor 172 233 76
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #顯示低等功能性藥劑
@@ -4806,7 +4967,7 @@
             SetTextColor 172 233 76
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-功能藥劑.mp3" 300
             CustomAlertSoundOptional "Diablo2\7.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
@@ -4836,7 +4997,7 @@
             SetTextColor 184 255 180
             SetBackgroundColor 7 6 28
             SetBorderColor 184 255 180
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-附魔裝備.mp3" 200    
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_命令.mp3" 300
@@ -4852,7 +5013,7 @@
             SetTextColor 184 255 180
             SetBackgroundColor 7 6 28
             SetBorderColor 200 0 0
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-附魔裝備.mp3" 200    
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_命令.mp3" 300
@@ -4866,7 +5027,7 @@
             SetTextColor 136 136 255
             SetBackgroundColor 0 0 0 255
             SetBorderColor 210 0 0
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4879,7 +5040,7 @@
             SetTextColor 255 200 0
             SetBackgroundColor 89 83 71
             SetBorderColor 184 0 0
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4892,7 +5053,7 @@
             SetTextColor 255 40 0 220
             SetBackgroundColor 15 41 68
             SetBorderColor 30 144 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4906,7 +5067,7 @@
             SetTextColor 30 184 255
             SetBackgroundColor 140 110 49
             SetBorderColor 255 40 0 220
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4919,7 +5080,7 @@
             SetTextColor 136 136 255
             SetBackgroundColor 0 0 0 255
             SetBorderColor 0 100 150 200
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4932,7 +5093,7 @@
             SetTextColor 111 189 163
             SetBackgroundColor 89 83 71
             SetBorderColor 0 128 0 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -4945,7 +5106,7 @@
             SetTextColor 111 189 163
             SetBackgroundColor 89 83 71
             SetBorderColor 0 128 0 255
-            SetFontSize 38
+            SetFontSize 39
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -5110,7 +5271,7 @@
             SetTextColor 255 192 203
             SetBackgroundColor 74 0 160 200
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             MinimapIcon 1 Purple UpsideDownHouse
             PlayEffect Purple
             DisableDropSoundIfAlertSound
@@ -5235,7 +5396,7 @@
             SetTextColor 184 218 242
             SetBackgroundColor 30 30 30
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 高階基底(新基底)
@@ -5245,7 +5406,7 @@
             SetTextColor 184 218 242
             SetBackgroundColor 30 30 30
             SetBorderColor 255 255 255
-            SetFontSize 38
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 機制消耗性基底
@@ -5381,7 +5542,7 @@
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
-        Show #富豪石配方(飾品)
+        Show #印鈔 - 速刷 - 富豪石配方(飾品)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5392,7 +5553,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #富豪石配方(武器)
+        Show #印鈔 - 速刷 - 富豪石配方(武器)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5403,7 +5564,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #富豪石配方(裝備)
+        Show #印鈔 - 速刷 - 富豪石配方(裝備)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5414,7 +5575,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #混沌石配方(飾品)
+        Show #印鈔 - 速刷 - 混沌石配方(飾品)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
@@ -5425,7 +5586,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #混沌石配方(武器)
+        Show #印鈔 - 速刷 - 混沌石配方(武器)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
@@ -5436,7 +5597,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #混沌石配方(裝備)
+        Show #印鈔 - 速刷 - 混沌石配方(裝備)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
