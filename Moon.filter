@@ -2221,7 +2221,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
         Show #小型星團珠寶(高價)
-            EnchantmentPassiveNode "Mana Reservation Efficiency"
+            EnchantmentPassiveNode "Reservation"
             EnchantmentPassiveNum = 3
             SetFontSize 45
             MinimapIcon 0 Purple Square
@@ -3669,27 +3669,12 @@
 
             #end
     #L2 5.7 記憶
-        Show #高價記憶
-            Class "Memory"
-            BaseType "Einhar's Memory of Harvest Beasts" "Einhar's Memory of Crystal Prisons" "Einhar's Memory of the Sacred Grove"
-            SetTextColor 5 8 123 255
-            SetBackgroundColor 198 216 255 255
-            SetBorderColor 74 0 160 200
-            SetFontSize 45
-            PlayAlertSoundPositional 2 300
-            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
-            CustomAlertSoundOptional "Diablo2\50.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
-            MinimapIcon 0 Cyan Hexagon
-            PlayEffect Cyan
-            DisableDropSoundIfAlertSound
-
         Show #記憶
             Class "Memory"
             SetTextColor 5 8 123 255
             SetBackgroundColor 198 216 255 255
             SetBorderColor 74 0 160 200
-            SetFontSize 40
+            SetFontSize 42
             PlayAlertSoundPositional 2 100
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 100
             CustomAlertSoundOptional "Diablo2\50.mp3" 100
