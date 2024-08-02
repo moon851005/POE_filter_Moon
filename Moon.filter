@@ -1418,7 +1418,7 @@
             DisableDropSoundIfAlertSound
 
         Show #女神獻禮
-            BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+            BaseType "Tribute to the Goddess"
             SetTextColor 0 0 255 255
             SetBackgroundColor 140 110 49
             SetBorderColor 30 144 255
@@ -1430,7 +1430,7 @@
             DisableDropSoundIfAlertSound
 
         Show #女神奉獻
-            BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+            BaseType "Gift to the Goddess"
             SetTextColor 0 0 255 255
             SetBackgroundColor 140 110 49
             SetBorderColor 30 144 255
@@ -1442,7 +1442,7 @@
             DisableDropSoundIfAlertSound
 
         Show #女神之贈
-            BaseType "Tribute to the Goddess" "Gift to the Goddess" "Dedication to the Goddess"
+            BaseType "Dedication to the Goddess"
             SetTextColor 0 0 255 255
             SetBackgroundColor 140 110 49
             SetBorderColor 30 144 255
@@ -1720,13 +1720,13 @@
 
         #end
     #L2 2.9掘獄聯盟(3.4版本)
-        Show #化石
+        Show #高價化石
             Class "Stackable Currency"
-            BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Corroded Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Lucent Fossil" "Shuddering Fossil" "Bound Fossil" "Opulent Fossil" "Deft Fossil" "Fundamental Fossil" "Faceted Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Glyphic Fossil" "Tangled Fossil" "Sanctified Fossil" "Gilded Fossil"
+            BaseType "Faceted Fossil" "Fractured Fossil" "Glyphic Fossil" "Hollow Fossil" "Shuddering Fossil" "Tangled Fossil" "Bloodstained Fossil" "Corroded Fossil" "Serrated Fossil" "Bound Fossil" "Sanctified Fossil" "Gilded Fossil"
             SetTextColor 0 0 0
             SetBackgroundColor 255 40 0 220
             SetBorderColor 255 200 0
-            SetFontSize 38
+            SetFontSize 42
             CustomAlertSoundOptional "bubu\bubu-化石.mp3" 300
             CustomAlertSoundOptional "Diablo2\22.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
@@ -1734,13 +1734,18 @@
             PlayEffect Orange Temp
             DisableDropSoundIfAlertSound
 
-        Show #原始煉金鑄新儀
-            Class "Delve Stackable Socketable Currency"
-            BaseType "Primitive Alchemical Resonator"
-            SetTextColor 128 128 128
-            SetBackgroundColor 15 41 68
-            SetFontSize 40
-            PlayEffect White Temp
+        Show #化石
+            Class "Stackable Currency"
+            BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Jagged Fossil" "Aberrant Fossil" "Pristine Fossil" "Dense Fossil" "Prismatic Fossil" "Aetheric Fossil" "Lucent Fossil" "Opulent Fossil" "Deft Fossil" "Fundamental Fossil"
+            SetTextColor 255 200 0
+            SetBackgroundColor 255 40 0 220
+            SetBorderColor 0 0 0
+            SetFontSize 38
+            CustomAlertSoundOptional "bubu\bubu-化石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\22.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-輻射波動.mp3" 100
+            MinimapIcon 2 Orange Circle
+            PlayEffect Orange Temp
             DisableDropSoundIfAlertSound
 
         Show #原始混沌鑄新儀
@@ -1753,15 +1758,6 @@
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
-        Show #增幅煉金鑄新儀
-            Class "Delve Stackable Socketable Currency"
-            BaseType "Potent Alchemical Resonator"
-            SetTextColor 136 136 255
-            SetBackgroundColor 15 41 68
-            SetFontSize 40
-            PlayEffect Blue Temp
-            DisableDropSoundIfAlertSound
-
         Show #增幅混沌鑄新儀
             Class "Delve Stackable Socketable Currency"
             BaseType "Potent Chaotic Resonator"
@@ -1772,15 +1768,6 @@
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
-        Show #強力煉金鑄新儀
-            Class "Delve Stackable Socketable Currency"
-            BaseType "Powerful Alchemical Resonator"
-            SetTextColor 255 245 6
-            SetBackgroundColor 15 41 68
-            SetFontSize 40
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
         Show #強力混沌鑄新儀
             Class "Delve Stackable Socketable Currency"
             BaseType "Powerful Chaotic Resonator"
@@ -1789,20 +1776,6 @@
             SetBorderColor 255 200 0
             SetFontSize 40
             PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
-        Show #終極煉金鑄新儀
-            Class "Delve Stackable Socketable Currency"
-            BaseType "Prime Alchemical Resonator"
-            SetTextColor 180 81 0
-            SetBackgroundColor 15 41 68
-            SetFontSize 45
-            PlayAlertSoundPositional 1 200
-            CustomAlertSoundOptional "bubu\bubu-鑄新儀.mp3" 300
-            CustomAlertSoundOptional "Diablo2\40.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_回答.mp3" 300
-            MinimapIcon 1 Brown Circle
-            PlayEffect Brown
             DisableDropSoundIfAlertSound
 
         Show #終極混沌鑄新儀
@@ -2152,6 +2125,47 @@
             MinimapIcon 0 Grey Triangle
             PlayEffect Grey
             DisableDropSoundIfAlertSound
+        
+        Show #巨型星團珠寶(84 12天)
+            Rarity <= Rare
+            ItemLevel >= 84
+            EnchantmentPassiveNum = 12
+            Class "Jewel"
+            BaseType "Large Cluster Jewel"
+            SetTextColor 235 159 42 240
+            SetBackgroundColor 8 11 113 255
+            SetBorderColor 117 0 179
+            SetFontSize 40
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-巨型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 1 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+            Continue
+
+        Show #巨型星團珠寶(高價)
+            EnchantmentPassiveNode "Minion"
+            SetFontSize 45
+            MinimapIcon 0 Purple Square
+
+        Show #巨型星團珠寶(8天)        
+            Rarity <= Rare
+            EnchantmentPassiveNum = 8
+            Class "Jewel"
+            BaseType "Large Cluster Jewel"
+            SetTextColor 235 159 42 240
+            SetBackgroundColor 8 11 113 255
+            SetBorderColor 117 0 179
+            SetFontSize 40
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-巨型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 1 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
 
         Show #巨型星團珠寶
             Rarity <= Rare
@@ -2165,9 +2179,14 @@
             CustomAlertSoundOptional "bubu\bubu-巨型星團珠寶.mp3" 300
             CustomAlertSoundOptional "Diablo2\19.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
-            MinimapIcon 0 Purple Square
+            MinimapIcon 2 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
+            Continue
+
+        Hide #巨型星團珠寶(高T隱藏)
+            AreaLevel >= 81
+            ItemLevel < 84
 
         Show #中型星團珠寶
             Rarity <= Rare
@@ -2185,6 +2204,28 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
+        Show #小型星團珠寶(84)
+            Rarity <= Rare
+            Class "Jewel"
+            BaseType "Small Cluster Jewel"
+            ItemLevel >= 84
+            SetTextColor 235 159 42 240
+            SetBackgroundColor 8 11 113 255
+            SetBorderColor 117 0 179
+            SetFontSize 40
+            PlayAlertSoundPositional 11 100
+            CustomAlertSoundOptional "bubu\bubu-小型星團珠寶.mp3" 300
+            CustomAlertSoundOptional "Diablo2\19.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
+            MinimapIcon 1 Purple Square
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+        Show #小型星團珠寶(高價)
+            EnchantmentPassiveNode "Mana Reservation Efficiency"
+            EnchantmentPassiveNum = 3
+            SetFontSize 45
+            MinimapIcon 0 Purple Square
+        
         Show #小型星團珠寶
             Rarity <= Rare
             Class "Jewel"
@@ -2197,9 +2238,14 @@
             CustomAlertSoundOptional "bubu\bubu-小型星團珠寶.mp3" 300
             CustomAlertSoundOptional "Diablo2\19.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_真是舉世無雙的人才阿.mp3" 300
-            MinimapIcon 0 Purple Square
+            MinimapIcon 2 Purple Square
             PlayEffect Purple
             DisableDropSoundIfAlertSound
+            Continue
+        
+        Hide #小型星團珠寶(高T隱藏)
+            AreaLevel >= 81
+            ItemLevel < 84
 
         #end
     #L2 2.14豐收聯盟(3.11版本)
@@ -2403,10 +2449,6 @@
             SetBackgroundColor 82 18 18 255
             SetBorderColor 0 0 0 255
             SetFontSize 38
-            PlayAlertSoundPositional 4 100
-            CustomAlertSoundOptional "bubu\bubu-盜賊之印.mp3" 200
-            CustomAlertSoundOptional "Diablo2\2.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-槍聲.mp3" 100
             MinimapIcon 2 Red Circle
             PlayEffect Red Temp
             DisableDropSoundIfAlertSound
@@ -3627,9 +3669,9 @@
 
             #end
     #L2 5.7 記憶
-        Show #記憶
+        Show #高價記憶
             Class "Memory"
-            BaseType "Niko's Memory" "Alva's Memory" "Kirac's Memory" "Einhar's Memory"
+            BaseType "Einhar's Memory of Harvest Beasts" "Einhar's Memory of Crystal Prisons" "Einhar's Memory of the Sacred Grove"
             SetTextColor 5 8 123 255
             SetBackgroundColor 198 216 255 255
             SetBorderColor 74 0 160 200
@@ -3639,6 +3681,20 @@
             CustomAlertSoundOptional "Diablo2\50.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
             MinimapIcon 0 Cyan Hexagon
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #記憶
+            Class "Memory"
+            SetTextColor 5 8 123 255
+            SetBackgroundColor 198 216 255 255
+            SetBorderColor 74 0 160 200
+            SetFontSize 40
+            PlayAlertSoundPositional 2 100
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 100
+            CustomAlertSoundOptional "Diablo2\50.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 100
+            MinimapIcon 1 Cyan Hexagon
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
@@ -5097,7 +5153,7 @@
 
             #end
     #L2 7.8 高階金裝
-        Show #印鈔 - 高階金裝(項鍊鑑定+1寶)
+        Show #印鈔 - 速刷 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
             Rarity = Rare
@@ -5194,8 +5250,6 @@
             SetBackgroundColor 30 30 30
             SetBorderColor 255 255 255
             SetFontSize 38
-            MinimapIcon 1 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 高階基底(新基底)
@@ -5206,8 +5260,6 @@
             SetBackgroundColor 30 30 30
             SetBorderColor 255 255 255
             SetFontSize 38
-            MinimapIcon 1 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 速刷 - 機制消耗性基底
@@ -5220,7 +5272,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Hide #基底
+        Hide #隱藏拓荒用基底
             ItemLevel < 84
             Rarity < Rare
             BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
@@ -5351,6 +5403,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 0 70 0
             SetBorderColor 0 0 0 0
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Show #富豪石配方(武器)
@@ -5361,6 +5414,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 70 0 0
             SetBorderColor 255 255 255 0
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Show #富豪石配方(裝備)
@@ -5371,6 +5425,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 0 0 70
             SetBorderColor 55 0 0 0
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Show #混沌石配方(飾品)
@@ -5381,6 +5436,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 0 70 0
             SetBorderColor 255 255 0 155
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Show #混沌石配方(武器)
@@ -5391,6 +5447,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 70 0 0
             SetBorderColor 255 255 0 155
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Show #混沌石配方(裝備)
@@ -5401,6 +5458,7 @@
             SetTextColor 255 255 0
             SetBackgroundColor 0 0 70
             SetBorderColor 255 255 0 155
+            SetFontSize 34
             DisableDropSoundIfAlertSound
 
         Hide #掩藏高等區域縮小汙染裝
