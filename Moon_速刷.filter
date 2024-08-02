@@ -17,52 +17,52 @@
 
 #L1 1 通貨
     #L2 1.1 通貨碎片
-        Show #印鈔 - 速刷 - 蛻變石碎片
+        Hide #印鈔 - 速刷 - 蛻變石碎片
             Class "Stackable Currency"
             BaseType "Transmutation Shard"
             SetTextColor 255 94 97
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 改造石碎片
+        Hide #印鈔 - 速刷 - 改造石碎片
             Class "Stackable Currency"
             BaseType "Alteration Shard"
             SetTextColor 124 255 196 202
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 混沌石碎片
+        Hide #印鈔 - 速刷 - 混沌石碎片
             Class "Stackable Currency"
             BaseType "Chaos Shard"
             SetTextColor 136 136 255
             SetBackgroundColor 150 0 0
             DisableDropSoundIfAlertSound
             
-        Show #印鈔 - 速刷 - 富豪石碎片
+        Hide #印鈔 - 速刷 - 富豪石碎片
             Class "Stackable Currency"
             BaseType "Regal Shard"
             SetTextColor 136 136 255
             SetBackgroundColor 150 0 0
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 點金石碎片
+        Hide #印鈔 - 速刷 - 點金石碎片
             Class "Stackable Currency"
             BaseType "Alchemy Shard"
             SetTextColor 136 136 255
             SetBackgroundColor 150 0 0
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 地平石碎片
+        Hide #印鈔 - 速刷 - 地平石碎片
             Class "Stackable Currency"
             BaseType "Horizon Shard"
             SetTextColor 231 180 120
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 工程石碎片
+        Hide #印鈔 - 速刷 - 工程石碎片
             Class "Stackable Currency"
             BaseType "Engineer's Shard"
             SetTextColor 231 180 120
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 束縛石碎片
+        Hide #印鈔 - 速刷 - 束縛石碎片
             Class "Stackable Currency"
             BaseType "Binding Shard"
             SetTextColor 231 180 120
@@ -142,7 +142,7 @@
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 知識卷軸
+        Hide #印鈔 - 速刷 - 知識卷軸
             Class "Stackable Currency"
             BaseType "Scroll of Wisdom" "Scroll Fragment"
             SetBorderColor 210 0 0
@@ -165,7 +165,7 @@
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 傳送卷軸
+        Hide #印鈔 - 速刷 - 傳送卷軸
             Class "Stackable Currency"
             BaseType "Portal Scroll"
             SetBorderColor 0 0 255
@@ -181,7 +181,7 @@
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 蛻變石
+        Hide #印鈔 - 速刷 - 蛻變石
             Class "Stackable Currency"
             BaseType "Orb of Transmutation"
             SetTextColor 255 94 97
@@ -198,7 +198,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 增幅石
+        Hide #印鈔 - 速刷 - 增幅石
             Class "Stackable Currency"
             BaseType "Orb of Augmentation"
             SetTextColor 255 94 97
@@ -257,7 +257,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 磨刀石
+        Hide #印鈔 - 速刷 - 磨刀石
             Class "Stackable Currency"
             BaseType "Blacksmith's Whetstone"
             SetBorderColor 210 0 0
@@ -281,7 +281,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 護甲片
+        Hide #印鈔 - 速刷 - 護甲片
             Class "Stackable Currency"
             BaseType "Armourer's Scrap"
             SetBorderColor 210 0 0
@@ -364,7 +364,7 @@
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 玻璃彈珠
+        Hide #印鈔 - 速刷 - 玻璃彈珠
             Class "Stackable Currency"
             BaseType "Glassblower's Bauble"
             SetTextColor 184 255 180
@@ -469,7 +469,7 @@
             
             #end
     #L2 1.6 中階通貨
-        Show #印鈔 - 速刷 - 束縛石
+        Hide #印鈔 - 速刷 - 束縛石
             Class "Stackable Currency"
             BaseType "Orb of Binding"
             SetTextColor 231 180 120
@@ -513,7 +513,7 @@
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 鏈結石
+        Hide #印鈔 - 速刷 - 鏈結石
             Class "Stackable Currency"
             BaseType "Orb of Fusing"
             SetTextColor 255 255 255
@@ -557,7 +557,7 @@
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 工匠石
+        Hide #印鈔 - 速刷 - 工匠石
             Class "Stackable Currency"
             BaseType "Jeweller's Orb"
             SetTextColor 255 255 255
@@ -615,7 +615,7 @@
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 改造石
+        Hide #印鈔 - 速刷 - 改造石
             Class "Stackable Currency"
             BaseType "Orb of Alteration"
             SetTextColor 124 255 196 202
@@ -659,7 +659,7 @@
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 幻色石
+        Hide #印鈔 - 速刷 - 幻色石
             Class "Stackable Currency"
             BaseType "Chromatic Orb"
             SetTextColor 124 255 196 202
@@ -688,7 +688,7 @@
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 機會石
+        Hide #印鈔 - 速刷 - 機會石
             Class "Stackable Currency"
             BaseType "Orb of Chance"
             SetTextColor 124 255 196 202
@@ -749,7 +749,7 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 點金石
+        Hide #印鈔 - 速刷 - 點金石
             Class "Stackable Currency"
             BaseType "Orb of Alchemy"
             SetTextColor 136 136 255
@@ -1278,7 +1278,7 @@
 
 #L1 2 賽季
     #L2 2.1魔符聯盟(2.1版本)
-        Show #印鈔 - 速刷 - 魔符
+        Hide #印鈔 - 速刷 - 魔符
             Rarity < Unique
             BaseType "Talisman"
             SetTextColor 138 255 103
@@ -1289,7 +1289,7 @@
 
         #end
     #L2 2.2普蘭德斯(2.2版本)
-        Show #印鈔 - 速刷 - 普蘭德斯金幣
+        Hide #印鈔 - 速刷 - 普蘭德斯金幣
             BaseType "Perandus Coin"
             SetTextColor 255 255 0
             SetBackgroundColor 125 147 0 101
@@ -1573,7 +1573,7 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 催眠之眼珠寶(高階基底)
+        Hide #印鈔 - 速刷 - 催眠之眼珠寶(高階基底)
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
@@ -1585,7 +1585,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 催眠之眼珠寶
+        Hide #印鈔 - 速刷 - 催眠之眼珠寶
             Rarity <= Rare
             Corrupted False
             Class "Abyss Jewel"
@@ -1617,7 +1617,7 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 極懼之眼珠寶(高階基底)
+        Hide #印鈔 - 速刷 - 極懼之眼珠寶(高階基底)
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
@@ -1629,7 +1629,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 極懼之眼珠寶
+        Hide #印鈔 - 速刷 - 極懼之眼珠寶
             Rarity <= Rare
             Corrupted False
             Class "Abyss Jewel"
@@ -1661,7 +1661,7 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 勘查之眼珠寶(高階基底)
+        Hide #印鈔 - 速刷 - 勘查之眼珠寶(高階基底)
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
@@ -1673,7 +1673,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 勘查之眼珠寶
+        Hide #印鈔 - 速刷 - 勘查之眼珠寶
             Rarity <= Rare
             Corrupted False
             Class "Abyss Jewel"
@@ -1705,7 +1705,7 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 殺戮之眼珠寶(高階基底)
+        Hide #印鈔 - 速刷 - 殺戮之眼珠寶(高階基底)
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
@@ -1717,7 +1717,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 殺戮之眼珠寶
+        Hide #印鈔 - 速刷 - 殺戮之眼珠寶
             Rarity <= Rare
             Corrupted False
             Class "Abyss Jewel"
@@ -1946,7 +1946,7 @@
             PlayEffect Brown Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 培育器
+        Hide #印鈔 - 速刷 - 培育器
             Class "Incubator"
             SetTextColor 0 0 0 255
             SetBackgroundColor 191 153 7 255
@@ -2091,7 +2091,7 @@
 
         #end
     #L2 2.12凋落聯盟(3.8版本)
-        Show #印鈔 - 速刷 - 低階油瓶
+        Hide #印鈔 - 速刷 - 低階油瓶
             BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil"
             SetTextColor 255 255 255 200
             SetBackgroundColor 0 0 0 255
@@ -2495,7 +2495,7 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 劫盜工具
+        Hide #印鈔 - 速刷 - 劫盜工具
             Rarity <= Rare
             Class "Heist Gear" "Heist Tool" "Heist Brooch" "Heist Cloak"
             SetTextColor 208 32 144
@@ -2591,7 +2591,7 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 盜賊之印
+        Hide #印鈔 - 速刷 - 盜賊之印
             Class "Stackable Currency"
             BaseType "Rogue's Marker"
             SetTextColor 209 40 0 220
@@ -3047,7 +3047,7 @@
             PlayEffect Red Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 萃取物
+        Hide #印鈔 - 速刷 - 萃取物
             Class "Tincture"
             SetTextColor 255 55 90
             SetBackgroundColor 21 28 83 200
@@ -3135,7 +3135,7 @@
         PlayEffect Green
         DisableDropSoundIfAlertSound
 
-    Show #印鈔 - 速刷 - 重複名稱debug區
+    Hide #印鈔 - 速刷 - 重複名稱debug區
         Class "Divination Card"
         BaseType "The Wolf's Shadow" "The Master Artisan" "The Demoness"
         SetTextColor 255 255 255 200
@@ -3189,7 +3189,7 @@
         PlayEffect White
         DisableDropSoundIfAlertSound
 
-    Show #印鈔 - 速刷 - T3命運卡
+    Hide #印鈔 - 速刷 - T3命運卡
         Class "Divination Card"
         BaseType "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Wretched" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "The Wolf" "Standoff" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "Friendship" "The Pack Leader" "The Gladiator" "The Hale Heart" "Monochrome" "More is Never Enough" "Baited Expectations" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Audacity" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The Last Supper" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculate" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Tranquillity" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Conduit" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "The Long Watch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "Parasitic Passengers" "Duality" "Magnum Opus" "Imperfect Memories" "Astral Protection" "Lethean Temptation" "Alivia's Grace" "The Return of the Rat" "The Hoarder" "A Dab of Ink"  "The Insatiable" "The Jeweller's Boon" "The Wind" "From Bone to Ashes" "Soul Quenched" "The Long Watch"
         SetTextColor 255 255 255 200
@@ -3336,7 +3336,7 @@
         SetFontSize 33
         DisableDropSoundIfAlertSound
 
-    Show #印鈔 - 速刷 - 高等級寶石
+    Hide #印鈔 - 速刷 - 高等級寶石
         GemLevel >= 15
         Class "Skill Gem" "Support Gem"
         SetTextColor 27 162 155
@@ -3365,7 +3365,7 @@
         SetFontSize 33
         DisableDropSoundIfAlertSound
 
-    Show #印鈔 - 速刷 - 品質寶石
+    Hide #印鈔 - 速刷 - 品質寶石
         Quality > 0
         Class "Skill Gem" "Support Gem"
         SetTextColor 27 162 155
@@ -3716,7 +3716,7 @@
 
             #end
     #L2 5.6 一般輿圖
-        Show #印鈔 - 速刷 - 白圖
+        Hide #印鈔 - 速刷 - 白圖
             Rarity <= Rare
             MapTier <= 5
             Class "Maps"
@@ -3731,7 +3731,7 @@
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 黃圖
+        Hide #印鈔 - 速刷 - 黃圖
             Rarity <= Rare
             MapTier >= 6
             MapTier <= 10
@@ -3747,7 +3747,7 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 低階紅圖(T16區域隱藏)
+        Hide #印鈔 - 速刷 - 低階紅圖(T16區域隱藏)
             Rarity <= Rare
             MapTier >= 11
             MapTier <= 13
@@ -4695,7 +4695,7 @@
 
             #end
     #L2 7.2 商店配方
-        Show #印鈔 - 速刷 - 幻色石配方(1*3)
+        Hide #印鈔 - 速刷 - 幻色石配方(1*3)
             AreaLevel < 81
             SocketGroup "RGB"
             Height = 3
@@ -4705,7 +4705,7 @@
             SetBorderColor 50 230 100
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 幻色石配方(2*2)
+        Hide #印鈔 - 速刷 - 幻色石配方(2*2)
             AreaLevel < 81
             SocketGroup "RGB"
             Height <= 2
@@ -4748,7 +4748,7 @@
             PlayEffect Brown
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 6S裝備 工匠石配方
+        Hide #印鈔 - 速刷 - 6S裝備 工匠石配方
             Sockets = 6
             SetTextColor 0 255 255
             SetBorderColor 255 94 0
@@ -4784,7 +4784,7 @@
             MinimapIcon 1 Blue Raindrop
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 顯示高等高品質魔力藥劑
+        Hide #印鈔 - 速刷 - 顯示高等高品質魔力藥劑
             Quality > 10
             Class "Mana Flask"
             BaseType "Divine Mana Flask" "Eternal Mana Flask"
@@ -4831,7 +4831,7 @@
             MinimapIcon 1 Red Raindrop
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 顯示高等高品質生命藥劑
+        Hide #印鈔 - 速刷 - 顯示高等高品質生命藥劑
             Quality > 10
             Class "Life Flask"
             BaseType "Divine Life Flask" "Eternal Life Flask"
@@ -4878,7 +4878,7 @@
             MinimapIcon 1 Purple Raindrop
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 顯示高等高品質祝福複合藥劑
+        Hide #印鈔 - 速刷 - 顯示高等高品質祝福複合藥劑
             Quality > 10
             Class "Hybrid Flask"
             BaseType "Hallowed Hybrid Flask"
@@ -4939,7 +4939,7 @@
             MinimapIcon 1 Green Raindrop
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 顯示高等高品質功能性藥劑
+        Hide #印鈔 - 速刷 - 顯示高等高品質功能性藥劑
             Quality > 10
             Class "Utility Flasks"
             SetTextColor 172 233 76
@@ -5101,7 +5101,7 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 隱匿詞綴
+        Hide #印鈔 - 速刷 - 隱匿詞綴
             HasExplicitMod "Veil" "of the Veil"
             SetTextColor 111 189 163
             SetBackgroundColor 89 83 71
@@ -5264,7 +5264,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
             
-        Show #印鈔 - 速刷 - 高階異界輿圖限定基底
+        Hide #印鈔 - 速刷 - 高階異界輿圖限定基底
             ItemLevel >= 84
             Rarity < Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -5276,7 +5276,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
             
-        Show #印鈔 - 速刷 - 異界輿圖限定基底
+        Hide #印鈔 - 速刷 - 異界輿圖限定基底
             ItemLevel < 84
             Rarity < Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -5301,7 +5301,7 @@
             #end
     #L2 7.8 高階金裝
         Import "Custom/Rare.filter" Optional
-        Show #印鈔 - 速刷 - 高階金裝(項鍊鑑定+1寶)
+        Hide #印鈔 - 速刷 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
             Rarity = Rare
@@ -5311,7 +5311,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階金裝
+        Hide #印鈔 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
             BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt"
@@ -5320,7 +5320,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階金裝(新基底頭盔)
+        Hide #印鈔 - 速刷 - 高階金裝(新基底頭盔)
             Identified False
             Rarity = Rare
             BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask"
@@ -5329,7 +5329,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階金裝(新基底胸甲)
+        Hide #印鈔 - 速刷 - 高階金裝(新基底胸甲)
             Identified False
             Rarity = Rare
             BaseType "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour"
@@ -5338,7 +5338,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階金裝(新基底手套)
+        Hide #印鈔 - 速刷 - 高階金裝(新基底手套)
             Identified False
             Rarity = Rare
             BaseType "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts"
@@ -5347,7 +5347,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階金裝(新基底鞋子)
+        Hide #印鈔 - 速刷 - 高階金裝(新基底鞋子)
             Identified False
             Rarity = Rare
             BaseType "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
@@ -5368,7 +5368,7 @@
     #L2 7.9 一般基底
         Import "Custom/Base.filter" Optional
 
-        Show #印鈔 - 速刷 - 高階基底
+        Hide #印鈔 - 速刷 - 高階基底
             ItemLevel >= 84
             Rarity < Rare
             BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
@@ -5378,7 +5378,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 高階基底(新基底)
+        Hide #印鈔 - 速刷 - 高階基底(新基底)
             ItemLevel >= 84
             Rarity < Rare
             BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
@@ -5521,7 +5521,7 @@
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 富豪石配方(飾品)
+        Hide #印鈔 - 速刷 - 富豪石配方(飾品)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5532,7 +5532,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 富豪石配方(武器)
+        Hide #印鈔 - 速刷 - 富豪石配方(武器)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5543,7 +5543,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 富豪石配方(裝備)
+        Hide #印鈔 - 速刷 - 富豪石配方(裝備)
             ItemLevel >= 75
             ItemLevel <= 80
             Rarity = Rare
@@ -5554,7 +5554,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 混沌石配方(飾品)
+        Hide #印鈔 - 速刷 - 混沌石配方(飾品)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
@@ -5565,7 +5565,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 混沌石配方(武器)
+        Hide #印鈔 - 速刷 - 混沌石配方(武器)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
@@ -5576,7 +5576,7 @@
             SetFontSize 34
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 混沌石配方(裝備)
+        Hide #印鈔 - 速刷 - 混沌石配方(裝備)
             ItemLevel >= 60
             ItemLevel <= 74
             Rarity = Rare
