@@ -206,26 +206,26 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 金幣(堆疊>=400)
-            StackSize >= 400
+        Show #印鈔 - 金幣(堆疊>=1000)
+            StackSize >= 1000
             Class "Gold"
             BaseType "Gold"
             SetTextColor 246 220 130
             SetBackgroundColor 0 0 0 240
-            SetBorderColor 246 220 130 0
-            SetFontSize 39    
-            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            SetBorderColor 246 220 130
+            SetFontSize 44    
+            CustomAlertSoundOptional "Diablo2\2.mp3" 300
             DisableDropSoundIfAlertSound    
 
-        Show #印鈔 - 金幣(堆疊>=100)
-            StackSize >= 100
+        Show #印鈔 - 金幣(堆疊>=300)
+            StackSize >= 300
             Class "Gold"
             BaseType "Gold"
             SetTextColor 246 220 130
             SetBackgroundColor 0 0 0 240
             SetBorderColor 246 220 130 0
-            SetFontSize 36
-            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\2.mp3" 200
             DisableDropSoundIfAlertSound
 
         Show #金幣
@@ -234,7 +234,7 @@
             SetTextColor 246 220 130
             SetBackgroundColor 0 0 0 240
             SetBorderColor 246 220 130 0
-            SetFontSize 33
+            SetFontSize 34
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             DisableDropSoundIfAlertSound    
 
@@ -1890,7 +1890,8 @@
 
         #end
     #L2 2.10追憶聯盟(3.6版本)
-        Show #破碎之物
+        Show #破碎之物            
+            Corrupted False
             Rarity <= Rare
             SetTextColor 0 100 150 200
             SetBackgroundColor 184 218 242
@@ -2506,7 +2507,7 @@
 
         Show #實驗基底
             Rarity <= Rare
-            BaseType "Assembler Wand" "Hollowpoint Dagger" "Flickerflame Blade" "Shadow Fangs" "Maltreatment Axe" "Fickle Spiritblade" "Flare Mace" "Oscillating Sceptre" "Hedron Bow" "Transformer Staff" "Capacity Rod" "Prime Cleaver" "Rebuking Blade" "Blunt Force Condenser" "Exhausting Spirit Shield" "Endothermic Buckler" "Exothermic Tower Shield" "Congregator Wand" "Pressurised Dagger" "Flashfire Blade" "Malign Fangs" "Disapprobation Axe" "Capricious Spiritblade" "Crack Mace" "Stabilising Sceptre" "Foundry Bow" "Reciprocation Staff" "Potentiality Rod" "Honed Cleaver" "Blasting Blade" "Crushing Force Magnifier" "Subsuming Spirit Shield" "Polar Buckler" "Magmatic Tower Shield" "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Mace" "Alternating Sceptre" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring"
+            BaseType "Assembler Wand" "Hollowpoint Dagger" "Flickerflame Blade" "Shadow Fangs" "Maltreatment Axe" "Fickle Spiritblade" "Flare Mace" "Oscillating Sceptre" "Hedron Bow" "Transformer Staff" "Capacity Rod" "Prime Cleaver" "Rebuking Blade" "Blunt Force Condenser" "Exhausting Spirit Shield" "Endothermic Buckler" "Exothermic Tower Shield" "Congregator Wand" "Pressurised Dagger" "Flashfire Blade" "Malign Fangs" "Disapprobation Axe" "Capricious Spiritblade" "Crack Mace" "Stabilising Sceptre" "Foundry Bow" "Reciprocation Staff" "Potentiality Rod" "Honed Cleaver" "Blasting Blade" "Crushing Force Magnifier" "Subsuming Spirit Shield" "Polar Buckler" "Magmatic Tower Shield" "Accumulator Wand" "Pneumatic Dagger" "Infernal Blade" "Void Fangs" "Psychotic Axe" "Anarchic Spiritblade" "Boom Mace" "Alternating Sceptre" "Solarine Bow" "Battery Staff" "Eventuality Rod" "Apex Cleaver" "Banishing Blade" "Impact Force Propagator" "Transfer-attuned Spirit Shield" "Cold-attuned Buckler" "Heat-attuned Tower Shield" "Micro-Distillery Belt" "Mechalarm Belt" "Astrolabe Amulet" "Simplex Amulet" "Cogwork Ring" "Geodesic Ring" "Helical Ring" "Composite Ring" "Focused Amulet" "Manifold Ring" "Ratcheting Ring"
             SetTextColor 147 187 32
             SetBackgroundColor 82 18 18 255
             SetBorderColor 255 215 0
@@ -3038,6 +3039,7 @@
     #L2 2.25禁咒荒林(3.23版本)
         Show #萃取物(高等)
             Class "Tincture"
+            Rarity <= Rare
             ItemLevel >= 85
             SetTextColor 255 55 90
             SetBackgroundColor 21 28 83 200
@@ -3049,6 +3051,7 @@
 
         Show #印鈔 - 速刷 - 萃取物
             Class "Tincture"
+            Rarity <= Rare
             SetTextColor 255 55 90
             SetBackgroundColor 21 28 83 200
             SetBorderColor 255 55 90
@@ -4979,7 +4982,6 @@
         Import "Custom/Chance.filter" Optional
         Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
             ItemLevel >= 78
-            Rarity = Normal
             BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
             SetTextColor 255 255 255 220
             SetBackgroundColor 255 114 0 200
