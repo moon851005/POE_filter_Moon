@@ -1370,8 +1370,9 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-        Show #索伏裂片
+        Show #索伏裂片(堆疊>1)
             BaseType "Splinter of Xoph"
+            StackSize > 1
             SetTextColor 210 0 3 255
             SetBackgroundColor 80 0 80
             SetFontSize 40
@@ -1381,6 +1382,17 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             MinimapIcon 2 Red Kite
             PlayEffect Red Temp
+            DisableDropSoundIfAlertSound
+            
+        Hide #印鈔 - 速刷 - 索伏裂片
+            BaseType "Splinter of Xoph"
+            SetTextColor 210 0 3 255
+            SetBackgroundColor 80 0 80
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-裂痕碎片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             DisableDropSoundIfAlertSound
 
         Show #艾許祝福/裂痕石
@@ -1397,8 +1409,9 @@
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
-        Show #艾許裂片
+        Show #艾許裂片(堆疊>1)
             BaseType "Splinter of Esh"
+            StackSize > 1
             SetTextColor 30 144 255
             SetBackgroundColor 80 0 80
             SetFontSize 40
@@ -1408,6 +1421,17 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             MinimapIcon 2 Blue Kite
             PlayEffect Blue Temp
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 艾許裂片
+            BaseType "Splinter of Esh"
+            SetTextColor 30 144 255
+            SetBackgroundColor 80 0 80
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-裂痕碎片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             DisableDropSoundIfAlertSound
 
         Show #托沃祝福/裂痕石
@@ -1424,8 +1448,9 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #托沃裂片
+        Show #托沃裂片(堆疊>1)
             BaseType "Splinter of Tul"
+            StackSize > 1
             SetTextColor 184 218 242
             SetBackgroundColor 80 0 80
             SetFontSize 40
@@ -1435,6 +1460,17 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             MinimapIcon 2 Cyan Kite
             PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 托沃裂片
+            BaseType "Splinter of Tul"
+            SetTextColor 184 218 242
+            SetBackgroundColor 80 0 80
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-裂痕碎片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             DisableDropSoundIfAlertSound
 
         Show #烏爾尼多祝福/裂痕石
@@ -1451,8 +1487,9 @@
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        Show #烏爾尼多裂片
+        Show #烏爾尼多裂片(堆疊>1)
             BaseType "Splinter of Uul-Netol"
+            StackSize > 1
             SetTextColor 170 158 130
             SetBackgroundColor 80 0 80
             SetFontSize 40
@@ -1462,6 +1499,17 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             MinimapIcon 2 Grey Kite
             PlayEffect Grey Temp
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 烏爾尼多裂片
+            BaseType "Splinter of Uul-Netol"
+            SetTextColor 170 158 130
+            SetBackgroundColor 80 0 80
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-裂痕碎片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
             DisableDropSoundIfAlertSound
 
         Show #夏烏拉祝福/裂痕石
@@ -1553,6 +1601,8 @@
     #L2 2.7深淵聯盟(3.1版本)
         Show #催眠之眼珠寶(汙染凝視)
             Corrupted True
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 10 60 10
@@ -1565,6 +1615,8 @@
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 10 60 10
@@ -1577,6 +1629,8 @@
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 0 87 255
@@ -1588,6 +1642,8 @@
         Hide #印鈔 - 速刷 - 催眠之眼珠寶
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 0 87 255
@@ -1597,6 +1653,8 @@
 
         Show #極懼之眼珠寶(汙染凝視)
             Corrupted True
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 10 60 10
@@ -1609,6 +1667,8 @@
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 10 60 10
@@ -1621,6 +1681,8 @@
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 156 112 0
@@ -1632,6 +1694,8 @@
         Hide #印鈔 - 速刷 - 極懼之眼珠寶
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 156 112 0
@@ -1641,6 +1705,8 @@
 
         Show #勘查之眼珠寶(汙染凝視)
             Corrupted True
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 10 60 10
@@ -1653,6 +1719,8 @@
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 10 60 10
@@ -1665,6 +1733,8 @@
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 180 208 245
@@ -1676,6 +1746,8 @@
         Hide #印鈔 - 速刷 - 勘查之眼珠寶
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 180 208 245
@@ -1685,6 +1757,8 @@
 
         Show #殺戮之眼珠寶(汙染凝視)
             Corrupted True
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 10 60 10
@@ -1697,6 +1771,8 @@
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 10 60 10
@@ -1709,6 +1785,8 @@
             ItemLevel >= 82
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 255 0 98
@@ -1720,6 +1798,8 @@
         Hide #印鈔 - 速刷 - 殺戮之眼珠寶
             Rarity <= Rare
             Corrupted False
+            SynthesisedItem False
+            TrueFracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 255 0 98
@@ -1890,7 +1970,7 @@
 
         #end
     #L2 2.10追憶聯盟(3.6版本)
-        Show #破碎之物   
+        Show #破碎之物            
             Corrupted False
             Rarity <= Rare
             SetTextColor 0 100 150 200
@@ -3024,8 +3104,7 @@
         Show #預兆
             Class "Stackable Currency"
             BaseType "Omen of"
-            SetTextColor 55 33 117 255
-            SetBackgroundColor 139 126 208 255
+            SetTextColor 139 126 208 255
             SetBorderColor 75 20 142 255
             SetFontSize 36
             PlayAlertSoundPositional 9 100
