@@ -1602,7 +1602,7 @@
         Show #催眠之眼珠寶(汙染凝視)
             Corrupted True
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 10 60 10
@@ -1616,7 +1616,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 10 60 10
@@ -1630,7 +1630,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 0 87 255
@@ -1643,7 +1643,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Hypnotic Eye Jewel"
             SetTextColor 0 87 255
@@ -1654,7 +1654,7 @@
         Show #極懼之眼珠寶(汙染凝視)
             Corrupted True
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 10 60 10
@@ -1668,7 +1668,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 10 60 10
@@ -1682,7 +1682,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 156 112 0
@@ -1695,7 +1695,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Ghastly Eye Jewel"
             SetTextColor 156 112 0
@@ -1706,7 +1706,7 @@
         Show #勘查之眼珠寶(汙染凝視)
             Corrupted True
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 10 60 10
@@ -1720,7 +1720,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 10 60 10
@@ -1734,7 +1734,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 180 208 245
@@ -1747,7 +1747,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Searching Eye Jewel"
             SetTextColor 180 208 245
@@ -1758,7 +1758,7 @@
         Show #殺戮之眼珠寶(汙染凝視)
             Corrupted True
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 10 60 10
@@ -1772,7 +1772,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 10 60 10
@@ -1786,7 +1786,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 255 0 98
@@ -1799,7 +1799,7 @@
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
-            TrueFracturedItem False
+            FracturedItem False
             Class "Abyss Jewel"
             BaseType "Murderous Eye Jewel"
             SetTextColor 255 0 98
