@@ -1299,19 +1299,19 @@
 
         #end
     #L2 2.3精髓聯盟(2.3版本)
-        Show #低階精髓
-            AreaLevel <= 80
+        Show #高階精髓
             Class "Stackable Currency"
-            BaseType "Essence of Greed" "Essence of Cont" "Essence of Hatred" "Essence of Woe" "Essence of Fear" "Essence of Anger" "Essence of Torment" "Essence of Sorrow" "Essence of Rage" "Essence of Suffering" "Essence of Wrath" "Essence of Doubt" "Essence of Loathing" "Essence of Zeal" "Essence of Anguish" "Essence of Spite" "Essence of Scorn" "Essence of Envy" "Essence of Misery" "Essence of Dread"
+            BaseType "Screaming Essence" "Shrieking Essence" "Deafening Essence"
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #高階精髓
+        Show #印鈔 - 速刷 - 低階精髓
+            AreaLevel <= 80
             Class "Stackable Currency"
-            BaseType "Screaming Essence" "Shrieking Essence" "Deafening Essence"
+            BaseType "Essence of Greed" "Essence of Cont" "Essence of Hatred" "Essence of Woe" "Essence of Fear" "Essence of Anger" "Essence of Torment" "Essence of Sorrow" "Essence of Rage" "Essence of Suffering" "Essence of Wrath" "Essence of Doubt" "Essence of Loathing" "Essence of Zeal" "Essence of Anguish" "Essence of Spite" "Essence of Scorn" "Essence of Envy" "Essence of Misery" "Essence of Dread"
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
@@ -2244,7 +2244,7 @@
 
         Show #三相油瓶
             BaseType "Prismatic Oil"
-            SetTextColor 39 255 29
+            SetTextColor 250 246 29
             SetBackgroundColor 0 0 0 255
             SetBorderColor 131 156 0 255
             SetFontSize 45
@@ -3475,12 +3475,27 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #高階聖甲蟲
+        Show #低階聖甲蟲(爆發伏擊 暗室伏擊 石碑神諭) 
             Class "Map Fragments"
-            BaseType "Horned Scarab of Preservation" "Horned Scarab of Glittering" "Ambush Scarab of Containment" "Ultimatum Scarab of Catalysing" "Essence Scarab of Calcification" "Horned Scarab of Awakening"
+            BaseType "Ambush Scarab of Potency" "Ambush Scarab of Hidden Compartments" "Harbinger Scarab of Obelisks"
             SetTextColor 55 237 228
-            SetBackgroundColor 128 0 128 255
-            SetBorderColor 175 96 37
+            SetBackgroundColor 100 0 100 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            PlayAlertSoundPositional 14 100
+            CustomAlertSoundOptional "bubu\bubu-聖甲蟲.mp3" 100
+            CustomAlertSoundOptional "Diablo2\41.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 100
+            MinimapIcon 2 Cyan Square
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #高階聖甲蟲 庇護犄角 閃亮犄角 覺醒犄角 萬劫犄角 血統犄角 遏制伏擊 通牒催化 鈣化精髓 盜竊之命運 綻放凋落 惡懼支配 富饒豐收 
+            Class "Map Fragments"
+            BaseType "Horned Scarab of Preservation" "Horned Scarab of Glittering" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium" "Horned Scarab of Bloodlines" "Ambush Scarab of Containment" "Ultimatum Scarab of Catalysing" "Essence Scarab of Calcification" "Divination Scarab of Pilfering" "Blight Scarab of Blooming" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia"
+            SetTextColor 50 0 50 255
+            SetBackgroundColor 55 237 228
+            SetBorderColor 255 165 0 255
             SetFontSize 45
             PlayAlertSoundPositional 14 300
             CustomAlertSoundOptional "bubu\bubu-高階聖甲蟲.mp3" 300
@@ -3490,18 +3505,33 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #聖甲蟲
+        Show #中階聖甲蟲 復仇犄角 傳統犄角 洞察伏擊 戰儲神諭 攝政神諭 神殿廟之命運 伏擊 時間線穿越 倍增豐收 通牒決鬥 腐化製圖 繁榮祭祀 增生製圖 誘捕裂痕 適性精髓 珍寶泰坦 上升精髓 神諭 永恆鬥爭戰亂 深沉深淵 傳統犄角 尋符探險
             Class "Map Fragments"
-            BaseType "Scarab"
+            BaseType "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Ambush Scarab of Discernment" "Harbinger Scarab of Warhoards" "Harbinger Scarab of Regency" "Divination Scarab of The Cloister" "Ambush Scarab" "Incursion Scarab of Timelines" "Harvest Scarab of Doubling" "Ultimatum Scarab of Dueling" "Cartography Scarab of Corruption" "Ritual Scarab of Abundance" "Cartography Scarab of the Multitude" "Breach Scarab of Snares" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Harbinger Scarab" "Legion Scarab of Eternal Conflict" "Abyss Scarab of Profound Depth" "Horned Scarab of Tradition" "Expedition Scarab of Runefinding"
             SetTextColor 55 237 228
             SetBackgroundColor 128 0 128 255
-            SetBorderColor 184 218 242
-            SetFontSize 40
+            SetBorderColor 255 165 0 255
+            SetFontSize 42
             PlayAlertSoundPositional 14 200
             CustomAlertSoundOptional "bubu\bubu-聖甲蟲.mp3" 200
             CustomAlertSoundOptional "Diablo2\41.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 200
             MinimapIcon 1 Cyan Square
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #低階聖甲蟲
+            Class "Map Fragments"
+            BaseType "Scarab"
+            SetTextColor 55 237 228
+            SetBackgroundColor 100 0 100 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            PlayAlertSoundPositional 14 100
+            CustomAlertSoundOptional "bubu\bubu-聖甲蟲.mp3" 100
+            CustomAlertSoundOptional "Diablo2\41.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵照我的指令吧.mp3" 100
+            MinimapIcon 2 Cyan Square
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
@@ -5436,12 +5466,31 @@
             SetBorderColor 255 255 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
-            
-        Show #一般珠寶
+
+        Show #印鈔 - 速刷 - 鈷藍珠寶
             Class "Jewel"
-            BaseType "Crimson Jewel" "Viridian Jewel" "Cobalt Jewel"
-            SetTextColor 237 201 128
-            SetBorderColor 255 255 0
+            BaseType "Cobalt Jewel"
+            SetTextColor 70 200 200
+            SetBackgroundColor 10 10 50
+            SetBorderColor 70 200 200
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 速刷 - 赤紅珠寶
+            Class "Jewel"
+            BaseType "Crimson Jewel"
+            SetTextColor 200 35 35 
+            SetBackgroundColor 50 10 10        
+            SetBorderColor 200 35 35
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 速刷 - 翠綠珠寶
+            Class "Jewel"
+            BaseType "Viridian Jewel"
+            SetTextColor 71 161 103
+            SetBackgroundColor 10 50 10   
+            SetBorderColor 71 161 103
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
