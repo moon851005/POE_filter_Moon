@@ -3116,7 +3116,7 @@
             DisableDropSoundIfAlertSound
         #end
     #L2 2.25禁咒荒林(3.23版本)
-        Show #萃取物(高等)
+        Hide #印鈔 - 速刷 - 萃取物(高等)
             Class "Tincture"
             Rarity <= Rare
             ItemLevel >= 85
