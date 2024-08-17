@@ -1,0 +1,8 @@
+Show #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
+    ItemLevel >= 78
+    BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
+    SetTextColor 255 255 255 220
+    SetBackgroundColor 255 114 0 200
+    SetBorderColor 255 114 0
+    SetFontSize 35
+    DisableDropSoundIfAlertSound

@@ -1,0 +1,28 @@
+Show #印鈔 - 速刷 - 鈷藍珠寶
+    Class "Jewel"
+    BaseType "Cobalt Jewel"
+    SetTextColor 70 200 200
+    SetBackgroundColor 10 10 50
+    SetBorderColor 70 200 200
+    SetFontSize 35
+    DisableDropSoundIfAlertSound
+
+Show #印鈔 - 速刷 - 赤紅珠寶
+    Class "Jewel"
+    BaseType "Crimson Jewel"
+    SetTextColor 200 35 35 
+    SetBackgroundColor 50 10 10        
+    SetBorderColor 200 35 35
+    SetFontSize 35
+    DisableDropSoundIfAlertSound
+
+Show #印鈔 - 速刷 - 翠綠珠寶
+    Class "Jewel"
+    BaseType "Viridian Jewel"
+    SetTextColor 71 161 103
+    SetBackgroundColor 10 50 10   
+    SetBorderColor 71 161 103
+    SetFontSize 35
+    DisableDropSoundIfAlertSound
+
+    #end
