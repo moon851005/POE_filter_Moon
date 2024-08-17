@@ -1,3 +1,4 @@
+﻿Import "自定義過濾/自定義配置.filter" Optional
 #L1 Moon過濾器:https://drive.google.com/file/d/0B6Et2cvBJzhyLVB6Qml3ZzVZdTA/view
     #L2 Lelouch語音版過濾器(須解壓縮):https://drive.google.com/file/d/1LztpIb__V7ZEr8mMFndJ4wMSognWEIH5/view?usp=sharing
         #end
@@ -3243,7 +3244,7 @@
 
     Show #T1命運卡
         Class "Divination Card"
-        BaseType "Spark and the Flame" "Nook's Crown" "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "Eternal Bonds" "Altered Perception" "A Fate Worse Than Death" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Fire Of Unknown Origin" "Assassin's Gift" "Father's Love" "Avian Pursuit" "Lonely Warrior"
+        BaseType "Spark and the Flame" "Nook's Crown" "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "Altered Perception" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Fire Of Unknown Origin" "Assassin's Gift" "Father's Love" "Avian Pursuit" "Lonely Warrior"
         SetTextColor 255 117 29
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -3258,7 +3259,7 @@
 
     Show #T2命運卡
         Class "Divination Card"
-        BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough"
+        BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Eye of Terror" "Azyran's Reward" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "Remembrance" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Soul" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Brotherhood in Exile" "Divine Justice" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Broken Truce" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "Azure Rage" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death"
         SetTextColor 255 200 0
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -4884,7 +4885,7 @@
             #end
     #L2 7.3 藥劑
         Show #顯示高等高品質魔力藥劑
-            Quality > 20
+            Quality >= 25
             Class "Mana Flask"
             BaseType "Divine Mana Flask" "Eternal Mana Flask"
             SetTextColor 0 0 0
@@ -4931,7 +4932,7 @@
             DisableDropSoundIfAlertSound
 
         Show #顯示高等高品質生命藥劑
-            Quality > 20
+            Quality >= 25
             Class "Life Flask"
             BaseType "Divine Life Flask" "Eternal Life Flask"
             SetTextColor 0 0 0
@@ -4978,7 +4979,7 @@
             DisableDropSoundIfAlertSound
 
         Show #顯示高等高品質祝福複合藥劑
-            Quality > 20
+            Quality >= 25
             Class "Hybrid Flask"
             BaseType "Hallowed Hybrid Flask"
             SetTextColor 0 0 0
@@ -5039,7 +5040,7 @@
             DisableDropSoundIfAlertSound
 
         Show #顯示高等高品質功能性藥劑
-            Quality > 20
+            Quality >= 25
             Class "Utility Flasks"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
@@ -5088,7 +5089,7 @@
         
             #end
     #L2 7.4 點機會石用基底            
-        Import "Custom/Chance.filter" Optional
+        Import "自定義過濾/傳奇基底(開).filter" Optional
         Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
             ItemLevel >= 78
             BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
@@ -5410,8 +5411,158 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.8 高階金裝
-        Import "Custom/Rare.filter" Optional
+    #L2 7.8 一般基底
+        Import "自定義過濾/最高階高品質基底(開).filter" Optional
+        Import "自定義過濾/最高階基底(開).filter" CustomAlertSoundOptional
+        Show #最高階高品質基底(86) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Colossal Tower Shield" "Supreme Spiked Shield" "Titanium Spirit Shield"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
+            ItemLevel >= 86
+            Quality >= 27
+            Rarity <= Rare
+            BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Giantslayer Helmet" "Royal Plate" "Leviathan Greaves" "Leviathan Gauntlets"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Majestic Pelt" "Syndicate's Garb" "Velour Boots" "Velour Gloves"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Lich's Circlet" "Twilight Regalia" "Warlock Boots" "Warlock Gloves"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Haunted Bascinet" "Conquest Lamellar" "Wyvernscale Boots" "Wyvernscale Gauntlets"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Divine Crown" "Sacred Chainmail" "Paladin Boots" "Paladin Gloves"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階高品質基底(86) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
+            ItemLevel >= 86
+            Quality >= 25
+            Rarity <= Rare
+            BaseType "Torturer's Mask" "Necrotic Armour" "Phantom Boots" "Phantom Mitts"
+            SetTextColor 30 30 30
+            SetBackgroundColor 255 221 100
+            SetBorderColor 255 255 255
+            SetFontSize 45
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
+            ItemLevel >= 86
+            Rarity <= Rare
+            BaseType "Colossal Tower Shield" "Supreme Spiked Shield"
+            SetTextColor 30 30 30
+            SetBackgroundColor 184 218 242
+            SetBorderColor 255 255 255
+            SetFontSize 41
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓
+            ItemLevel >= 86
+            Rarity <= Rare
+            BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow"
+            SetTextColor 30 30 30
+            SetBackgroundColor 184 218 242
+            SetBorderColor 255 255 255
+            SetFontSize 41
+            MinimapIcon 0 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒基底
+            AreaLevel < 68
+            BaseType "Convoking Wand" "Calling Wand"
+            Rarity < Rare
+            SetTextColor 255 255 255 220
+            SetBackgroundColor 255 114 0 200
+            SetBorderColor 255 114 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Hide #隱藏拓荒用基底
+            ItemLevel < 84
+            Rarity < Rare
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
+            SetTextColor 184 218 242
+            SetBackgroundColor 30 30 30
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+            #end
+    #L2 7.9 高階金裝
         Hide #印鈔 - 速刷 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
@@ -5467,6 +5618,9 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
+            #end
+    #L2 7.10 珠寶
+        Import "自定義過濾/珠寶(開).filter" Optional
         Hide #印鈔 - 速刷 - 鈷藍珠寶
             Class "Jewel"
             BaseType "Cobalt Jewel"
@@ -5495,50 +5649,7 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.9 一般基底
-        Import "Custom/Base.filter" Optional
-
-        Hide #印鈔 - 速刷 - 高階基底
-            ItemLevel >= 84
-            Rarity < Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
-            SetTextColor 184 218 242
-            SetBackgroundColor 30 30 30
-            SetBorderColor 255 255 255
-            SetFontSize 39
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 速刷 - 高階基底(新基底)
-            ItemLevel >= 84
-            Rarity < Rare
-            BaseType "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts"
-            SetTextColor 184 218 242
-            SetBackgroundColor 30 30 30
-            SetBorderColor 255 255 255
-            SetFontSize 39
-            DisableDropSoundIfAlertSound
-
-        Show #拓荒基底
-            AreaLevel < 68
-            BaseType "Convoking Wand" "Calling Wand"
-            Rarity < Rare
-            SetTextColor 255 255 255 220
-            SetBackgroundColor 255 114 0 200
-            SetBorderColor 255 114 0
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
-        Hide #隱藏拓荒用基底
-            ItemLevel < 84
-            Rarity < Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Spine Bow" "Maraketh Bow" "Titan Gauntlets" "Thicket Bow" 
-            SetTextColor 184 218 242
-            SetBackgroundColor 30 30 30
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
-            #end
-    #L2 7.10 釣魚道具
+    #L2 7.11 釣魚道具
         Show #釣竿
             BaseType "Fishing Rod"
             SetTextColor 0 43 160 200
