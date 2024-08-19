@@ -1139,7 +1139,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        Show #低階異能灰燼
+        Show #印鈔 - 速刷 - 低階異能灰燼
             Class "Stackable Currency"
             BaseType "Lesser Eldritch Ember"
             SetTextColor 255 52 0 255
@@ -1199,7 +1199,7 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-        Show #低階異能靈液
+        Show #印鈔 - 速刷 - 低階異能靈液
             Class "Stackable Currency"
             BaseType "Lesser Eldritch Ichor"
             SetTextColor 0 245 152 255
