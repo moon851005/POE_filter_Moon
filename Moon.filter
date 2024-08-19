@@ -3152,7 +3152,22 @@
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
-        Show #屍體
+        Show #完美屍體、黑暗木偶
+            BaseType "Perfect" "Dark Marionette"
+            Class "Corpses"
+            SetTextColor 27 162 93
+            SetBackgroundColor 21 28 83 200
+            SetBorderColor 27 162 93
+            SetFontSize 39
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 1 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+            
+        Show #印鈔 - 速刷 - 屍體
             Class "Corpses"
             SetTextColor 27 162 93
             SetBackgroundColor 21 28 83 200
