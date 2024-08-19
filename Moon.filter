@@ -207,7 +207,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 金幣(堆疊>=1000)
+        Show #金幣(堆疊>=1000)
             StackSize >= 1000
             Class "Gold"
             BaseType "Gold"
@@ -218,7 +218,7 @@
             CustomAlertSoundOptional "Diablo2\2.mp3" 300
             DisableDropSoundIfAlertSound    
 
-        Show #印鈔 - 金幣(堆疊>=300)
+        Show #金幣(堆疊>=300)
             StackSize >= 300
             Class "Gold"
             BaseType "Gold"
@@ -1626,8 +1626,8 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 催眠之眼珠寶(高階基底)
-            ItemLevel >= 82
+        Show #印鈔 - 催眠之眼珠寶(高階基底)
+            ItemLevel >= 84
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
@@ -1678,8 +1678,8 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 極懼之眼珠寶(高階基底)
-            ItemLevel >= 82
+        Show #印鈔 - 極懼之眼珠寶(高階基底)
+            ItemLevel >= 84
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
@@ -1730,8 +1730,8 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 勘查之眼珠寶(高階基底)
-            ItemLevel >= 82
+        Show #印鈔 - 勘查之眼珠寶(高階基底)
+            ItemLevel >= 84
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
@@ -1782,8 +1782,8 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 速刷 - 殺戮之眼珠寶(高階基底)
-            ItemLevel >= 82
+        Show #印鈔 - 殺戮之眼珠寶(高階基底)
+            ItemLevel >= 84
             Rarity <= Rare
             Corrupted False
             SynthesisedItem False
