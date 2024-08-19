@@ -3078,18 +3078,18 @@
             SetTextColor 55 33 117 255
             SetBackgroundColor 139 126 208 255
             SetBorderColor 75 20 142 255
-            SetFontSize 42
+            SetFontSize 45
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 1 Purple Circle
+            MinimapIcon 0 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
         Show #實用預兆
             Class "Stackable Currency"
-            BaseType "Omen of Amelioration" "Omen of Blanching"
+            BaseType "Omen of Amelioration" "Omen of Blanching" "Omen of Return"
             SetTextColor 55 33 117 255
             SetBackgroundColor 139 126 208 255
             SetBorderColor 75 20 142 255
@@ -3098,11 +3098,11 @@
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
             CustomAlertSoundOptional "Diablo2\24.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 200
-            MinimapIcon 2 Purple Circle
+            MinimapIcon 1 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
-        Show #預兆
+        Show #印鈔 - 速刷 - 預兆
             Class "Stackable Currency"
             BaseType "Omen of"
             SetTextColor 139 126 208 255
