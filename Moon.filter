@@ -5247,12 +5247,12 @@
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 隱匿詞綴(限定)
+        Show #印鈔 - 速刷 - 隱匿詞綴(限定)
             HasExplicitMod "Leo's Veiled" "Catarina's Veiled" "Elreon's Veiled" "Vorici's Veiled" "Haku's Veiled" "Tora's Veiled" "Vagan's Veiled" "Guff's Veiled" "It That Fled's Veiled" "Gravicius' Veiled" "Korell's Veiled" "Rin's Veiled" "of Janus' Veil" "of Hillock's Veil" "of Jorgin's Veil" "of Cameria's Veil" "of Aisling's Veil" "of Riker's Veil"
             SetTextColor 111 189 163
             SetBackgroundColor 89 83 71
-            SetBorderColor 0 128 0 255
-            SetFontSize 39
+            SetBorderColor 111 189 163
+            SetFontSize 42
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
             CustomAlertSoundOptional "Diablo2\44.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -5266,11 +5266,6 @@
             SetBackgroundColor 89 83 71
             SetBorderColor 0 128 0 255
             SetFontSize 39
-            CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 100
-            CustomAlertSoundOptional "Diablo2\44.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
-            MinimapIcon 1 Cyan UpsideDownHouse
-            PlayEffect Cyan 
             DisableDropSoundIfAlertSound
 
         Hide #複製詞綴(高T隱藏)
