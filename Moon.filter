@@ -3199,17 +3199,32 @@
         #end
 
     #L2 2.27卡爾葛拓荒者(3.25版本)
+        Show #高價盧恩符文
+            Class "Stackable Currency"
+            BaseType "Power Rune" "Time Rune"
+            SetTextColor 0 73 165 200
+            SetBackgroundColor 152 184 191
+            SetBorderColor 153 213 243
+            SetFontSize 45
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\26.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
+            MinimapIcon 0 Cyan Circle
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
         Show #盧恩符文
             Class "Stackable Currency"
             BaseType "Rune"
             SetTextColor 0 73 165 200
             SetBackgroundColor 152 184 191
-            SetBorderColor 153 213 243
-            SetFontSize 42
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-探險文物.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_發現.mp3" 300
+            SetBorderColor 153 213 243 200
+            SetFontSize 40
+            PlayAlertSoundPositional 9 200
+            CustomAlertSoundOptional "bubu\bubu-探險文物.mp3" 200
+            CustomAlertSoundOptional "Diablo2\24.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_發現.mp3" 200
             MinimapIcon 1 Cyan Circle
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
