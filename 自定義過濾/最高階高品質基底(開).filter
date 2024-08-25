@@ -1,7 +1,8 @@
-Show #最高階高品質基底(86) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Colossal Tower Shield" "Supreme Spiked Shield" "Titanium Spirit Shield"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -11,10 +12,11 @@ Show #最高階高品質基底(86) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
+    ItemLevel >= 84
     Quality >= 27
     Rarity <= Rare
+    Corrupted = False
     BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -24,10 +26,11 @@ Show #最高階高品質基底(86) 武器 帝國戰爪|脊弓|寶飾細劍|掃�
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Giantslayer Helmet" "Royal Plate" "Leviathan Greaves" "Leviathan Gauntlets"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -37,10 +40,11 @@ Show #最高階高品質基底(86) 護甲 巨人殺手頭盔|皇家之鎧|海獸
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Majestic Pelt" "Syndicate's Garb" "Velour Boots" "Velour Gloves"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -50,10 +54,11 @@ Show #最高階高品質基底(86) 閃避 莊嚴皮盔|密教束衣|絲絨長靴
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Lich's Circlet" "Twilight Regalia" "Warlock Boots" "Warlock Gloves"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -63,10 +68,11 @@ Show #最高階高品質基底(86) 能量護盾|巫妖之冠|暮光法衣|術士
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Haunted Bascinet" "Conquest Lamellar" "Wyvernscale Boots" "Wyvernscale Gauntlets"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -76,10 +82,11 @@ Show #最高階高品質基底(86) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛�
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Divine Crown" "Sacred Chainmail" "Paladin Boots" "Paladin Gloves"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
@@ -89,10 +96,11 @@ Show #最高階高品質基底(86) 護甲/能量護盾 神聖之冠|神聖鎖甲
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(86) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
-    ItemLevel >= 86
+Show #最高階高品質基底(84) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
+    ItemLevel >= 84
     Quality >= 25
     Rarity <= Rare
+    Corrupted = False
     BaseType "Torturer's Mask" "Necrotic Armour" "Phantom Boots" "Phantom Mitts"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
