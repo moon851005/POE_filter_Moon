@@ -2666,6 +2666,21 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
             DisableDropSoundIfAlertSound
 
+        Show #哈克用高階三等劫盜工具
+            Rarity <= Rare
+            Class "Heist Gear" "Heist Tool" "Heist Brooch" "Heist Cloak"
+            BaseType "Standard Lockpick" "Studded Bracers" "Trarthan Flashpowder" "Flanged Drill"
+            SetTextColor 208 32 144
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 215 0
+            SetFontSize 35
+            MinimapIcon 2 Red UpsideDownHouse
+            PlayEffect Red
+            CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
+            CustomAlertSoundOptional "Diablo2\44.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 速刷 - 劫盜工具
             Rarity <= Rare
             Class "Heist Gear" "Heist Tool" "Heist Brooch" "Heist Cloak"
@@ -3696,7 +3711,7 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_魯路修Vi不列顛尼亞.mp3" 300
             DisableDropSoundIfAlertSound
 
-        Show #任務報告
+        Show #偵查報告
             Class "Stackable Currency"
             BaseType "Report"
             SetTextColor 74 230 58
@@ -3780,17 +3795,6 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-星刻_原來是這麼回事.mp3" 200
             DisableDropSoundIfAlertSound
 
-        Show #輿圖斷片
-            Class "Map Fragments"
-            SetTextColor 208 32 144
-            SetBorderColor 210 0 220
-            SetFontSize 40
-            PlayAlertSoundPositional 2 200
-            CustomAlertSoundOptional "bubu\bubu-輿圖斷片.mp3" 300    
-            CustomAlertSoundOptional "Diablo2\3.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-星刻_原來是這麼回事.mp3" 200
-            DisableDropSoundIfAlertSound
-
         Show #釋界之令
             Class "Map Fragment"
             BaseType "The Maven's Writ"
@@ -3800,11 +3804,41 @@
             SetFontSize 42
             DisableDropSoundIfAlertSound
 
-        Show #纏繞之邀、尖嘯之邀、極地之邀、熾熱之邀
+        Show #纏繞之邀、尖嘯之邀
             Class "Misc Map Items"
-            BaseType "Writhing Invitation" "Screaming Invitation" "Polaric Invitation" "Incandescent Invitation"
-            SetTextColor 246 173 255
-            SetBackgroundColor 5 8 123 255
+            BaseType "Writhing Invitation" "Screaming Invitation"
+            SetTextColor 129 221 224
+            SetBackgroundColor 15 74 92
+            SetBorderColor 209 83 67
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #極地之邀、熾熱之邀
+            Class "Misc Map Items"
+            BaseType  "Polaric Invitation" "Incandescent Invitation"
+            SetTextColor 227, 107, 29
+            SetBackgroundColor 66, 13, 2
+            SetBorderColor 122, 101, 79
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #宇宙碎片
+            Class "Map Fragments"
+            BaseType "Cosmic Fragment"
+            SetTextColor 58 52 169
+            SetBackgroundColor 8 13 23
             SetBorderColor 74 0 160 200
             SetFontSize 45
             PlayAlertSoundPositional 2 300
@@ -3815,12 +3849,87 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        Show #腐朽碎片、覺醒碎片、吞噬碎片、熾熱碎片、現實碎片、合成碎片
+        Show #腐朽碎片
             Class "Map Fragments"
-            BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment"
-            SetTextColor 246 173 255
-            SetBackgroundColor 5 8 123 255
-            SetBorderColor 74 0 160 200
+            BaseType "Decaying Fragment"
+            SetTextColor 95 88 127
+            SetBackgroundColor 6 3 33
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #覺醒碎片
+            Class "Map Fragments"
+            BaseType "Awakening Fragment"
+            SetTextColor 247 199 60
+            SetBackgroundColor 74 3 0
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #追憶碎片
+            Class "Map Fragments"
+            BaseType "Synthesising Fragment" 
+            SetTextColor 122 189 239
+            SetBackgroundColor 0 14 73
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #現實碎片
+            Class "Map Fragments"
+            BaseType "Reality Fragment"
+            SetTextColor 209 173 225
+            SetBackgroundColor 32 13 54
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #吞噬碎片
+            Class "Map Fragments"
+            BaseType "Devouring Fragment" "Blazing Fragment"
+            SetTextColor 50, 170, 181
+            SetBackgroundColor 3, 21, 36
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #熾熱碎片
+            Class "Map Fragments"
+            BaseType "Blazing Fragment"
+            SetTextColor 234 149 140
+            SetBackgroundColor 40 13 5
+            SetBorderColor 0 0 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3858,6 +3967,17 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 300
             MinimapIcon 1 Purple Kite
             PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖斷片
+            Class "Map Fragments"
+            SetTextColor 208 32 144
+            SetBorderColor 210 0 220
+            SetFontSize 40
+            PlayAlertSoundPositional 2 200
+            CustomAlertSoundOptional "bubu\bubu-輿圖斷片.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\3.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-星刻_原來是這麼回事.mp3" 200
             DisableDropSoundIfAlertSound
 
             #end
