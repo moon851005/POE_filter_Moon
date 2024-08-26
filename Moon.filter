@@ -1348,7 +1348,7 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #卡蘭德的魔鏡,永恆寶珠
+        Show #卡蘭德的魔鏡|永恆寶珠
             Class "Stackable Currency"
             BaseType "Mirror of Kalandra" "Eternal Orb"
             SetTextColor 0 0 0
@@ -1943,7 +1943,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #連通之石,閃粉之器
+        Show #連通之石|閃粉之器
             BaseType "Stone of Passage" "Flashpowder Keg"
             SetTextColor 50 230 100
             SetBackgroundColor 140 110 49
@@ -3822,9 +3822,9 @@
         Show #極地之邀、熾熱之邀
             Class "Misc Map Items"
             BaseType  "Polaric Invitation" "Incandescent Invitation"
-            SetTextColor 227, 107, 29
-            SetBackgroundColor 66, 13, 2
-            SetBorderColor 122, 101, 79
+            SetTextColor 227 107 29
+            SetBackgroundColor 66 13 2
+            SetBorderColor 122 101 79
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3912,8 +3912,8 @@
         Show #吞噬碎片
             Class "Map Fragments"
             BaseType "Devouring Fragment" "Blazing Fragment"
-            SetTextColor 50, 170, 181
-            SetBackgroundColor 3, 21, 36
+            SetTextColor 50 170 181
+            SetBackgroundColor 3 21 36
             SetBorderColor 0 0 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
