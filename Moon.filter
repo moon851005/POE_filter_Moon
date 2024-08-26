@@ -3837,9 +3837,9 @@
         Show #宇宙碎片
             Class "Map Fragments"
             BaseType "Cosmic Fragment"
-            SetTextColor 58 52 169
+            SetTextColor 127 120 255
             SetBackgroundColor 8 13 23
-            SetBorderColor 74 0 160 200
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3852,9 +3852,9 @@
         Show #腐朽碎片
             Class "Map Fragments"
             BaseType "Decaying Fragment"
-            SetTextColor 95 88 127
+            SetTextColor 145 130 172
             SetBackgroundColor 6 3 33
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3869,7 +3869,7 @@
             BaseType "Awakening Fragment"
             SetTextColor 247 199 60
             SetBackgroundColor 74 3 0
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3884,7 +3884,7 @@
             BaseType "Synthesising Fragment" 
             SetTextColor 122 189 239
             SetBackgroundColor 0 14 73
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3899,7 +3899,7 @@
             BaseType "Reality Fragment"
             SetTextColor 209 173 225
             SetBackgroundColor 32 13 54
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3911,10 +3911,10 @@
 
         Show #吞噬碎片
             Class "Map Fragments"
-            BaseType "Devouring Fragment" "Blazing Fragment"
-            SetTextColor 50 170 181
+            BaseType "Devouring Fragment"
+            SetTextColor 163 252 252
             SetBackgroundColor 3 21 36
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
@@ -3929,7 +3929,7 @@
             BaseType "Blazing Fragment"
             SetTextColor 234 149 140
             SetBackgroundColor 40 13 5
-            SetBorderColor 0 0 0
+            SetBorderColor 255 200 0
             SetFontSize 45
             PlayAlertSoundPositional 2 300
             CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
