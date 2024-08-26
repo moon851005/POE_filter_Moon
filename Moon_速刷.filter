@@ -176,7 +176,7 @@
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 蛻變石(堆疊>=20)
-            StackSize >= 8            
+            StackSize >= 20
             Class "Stackable Currency"
             BaseType "Orb of Transmutation"
             SetTextColor 255 94 97
@@ -193,7 +193,7 @@
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 增幅石(堆疊>=15)
-            StackSize >= 8
+            StackSize >= 15
             Class "Stackable Currency"
             BaseType "Orb of Augmentation"
             SetTextColor 255 94 97
@@ -252,10 +252,10 @@
             MinimapIcon 2 Grey Circle
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 磨刀石(堆疊>=4)
+        Show #印鈔 - 磨刀石(堆疊>=10)
             Class "Stackable Currency"
             BaseType "Blacksmith's Whetstone"
-            StackSize >= 4
+            StackSize >= 10
             SetBorderColor 210 0 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
@@ -276,10 +276,10 @@
             MinimapIcon 2 Grey Circle
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 護甲片(堆疊>=4)
+        Show #印鈔 - 護甲片(堆疊>=20)
             Class "Stackable Currency"
             BaseType "Armourer's Scrap"
-            StackSize >= 4
+            StackSize >= 20
             SetBorderColor 210 0 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
