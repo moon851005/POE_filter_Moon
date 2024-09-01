@@ -5094,7 +5094,7 @@ Import "自定義過濾/自定義配置.filter" Optional
     #end
 
 #L1 7 裝備
-    #L2 7.1 傳奇裝備    
+    #L2 7.1 傳奇裝備
         Show #稀有傳奇基底 Uber掉落 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|鈷藍珠寶(禁忌血肉、理性主義)|黃玉戒指(尼米斯)|紫晶藥劑(生育)|翠綠珠寶(逃脫不能)|箴言法杖(女神恩典)|三相珠寶(看守之眼、崇高願景)|獄炎重劍(核虛、核星)|軍團長劍(救世主)|秘術法衣(叛教者)|三相戒指(野心之環)
             AreaLevel == 85
             Rarity = Unique
@@ -5200,7 +5200,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #稀有傳奇基底 皮革腰帶(獵首)|重革腰帶(魔血)|海靈護身符(拒絕命運)|魚竿(災禍之礁、海妖魅曲)|符文巨劍(萊基亞塔的舞步)|帝國之弓(獅眼的戰弓、裂風)|帝國雙刃匕(戒律之影)|瓦爾戰爪(精華收割器)|破城斧(開膛斧)|脊弓(魔暴之痕)|魔爪刃(嗜血之爪)|殘暴短匕(比諾的廚刀)|卡魯重錘(爾奇的巨靈之錘)|軟橡魔盾(魔能暴風)|虛影巨斧(奇塔弗之盛宴)|帝國重錘(破浪者)|箴言戰冠(海王冠冕)|匿蹤短靴(卡洛翰之影)|烏木塔盾(圖克哈瑪堡壘)|智者之袍(陶米兒艾斯理之袍)|妖魔短匕(艾爾卡莉之牙)|貴族長杖(烈士之淨)|龍鱗戰甲(葛魯斯寇真皮)|賢者之袍(達拉的罪刑)|儀式短靴(芮勒蓋許的急躁)|術士長靴(空向、絕地魔履)|扣釘腰帶(瑞斯拉薩之纏)|賢者法杖(日耀之影)|箴言法杖(潛能魔棒)|雙鋒箭袋(瑞佛之羽)|角鬥重鎧(堅銅戰罩)|靈相魔盾(月影之耀)|生皮短靴(盟誓之跡)|紅玉戒指(戰士遺物)|黃玉戒指(星空之影)|鬥士鳶盾(幻芒聖盾)|瑪瑙護身符(福爾的忠誠之符)|月光石戒指(薛朗的啟示之環)|瓦爾護手(多里亞尼之拳)|榮耀戰鎧(岡姆的壯志)|巨人魔盾(獻祭之心)|威能鳶盾(元素的庇護、破碎信念)|寶飾細劍(卡斯普里的怨恨)|狂虐者束衣(印卜薩的心碎)|華麗箭袋(馬洛尼的機關)|青玉護身符(激情之章)|暗殺者護手(轟天雷、詭計魔手)|弒神之面(異教面紗)|聖者鏈甲(多里亞尼之型)
             Rarity = Unique
-            BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Fishing Rod" "Engraved Greatsword" "Imperial Bow" "Imperial Skean" "Vaal Claw" "Siege Axe" "Voltaxic Rift" "Hellion's Paw" "Slaughter Knife" "Karui Maul" "Lacewood Spirit Shield" "Void Axe" "Imperial Maul" "Prophet Crown" "Stealth Boots" "Ebony Tower Shield" "Savant's Robe" "Fiend Dagger" "Highborn Staff" "Wyrmscale Doublet" "Sage's Robe" "Riveted Boots" "Sorcerer Boots" "Studded Belt" "Sage Wand" "Prophecy Wand" "Two-Point Arrow Quiver" "Gladiator Plate" "Jingling Spirit Shield" "Rawhide Boots" "Ruby Ring" "Topaz Ring" "Champion Kite Shield" "Agate Amulet" "Moonstone Ring" "Vaal Gauntlets" "Glorious Plate" "Titanium Spirit Shield" "Archon Kite Shield" "Jewelled Foil" "Sadist Garb" "Ornate Quiver" "Turquoise Amulet" "Murder Mitts" "Deicide Mask" "Saint's Hauberk"
+            BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Fishing Rod" "Engraved Greatsword" "Imperial Bow" "Imperial Skean" "Vaal Claw" "Siege Axe" "Spine Bow" "Hellion's Paw" "Slaughter Knife" "Karui Maul" "Lacewood Spirit Shield" "Void Axe" "Imperial Maul" "Prophet Crown" "Stealth Boots" "Ebony Tower Shield" "Savant's Robe" "Fiend Dagger" "Highborn Staff" "Wyrmscale Doublet" "Sage's Robe" "Riveted Boots" "Sorcerer Boots" "Studded Belt" "Sage Wand" "Prophecy Wand" "Two-Point Arrow Quiver" "Gladiator Plate" "Jingling Spirit Shield" "Rawhide Boots" "Ruby Ring" "Topaz Ring" "Champion Kite Shield" "Agate Amulet" "Moonstone Ring" "Vaal Gauntlets" "Glorious Plate" "Titanium Spirit Shield" "Archon Kite Shield" "Jewelled Foil" "Sadist Garb" "Ornate Quiver" "Turquoise Amulet" "Murder Mitts" "Deicide Mask" "Saint's Hauberk"
             Replica false
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5527,7 +5527,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
         
             #end
-    #L2 7.4 點機會石用基底            
+    #L2 7.4 點機會石用基底
         Import "自定義過濾/傳奇基底(開).filter" Optional
         Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
             ItemLevel >= 78
@@ -5848,10 +5848,11 @@ Import "自定義過濾/自定義配置.filter" Optional
     #L2 7.8 一般基底
         Import "自定義過濾/最高階高品質基底(開).filter" Optional
         Import "自定義過濾/最高階基底(開).filter" Optional
-        Show #最高階高品質基底(86) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Colossal Tower Shield" "Supreme Spiked Shield" "Titanium Spirit Shield"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5861,10 +5862,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
+            ItemLevel >= 84
             Quality >= 27
             Rarity <= Rare
+            Corrupted = False
             BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5874,10 +5876,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Giantslayer Helmet" "Royal Plate" "Leviathan Greaves" "Leviathan Gauntlets"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5887,10 +5890,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Majestic Pelt" "Syndicate's Garb" "Velour Boots" "Velour Gloves"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5900,10 +5904,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Lich's Circlet" "Twilight Regalia" "Warlock Boots" "Warlock Gloves"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5913,10 +5918,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Haunted Bascinet" "Conquest Lamellar" "Wyvernscale Boots" "Wyvernscale Gauntlets"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5926,10 +5932,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Divine Crown" "Sacred Chainmail" "Paladin Boots" "Paladin Gloves"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5939,10 +5946,11 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(86) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
-            ItemLevel >= 86
+        Hide #最高階高品質基底(84) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
+            ItemLevel >= 84
             Quality >= 25
             Rarity <= Rare
+            Corrupted = False
             BaseType "Torturer's Mask" "Necrotic Armour" "Phantom Boots" "Phantom Mitts"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
@@ -5952,9 +5960,10 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
+        Hide #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
             ItemLevel >= 86
             Rarity <= Rare
+            Corrupted = False
             BaseType "Colossal Tower Shield" "Supreme Spiked Shield"
             SetTextColor 30 30 30
             SetBackgroundColor 184 218 242
@@ -5964,9 +5973,10 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓
+        Hide #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓
             ItemLevel >= 86
             Rarity <= Rare
+            Corrupted = False
             BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow"
             SetTextColor 30 30 30
             SetBackgroundColor 184 218 242
