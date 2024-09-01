@@ -824,6 +824,21 @@
 
             #end
     #L2 1.7 高階通貨
+        Show #祝福石(堆疊>=4)
+            StackSize >= 4
+            Class "Stackable Currency"
+            BaseType "Blessed Orb"
+            SetTextColor 255 165 0
+            SetBorderColor 150 0 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShBlessed 300
+            CustomAlertSoundOptional "bubu\bubu-祝福石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 祝福石
             Class "Stackable Currency"
             BaseType "Blessed Orb"
@@ -835,6 +850,21 @@
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
             MinimapIcon 2 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #後悔石(堆疊>=4)
+            StackSize >= 4
+            Class "Stackable Currency"
+            BaseType "Orb of Regret"
+            SetTextColor 255 165 0
+            SetBorderColor 150 0 0
+            SetFontSize 43
+            PlayAlertSoundPositional 8 300
+            CustomAlertSoundOptional "bubu\bubu-後悔石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
