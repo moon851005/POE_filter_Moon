@@ -2149,6 +2149,20 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
             DisableDropSoundIfAlertSound
 
+        Show #破碎之物 地下詞綴 
+            Corrupted False
+            FracturedItem True
+            HasExplicitMod "of the Underground" "Subterranean"
+            Rarity <= Rare
+            SetTextColor 0 100 150 200
+            SetBackgroundColor 184 218 242
+            SetBorderColor 30 144 255
+            SetFontSize 39
+            CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\44.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 終局 - 破碎之物            
             Corrupted False
             FracturedItem True
