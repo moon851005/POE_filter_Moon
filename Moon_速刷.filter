@@ -209,6 +209,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBorderColor 246 220 130
             SetFontSize 44    
             CustomAlertSoundOptional "Diablo2\2.mp3" 300
+            MinimapIcon 0 Yellow Circle
             DisableDropSoundIfAlertSound    
 
         Show #金幣(堆疊>=300)
@@ -220,6 +221,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBorderColor 246 220 130
             SetFontSize 39
             CustomAlertSoundOptional "Diablo2\2.mp3" 200
+            MinimapIcon 1 Yellow Circle
             DisableDropSoundIfAlertSound
 
         Show #金幣
@@ -230,6 +232,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBorderColor 246 220 130 0
             SetFontSize 34
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            MinimapIcon 2 Yellow Circle
             DisableDropSoundIfAlertSound    
 
             #end
@@ -292,7 +295,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-工程石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 1 Blue Circle
+            MinimapIcon 1 Blue Diamond
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
@@ -369,7 +372,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_認同我吧.mp3" 300
-            MinimapIcon 2 Green Circle
+            MinimapIcon 2 Green Diamond
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
@@ -383,7 +386,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_認同我吧.mp3" 300
-            MinimapIcon 2 Green Circle
+            MinimapIcon 2 Green Diamond
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
@@ -398,7 +401,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-滴注石.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_認同我吧.mp3" 300
-            MinimapIcon 2 Green Circle
+            MinimapIcon 2 Green Diamond
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
@@ -413,7 +416,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-點燃石.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_認同我吧.mp3" 300
-            MinimapIcon 1 Green Circle
+            MinimapIcon 1 Green Diamond
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
@@ -429,7 +432,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-地平石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_別否定我.mp3" 300
-            MinimapIcon 1 Blue Circle
+            MinimapIcon 2 Blue Hexagon
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
@@ -464,6 +467,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             #end
     #L2 1.6 中階通貨
         Hide #印鈔 - 速刷 - 束縛石
+            AreaLevel < 68
             Class "Stackable Currency"
             BaseType "Orb of Binding"
             SetTextColor 231 180 120
@@ -473,8 +477,20 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-束縛石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Blue Circle
+            MinimapIcon 2 Blue Diamond
             PlayEffect Blue Temp
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 速刷 - 束縛石
+            Class "Stackable Currency"
+            BaseType "Orb of Binding"
+            SetTextColor 231 180 120
+            SetBorderColor 210 0 0
+            SetFontSize 39
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-束縛石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
             DisableDropSoundIfAlertSound
 
         Show #玷污的鏈結石
@@ -503,7 +519,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-鏈結石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 1 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
@@ -530,7 +546,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-鏈結石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 1 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
@@ -560,7 +576,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 2 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
@@ -587,7 +603,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 2 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
@@ -602,7 +618,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-重鑄石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 1 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
@@ -629,7 +645,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-重鑄石.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 2 White Circle
+            MinimapIcon 1 White Diamond
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
         
@@ -644,7 +660,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 1 Pink Circle
+            MinimapIcon 1 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -659,7 +675,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 1 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -686,7 +702,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 1 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -716,7 +732,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 2 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -743,7 +759,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 2 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -758,7 +774,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 2 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -785,7 +801,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 2 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
         Show #印鈔 - 點金石(堆疊>=4)
@@ -799,8 +815,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-點金石.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 2 Yellow Diamond
-            PlayEffect Yellow Temp
+            MinimapIcon 2 Pink Diamond
+            PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
         Hide #印鈔 - 速刷 - 點金石(T16無堆疊不顯示圖標)
@@ -826,7 +842,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-點金石.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 2 Pink Circle
+            MinimapIcon 2 Pink Diamond
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
@@ -1063,7 +1079,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-神諭石.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
-            MinimapIcon 0 Blue Diamond
+            MinimapIcon 1 Blue Diamond
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
@@ -2924,7 +2940,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 85 2 2
             SetBorderColor 150 0 0
             SetFontSize 40
-            MinimapIcon 2 Red Circle
+            MinimapIcon 0 Red Circle
             PlayEffect Red
             PlayAlertSoundPositional 14 300
             DisableDropSoundIfAlertSound
@@ -3244,7 +3260,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
-            MinimapIcon 0 Purple Circle
+            MinimapIcon 0 Purple Moon
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
@@ -3265,7 +3281,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #實用預兆
             Class "Stackable Currency"
-            BaseType "Omen of Amelioration" "Omen of Blanching" "Omen of Return"
+            BaseType "Omen of Amelioration" "Omen of Blanching"
             SetTextColor 55 33 117 255
             SetBackgroundColor 139 126 208 255
             SetBorderColor 75 20 142 255
@@ -3275,6 +3291,20 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Diablo2\24.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 200
             MinimapIcon 1 Purple Circle
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 返回預兆
+            Class "Stackable Currency"
+            BaseType "Omen of Return"
+            SetTextColor 139 126 208 255
+            SetBorderColor 75 20 142 255
+            SetFontSize 36
+            PlayAlertSoundPositional 9 100
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 100
+            CustomAlertSoundOptional "Diablo2\24.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 100
+            MinimapIcon 2 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
@@ -3350,8 +3380,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 1 Cyan Circle
-            PlayEffect Cyan Temp
+            MinimapIcon 1 Green Pentagon
+            PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
         Show #完美屍體、黑暗木偶
@@ -3365,8 +3395,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 1 Cyan Circle
-            PlayEffect Cyan Temp
+            MinimapIcon 0 Green Pentagon
+            PlayEffect Green Temp
             DisableDropSoundIfAlertSound
             
         Hide #印鈔 - 速刷 - 屍體
@@ -3379,8 +3409,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 1 Cyan Circle
-            PlayEffect Cyan Temp
+            MinimapIcon 1 Green Pentagon
+            PlayEffect Green Temp
             DisableDropSoundIfAlertSound
             
         Show #謁見國王
@@ -3412,7 +3442,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
             CustomAlertSoundOptional "Diablo2\26.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
-            MinimapIcon 0 Cyan Circle
+            MinimapIcon 0 Cyan Diamond
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
