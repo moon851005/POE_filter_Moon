@@ -5155,12 +5155,443 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Red UpsideDownHouse
             PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 Uber灼烙總督 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|先祖碎片(融合之逸品)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Crimson Jewel" "Onyx Amulet" "Primordial Fragment"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #稀有傳奇基底 Uber掉落 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|鈷藍珠寶(禁忌血肉、理性主義)|黃玉戒指(尼米斯)|紫晶藥劑(生育)|翠綠珠寶(逃脫不能)|箴言法杖(女神恩典)|三相珠寶(看守之眼、崇高願景)|獄炎重劍(核虛、核星)|軍團長劍(救世主)|秘術法衣(叛教者)|三相戒指(野心之環)
+        Show #稀有傳奇基底 Uber吞噬天地 鈷藍珠寶(禁忌血肉)|黃玉戒指(尼米斯)|先祖碎片(消耗之逸品)
             AreaLevel == 85
+            ItemLevel == 87
             Rarity = Unique
-            BaseType "Crimson Jewel" "Onyx Amulet" "Cobalt Jewel" "Topaz Ring" "Amethyst Flask" "Viridian Jewel" "Prophecy Wand" "Prismatic Jewel" "Infernal Sword" "Legion Sword" "Cabalist Regalia" "Prismatic Ring"
+            BaseType "Cobalt Jewel" "Topaz Ring" "Primordial Fragment"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 Uber釋界 紫晶藥劑(生育)|翠綠珠寶(逃脫不能)|箴言法杖(女神恩典)|獄炎重劍(核聲)|先祖碎片(消耗之逸品)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Amethyst Flask" "Viridian Jewel" "Prophecy Wand" "Infernal Sword" "Primordial Fragment"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 Uber終尊 三相珠寶(看守之眼、崇高願景)|獄炎重劍(核虛)|先祖碎片(腐化之逸品)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Prismatic Jewel" "Infernal Sword" "Primordial Fragment"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 Uber喚世者．賽勒斯 軍團長劍(救世主)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Legion Sword"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 Uber塑界者 三相珠寶(崇高願景)|獄炎重劍(核星)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Prismatic Jewel" "Infernal Sword"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 Uber維那利斯 鈷藍珠寶(理性主義)|三相戒指(野心之環)|秘術法衣(叛教者)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Cobalt Jewel" "Prismatic Ring" "Cabalist Regalia"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 灼烙總督 赤紅珠寶(血肉溶解、禁忌烈焰)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Crimson Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 吞噬天地 鈷藍珠寶(血肉融合、禁忌血肉)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Cobalt Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 釋界 翠綠珠寶(逃脫不能) 
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Viridian Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 終尊 三相珠寶(看守之眼)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Prismatic Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 喚世者．賽勒斯 赤紅珠寶(希望之絃)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Crimson Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 塑界者 紅玉藥劑(滅日)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Ruby Flask"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 維那利斯 硫磺藥劑(瓶中信仰)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Sulphur Flask"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 維那利斯 智者之袍(無常禮袍)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Savant's Robe"
+            Replica False
+            SynthesisedItem True
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 異界尊師 三相珠寶(看守之眼)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Prismatic Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
+        Show #稀有傳奇基底 瓦爾女王阿茲里(釋界之邀) 瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)   
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType  "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound  
+
+        Show #稀有傳奇基底 瓦爾女王阿茲里 瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)   
+            AreaLevel == 80
+            ItemLevel == 82
+            Rarity = Unique
+            BaseType  "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+            
+        Show #稀有傳奇基底 Uber Map 黑曜護身符(磨難之軛)|軟橡魔盾(魔能暴風)|影語權杖(黯黑賢者)|靈骨之冠(憤靈郡主)|暗殺者護手(瑪拉凱之面)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Onyx Amulet" "Lacewood Spirit Shield" "Shadow Sceptre" "Bone Circlet" "Murder Mitts"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇聖物 初始經文(草紙聖物)|燭台聖物(第二聖事)|詩歌聖物(懲戒鎖鏈)|卷冊聖物(權力和誓約)
+            Rarity = Unique
+            BaseType "Papyrus Relic" "Candlestick Relic" "Processional Relic" "Tome Relic"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 禁忌聖域 惡靈長杖(命定之風)|操靈者之冠(沙瀑面紗)|瑪瑙護身符(永恆的詛咒)|紫晶戒指(原罪)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Foul Staff" "Necromancer Circlet" "Agate Amulet" "Amethyst Ring"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 無暇裂痕石 夕暮護身符(烏爾尼多之誓)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Unset Amulet"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 Uber永恆鬥爭之域 禁禮之甲(靜止牢籠)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Carnal Armour"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 凋落蔓延 黑曜護身符(扼殺之息)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Onyx Amulet"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 永生大師卡塔莉娜 操靈者之冠(吞噬之冠)|蛇紋長杖(骷髏馬克的靈杖)|瓦爾細劍(矛盾對決)
+            Rarity = Unique
+            HasExplicitMod "Veil" "of the Veil"
+            BaseType "Necromancer Circlet" "Serpentine Staff" "Vaal Rapier"
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5225,6 +5656,23 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound   
 
+        Show #稀有傳奇基底 汙染瓦爾之面(混沌一瞥)
+            Rarity = Unique
+            BaseType "Vaal Mask"
+            Corrupted True
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
         Show #稀有傳奇基底 三白權貴圓盾(大地主)
             Rarity = Unique
             BaseType "Elegant Round Shield"
@@ -5242,10 +5690,10 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound   
 
-        Show #稀有傳奇基底 六白簡易之袍(無盡之衣)
+        Show #稀有傳奇基底 六連簡易之袍(無盡之衣、忠誠之膚)
             Rarity = Unique
             BaseType "Simple Robe"
-            SocketGroup "WWWWWW"
+            LinkedSockets = 6
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5257,11 +5705,188 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
-            DisableDropSoundIfAlertSound       
+            DisableDropSoundIfAlertSound
 
-        Show #稀有傳奇基底 皮革腰帶(獵首)|重革腰帶(魔血)|海靈護身符(拒絕命運)|魚竿(災禍之礁、海妖魅曲)|符文巨劍(萊基亞塔的舞步)|帝國之弓(獅眼的戰弓、裂風)|帝國雙刃匕(戒律之影)|瓦爾戰爪(精華收割器)|破城斧(開膛斧)|脊弓(魔暴之痕)|魔爪刃(嗜血之爪)|殘暴短匕(比諾的廚刀)|卡魯重錘(爾奇的巨靈之錘)|軟橡魔盾(魔能暴風)|虛影巨斧(奇塔弗之盛宴)|帝國重錘(破浪者)|箴言戰冠(海王冠冕)|匿蹤短靴(卡洛翰之影)|烏木塔盾(圖克哈瑪堡壘)|智者之袍(陶米兒艾斯理之袍)|妖魔短匕(艾爾卡莉之牙)|貴族長杖(烈士之淨)|龍鱗戰甲(葛魯斯寇真皮)|賢者之袍(達拉的罪刑)|儀式短靴(芮勒蓋許的急躁)|術士長靴(空向、絕地魔履)|扣釘腰帶(瑞斯拉薩之纏)|賢者法杖(日耀之影)|箴言法杖(潛能魔棒)|雙鋒箭袋(瑞佛之羽)|角鬥重鎧(堅銅戰罩)|靈相魔盾(月影之耀)|生皮短靴(盟誓之跡)|紅玉戒指(戰士遺物)|黃玉戒指(星空之影)|鬥士鳶盾(幻芒聖盾)|瑪瑙護身符(福爾的忠誠之符)|月光石戒指(薛朗的啟示之環)|瓦爾護手(多里亞尼之拳)|榮耀戰鎧(岡姆的壯志)|巨人魔盾(獻祭之心)|威能鳶盾(元素的庇護、破碎信念)|寶飾細劍(卡斯普里的怨恨)|狂虐者束衣(印卜薩的心碎)|華麗箭袋(馬洛尼的機關)|青玉護身符(激情之章)|暗殺者護手(轟天雷、詭計魔手)|弒神之面(異教面紗)|聖者鏈甲(多里亞尼之型)
+        Show #稀有傳奇基底 裂痕 翠玉護身符(太平)|海玉護身符(暴風之言)|琥珀護身符(索伏之心)
+            AreaLevel == 81
+            ItemLevel == 83
             Rarity = Unique
-            BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Fishing Rod" "Engraved Greatsword" "Imperial Bow" "Imperial Skean" "Vaal Claw" "Siege Axe" "Spine Bow" "Hellion's Paw" "Slaughter Knife" "Karui Maul" "Lacewood Spirit Shield" "Void Axe" "Imperial Maul" "Prophet Crown" "Stealth Boots" "Ebony Tower Shield" "Savant's Robe" "Fiend Dagger" "Highborn Staff" "Wyrmscale Doublet" "Sage's Robe" "Riveted Boots" "Sorcerer Boots" "Studded Belt" "Sage Wand" "Prophecy Wand" "Two-Point Arrow Quiver" "Gladiator Plate" "Jingling Spirit Shield" "Rawhide Boots" "Ruby Ring" "Topaz Ring" "Champion Kite Shield" "Agate Amulet" "Moonstone Ring" "Vaal Gauntlets" "Glorious Plate" "Titanium Spirit Shield" "Archon Kite Shield" "Jewelled Foil" "Sadist Garb" "Ornate Quiver" "Turquoise Amulet" "Murder Mitts" "Deicide Mask" "Saint's Hauberk"
+            BaseType "Jade Amulet" "Lapis Amulet" "Amber Amulet"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 雙胞胎 汙染黑曜護身符(領導力的代價)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel == 85
+            Corrupted True
+            BaseType "Onyx Amulet"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 榮譽之心 漆彩之盔(幼雛)
+            Rarity = Unique
+            AreaLevel == 81
+            ItemLevel == 83
+            BaseType "Lacquered Helmet"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 1阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 1
+            ItemLevel == 1
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 83阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel == 83
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 84阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 84
+            ItemLevel == 84
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #稀有傳奇基底 劫盜限定 哨兵之衣(遠征之盡)|全罩戰盔(慾望之冠)|艾茲麥長杖(支點)|伏擊刺刃(隱藏之劍)|鬥士長劍(鐵塊)|緋紅圓盾(破碎之屑)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel >= 84
+            BaseType  "Sentinel Jacket" "Fluted Bascinet" "Ezomyte Staff" "Ambusher" "Gladius" "Crimson Round Shield"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
+        Show #稀有傳奇基底 星團珠寶
+            Rarity = Unique
+            BaseType "Cluster Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
+        Show #稀有傳奇基底 永恆珠寶
+            Rarity = Unique
+            BaseType "Timeless Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
+        Show #稀有傳奇基底 礦坑 紅玉戒指(阿卡莉的草原、阿卡莉的峽谷、阿卡莉的山巒)|黃玉戒指(普坦堡的草原、普坦堡的峽谷、普坦堡的山巒)|藍玉戒指(尤莎莎的草原、尤莎莎的峽谷、尤莎莎的山巒)|黑曜護身符(奧爾的崛起)|行政者戰冠(堂皇冠冕)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Onyx Amulet" "Magistrate Crown"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
+
+        Show #稀有傳奇基底 皮革腰帶(獵首)|重革腰帶(魔血)|海靈護身符(拒絕命運)|魚竿(災禍之礁、海妖魅曲)|符文巨劍(萊基亞塔的舞步)|帝國之弓(獅眼的戰弓、裂風)|帝國雙刃匕(戒律之影)|瓦爾戰爪(精華收割器)|破城斧(開膛斧)|脊弓(魔暴之痕)|魔爪刃(嗜血之爪、野性法則)|殘暴短匕(比諾的廚刀)|卡魯重錘(爾奇的巨靈之錘)|軟橡魔盾(魔能暴風)|虛影巨斧(奇塔弗之盛宴)|帝國重錘(破浪者)|箴言戰冠(海王冠冕)|匿蹤短靴(卡洛翰之影)|烏木塔盾(圖克哈瑪堡壘)|智者之袍(陶米兒艾斯理之袍)|妖魔短匕(艾爾卡莉之牙)|貴族長杖(烈士之淨)|龍鱗戰甲(葛魯斯寇真皮)|賢者之袍(達拉的罪刑)|儀式短靴(芮勒蓋許的急躁)|術士長靴(空向、絕地魔履)|扣釘腰帶(瑞斯拉薩之纏)|賢者法杖(日耀之影)|箴言法杖(潛能魔棒)|雙鋒箭袋(瑞佛之羽)|角鬥重鎧(堅銅戰罩)|靈相魔盾(月影之耀)|生皮短靴(盟誓之跡)|紅玉戒指(戰士遺物)|黃玉戒指(星空之影)|鬥士鳶盾(幻芒聖盾)|瑪瑙護身符(福爾的忠誠之符)|月光石戒指(薛朗的啟示之環)|瓦爾護手(多里亞尼之拳)|榮耀戰鎧(岡姆的壯志)|巨人魔盾(獻祭之心)|威能鳶盾(元素的庇護、破碎信念)|寶飾細劍(卡斯普里的怨恨)|狂虐者束衣(印卜薩的心碎)|華麗箭袋(馬洛尼的機關)|青玉護身符(激情之章)|暗殺者護手(轟天雷、詭計魔手)|弒神之面(異教面紗)|聖者鏈甲(多里亞尼之型)|征戰塔盾(史瓦林)|無名戒指(憎惡控告者、心靈鎮壓者、自私牧羊人)|魔符頭飾(信仰守護)|鋼鐵藥劑(奧爾羅斯的決心)|勘查之眼珠寶(烏拉曼的邪眼)|極懼之眼珠寶(阿姆那姆的邪眼)|殺戮之眼珠寶(特克羅德的邪眼)|遠古護手(怨恨鍛造)|冷鋼鳶盾(瑪哈薩多的陰謀)|賢者法杖(古典冥約)|紫晶戒指(黯炎)|操靈者背心(人體匠師)|強化巨盔(禁忌軍帽)|禁禮之靴(行屍走肉)|火蝮鱗手套(偷息)|聖者鏈甲(毒孢守衛)|刺殺者之靴(潰逃之靴)|金光戒指(賭神芬多)|星辰皮甲(西里的戰衣)|黑曜護身符(贗品．龍牙翱翔)|雙玉戒指(意志呼喚)|翠玉護身符(西里的真理)
+            Rarity = Unique
+            BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Fishing Rod" "Engraved Greatsword" "Imperial Bow" "Imperial Skean" "Vaal Claw" "Siege Axe" "Spine Bow" "Hellion's Paw" "Slaughter Knife" "Karui Maul" "Lacewood Spirit Shield" "Void Axe" "Imperial Maul" "Prophet Crown" "Stealth Boots" "Ebony Tower Shield" "Savant's Robe" "Fiend Dagger" "Highborn Staff" "Wyrmscale Doublet" "Sage's Robe" "Riveted Boots" "Sorcerer Boots" "Studded Belt" "Sage Wand" "Prophecy Wand" "Two-Point Arrow Quiver" "Gladiator Plate" "Jingling Spirit Shield" "Rawhide Boots" "Ruby Ring" "Topaz Ring" "Champion Kite Shield" "Agate Amulet" "Moonstone Ring" "Vaal Gauntlets" "Glorious Plate" "Titanium Spirit Shield" "Archon Kite Shield" "Jewelled Foil" "Sadist Garb" "Ornate Quiver" "Turquoise Amulet" "Murder Mitts" "Deicide Mask" "Saint's Hauberk" "Girded Tower Shield" "Nameless Ring" "Runic Helm" "Iron Flask" "Searching Eye Jewel" "Ghastly Eye Jewel" "Murderous Eye Jewel" "Ancient Gauntlets" "Steel Kite Shield" "Sage Wand" "Amethyst Ring" "Necromancer Silks" "Great Crown" "Carnal Boots" "Hydrascale Gauntlets" "Saint's Hauberk" "Assassin's Boots" "Gold Ring" "Zodiac Leather" "Onyx Amulet" "Two-Stone Ring" "Jade Amulet"
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5291,9 +5916,119 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 輿圖中傳奇裝備(全)
-            MapTier >= 1
+        Show #傳奇基底 Uber灼烙總督 龍鱗長靴(殲滅的方法)|細柄長杖(毀滅白光)|巨靈護手(眾星援護)
+            AreaLevel == 85
+            ItemLevel == 87
             Rarity = Unique
+            BaseType "Dragonscale Boots" "Quarterstaff" "Goliath Gauntlets"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber吞噬天地 黑曜護身符(星塵)|熱戰之盔(貪婪的激情)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Onyx Amulet" "Zealot Helmet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber釋界 領主戰冠(維里迪的薄紗)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Praetor Crown"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber終尊 黑曜護身符(不在場證明)|禁禮護手(靈魂昇華)|血色之衣(永恆屍布)|藍玉戒指(虛空呼喚)|豬面頭盔(心靈吞噬者)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Onyx Amulet" "Carnal Mitts" "Blood Raiment" "Sapphire Ring" "Pig-Faced Bascinet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber喚世者．賽勒斯 赤紅珠寶(希望之絃)|灰岩藥劑(奧瑞亞之終)|巨靈脛甲(風暴崛起)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Crimson Jewel" "Bismuth Flask" "Goliath Greaves"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber塑界者 刺殺者護手(熵毀滅)|皇室堅盔(創造迴聲)|先鋒腰帶(時間之潮)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Assassin's Mitts" "Royal Burgonet" "Vanguard Belt"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber維那利斯 虛影權杖(銀河星雲)|行政者戰冠(審判莊嚴)
+            AreaLevel == 85
+            ItemLevel == 87
+            Rarity = Unique
+            BaseType "Void Sceptre" "Magistrate Crown"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -5307,7 +6042,352 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #非輿圖傳奇裝備(全)
+        Show #傳奇基底 灼烙總督 巨型塔盾(破曉)|瓦爾脛甲(晨行者)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Colossal Tower Shield" "Vaal Greaves"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 吞噬天地 城塞戰弓(饕餮浪潮)|逃難短靴(無法掙脫之命)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Citadel Bow" "Fugitive Boots"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 釋界 狂虐者束衣(達佩爾甘格偽裝)|地蝮鱗長靴(傳承憤怒)|飾布腰帶(格雷文的秘密、昂恩的煩惱、奧莉西亞的喜悅)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Sadist Garb" "Wyrmscale Boots" "Cloth Belt"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 終尊 蛋白石戒指(塑者之印)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Opal Ring"
+            Replica False
+            ShaperItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 終尊 鋼鑄戒指(尊師之印)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Steel Ring"
+            Replica False
+            ElderItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 終尊 靈主之環(地印之環)|始祖箭袋(虛眼箭矢)|風暴長杖(滅碎獠杖)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Hubris Circlet" "Primal Arrow Quiver" "Maelström Staff"
+            Replica False
+            ShaperItem True
+            ElderItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 喚世者．賽勒斯 箴言戰冠(暗眼之冠)|聖戰手套(聖宗神手)|水晶腰帶(真理負擔)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Prophet Crown" "Crusader Gloves" "Crystal Belt"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 塑界者 聖戰手套(塑者之觸)|暗殺者長靴(虛空行者)|黑曜護身符(守夜之至)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Crusader Gloves" "Murder Boots" "Onyx Amulet"
+            Replica False
+            ShaperItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 維那利斯 艾茲麥刺盾(極轉電刑)|軍團手套(蛇皮獻祭)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Ezomyte Spiked Shield" "Legion Gloves"
+            Replica False
+            SynthesisedItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 異界尊師 刺殺者護手(褻瀆者之握)|皮革腰帶(巨岩之環)|漫遊之弓(破滅之希)|夢魘之錘(銀河眾星)|狂風法杖(低伏微光)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Assassin's Mitts" "Leather Belt" "Ranger Bow" "Nightmare Mace" "Tornado Wand"
+            ElderItem True
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 瓦爾女王阿茲里(釋界之邀) 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 瓦爾女王阿茲里 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)
+            AreaLevel == 80
+            ItemLevel == 82
+            Rarity = Unique
+            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 費爾羅的巢窟 鷹喙之面(費爾羅咥喙)|勝利盔甲(費爾羅羽衣)|火蝮鱗手套(費爾羅鋒爪)|迷蹤短靴(費爾羅獵靴)
+            AreaLevel == 80
+            ItemLevel == 82
+            Rarity = Unique
+            BaseType "Harlequin Mask" "Triumphant Lamellar" "Hydrascale Gauntlets" "Slink Boots"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 菲恩絲的獸穴 操靈者之冠(菲恩絲獠牙)|毒蛛絲之袍(菲恩絲魘甲)|禁禮護手(菲恩絲夜織)|刺殺者之靴(菲恩絲刺靴)
+            AreaLevel == 77
+            ItemLevel == 79
+            Rarity = Unique
+            BaseType "Necromancer Circlet" "Widowsilk Robe" "Carnal Mitts" "Assassin's Boots"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 奎爾珊的澳口 行政者戰冠(奎爾珊畸面)|金耀之鎧(奎爾珊硬甲)|巨人護手(奎爾珊堅鉗)|巨靈脛甲(奎爾珊之跡)      
+            AreaLevel == 74
+            ItemLevel == 76
+            Rarity = Unique
+            BaseType "Magistrate Crown" "Golden Plate" "Titan Gauntlets" "Goliath Greaves"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 斯卡沃的棲地 綢緞之兜(斯卡沃之徒)|血色之衣(斯卡沃之巢)|戰士手套(斯卡沃之翼)|火蝮鱗長靴(斯卡沃鷹爪)        
+            AreaLevel == 70
+            ItemLevel == 72
+            Rarity = Unique
+            BaseType "Silken Hood" "Blood Raiment" "Soldier Gloves" "Hydrascale Boots"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 永生大師卡塔莉娜 巨人魔盾(苦綑畸點)|真銀藥劑(噬燼甕)|瓦爾法衣(女王的渴望)
+            Rarity = Unique
+            HasExplicitMod "Veil" "of the Veil"
+            BaseType "Titanium Spirit Shield" "Silver Flask" "Vaal Regalia"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 礦坑 儀式手套(闇核號令)|靈能之籠(強彈辯駁)|血色權杖(獄犬殘肢)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Riveted Gloves" "Mind Cage" "Blood Sceptre"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇聖物
+            Rarity = Unique
+            Class "Relic"
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #印鈔 - 輿圖掉落傳奇裝備(全)
             Rarity = Unique
             Replica False
             SetTextColor 227 92 9 220
