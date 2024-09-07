@@ -16,22 +16,21 @@
         Show #印鈔 - 終局 - 速刷 - 混沌石碎片
             Class "Stackable Currency"
             BaseType "Chaos Shard"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
             DisableDropSoundIfAlertSound
             
         Show #印鈔 - 終局 - 速刷 - 富豪石碎片
             Class "Stackable Currency"
             BaseType "Regal Shard"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 終局 - 速刷 - 點金石碎片
             Class "Stackable Currency"
             BaseType "Alchemy Shard"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
+            SetTextColor 124 255 196 202
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 終局 - 速刷 - 地平石碎片
@@ -954,9 +953,9 @@
         Show #混沌石
             Class "Stackable Currency"
             BaseType "Chaos Orb"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
-            SetBorderColor 255 165 0
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 150 0 0
             SetFontSize 43
             PlayAlertSoundPositional ShChaos 300
             CustomAlertSoundOptional "bubu\bubu-混沌石.mp3" 300
@@ -969,9 +968,9 @@
         Show #富豪石
             Class "Stackable Currency"
             BaseType "Regal Orb"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
-            SetBorderColor 255 165 0
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 150 0 0
             SetFontSize 43
             PlayAlertSoundPositional ShRegal 300
             CustomAlertSoundOptional "bubu\bubu-富豪石.mp3" 300
@@ -984,9 +983,9 @@
         Show #瓦爾寶珠
             Class "Stackable Currency"
             BaseType "Vaal Orb"
-            SetTextColor 136 136 255
-            SetBackgroundColor 150 0 0
-            SetBorderColor 255 165 0
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 150 0 0
             SetFontSize 43
             PlayAlertSoundPositional ShVaal 300
             CustomAlertSoundOptional "bubu\bubu-瓦爾寶珠.mp3" 300
