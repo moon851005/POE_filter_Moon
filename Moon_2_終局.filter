@@ -5171,6 +5171,22 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
+        Show #傳奇裝備 汙染高品質藥劑
+            Rarity = Unique
+            Class "Flasks"
+            Quality >= 26
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Red UpsideDownHouse
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
         Show #稀有傳奇基底 Uber灼烙總督 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|先祖碎片(融合之逸品)
             AreaLevel == 85
             ItemLevel == 87
@@ -5882,7 +5898,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #稀有傳奇基底 礦坑 紅玉戒指(阿卡莉的草原、阿卡莉的峽谷、阿卡莉的山巒)|黃玉戒指(普坦堡的草原、普坦堡的峽谷、普坦堡的山巒)|藍玉戒指(尤莎莎的草原、尤莎莎的峽谷、尤莎莎的山巒)|黑曜護身符(奧爾的崛起)|行政者戰冠(堂皇冠冕)
             AreaLevel == 83
-            ItemLevel == 85
+            ItemLevel >= 85
             Rarity = Unique
             BaseType "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Onyx Amulet" "Magistrate Crown"
             Replica False
@@ -6373,6 +6389,22 @@ Import "自定義過濾/自定義配置.filter" Optional
             ItemLevel == 85
             Rarity = Unique
             BaseType "Riveted Gloves" "Mind Cage" "Blood Sceptre"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 輿圖
+            Rarity = Unique
+            Class "Maps"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
