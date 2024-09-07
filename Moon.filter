@@ -5676,7 +5676,7 @@
         Show #稀有傳奇基底 三白權貴圓盾(大地主)
             Rarity = Unique
             BaseType "Elegant Round Shield"
-            SocketGroup "WWW"
+            Sockets == 3WWW
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
