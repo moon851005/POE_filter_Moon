@@ -143,6 +143,14 @@
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
+        Show #傳送卷軸(堆疊>=20)
+            StackSize >= 20
+            Class "Stackable Currency"
+            BaseType "Portal Scroll"
+            SetBorderColor 0 0 255
+            SetFontSize 40
+            DisableDropSoundIfAlertSound
+
         Show #印鈔 - 傳送卷軸(堆疊>=8)
             StackSize >= 8
             Class "Stackable Currency"
@@ -1417,9 +1425,18 @@
 
         #end
     #L2 2.3精髓聯盟(2.3版本)
+        Show #破空精髓
+            Class "Stackable Currency"
+            BaseType "Deafening Essence"
+            SetTextColor 24 208 255
+            SetBackgroundColor 0 46 77
+            SetBorderColor 255 255 0
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Show #高階精髓
             Class "Stackable Currency"
-            BaseType "Screaming Essence" "Shrieking Essence" "Deafening Essence"
+            BaseType "Screaming Essence" "Shrieking Essence"
             SetTextColor 24 208 255
             SetBackgroundColor 0 46 77
             SetBorderColor 24 208 255
@@ -3248,7 +3265,7 @@
 
         Show #實用預兆
             Class "Stackable Currency"
-            BaseType "Omen of Amelioration" "Omen of Blanching" "Omen of Return"
+            BaseType "Omen of Amelioration" "Omen of Blanching"
             SetTextColor 55 33 117 255
             SetBackgroundColor 139 126 208 255
             SetBorderColor 75 20 142 255
@@ -3258,6 +3275,20 @@
             CustomAlertSoundOptional "Diablo2\24.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 200
             MinimapIcon 1 Purple Circle
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 返回預兆
+            Class "Stackable Currency"
+            BaseType "Omen of Return"
+            SetTextColor 139 126 208 255
+            SetBorderColor 75 20 142 255
+            SetFontSize 36
+            PlayAlertSoundPositional 9 100
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 100
+            CustomAlertSoundOptional "Diablo2\24.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 100
+            MinimapIcon 2 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
 
@@ -3389,7 +3420,7 @@
             BaseType "Power Rune" "Time Rune"
             SetTextColor 0 73 165 200
             SetBackgroundColor 152 184 191
-            SetBorderColor 153 213 243
+            SetBorderColor 255 144 0 255
             SetFontSize 45
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
@@ -3404,7 +3435,7 @@
             BaseType "Rune"
             SetTextColor 0 73 165 200
             SetBackgroundColor 152 184 191
-            SetBorderColor 153 213 243 200
+            SetBorderColor 153 213 243
             SetFontSize 40
             PlayAlertSoundPositional 9 200
             CustomAlertSoundOptional "bubu\bubu-探險文物.mp3" 200
@@ -5095,6 +5126,21 @@
 
 #L1 7 裝備
     #L2 7.1 傳奇裝備
+        Show #傳奇裝備(汙染上綴)
+            Rarity = Unique
+            CorruptedMods >= 1
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Red UpsideDownHouse
+            PlayEffect Red
+            DisableDropSoundIfAlertSound 
+
         Show #稀有傳奇基底 Uber掉落 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|鈷藍珠寶(禁忌血肉、理性主義)|黃玉戒指(尼米斯)|紫晶藥劑(生育)|翠綠珠寶(逃脫不能)|箴言法杖(女神恩典)|三相珠寶(看守之眼、崇高願景)|獄炎重劍(核虛、核星)|軍團長劍(救世主)|秘術法衣(叛教者)|三相戒指(野心之環)
             AreaLevel == 85
             Rarity = Unique
@@ -5266,7 +5312,7 @@
             SetBorderColor 50 230 100
             DisableDropSoundIfAlertSound
 
-        Show #5L裝備 
+        Show #印鈔 - 速刷 - 5L裝備 
             AreaLevel < 81
             LinkedSockets = 5
             SetTextColor 222 222 92
@@ -5275,7 +5321,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Hide #5L裝備(高T隱藏)
+        Hide #印鈔 - 速刷 - 5L裝備(高T隱藏)
             AreaLevel >= 81
             LinkedSockets = 5
             Sockets = 5
@@ -5285,7 +5331,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #6L裝備 鏈結石配方
+        Show #印鈔 - 6L裝備 鏈結石配方
             LinkedSockets = 6
             SetTextColor 255 165 0
             SetBackgroundColor 127 127 127
@@ -5463,9 +5509,8 @@
             MinimapIcon 2 Purple Raindrop
             DisableDropSoundIfAlertSound
         
-        Show #85水銀真銀
-            ItemLevel >= 85
-            BaseType "Quicksilver Flask" "Silver Flask"
+        Show #顯示高等高品質功能性藥劑
+            Quality >= 25
             Class "Utility Flasks"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
@@ -5476,9 +5521,10 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
             MinimapIcon 1 Green Raindrop
             DisableDropSoundIfAlertSound
-
-        Show #顯示高等高品質功能性藥劑
-            Quality >= 25
+            
+        Show #印鈔 - 85水銀真銀
+            ItemLevel >= 85
+            BaseType "Quicksilver Flask" "Silver Flask"
             Class "Utility Flasks"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
