@@ -5291,7 +5291,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 輿圖中傳奇裝備(全)
+        Show #印鈔 - 輿圖中傳奇裝備(全)
             MapTier >= 1
             Rarity = Unique
             Replica False
