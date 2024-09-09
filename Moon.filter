@@ -3496,7 +3496,7 @@
 
     Show #T0命運卡
         Class "Divination Card"
-        BaseType "House of Mirrors" "The Doctor" "The Fiend" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "The Cheater" "Desecrated Virtue" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "I See Brothers" "Fire Of Unknown Origin" "Father's Love"
+        BaseType == "House of Mirrors" "The Doctor" "The Fiend" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "The Cheater" "Desecrated Virtue" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "I See Brothers" "Fire Of Unknown Origin" "Father's Love"
         SetTextColor 255 0 0 255
         SetBackgroundColor 255 255 255
         SetBorderColor 255 0 0 255
@@ -3511,7 +3511,7 @@
 
     Show #T1命運卡
         Class "Divination Card"
-        BaseType "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Assassin's Gift" "Avian Pursuit" "Lonely Warrior" "Divine Justice" "Remembrance" "The Soul" "Azyran's Reward"
+        BaseType == "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Assassin's Gift" "Avian Pursuit" "Lonely Warrior" "Divine Justice" "Remembrance" "The Soul" "Azyran's Reward"
         SetTextColor 255 117 29
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -3526,7 +3526,7 @@
 
     Show #T2命運卡
         Class "Divination Card"
-        BaseType "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Eye of Terror" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death" "Altered Perception" "Baited Expectations" "Audacity" "The Conduit" "The Last Supper" "Tranquillity" "The Wolf" "The Wind"
+        BaseType == "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "Polymath" "The Eye of Terror" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Valley of Steel Boxes" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death" "Altered Perception" "Baited Expectations" "Audacity" "The Conduit" "The Last Supper" "Tranquillity" "The Wolf" "The Wind"
         SetTextColor 255 200 0
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -3541,7 +3541,7 @@
 
     Show #印鈔 - 終局 - 速刷 - T3命運卡
         Class "Divination Card"
-        BaseType "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Wretched" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "Standoff" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "Friendship" "The Pack Leader" "The Gladiator" "The Hale Heart" "Monochrome" "More is Never Enough" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculate" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "The Long Watch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "Parasitic Passengers" "Duality" "Magnum Opus" "Imperfect Memories" "Astral Protection" "Lethean Temptation" "Alivia's Grace" "The Return of the Rat" "The Hoarder" "A Dab of Ink"  "The Insatiable" "The Jeweller's Boon" "From Bone to Ashes" "Soul Quenched" "The Long Watch" "Azure Rage" "Broken Truce" "Brotherhood in Exile" "Nook's Crown"
+        BaseType == "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Wretched" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "Standoff" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "Friendship" "The Pack Leader" "The Gladiator" "The Hale Heart" "Monochrome" "More is Never Enough" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculate" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "The Long Watch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "Parasitic Passengers" "Duality" "Magnum Opus" "Imperfect Memories" "Astral Protection" "Lethean Temptation" "Alivia's Grace" "The Return of the Rat" "The Hoarder" "A Dab of Ink"  "The Insatiable" "The Jeweller's Boon" "From Bone to Ashes" "Soul Quenched" "The Long Watch" "Azure Rage" "Broken Truce" "Brotherhood in Exile" "Nook's Crown"
         SetTextColor 255 255 255 200
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255 200
@@ -5147,9 +5147,9 @@
 
 #L1 7 裝備
     #L2 7.1 傳奇裝備
-        Show #傳奇裝備(汙染上綴)
+        Show #傳奇裝備(超瓦上綴)
             Rarity = Unique
-            CorruptedMods >= 1
+            CorruptedMods >= 2
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
             SetBorderColor 255 0 0
@@ -5159,6 +5159,21 @@
             CustomAlertSoundOptional "Diablo2\33.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Red UpsideDownHouse
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇裝備(汙染上綴)
+            Rarity = Unique
+            CorruptedMods >= 1
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 0 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 2 Red UpsideDownHouse
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
@@ -5176,6 +5191,21 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Red UpsideDownHouse
             PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇裝備(6L)
+            Rarity = Unique
+            LinkedSockets = 6
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Brown UpsideDownHouse
+            PlayEffect Brown
             DisableDropSoundIfAlertSound
 
         Show #稀有傳奇基底 Uber灼烙總督 赤紅珠寶(禁忌烈焰)|黑曜護身符(晶化全知)|先祖碎片(融合之逸品)
@@ -5304,223 +5334,6 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #稀有傳奇基底 灼烙總督 赤紅珠寶(血肉溶解、禁忌烈焰)
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Crimson Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 吞噬天地 鈷藍珠寶(血肉融合、禁忌血肉)
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Cobalt Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 釋界 翠綠珠寶(逃脫不能) 
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Viridian Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 終尊 三相珠寶(看守之眼)
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Prismatic Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 喚世者．賽勒斯 赤紅珠寶(希望之絃)
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Crimson Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 塑界者 紅玉藥劑(滅日)
-            AreaLevel == 84
-            ItemLevel == 86
-            Rarity = Unique
-            BaseType "Ruby Flask"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 維那利斯 硫磺藥劑(瓶中信仰)
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType "Sulphur Flask"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 維那利斯 智者之袍(無常禮袍)
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType "Savant's Robe"
-            Replica False
-            SynthesisedItem True
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 異界尊師 三相珠寶(看守之眼)
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType "Prismatic Jewel"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound   
-
-        Show #稀有傳奇基底 瓦爾女王阿茲里(釋界之邀) 瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)   
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType  "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound  
-
-        Show #稀有傳奇基底 瓦爾女王阿茲里 瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)   
-            AreaLevel == 80
-            ItemLevel == 82
-            Rarity = Unique
-            BaseType  "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-            
-        Show #稀有傳奇基底 Uber Map 黑曜護身符(磨難之軛)|軟橡魔盾(魔能暴風)|影語權杖(黯黑賢者)|靈骨之冠(憤靈郡主)|暗殺者護手(瑪拉凱之面)
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType "Onyx Amulet" "Lacewood Spirit Shield" "Shadow Sceptre" "Bone Circlet" "Murder Mitts"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
         Show #稀有傳奇聖物 初始經文(草紙聖物)|燭台聖物(第二聖事)|詩歌聖物(懲戒鎖鏈)|卷冊聖物(權力和誓約)
             Rarity = Unique
             BaseType "Papyrus Relic" "Candlestick Relic" "Processional Relic" "Tome Relic"
@@ -5536,24 +5349,6 @@
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
             DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 禁忌聖域 惡靈長杖(命定之風)|操靈者之冠(沙瀑面紗)|瑪瑙護身符(永恆的詛咒)|紫晶戒指(原罪)
-            AreaLevel == 83
-            ItemLevel == 85
-            Rarity = Unique
-            BaseType "Foul Staff" "Necromancer Circlet" "Agate Amulet" "Amethyst Ring"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 45
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
 
         Show #稀有傳奇基底 無暇裂痕石 夕暮護身符(烏爾尼多之誓)
             AreaLevel == 84
@@ -5573,10 +5368,26 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #稀有傳奇基底 Uber永恆鬥爭之域 禁禮之甲(靜止牢籠)
-            AreaLevel == 84
-            ItemLevel == 86
+        Show #稀有傳奇基底 永生大師卡塔莉娜 操靈者之冠(吞噬之冠)|蛇紋長杖(骷髏馬克的靈杖)|瓦爾細劍(矛盾對決)
             Rarity = Unique
+            HasExplicitMod "Veil" "of the Veil"
+            BaseType "Necromancer Circlet" "Serpentine Staff" "Vaal Rapier"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #稀有傳奇基底 三深淵洞以上傳奇 禁禮之甲(晦暗的屍布)
+            Rarity = Unique
+            Sockets >= AAA
             BaseType "Carnal Armour"
             Replica False
             SetTextColor 175 96 37
@@ -5589,13 +5400,12 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
-            DisableDropSoundIfAlertSound 
+            DisableDropSoundIfAlertSound  
 
-        Show #稀有傳奇基底 凋落蔓延 黑曜護身符(扼殺之息)
-            AreaLevel == 83
-            ItemLevel == 85
+        Show #稀有傳奇基底 兩深淵洞以上傳奇 強化巨盔(光明獵盜者)|靈能之籠(強彈辯駁)|暗殺者長靴(布巴尼克的線索)|儀式手套(闇核號令)|鋼影護手(陵拳)
             Rarity = Unique
-            BaseType "Onyx Amulet"
+            Sockets >= AA
+            BaseType "Great Crown" "Mind Cage" "Murder Boots" "Riveted Gloves" "Steelscale Gauntlets"
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5607,12 +5417,12 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
-            DisableDropSoundIfAlertSound 
+            DisableDropSoundIfAlertSound
 
-        Show #稀有傳奇基底 永生大師卡塔莉娜 操靈者之冠(吞噬之冠)|蛇紋長杖(骷髏馬克的靈杖)|瓦爾細劍(矛盾對決)
+        Show #稀有傳奇基底 冥河腰帶(夜惡降臨)
             Rarity = Unique
-            HasExplicitMod "Veil" "of the Veil"
-            BaseType "Necromancer Circlet" "Serpentine Staff" "Vaal Rapier"
+            Sockets >= AA
+            BaseType "Stygian Vise"
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5719,7 +5529,7 @@
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
             SetBorderColor 255 168 0 255
-            SetFontSize 41
+            SetFontSize 45
             PlayAlertSoundPositional 1 300
             CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
             CustomAlertSoundOptional "Diablo2\33.mp3" 300
@@ -5727,133 +5537,6 @@
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
             DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 裂痕 翠玉護身符(太平)|海玉護身符(暴風之言)|琥珀護身符(索伏之心)
-            AreaLevel == 81
-            ItemLevel == 83
-            Rarity = Unique
-            BaseType "Jade Amulet" "Lapis Amulet" "Amber Amulet"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 雙胞胎 汙染黑曜護身符(領導力的代價)
-            Rarity = Unique
-            AreaLevel == 83
-            ItemLevel == 85
-            Corrupted True
-            BaseType "Onyx Amulet"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound 
-
-        Show #稀有傳奇基底 榮譽之心 漆彩之盔(幼雛)
-            Rarity = Unique
-            AreaLevel == 81
-            ItemLevel == 83
-            BaseType "Lacquered Helmet"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 1阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
-            Rarity = Unique
-            AreaLevel == 1
-            ItemLevel == 1
-            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 83阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
-            Rarity = Unique
-            AreaLevel == 83
-            ItemLevel == 83
-            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 84阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
-            Rarity = Unique
-            AreaLevel == 84
-            ItemLevel == 84
-            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #稀有傳奇基底 劫盜限定 哨兵之衣(遠征之盡)|全罩戰盔(慾望之冠)|艾茲麥長杖(支點)|伏擊刺刃(隱藏之劍)|鬥士長劍(鐵塊)|緋紅圓盾(破碎之屑)
-            Rarity = Unique
-            AreaLevel == 83
-            ItemLevel >= 84
-            BaseType  "Sentinel Jacket" "Fluted Bascinet" "Ezomyte Staff" "Ambusher" "Gladius" "Crimson Round Shield"
-            Replica False
-            SetTextColor 175 96 37
-            SetBackgroundColor 82 18 18 255
-            SetBorderColor 255 168 0 255
-            SetFontSize 41
-            PlayAlertSoundPositional 1 300
-            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\33.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
-            MinimapIcon 0 Orange UpsideDownHouse
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound   
 
         Show #稀有傳奇基底 星團珠寶
             Rarity = Unique
@@ -5885,13 +5568,11 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
-            DisableDropSoundIfAlertSound   
+            DisableDropSoundIfAlertSound
 
-        Show #稀有傳奇基底 礦坑 紅玉戒指(阿卡莉的草原、阿卡莉的峽谷、阿卡莉的山巒)|黃玉戒指(普坦堡的草原、普坦堡的峽谷、普坦堡的山巒)|藍玉戒指(尤莎莎的草原、尤莎莎的峽谷、尤莎莎的山巒)|黑曜護身符(奧爾的崛起)|行政者戰冠(堂皇冠冕)
-            AreaLevel == 83
-            ItemLevel >= 85
+        Show #稀有傳奇基底 契約書
             Rarity = Unique
-            BaseType "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Onyx Amulet" "Magistrate Crown"
+            BaseType "Contract"
             Replica False
             SetTextColor 175 96 37
             SetBackgroundColor 82 18 18 255
@@ -5903,7 +5584,7 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
             MinimapIcon 0 Orange UpsideDownHouse
             PlayEffect Orange
-            DisableDropSoundIfAlertSound   
+            DisableDropSoundIfAlertSound
 
         Show #稀有傳奇基底 皮革腰帶(獵首)|重革腰帶(魔血)|海靈護身符(拒絕命運)|魚竿(災禍之礁、海妖魅曲)|符文巨劍(萊基亞塔的舞步)|帝國之弓(獅眼的戰弓、裂風)|帝國雙刃匕(戒律之影)|瓦爾戰爪(精華收割器)|破城斧(開膛斧)|脊弓(魔暴之痕)|魔爪刃(嗜血之爪、野性法則)|殘暴短匕(比諾的廚刀)|卡魯重錘(爾奇的巨靈之錘)|軟橡魔盾(魔能暴風)|虛影巨斧(奇塔弗之盛宴)|帝國重錘(破浪者)|箴言戰冠(海王冠冕)|匿蹤短靴(卡洛翰之影)|烏木塔盾(圖克哈瑪堡壘)|智者之袍(陶米兒艾斯理之袍)|妖魔短匕(艾爾卡莉之牙)|貴族長杖(烈士之淨)|龍鱗戰甲(葛魯斯寇真皮)|賢者之袍(達拉的罪刑)|儀式短靴(芮勒蓋許的急躁)|術士長靴(空向、絕地魔履)|扣釘腰帶(瑞斯拉薩之纏)|賢者法杖(日耀之影)|箴言法杖(潛能魔棒)|雙鋒箭袋(瑞佛之羽)|角鬥重鎧(堅銅戰罩)|靈相魔盾(月影之耀)|生皮短靴(盟誓之跡)|紅玉戒指(戰士遺物)|黃玉戒指(星空之影)|鬥士鳶盾(幻芒聖盾)|瑪瑙護身符(福爾的忠誠之符)|月光石戒指(薛朗的啟示之環)|瓦爾護手(多里亞尼之拳)|榮耀戰鎧(岡姆的壯志)|巨人魔盾(獻祭之心)|威能鳶盾(元素的庇護、破碎信念)|寶飾細劍(卡斯普里的怨恨)|狂虐者束衣(印卜薩的心碎)|華麗箭袋(馬洛尼的機關)|青玉護身符(激情之章)|暗殺者護手(轟天雷、詭計魔手)|弒神之面(異教面紗)|聖者鏈甲(多里亞尼之型)|征戰塔盾(史瓦林)|無名戒指(憎惡控告者、心靈鎮壓者、自私牧羊人)|魔符頭飾(信仰守護)|鋼鐵藥劑(奧爾羅斯的決心)|勘查之眼珠寶(烏拉曼的邪眼)|極懼之眼珠寶(阿姆那姆的邪眼)|殺戮之眼珠寶(特克羅德的邪眼)|遠古護手(怨恨鍛造)|冷鋼鳶盾(瑪哈薩多的陰謀)|賢者法杖(古典冥約)|紫晶戒指(黯炎)|操靈者背心(人體匠師)|強化巨盔(禁忌軍帽)|禁禮之靴(行屍走肉)|火蝮鱗手套(偷息)|聖者鏈甲(毒孢守衛)|刺殺者之靴(潰逃之靴)|金光戒指(賭神芬多)|星辰皮甲(西里的戰衣)|黑曜護身符(贗品．龍牙翱翔)|雙玉戒指(意志呼喚)|翠玉護身符(西里的真理)
             Rarity = Unique
@@ -6063,11 +5744,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 灼烙總督 巨型塔盾(破曉)|瓦爾脛甲(晨行者)
+        Show #傳奇基底 灼烙總督 巨型塔盾(破曉)|瓦爾脛甲(晨行者)|赤紅珠寶(血肉溶解、禁忌烈焰)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
-            BaseType "Colossal Tower Shield" "Vaal Greaves"
+            BaseType "Colossal Tower Shield" "Vaal Greaves" "Crimson Jewel"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6081,11 +5762,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 吞噬天地 城塞戰弓(饕餮浪潮)|逃難短靴(無法掙脫之命)
+        Show #傳奇基底 吞噬天地 城塞戰弓(饕餮浪潮)|逃難短靴(無法掙脫之命)|鈷藍珠寶(血肉融合、禁忌血肉)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
-            BaseType "Citadel Bow" "Fugitive Boots"
+            BaseType "Citadel Bow" "Fugitive Boots" "Cobalt Jewel"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6099,11 +5780,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 釋界 狂虐者束衣(達佩爾甘格偽裝)|地蝮鱗長靴(傳承憤怒)|飾布腰帶(格雷文的秘密、昂恩的煩惱、奧莉西亞的喜悅)
+        Show #傳奇基底 釋界 狂虐者束衣(達佩爾甘格偽裝)|地蝮鱗長靴(傳承憤怒)|飾布腰帶(格雷文的秘密、昂恩的煩惱、奧莉西亞的喜悅)|翠綠珠寶(逃脫不能)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
-            BaseType "Sadist Garb" "Wyrmscale Boots" "Cloth Belt"
+            BaseType "Sadist Garb" "Wyrmscale Boots" "Cloth Belt" "Viridian Jewel"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6117,7 +5798,7 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 終尊 蛋白石戒指(塑者之印)
+        Show #傳奇基底 終尊 塑者之物 蛋白石戒指(塑者之印)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
@@ -6136,7 +5817,7 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 終尊 鋼鑄戒指(尊師之印)
+        Show #傳奇基底 終尊 尊師之物 鋼鑄戒指(尊師之印)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
@@ -6155,7 +5836,7 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 終尊 靈主之環(地印之環)|始祖箭袋(虛眼箭矢)|風暴長杖(滅碎獠杖)
+        Show #傳奇基底 終尊 塑者之物-尊師之物 靈主之環(地印之環)|始祖箭袋(虛眼箭矢)|風暴長杖(滅碎獠杖)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
@@ -6175,11 +5856,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 喚世者．賽勒斯 箴言戰冠(暗眼之冠)|聖戰手套(聖宗神手)|水晶腰帶(真理負擔)
+        Show #傳奇基底 終尊 三相珠寶(看守之眼)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
-            BaseType "Prophet Crown" "Crusader Gloves" "Crystal Belt"
+            BaseType "Prismatic Jewel"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6193,7 +5874,25 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 塑界者 聖戰手套(塑者之觸)|暗殺者長靴(虛空行者)|黑曜護身符(守夜之至)
+        Show #傳奇基底 喚世者．賽勒斯 箴言戰冠(暗眼之冠)|聖戰手套(聖宗神手)|水晶腰帶(真理負擔)|赤紅珠寶(希望之絃)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Prophet Crown" "Crusader Gloves" "Crystal Belt" "Crimson Jewel"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 塑界者 塑者之物 聖戰手套(塑者之觸)|暗殺者長靴(虛空行者)|黑曜護身符(守夜之至)
             AreaLevel == 84
             ItemLevel == 86
             Rarity = Unique
@@ -6212,11 +5911,29 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound 
 
-        Show #傳奇基底 維那利斯 艾茲麥刺盾(極轉電刑)|軍團手套(蛇皮獻祭)
+        Show #傳奇基底 塑界者 紅玉藥劑(滅日)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Ruby Flask"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 維那利斯 追憶之物 艾茲麥刺盾(極轉電刑)|軍團手套(蛇皮獻祭)|智者之袍(無常禮袍)
             AreaLevel == 83
             ItemLevel == 85
             Rarity = Unique
-            BaseType "Ezomyte Spiked Shield" "Legion Gloves"
+            BaseType "Ezomyte Spiked Shield" "Legion Gloves" "Savant's Robe"
             Replica False
             SynthesisedItem True
             SetTextColor 227 92 9 220
@@ -6231,7 +5948,26 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 異界尊師 刺殺者護手(褻瀆者之握)|皮革腰帶(巨岩之環)|漫遊之弓(破滅之希)|夢魘之錘(銀河眾星)|狂風法杖(低伏微光)
+        Show #傳奇基底 維那利斯 硫磺藥劑(瓶中信仰)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Sulphur Flask"
+            Replica False
+            SynthesisedItem True
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 異界尊師 尊師之物 刺殺者護手(褻瀆者之握)|皮革腰帶(巨岩之環)|漫遊之弓(破滅之希)|夢魘之錘(銀河眾星)|狂風法杖(低伏微光)
             AreaLevel == 83
             ItemLevel == 85
             Rarity = Unique
@@ -6250,11 +5986,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 瓦爾女王阿茲里(釋界之邀) 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)
+        Show #傳奇基底 異界尊師 三相珠寶(看守之眼)
             AreaLevel == 83
             ItemLevel == 85
             Rarity = Unique
-            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb"
+            BaseType "Prismatic Jewel"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6268,11 +6004,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 瓦爾女王阿茲里 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)
-            AreaLevel == 80
-            ItemLevel == 82
+        Show #傳奇基底 瓦爾女王阿茲里(釋界之邀) 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)|瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)
+            AreaLevel == 83
+            ItemLevel == 85
             Rarity = Unique
-            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb"
+            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb" "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6285,6 +6021,223 @@
             MinimapIcon 2 Orange UpsideDownHouse
             PlayEffect Orange
             DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 瓦爾女王阿茲里 審判長杖(阿茲里的統御)|瓦爾之面(謎容)|祭禮束衣(阿茲里的威權)|瓦爾護手(阿茲里的捷思)|瓦爾巨斧(阿茲里的刑刃)|金陽輕盾(阿茲里的映照)
+            AreaLevel == 80
+            ItemLevel == 82
+            Rarity = Unique
+            BaseType "Judgement Staff" "Vaal Mask" "Sacrificial Garb" "Vaal Gauntlets" "Vaal Axe" "Golden Buckler"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+            
+        Show #傳奇基底 Uber Map 黑曜護身符(磨難之軛)|軟橡魔盾(魔能暴風)|影語權杖(黯黑賢者)|靈骨之冠(憤靈郡主)|暗殺者護手(瑪拉凱之面)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Onyx Amulet" "Lacewood Spirit Shield" "Shadow Sceptre" "Bone Circlet" "Murder Mitts"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 禁忌聖域 惡靈長杖(命定之風)|操靈者之冠(沙瀑面紗)|瑪瑙護身符(永恆的詛咒)|紫晶戒指(原罪)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Foul Staff" "Necromancer Circlet" "Agate Amulet" "Amethyst Ring"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 Uber永恆鬥爭之域 禁禮之甲(靜止牢籠)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Carnal Armour"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 凋落蔓延 黑曜護身符(扼殺之息)
+            AreaLevel == 83
+            ItemLevel == 85
+            Rarity = Unique
+            BaseType "Onyx Amulet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 裂痕 翠玉護身符(太平)|海玉護身符(暴風之言)|琥珀護身符(索伏之心)
+            AreaLevel == 81
+            ItemLevel == 83
+            Rarity = Unique
+            BaseType "Jade Amulet" "Lapis Amulet" "Amber Amulet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 雙胞胎 汙染黑曜護身符(領導力的代價)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel == 85
+            Corrupted True
+            BaseType "Onyx Amulet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound 
+
+        Show #傳奇基底 榮譽之心 漆彩之盔(幼雛)
+            Rarity = Unique
+            AreaLevel == 81
+            ItemLevel == 83
+            BaseType "Lacquered Helmet"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 1阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 1
+            ItemLevel == 1
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 83阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel == 83
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 84阿茲瓦特神殿 行政者戰冠(魂飲化面)|瓦爾魔盾(艾普之眠)|伏擊護手(構築之手)|扣鏈腰帶(懦夫的鎖鏈)|禁禮之靴(奉獻之舞)|寶石之劍(瓦爾之命)
+            Rarity = Unique
+            AreaLevel == 84
+            ItemLevel == 84
+            BaseType "Magistrate Crown" "Vaal Spirit Shield" "Ambush Mitts" "Chain Belt" "Carnal Boots" "Gemstone Sword"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 劫盜限定 哨兵之衣(遠征之盡)|全罩戰盔(慾望之冠)|艾茲麥長杖(支點)|伏擊刺刃(隱藏之劍)|鬥士長劍(鐵塊)|緋紅圓盾(破碎之屑)
+            Rarity = Unique
+            AreaLevel == 83
+            ItemLevel >= 84
+            BaseType  "Sentinel Jacket" "Fluted Bascinet" "Ezomyte Staff" "Ambusher" "Gladius" "Crimson Round Shield"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound   
 
         Show #傳奇基底 費爾羅的巢窟 鷹喙之面(費爾羅咥喙)|勝利盔甲(費爾羅羽衣)|火蝮鱗手套(費爾羅鋒爪)|迷蹤短靴(費爾羅獵靴)
             AreaLevel == 80
@@ -6375,11 +6328,11 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 礦坑 儀式手套(闇核號令)|靈能之籠(強彈辯駁)|血色權杖(獄犬殘肢)
+        Show #傳奇基底 礦坑 儀式手套(闇核號令)|靈能之籠(強彈辯駁)|血色權杖(獄犬殘肢)|紅玉戒指(阿卡莉的草原、阿卡莉的峽谷、阿卡莉的山巒)|黃玉戒指(普坦堡的草原、普坦堡的峽谷、普坦堡的山巒)|藍玉戒指(尤莎莎的草原、尤莎莎的峽谷、尤莎莎的山巒)|黑曜護身符(奧爾的崛起)|行政者戰冠(堂皇冠冕)
             AreaLevel == 83
             ItemLevel == 85
             Rarity = Unique
-            BaseType "Riveted Gloves" "Mind Cage" "Blood Sceptre"
+            BaseType "Riveted Gloves" "Mind Cage" "Blood Sceptre" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Onyx Amulet" "Magistrate Crown"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -6393,7 +6346,7 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #傳奇基底 輿圖
+        Show #傳奇輿圖
             Rarity = Unique
             Class "Maps"
             Replica False
@@ -6490,7 +6443,7 @@
             CustomAlertSoundOptional "bubu\bubu-6連.mp3" 300
             CustomAlertSoundOptional "Diablo2\48.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-All Hail Lelouch.mp3" 300
-            MinimapIcon 0 Brown UpsideDownHouse
+            MinimapIcon 2 Brown UpsideDownHouse
             PlayEffect Brown
             DisableDropSoundIfAlertSound
 

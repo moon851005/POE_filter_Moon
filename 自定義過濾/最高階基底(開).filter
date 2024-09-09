@@ -7,7 +7,7 @@ Show #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
     SetBackgroundColor 184 218 242
     SetBorderColor 255 255 255
     SetFontSize 41
-    MinimapIcon 0 Yellow UpsideDownHouse
+    MinimapIcon 2 Yellow UpsideDownHouse
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
@@ -20,6 +20,6 @@ Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵�
     SetBackgroundColor 184 218 242
     SetBorderColor 255 255 255
     SetFontSize 41
-    MinimapIcon 0 Yellow UpsideDownHouse
+    MinimapIcon 2 Yellow UpsideDownHouse
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
