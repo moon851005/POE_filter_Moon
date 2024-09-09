@@ -142,15 +142,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 40
             DisableDropSoundIfAlertSound
 
-        Show #傳送卷軸(堆疊>=20)
-            StackSize >= 20
-            Class "Stackable Currency"
-            BaseType "Portal Scroll"
-            SetBorderColor 0 0 255
-            SetFontSize 40
-            DisableDropSoundIfAlertSound
-
-        Show #印鈔 - 終局 - 傳送卷軸(堆疊>=8)
+        Show #印鈔 - 傳送卷軸(堆疊>=8)
             StackSize >= 8
             Class "Stackable Currency"
             BaseType "Portal Scroll"
@@ -7351,7 +7343,37 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 8.3 隱藏
+    #L2 8.3 特殊
+        Show #瓦爾多的謎盒
+            BaseType "Valdo's Puzzle Box"
+            Class "Stackable Currency"
+            SetTextColor 255 205 0
+            SetBackgroundColor 55 17 0 200
+            SetBorderColor 231 180 120
+            SetFontSize 45
+            PlayAlertSoundPositional 3 300
+            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\48.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+            MinimapIcon 0 Brown Triangle
+            PlayEffect Brown
+            DisableDropSoundIfAlertSound
+            
+        Show #遺鑰
+            Class "Vault Keys"
+            SetTextColor 186 102 31 #
+            SetBackgroundColor 56 32 8
+            SetBorderColor 0 128 0
+            SetFontSize 45
+            PlayAlertSoundPositional 3 300
+            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\48.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+            MinimapIcon 0 Brown Triangle
+            PlayEffect Brown
+            DisableDropSoundIfAlertSound
+        #end
+    #L2 8.4 隱藏
         Hide #60~69白裝基底(藍框)
             ItemLevel > 59
             Rarity = Normal
@@ -7531,36 +7553,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rings" "Amulets" "Belts" "Rune Daggers" "Warstaves"
             DisableDropSoundIfAlertSound
 
-        #end
-    #L2 8.4 特殊
-        Show #瓦爾多的謎盒
-            BaseType "Valdo's Puzzle Box"
-            Class "Stackable Currency"
-            SetTextColor 255 205 0
-            SetBackgroundColor 55 17 0 200
-            SetBorderColor 231 180 120
-            SetFontSize 45
-            PlayAlertSoundPositional 3 300
-            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
-            CustomAlertSoundOptional "Diablo2\48.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
-            MinimapIcon 0 Brown Triangle
-            PlayEffect Brown
-            DisableDropSoundIfAlertSound
-            
-        Show #遺鑰
-            Class "Vault Keys"
-            SetTextColor 186 102 31 #
-            SetBackgroundColor 56 32 8
-            SetBorderColor 0 128 0
-            SetFontSize 45
-            PlayAlertSoundPositional 3 300
-            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
-            CustomAlertSoundOptional "Diablo2\48.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
-            MinimapIcon 0 Brown Triangle
-            PlayEffect Brown
-            DisableDropSoundIfAlertSound
         #end
     #end
 
