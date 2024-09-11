@@ -6682,19 +6682,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
         
             #end
-    #L2 7.4 點機會石用基底
-        Import "自定義過濾/傳奇基底(開).filter" Optional
-        Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
-            ItemLevel >= 78
-            BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
-            SetTextColor 255 255 255 220
-            SetBackgroundColor 255 114 0 200
-            SetBorderColor 255 114 0
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
 
-            #end
-    #L2 7.5 特殊詞綴掉落
+    #L2 7.4 特殊詞綴掉落
         Show #印鈔 - 終局 - 附魔詞綴
             AnyEnchantment True
             Corrupted False
@@ -6842,7 +6831,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.6 勢力裝備基底
+    #L2 7.5 勢力裝備基底
         Show #印鈔 - 終局 - 異界尊師
             ElderItem True
             Rarity <= Rare
@@ -6952,7 +6941,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.7 異界輿圖限定基底
+    #L2 7.6 異界輿圖限定基底
         Show #印鈔 - 終局 - 最高階異界輿圖限定基底
             ItemLevel >= 86
             Rarity < Rare
@@ -7000,7 +6989,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.8 一般基底
+    #L2 7.7 一般基底
         Import "自定義過濾/最高階高品質基底(開).filter" Optional
         Import "自定義過濾/最高階基底(開).filter" Optional
         Hide #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
@@ -7161,7 +7150,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.9 高階金裝
+    #L2 7.8 高階金裝
         Hide #印鈔 - 終局 - 速刷 - 高階金裝(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
@@ -7218,7 +7207,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.10 珠寶
+    #L2 7.9 珠寶
         Import "自定義過濾/珠寶(開).filter" Optional
         Hide #印鈔 - 終局 - 速刷 - 鈷藍珠寶
             Class "Jewel"
@@ -7248,7 +7237,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.11 釣魚道具
+    #L2 7.10 釣魚道具
         Show #釣竿
             BaseType "Fishing Rod"
             SetTextColor 0 43 160 200
@@ -7268,7 +7257,19 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayAlertSoundPositional 11 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_笑.mp3" 100
             DisableDropSoundIfAlertSound
-        #end
+            #end
+        
+    #L2 7.11 點機會石用基底
+        Import "自定義過濾/傳奇基底(開).filter" Optional
+        Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
+            ItemLevel >= 78
+            BaseType "Prophecy Wand" "Leather Belt" "Heavy Belt" "Fiend Dagger" "Elegant Round Shield" "Champion Kite Shield" "Zodiac Leather" "Riveted Boots"
+            SetTextColor 255 255 255 220
+            SetBackgroundColor 255 114 0 200
+            SetBorderColor 255 114 0
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+            #end
     #end
 
 #L1 8 其他
