@@ -2829,7 +2829,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Green
             DisableDropSoundIfAlertSound
             
-        Show #契約書
+        Hide #印鈔 - 契約書
             Rarity <= Rare
             Class "Contract"
             BaseType "Contract"
@@ -3841,7 +3841,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
             #end
     #L2 5.3 輿圖道具
-        Show #眾神聖器
+        Hide #印鈔 - 眾神聖器
             Class "Map Fragments"
             BaseType "Divine Vessel"
             SetTextColor 200 150 0
@@ -6338,7 +6338,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #傳奇基底 礦坑 儀式手套(闇核號令)|靈能之籠(強彈辯駁)|血色權杖(獄犬殘肢)|紅玉戒指(阿卡莉的草原、阿卡莉的峽谷、阿卡莉的山巒)|黃玉戒指(普坦堡的草原、普坦堡的峽谷、普坦堡的山巒)|藍玉戒指(尤莎莎的草原、尤莎莎的峽谷、尤莎莎的山巒)|黑曜護身符(奧爾的崛起)|行政者戰冠(堂皇冠冕)
             AreaLevel == 83
-            ItemLevel == 85
+            ItemLevel >= 85
             Rarity = Unique
             BaseType "Riveted Gloves" "Mind Cage" "Blood Sceptre" "Ruby Ring" "Topaz Ring" "Sapphire Ring" "Onyx Amulet" "Magistrate Crown"
             Replica False
