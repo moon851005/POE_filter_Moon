@@ -3475,6 +3475,20 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
         #end
+    #L2 2.28費西亞的遺產(短期競賽)
+        Show #偶像
+            Class "Idol"
+            SetTextColor 98 195 186
+            SetBackgroundColor 22 22 22
+            SetBorderColor 68 125 116
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-覺醒六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\31.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 100
+            MinimapIcon 1 Cyan Hexagon
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
     #end
         
 #L1 3 命運卡
