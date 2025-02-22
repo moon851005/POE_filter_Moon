@@ -3476,11 +3476,29 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         #end
     #L2 2.28費西亞的遺產(短期競賽)
-        Show #偶像
+        Show #魔偶 征服者魔偶
+            Rarity <= Rare
+            Class "Idol" 
+            BaseType "Conqueror Idol"
+            SetTextColor 4 38 38
+            SetBackgroundColor 79 228 222
+            SetBorderColor 0 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-覺醒六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\31.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 100
+            MinimapIcon 0 Cyan Hexagon
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
+        Show #魔偶 圖騰魔偶|埋葬魔偶
+            Rarity <= Rare
             Class "Idol"
-            SetTextColor 98 195 186
-            SetBackgroundColor 22 22 22
-            SetBorderColor 68 125 116
+            BaseType "Totemic Idol" "Burial Idol"
+            SetTextColor 79 228 222
+            SetBackgroundColor 4 38 38
+            SetBorderColor 0 0 0
             SetFontSize 42
             PlayAlertSoundPositional 6 300
             CustomAlertSoundOptional "bubu\bubu-覺醒六分儀.mp3" 300
@@ -3489,6 +3507,23 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 1 Cyan Hexagon
             PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
+
+        Show #魔偶 次要魔偶|卡瑪薩魔偶|高貴魔偶
+            Rarity <= Rare
+            Class "Idol"
+            BaseType "Minor Idol" "Kamasan Idol" "Noble Idol"
+            SetTextColor 79 228 222
+            SetBackgroundColor 4 38 38
+            SetBorderColor 0 0 0
+            SetFontSize 39
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-覺醒六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\31.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 100
+            MinimapIcon 2 Cyan Hexagon
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+            
     #end
         
 #L1 3 命運卡
