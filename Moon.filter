@@ -905,9 +905,9 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #隱匿石
+        Show #隱匿崇高/混沌石
             Class "Stackable Currency"
-            BaseType "Veiled Orb"
+            BaseType "Veiled Exalted Orb" "Veiled Chaos Orb"
             SetTextColor 111 189 163
             SetBackgroundColor 89 83 71
             SetBorderColor 255 165 0
@@ -1097,6 +1097,21 @@
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
+        Show #回想石/拆解石/意志石
+            Class "Stackable Currency"
+            BaseType "Orb of Unmaking"
+            SetTextColor 37 68 142
+            SetBackgroundColor 120 134 167 200
+            SetBorderColor 151 140 105
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-撤銷石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_消失吧.mp3" 300
+            MinimapIcon 1 Purple Diamond
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
             #end
     #L2 1.8 稀有通貨
         Show #聖戰士的崇高石
@@ -1157,6 +1172,36 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_All Hail Britannia.mp3" 300
             MinimapIcon 0 Yellow Moon
             PlayEffect Yellow
+            DisableDropSoundIfAlertSound
+
+        Show #塑界者的崇高石
+            Class "Stackable Currency"
+            BaseType "Shaper's Exalted Orb"
+            SetTextColor 176 113 157
+            SetBackgroundColor 7 6 28
+            SetBorderColor 255 200 0
+            SetFontSize 45
+            PlayAlertSoundPositional ShExalted 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\26.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_All Hail Britannia.mp3" 300
+            MinimapIcon 0 Blue Moon
+            PlayEffect Blue
+            DisableDropSoundIfAlertSound
+
+        Show #異界尊師的崇高石
+            Class "Stackable Currency"
+            BaseType "Elder's Exalted Orb"
+            SetTextColor 93 118 128
+            SetBackgroundColor 181 255 95
+            SetBorderColor 255 200 0
+            SetFontSize 45
+            PlayAlertSoundPositional ShExalted 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\26.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_All Hail Britannia.mp3" 300
+            MinimapIcon 0 Blue Moon
+            PlayEffect Blue
             DisableDropSoundIfAlertSound
 
         Show #玷污的崇高石
@@ -2119,7 +2164,24 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.10追憶聯盟(3.6版本)
+    #L2 2.10密教聯盟(3.5版本)
+        Show #密教獎章
+            Class "Map Fragment"
+            BaseType "Echo of Trauma" "Echo of Reverence" "Echo of Loneliness"
+            SetTextColor 211 204 201
+            SetBackgroundColor 30 30 30
+            SetBorderColor 248 211 131
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        #end
+    #L2 2.11追憶聯盟(3.6版本)
         Show #破碎之物 脊弓|馬拉克斯弓|林野獵弓|月蝕長杖|裂肉者|雙子戰爪|帝國戰爪|刺眼鉤|召喚法杖|召集法杖|褻瀆法杖|箴言法杖|魔性法杖|瓦爾戰斧|惡魔權杖|虛影權杖|靈石權杖|寬矢箭袋|巨型塔盾|石化魔盾|巨人魔盾|霸者刺盾|巨人殺手頭盔|莊嚴皮盔|巫妖之冠|鬧鬼戰盔|神聖之冠|刑求面具|喚骨頭盔|魔符皇冠|皇家之鎧|密教束衣|暮光法衣|征戰薄甲|神聖鎖甲|亡者護甲|海獸護手|絲絨手套|術士手套|飛龍鱗護手|聖騎士手套|魅影護手|釦釘手套|擒拿手套|魔指手套|靈藥手套|魔符護手|海獸脛甲|絲絨長靴|術士長靴|飛龍鱗長靴|聖騎士長靴|魅影長靴|異色鞋|逃難短靴|魔符短靴|皮革腰帶|水晶腰帶|冥河腰帶
             Corrupted False
             FracturedItem True
@@ -2185,7 +2247,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.11戰亂聯盟(3.7版本)
+    #L2 2.12戰亂聯盟(3.7版本)
         Show #高階培育器
             Class "Incubator"
             BaseType "Diviner's Incubator" "Skittering Incubator" "Ornate Incubator" "Foreboding Incubator"
@@ -2360,7 +2422,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.12凋落聯盟(3.8版本)
+    #L2 2.13凋落聯盟(3.8版本)
         Show #印鈔 - 終局 - 速刷 - 低階油瓶
             BaseType "Clear Oil" "Sepia Oil" "Amber Oil" "Verdant Oil"
             SetTextColor 255 255 255 200
@@ -2446,7 +2508,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.13譫妄異域(3.10版本)
+    #L2 2.14譫妄異域(3.10版本)
         Show #譫妄玉
             Class "Stackable Currency"
             BaseType "Delirium Orb"
@@ -2667,7 +2729,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.14豐收聯盟(3.11版本)
+    #L2 2.15豐收聯盟(3.11版本)
         Show #神聖之花
             Class "Map Fragment"
             BaseType "Sacred Blossom"
@@ -2740,7 +2802,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.15劫盜潛行(3.12版本)
+    #L2 2.16劫盜潛行(3.12版本)
         Show #盜賊飾品
             Class "Trinket"
             BaseType "Thief's Trinket"
@@ -2911,7 +2973,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.16邪靈祭祀(3.13版本)
+    #L2 2.17邪靈祭祀(3.13版本)
         Show #祭祀限定基底
             Rarity <= Rare
             BaseType "Dreamquest Slippers" "Brimstone Treads" "Stormrider Boots" "Thwarting Gauntlets" "Trapsetter Gloves" "Nexus Gloves" "Blizzard Crown" "Archdemon Crown"
@@ -2959,7 +3021,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.17最後通牒(3.14版本)
+    #L2 2.18最後通牒(3.14版本)
         Show #最後通牒雕刻
             Class "Misc Map Items"
             BaseType "Inscribed Ultimatum"
@@ -2991,7 +3053,7 @@
             DisableDropSoundIfAlertSound
             
         #end
-    #L2 2.18死境探險(3.15版本)
+    #L2 2.19死境探險(3.15版本)
         Show #探險NPC刷新道具
             Class "Stackable Currency"
             BaseType "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
@@ -3056,7 +3118,7 @@
             SetFontSize 39
             DisableDropSoundIfAlertSound
         #end
-    #L2 2.19轉世災魘(3.16版本)
+    #L2 2.20轉世災魘(3.16版本)
         Show #玷污的祝福
             BaseType "Tainted Blessing"
             SetTextColor 184 255 180 175
@@ -3098,7 +3160,7 @@
             DisableDropSoundIfAlertSound
         
         #end
-    #L2 2.20守望號令(3.18版本)
+    #L2 2.21守望號令(3.18版本)
         Show #重組裝置
             Class "Stackable Currency"
             BaseType "Armour Recombinator" "Weapon Recombinator" "Jewellery Recombinator"
@@ -3115,7 +3177,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.21卡蘭德迷湖(3.19版本)
+    #L2 2.22卡蘭德迷湖(3.19版本)
         Show #卡蘭德迷糊限定戒指
             Rarity = Rare
             BaseType "Dusk Ring" "Penumbra Ring" "Gloam Ring" "Tenebrous Ring" "Shadowed Ring"
@@ -3158,7 +3220,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.22禁忌聖域(3.20版本)
+    #L2 2.23禁忌聖域(3.20版本)
         Show #利希亞祈禱
             Class "Stackable Currency"
             BaseType "Lycia's Invocation"
@@ -3203,7 +3265,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.23熔火冥獄(3.21版本)
+    #L2 2.24熔火冥獄(3.21版本)
         Show #Crucible天賦
             HasCruciblePassiveTree True
             SetTextColor 255 114 0
@@ -3232,7 +3294,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.24祖靈的試煉(3.22版本)
+    #L2 2.25祖靈的試煉(3.22版本)
         Show #榮譽紋身
             Class "Stackable Currency"
             BaseType "Honoured Tattoo of the" "Journey Tattoo of the"
@@ -3335,7 +3397,7 @@
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
         #end
-    #L2 2.25禁咒荒林(3.23版本)
+    #L2 2.26禁咒荒林(3.23版本)
         Show #萃取物(高等高品質)
             Quality >= 25
             Class "Tincture"
@@ -3963,7 +4025,13 @@
             SetTextColor 246 173 255
             SetBackgroundColor 5 8 123 255
             SetBorderColor 4 141 177
-            SetFontSize 42
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
             DisableDropSoundIfAlertSound
 
         Show #纏繞之邀、尖嘯之邀
@@ -4129,6 +4197,21 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 300
             MinimapIcon 1 Purple Kite
             PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #迴響
+            Class "Map Fragment"
+            BaseType "Echo of Trauma" "Echo of Reverence" "Echo of Loneliness"
+            SetTextColor 181 181 223
+            SetBackgroundColor 61 55 173
+            SetBorderColor 91 228 243
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Cyan Triangle
+            PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
         Show #輿圖斷片
@@ -6969,6 +7052,31 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_忠義風暴.mp3" 100
             MinimapIcon 1 Yellow Star
             PlayEffect Yellow
+            DisableDropSoundIfAlertSound
+
+        Show #札娜記憶
+            ZanaMemory True
+            MemoryStrands > 80
+            Rarity <= Rare
+            SetTextColor 176 113 157
+            SetBackgroundColor 91 91 20
+            SetBorderColor 248 239 64
+            SetFontSize 42
+            PlayAlertSoundPositional 12 300
+            CustomAlertSoundOptional "bubu\bubu-督軍勢力裝.mp3" 300
+            CustomAlertSoundOptional "Diablo2\11.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_忠義風暴.mp3" 100
+            MinimapIcon 1 Cyan Star
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 終局 - 札娜記憶
+            ZanaMemory True
+            Rarity <= Rare
+            SetTextColor 176 113 157
+            SetBackgroundColor 91 91 20
+            SetBorderColor 248 239 64
+            SetFontSize 42
             DisableDropSoundIfAlertSound
 
         Hide #灼烙總督
