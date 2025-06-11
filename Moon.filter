@@ -2167,17 +2167,17 @@
     #L2 2.10密教聯盟(3.5版本)
         Show #密教獎章
             Class "Map Fragment"
-            BaseType "Echo of Trauma" "Echo of Reverence" "Echo of Loneliness"
+            BaseType "Syndicate Medallion"
             SetTextColor 211 204 201
             SetBackgroundColor 30 30 30
             SetBorderColor 248 211 131
             SetFontSize 45
             PlayAlertSoundPositional 2 300
-            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
-            CustomAlertSoundOptional "Diablo2\50.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
-            MinimapIcon 0 Purple Triangle
-            PlayEffect Purple
+            CustomAlertSoundOptional "bubu\bubu-特殊地圖.mp3" 300    
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧4.mp3" 300
+            MinimapIcon 0 Yellow Triangle
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
         #end
@@ -3505,25 +3505,28 @@
 
         #end
 
-    #L2 2.27卡爾葛拓荒者(3.25版本)
-        Show #高價盧恩符文
-            Class "Stackable Currency"
-            BaseType "Power Rune" "Time Rune"
-            SetTextColor 0 73 165 200
-            SetBackgroundColor 152 184 191
-            SetBorderColor 255 144 0 255
-            SetFontSize 45
+    #L2 2.27卡爾葛拓荒者(3.24版本)
+        Show #虛靈餘燼
+            Class "Map Fragment"
+            BaseType "Allflame Ember"
+            SetTextColor 172 219 229
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 38
             PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
-            CustomAlertSoundOptional "Diablo2\26.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
-            MinimapIcon 0 Cyan Diamond
-            PlayEffect Cyan
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 100
+            CustomAlertSoundOptional "Diablo2\24.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 100
+            MinimapIcon 1 Cyan Circle
+            PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
-
-        Show #盧恩符文
+    
+        #end
+    
+    #L2 2.28卡爾葛拓荒者(3.25版本)
+        Show #符文之結
             Class "Stackable Currency"
-            BaseType "Rune"
+            BaseType "Runegraft"
             SetTextColor 0 73 165 200
             SetBackgroundColor 152 184 191
             SetBorderColor 153 213 243
@@ -3537,7 +3540,7 @@
             DisableDropSoundIfAlertSound
 
         #end
-    #L2 2.28費西亞的遺產(短期競賽)
+    #L2 2.29費西亞的遺產(短期競賽)
         Show #魔偶 征服者魔偶
             Rarity <= Rare
             Class "Idol" 
@@ -4454,22 +4457,6 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 5.7 記憶
-        Show #記憶
-            Class "Memory"
-            SetTextColor 5 8 123 255
-            SetBackgroundColor 198 216 255 255
-            SetBorderColor 74 0 160 200
-            SetFontSize 42
-            PlayAlertSoundPositional 2 100
-            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 100
-            CustomAlertSoundOptional "Diablo2\50.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 100
-            MinimapIcon 1 Cyan Hexagon
-            PlayEffect Cyan
-            DisableDropSoundIfAlertSound
-
-        #end
     #end
 
 #L1 6 已鑑定道具
