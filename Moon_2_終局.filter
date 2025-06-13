@@ -7063,7 +7063,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetTextColor 176 113 157
             SetBackgroundColor 91 91 20
             SetBorderColor 248 239 64
-            SetFontSize 42
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #灼烙總督
@@ -7072,7 +7072,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetTextColor 255 52 0 255
             SetBackgroundColor 100 0 0
             SetBorderColor 255 52 0 255
-            SetFontSize 42
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #吞噬天地
@@ -7081,7 +7081,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetTextColor 0 245 152 255
             SetBackgroundColor 0 55 55
             SetBorderColor 0 245 152 255
-            SetFontSize 42
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
             #end
@@ -7480,56 +7480,133 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
         #end
     #L2 8.4 隱藏
+        Show #60~69白藍基底(藍框)(>4L)
+            LinkedSockets > 3
+            ItemLevel > 59
+            ItemLevel <= 69
+            Rarity = Normal
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 46 110 255
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Hide #60~69白裝基底(藍框)
             ItemLevel > 59
+            ItemLevel <= 69
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 46 110 255
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #50~59白藍基底(綠框)(>4L)
+            LinkedSockets > 3
+            ItemLevel > 49
+            ItemLevel <= 59
+            Rarity = Normal
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 74 230 58
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Hide #50~59白裝基底(綠框)
             ItemLevel > 49
+            ItemLevel <= 59
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 74 230 58
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #40~49白藍基底(黃框)(>4L)
+            LinkedSockets > 3
+            ItemLevel > 39
+            ItemLevel <= 49
+            Rarity = Normal
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 204 204 62
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Hide #40~49白裝基底(黃框)
             ItemLevel > 39
+            ItemLevel <= 49
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 204 204 62
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #30~39白藍基底(橙框)(>3L)
+            LinkedSockets > 2
+            ItemLevel > 29
+            ItemLevel <= 39
+            Rarity = Normal
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 255 101 0 192
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Hide #30~39白裝基底(橙框)
             ItemLevel > 29
+            ItemLevel <= 39
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 255 101 0 192
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #20~29白藍基底(紅框)(>3L)
+            LinkedSockets > 2
+            ItemLevel > 19
+            ItemLevel <= 29
+            Rarity = Normal
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 210 0 0
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Hide #20~29白裝基底(紅框)
             ItemLevel > 19
+            ItemLevel <= 29
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 210 0 0
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #10~19白藍基底(棕框)(>3L)
+            LinkedSockets > 2
+            ItemLevel > 9
+            ItemLevel <= 19
+            Rarity = Normal
+            SetBackgroundColor 0 0 0
+            SetBorderColor 168 70 10
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Show #10~19白裝基底(棕框)
             ItemLevel > 9
+            ItemLevel <= 19
             Rarity = Normal
             SetBackgroundColor 0 0 0
             SetBorderColor 168 70 10
             SetFontSize 30
             DisableDropSoundIfAlertSound
 
+        Show #1~9白藍基底(黑框)(>3L)
+            LinkedSockets > 2
+            ItemLevel > 0
+            ItemLevel <= 9
+            Rarity < Rare
+            SetBackgroundColor 0 0 0 136
+            SetBorderColor 0 0 0
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
         Show #1~9白裝基底(黑框)
             ItemLevel > 0
+            ItemLevel <= 9
             Rarity = Normal
             SetBackgroundColor 0 0 0 136
             SetBorderColor 0 0 0
