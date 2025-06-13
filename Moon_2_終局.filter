@@ -7276,7 +7276,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #拓荒基底
             AreaLevel < 68
-            BaseType "Convoking Wand" "Calling Wand"
+            BaseType "Convoking Wand" "Convening Wand" "Calling Wand"
             Rarity < Rare
             SetTextColor 255 255 255 220
             SetBackgroundColor 255 114 0 200
