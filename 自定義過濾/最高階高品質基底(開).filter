@@ -12,12 +12,12 @@ Show #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
+Show #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍
     ItemLevel >= 84
     Quality >= 27
     Rarity <= Rare
     Corrupted = False
-    BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe"
+    BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword"
     SetTextColor 30 30 30
     SetBackgroundColor 255 221 100
     SetBorderColor 255 255 255

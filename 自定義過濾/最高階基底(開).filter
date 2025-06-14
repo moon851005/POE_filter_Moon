@@ -11,11 +11,11 @@ Show #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
     PlayEffect Yellow Temp
     DisableDropSoundIfAlertSound
 
-Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓
+Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓|虎牙巨劍
     ItemLevel >= 86
     Rarity <= Rare
     Corrupted = False
-    BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow"
+    BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow" "Tiger Sword"
     SetTextColor 30 30 30
     SetBackgroundColor 184 218 242
     SetBorderColor 255 255 255

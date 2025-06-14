@@ -7150,12 +7150,12 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧
+        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍
             ItemLevel >= 84
             Quality >= 27
             Rarity <= Rare
             Corrupted = False
-            BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe"
+            BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
             SetBorderColor 255 255 255
@@ -7261,11 +7261,11 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Hide #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓
+        Hide #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓|虎牙巨劍
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted = False
-            BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow"
+            BaseType "Imperial Claw" "Spine Bow" "Maraketh Bow" "Thicket Bow" "Tiger Sword"
             SetTextColor 30 30 30
             SetBackgroundColor 184 218 242
             SetBorderColor 255 255 255
@@ -7308,7 +7308,7 @@
         Show #印鈔 - 終局 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword"
             SetTextColor 237 201 128
             SetBorderColor 255 255 0
             SetFontSize 35
