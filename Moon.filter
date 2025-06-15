@@ -4457,6 +4457,24 @@
             DisableDropSoundIfAlertSound
 
             #end
+
+    #L2 5.7 記憶
+        Show #札娜記憶
+            ZanaMemory True
+            SetTextColor 5 8 123 255
+            SetBackgroundColor 198 216 255 255
+            SetBorderColor 74 0 160 200
+            SetFontSize 42
+            PlayAlertSoundPositional 2 100
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 100
+            CustomAlertSoundOptional "Diablo2\50.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 100
+            MinimapIcon 1 Cyan Hexagon
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        #end
+
     #end
 
 #L1 6 已鑑定道具
@@ -7041,13 +7059,12 @@
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #札娜記憶
-            ZanaMemory True
+        Show #記憶絲縷 > 80
             MemoryStrands > 80
             Rarity <= Rare
-            SetTextColor 176 113 157
-            SetBackgroundColor 91 91 20
-            SetBorderColor 248 239 64
+            SetTextColor 47 52 61
+            SetBackgroundColor 192 205 249
+            SetBorderColor 127 149 163
             SetFontSize 42
             PlayAlertSoundPositional 12 300
             CustomAlertSoundOptional "bubu\bubu-督軍勢力裝.mp3" 300
@@ -7057,12 +7074,12 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 札娜記憶
-            ZanaMemory True
+        Show #印鈔 - 終局 - 記憶絲縷
+            MemoryStrands > 0
             Rarity <= Rare
-            SetTextColor 176 113 157
-            SetBackgroundColor 91 91 20
-            SetBorderColor 248 239 64
+            SetTextColor 192 205 249
+            SetBackgroundColor 47 52 61
+            SetBorderColor 127 149 163
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
@@ -7308,7 +7325,7 @@
         Show #印鈔 - 終局 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow"
             SetTextColor 237 201 128
             SetBorderColor 255 255 0
             SetFontSize 35
