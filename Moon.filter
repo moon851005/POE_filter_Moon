@@ -1097,21 +1097,6 @@
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
-        Show #回想石/拆解石/意志石
-            Class "Stackable Currency"
-            BaseType "Orb of Unmaking"
-            SetTextColor 37 68 142
-            SetBackgroundColor 120 134 167 200
-            SetBorderColor 151 140 105
-            SetFontSize 43
-            PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-撤銷石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\27.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_消失吧.mp3" 300
-            MinimapIcon 1 Purple Diamond
-            PlayEffect Purple
-            DisableDropSoundIfAlertSound
-
             #end
     #L2 1.8 稀有通貨
         Show #聖戰士的崇高石
@@ -1277,6 +1262,21 @@
             CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸.mp3" 300
             MinimapIcon 0 Blue Moon
             PlayEffect Blue
+            DisableDropSoundIfAlertSound
+
+        Show #回想石/拆解石/意志石
+            Class "Stackable Currency"
+            BaseType "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention"
+            SetTextColor 182 204 255
+            SetBackgroundColor 0 28 92 200
+            SetBorderColor 166 126 0
+            SetFontSize 45
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\40.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_All Hail Britannia3.mp3" 300
+            MinimapIcon 0 Purple Moon
+            PlayEffect Purple
             DisableDropSoundIfAlertSound
 
         Show #喚醒者之玉
