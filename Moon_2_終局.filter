@@ -6666,7 +6666,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Blue Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #隱藏魔力藥劑
+        Hide #隱藏高等魔力藥劑
             ItemLevel >= 68
             Class "Mana Flask"
             SetTextColor 30 144 255
@@ -6711,7 +6711,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Red Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #隱藏生命藥劑
+        Hide #隱藏高等生命藥劑
             ItemLevel >= 68
             Class "Life Flask"
             SetTextColor 150 0 0
@@ -6754,6 +6754,16 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBorderColor 184 218 242
             SetFontSize 30
             MinimapIcon 2 Purple Raindrop
+            DisableDropSoundIfAlertSound
+
+        Hide #隱藏高等複合藥劑
+            ItemLevel >= 68
+            Class "Hybrid Flask"
+            BaseType "Hallowed Hybrid Flask"
+            SetTextColor 158 62 255
+            SetBackgroundColor 0 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 30
             DisableDropSoundIfAlertSound
 
         Show #顯示低等複合藥劑
