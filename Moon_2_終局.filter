@@ -6738,8 +6738,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             
         Hide #印鈔 - 終局 - 85水銀真銀
             ItemLevel >= 85
-            BaseType "Quicksilver Flask" "Silver Flask"
             Class "Utility Flasks"
+            BaseType "Quicksilver Flask" "Silver Flask"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
             SetBorderColor 184 218 242
@@ -6764,10 +6764,10 @@ Import "自定義過濾/自定義配置.filter" Optional
             ItemLevel < 68
             Class "Utility Flasks"
             BaseType "Quicksilver Flask" "Silver Flask"
-            SetTextColor 172 233 76
-            SetBackgroundColor 0 0 0
+            SetTextColor 50 100 200
+            SetBackgroundColor 172 233 76
             SetBorderColor 184 218 242
-            SetFontSize 39
+            SetFontSize 40
             CustomAlertSoundOptional "bubu\bubu-功能藥劑.mp3" 300
             CustomAlertSoundOptional "Diablo2\7.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
