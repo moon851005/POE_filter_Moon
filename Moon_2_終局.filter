@@ -6735,7 +6735,6 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #顯示高品質複合藥劑 祝福
             Quality >= 25
             Class "Hybrid Flask"
-            BaseType "Hallowed Hybrid Flask"
             SetTextColor 0 0 0
             SetBackgroundColor 158 62 255
             SetBorderColor 184 218 242
