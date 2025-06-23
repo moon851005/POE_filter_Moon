@@ -876,35 +876,6 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #後悔石(堆疊>=4)
-            StackSize >= 4
-            Class "Stackable Currency"
-            BaseType "Orb of Regret"
-            SetTextColor 255 165 0
-            SetBorderColor 150 0 0
-            SetFontSize 43
-            PlayAlertSoundPositional 8 300
-            CustomAlertSoundOptional "bubu\bubu-後悔石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 1 Yellow Diamond
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
-        Show #印鈔 - 終局 - 後悔石
-            Class "Stackable Currency"
-            BaseType "Orb of Regret"
-            SetTextColor 255 165 0
-            SetBorderColor 150 0 0
-            SetFontSize 43
-            PlayAlertSoundPositional 8 300
-            CustomAlertSoundOptional "bubu\bubu-後悔石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 2 Yellow Diamond
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
         Show #隱匿崇高/混沌石
             Class "Stackable Currency"
             BaseType "Veiled Exalted Orb" "Veiled Chaos Orb"
@@ -989,6 +960,21 @@
             SetFontSize 43
             PlayAlertSoundPositional ShVaal 300
             CustomAlertSoundOptional "bubu\bubu-瓦爾寶珠.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #後悔石
+            Class "Stackable Currency"
+            BaseType "Orb of Regret"
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 150 0 0
+            SetFontSize 43
+            PlayAlertSoundPositional 8 300
+            CustomAlertSoundOptional "bubu\bubu-後悔石.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
             MinimapIcon 1 Yellow Diamond
@@ -1324,7 +1310,7 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 速刷 - 低階異能灰燼
+        Show #印鈔 - 終局 - 低階異能灰燼
             Class "Stackable Currency"
             BaseType "Lesser Eldritch Ember"
             SetTextColor 255 52 0 255
@@ -1339,7 +1325,7 @@
             PlayEffect Red Temp
             DisableDropSoundIfAlertSound
 
-        Show #高階異能灰燼
+        Show #印鈔 - 高階異能灰燼
             Class "Stackable Currency"
             BaseType "Greater Eldritch Ember"
             SetTextColor 255 52 0 255
@@ -1384,7 +1370,7 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 速刷 - 低階異能靈液
+        Show #印鈔 - 終局 - 低階異能靈液
             Class "Stackable Currency"
             BaseType "Lesser Eldritch Ichor"
             SetTextColor 0 245 152 255
@@ -1399,7 +1385,7 @@
             PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
 
-        Show #高階異能靈液
+        Show #印鈔 - 高階異能靈液
             Class "Stackable Currency"
             BaseType "Greater Eldritch Ichor"
             SetTextColor 0 245 152 255
@@ -3348,8 +3334,8 @@
             SetFontSize 45
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
             MinimapIcon 0 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
@@ -3505,8 +3491,23 @@
 
         #end
 
-    #L2 2.27卡爾葛拓荒者(3.24版本)
-        Show #虛靈餘燼
+    #L2 2.27魔影墓場(3.24版本)
+        Show #高價餘燼 虛靈餘燼
+            Class "Map Fragment"
+            BaseType "Allflame Ember of the Ethereal"
+            SetTextColor 255 200 0
+            SetBackgroundColor 89 99 101
+            SetBorderColor 91 121 127
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
+            MinimapIcon 0 Cyan Circle
+            PlayEffect Cyan Temp
+            DisableDropSoundIfAlertSound
+
+        Show #不滅之火餘燼
             Class "Map Fragment"
             BaseType "Allflame Ember"
             SetTextColor 172 219 229
