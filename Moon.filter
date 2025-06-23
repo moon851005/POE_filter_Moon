@@ -3592,7 +3592,7 @@
     #end
         
 #L1 3 命運卡
-    Show # 豐裕牌組
+    Show #豐裕牌組
         Class "Stackable Currency"
         BaseType "Stacked Deck"
         SetTextColor 197 255 51
@@ -3646,7 +3646,7 @@
         PlayEffect Orange
         DisableDropSoundIfAlertSound
 
-    Show #T2命運卡
+    Show #印鈔 - T2命運卡
         Class "Divination Card"
         BaseType == "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "The Eye of Terror" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "The Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death" "Altered Perception" "Baited Expectations" "Audacity" "The Conduit" "The Last Supper" "Tranquillity" "The Wolf" "The Wind" "Runic Luck" "Last Stand"
         SetTextColor 255 200 0
@@ -3668,16 +3668,6 @@
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255 200
         SetFontSize 39
-        DisableDropSoundIfAlertSound
-
-    Show #請更新過濾器
-        Class "Divination Card"
-        SetTextColor 30 144 255
-        SetBackgroundColor 114 110 210 200
-        SetFontSize 39
-        CustomAlertSoundOptional "bubu\bubu-請更新過濾器.mp3" 300
-        CustomAlertSoundOptional "Diablo2\39.mp3" 300
-        CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_Orange.mp3" 300
         DisableDropSoundIfAlertSound
 
     #end
@@ -5479,6 +5469,24 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
+        Show #稀有傳奇基底 漠視化身 星盤護身符(維那利斯的星盤) / 恐慌化身 黃金藥劑(預言家之酒) /  恐懼化身 深淵巨斧(喚星者) / 共通 三相珠寶(被命運束縛)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Astrolabe Amulet" "Gold Flask" "Abyssal Axe" "Prismatic Jewel"
+            Replica False
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 168 0 255
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
         Show #稀有傳奇聖物 初始經文(草紙聖物)|燭台聖物(第二聖事)|詩歌聖物(懲戒鎖鏈)|卷冊聖物(權力和誓約)
             Rarity = Unique
             BaseType "Papyrus Relic" "Candlestick Relic" "Processional Relic" "Tome Relic"
@@ -5876,6 +5884,24 @@
             ItemLevel == 87
             Rarity = Unique
             BaseType "Void Sceptre" "Magistrate Crown"
+            Replica False
+            SetTextColor 227 92 9 220
+            SetBackgroundColor 0 0 0
+            SetBorderColor 180 81 0
+            SetFontSize 41
+            PlayAlertSoundPositional 1 200
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 100
+            CustomAlertSoundOptional "Diablo2\33.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我2.mp3" 300
+            MinimapIcon 2 Orange UpsideDownHouse
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #傳奇基底 漠視化身 鋼鑄戒指(反叛之針)|審判長杖(玫瑰的傳承)|飾布腰帶(執政官的工具) / 恐慌化身 蠟封束衣(七大教誨)|巫妖之冠(黑暗君主)|海鏡項鍊(無盡低語) / 恐懼化身 紫晶戒指(盤繞細語)|朱紅戒指(惡言之擁)|刑求束衣(腐蝕使徒)
+            AreaLevel == 84
+            ItemLevel == 86
+            Rarity = Unique
+            BaseType "Steel Ring" "Judgement Staff" "Cloth Belt" "Waxed Garb" "Lich's Circlet" "Seaglass Amulet" "Amethyst Ring" "Vermillion Ring" "Torturer Garb"
             Replica False
             SetTextColor 227 92 9 220
             SetBackgroundColor 0 0 0
@@ -7716,6 +7742,17 @@
             ItemLevel > 69
             Rarity = Normal
             Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rings" "Amulets" "Belts" "Rune Daggers" "Warstaves"
+            DisableDropSoundIfAlertSound
+
+        #end
+    #L2 8.5 未篩選
+        Show #請更新過濾器
+            SetTextColor 30 144 255
+            SetBackgroundColor 114 110 210 200
+            SetFontSize 39
+            CustomAlertSoundOptional "bubu\bubu-請更新過濾器.mp3" 300
+            CustomAlertSoundOptional "Diablo2\39.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-傑瑞米亞_Orange.mp3" 300
             DisableDropSoundIfAlertSound
 
         #end
