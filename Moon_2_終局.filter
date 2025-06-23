@@ -621,7 +621,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 速刷 - 重鑄石(T16無堆疊不顯示圖標)
+        Hide #印鈔 - 終局 - 重鑄石(T16無堆疊不顯示圖標)
             MapTier >= 16
             Class "Stackable Currency"
             BaseType "Orb of Scouring"
@@ -634,7 +634,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 速刷 - 重鑄石
+        Hide #印鈔 - 終局 - 重鑄石
             Class "Stackable Currency"
             BaseType "Orb of Scouring"
             SetTextColor 255 255 255
@@ -6666,6 +6666,15 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Blue Raindrop
             DisableDropSoundIfAlertSound
 
+        Hide #隱藏魔力藥劑
+            ItemLevel >= 68
+            Class "Mana Flask"
+            SetTextColor 30 144 255
+            SetBackgroundColor 0 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 30
+            DisableDropSoundIfAlertSound
+
         Show #顯示低等魔力藥劑
             ItemLevel < 68
             Class "Mana Flask"
@@ -6702,6 +6711,15 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Red Raindrop
             DisableDropSoundIfAlertSound
 
+        Hide #隱藏生命藥劑
+            ItemLevel >= 68
+            Class "Life Flask"
+            SetTextColor 150 0 0
+            SetBackgroundColor 0 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 30
+            DisableDropSoundIfAlertSound
+        
         Show #顯示低等生命藥劑
             ItemLevel < 68
             Class "Life Flask"
