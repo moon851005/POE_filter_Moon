@@ -6655,7 +6655,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 0 Blue Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 顯示魔力藥劑 不朽|永恆
+        Hide #印鈔 - 終局 - 速刷 - 顯示魔力藥劑 不朽|永恆
             ItemLevel >= 68
             Class "Mana Flask"
             BaseType "Divine Mana Flask" "Eternal Mana Flask"
@@ -6691,7 +6691,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 0 Red Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 顯示生命藥劑 不朽|永恆
+        Hide #印鈔 - 終局 - 速刷 - 顯示生命藥劑 不朽|永恆
             ItemLevel >= 68
             Class "Life Flask"
             BaseType "Divine Life Flask" "Eternal Life Flask"
@@ -6727,7 +6727,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 0 Purple Raindrop
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 顯示複合藥劑 祝福
+        Hide #印鈔 - 終局 - 速刷 - 顯示複合藥劑 祝福
             ItemLevel >= 68
             Class "Hybrid Flask"
             BaseType "Hallowed Hybrid Flask"
