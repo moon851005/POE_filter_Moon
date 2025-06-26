@@ -6965,6 +6965,7 @@
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 終局 - 速刷 - 複製詞綴(高T)
+            MemoryStrands = 0
             AreaLevel >= 78
             Mirrored True
             Rarity = Rare
