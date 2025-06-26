@@ -3319,7 +3319,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 45
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
-            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Diablo2\26.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-CC_真是令我吃驚.mp3" 300
             MinimapIcon 0 Purple Moon
             PlayEffect Purple Temp
