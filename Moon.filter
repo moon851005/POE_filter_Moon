@@ -7734,12 +7734,12 @@
             SetFontSize 29
             DisableDropSoundIfAlertSound
 
-        Show #顯示縮小金裝(已鑑定)
+        Show #顯示低等未汙染金裝(已鑑定)
             Identified True
             ItemLevel < 68
             Corrupted False
             Rarity = Rare
-            SetFontSize 29
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #隱藏縮小金裝(已鑑定)
@@ -7748,11 +7748,11 @@
             SetFontSize 29
             DisableDropSoundIfAlertSound
 
-        Show #顯示縮小金裝
+        Show #顯示低等未汙染金裝
             Corrupted False
             ItemLevel < 68
             Rarity = Rare
-            SetFontSize 29
+            SetFontSize 39
             DisableDropSoundIfAlertSound
 
         Hide #隱藏縮小金裝
@@ -7765,6 +7765,12 @@
             Rarity = Magic
             Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rings" "Amulets" "Belts" "Rune Daggers" "Warstaves"
             SetFontSize 28
+            DisableDropSoundIfAlertSound
+
+        Show #顯示藍裝
+            Rarity = Magic
+            Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rings" "Amulets" "Belts" "Rune Daggers" "Warstaves"
+            SetFontSize 35
             DisableDropSoundIfAlertSound
 
         Hide #隱藏白裝
