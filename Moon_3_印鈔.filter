@@ -3929,7 +3929,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_魯路修Vi不列顛尼亞.mp3" 300
             DisableDropSoundIfAlertSound
 
-        Show #偵查報告
+        Hide #印鈔 - 偵查報告
             Class "Stackable Currency"
             BaseType "Report"
             SetTextColor 74 230 58
