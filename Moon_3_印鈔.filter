@@ -182,6 +182,14 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
+        Show #增幅植入物
+            Class "Stackable Currency"
+            BaseType "Augmentation Implant"
+            SetTextColor 255 94 97
+            SetBorderColor 143 2 121
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+        
         Hide #印鈔 - 終局 - 增幅石(堆疊>=15)
             StackSize >= 15
             Class "Stackable Currency"
@@ -936,6 +944,21 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
+        Show #富豪植入物
+            Class "Stackable Currency"
+            BaseType "Regal Implant"
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShRegal 300
+            CustomAlertSoundOptional "bubu\bubu-富豪石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+        
         Show #富豪石
             Class "Stackable Currency"
             BaseType "Regal Orb"
@@ -945,6 +968,21 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 43
             PlayAlertSoundPositional ShRegal 300
             CustomAlertSoundOptional "bubu\bubu-富豪石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #不穩定植入物
+            Class "Stackable Currency"
+            BaseType "Unstable Implant"
+            SetTextColor 0 0 0
+            SetBackgroundColor 189 109 118
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShVaal 300
+            CustomAlertSoundOptional "bubu\bubu-瓦爾寶珠.mp3" 300
             CustomAlertSoundOptional "Diablo2\28.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
             MinimapIcon 1 Yellow Diamond
@@ -1203,6 +1241,66 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_All Hail Britannia2.mp3" 300
             MinimapIcon 0 Cyan Diamond
             PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #穢生增幅石
+            Class "Stackable Currency"
+            BaseType "Foulborn Orb of Augmentation"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #穢生富豪石
+            Class "Stackable Currency"
+            BaseType "Foulborn Regal Orb"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #穢生崇高石
+            Class "Stackable Currency"
+            BaseType "Foulborn Exalted Orb"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+        
+        Show #崇高植入物
+            Class "Stackable Currency"
+            BaseType "Exalted Implant"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShExalted 300
+            CustomAlertSoundOptional "bubu\bubu-崇高石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
             DisableDropSoundIfAlertSound
 
         Show #崇高石
@@ -2178,11 +2276,11 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         #end
     #L2 2.11追憶聯盟(3.6版本)
-        Show #破碎之物 脊弓|馬拉克斯弓|林野獵弓|月蝕長杖|裂肉者|雙子戰爪|帝國戰爪|刺眼鉤|召喚法杖|召集法杖|褻瀆法杖|箴言法杖|魔性法杖|瓦爾戰斧|惡魔權杖|虛影權杖|靈石權杖|寬矢箭袋|巨型塔盾|石化魔盾|巨人魔盾|霸者刺盾|巨人殺手頭盔|莊嚴皮盔|巫妖之冠|鬧鬼戰盔|神聖之冠|刑求面具|喚骨頭盔|魔符皇冠|皇家之鎧|密教束衣|暮光法衣|征戰薄甲|神聖鎖甲|亡者護甲|海獸護手|絲絨手套|術士手套|飛龍鱗護手|聖騎士手套|魅影護手|釦釘手套|擒拿手套|魔指手套|靈藥手套|魔符護手|海獸脛甲|絲絨長靴|術士長靴|飛龍鱗長靴|聖騎士長靴|魅影長靴|異色鞋|逃難短靴|魔符短靴|皮革腰帶|水晶腰帶|冥河腰帶
+        Show #破碎之物 脊弓|馬拉克斯弓|林野獵弓|月蝕長杖|裂肉者|雙子戰爪|帝國戰爪|刺眼鉤|召喚法杖|召集法杖|褻瀆法杖|箴言法杖|動能法杖|瓦爾戰斧|惡魔權杖|虛影權杖|靈石權杖|寬矢箭袋|巨型塔盾|石化魔盾|巨人魔盾|霸者刺盾|巨人殺手頭盔|莊嚴皮盔|巫妖之冠|鬧鬼戰盔|神聖之冠|刑求面具|喚骨頭盔|魔符皇冠|皇家之鎧|密教束衣|暮光法衣|征戰薄甲|神聖鎖甲|亡者護甲|海獸護手|絲絨手套|術士手套|飛龍鱗護手|聖騎士手套|魅影護手|釦釘手套|擒拿手套|魔指手套|靈藥手套|魔符護手|海獸脛甲|絲絨長靴|術士長靴|飛龍鱗長靴|聖騎士長靴|魅影長靴|異色鞋|逃難短靴|魔符短靴|皮革腰帶|水晶腰帶|冥河腰帶
             Corrupted False
             FracturedItem True
             Rarity <= Rare
-            BaseType "Spine Bow" "Maraketh Bow" "Thicket Bow" "Eclipse Staff" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Convoking Wand" "Convening Wand" "Profane Wand" "Prophecy Wand" "Imbued Wand" "Vaal Hatchet" "Sambar Sceptre" "Void Sceptre" "Opal Sceptre" "Broadhead Arrow Quiver" "Colossal Tower Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Supreme Spiked Shield" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Bone Helmet" "Runic Crown" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Apothecary's Gloves" "Runic Gauntlets" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons" "Leather Belt" "Crystal Belt" "Stygian Vise"
+            BaseType "Spine Bow" "Maraketh Bow" "Thicket Bow" "Eclipse Staff" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Convoking Wand" "Convening Wand" "Profane Wand" "Prophecy Wand" "Kinetic Wand" "Vaal Hatchet" "Sambar Sceptre" "Void Sceptre" "Opal Sceptre" "Broadhead Arrow Quiver" "Colossal Tower Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Supreme Spiked Shield" "Giantslayer Helmet" "Majestic Pelt" "Lich's Circlet" "Haunted Bascinet" "Divine Crown" "Torturer's Mask" "Bone Helmet" "Runic Crown" "Royal Plate" "Syndicate's Garb" "Twilight Regalia" "Conquest Lamellar" "Sacred Chainmail" "Necrotic Armour" "Leviathan Gauntlets" "Velour Gloves" "Warlock Gloves" "Wyvernscale Gauntlets" "Paladin Gloves" "Phantom Mitts" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Apothecary's Gloves" "Runic Gauntlets" "Leviathan Greaves" "Velour Boots" "Warlock Boots" "Wyvernscale Boots" "Paladin Boots" "Phantom Boots" "Two-Toned Boots" "Fugitive Boots" "Runic Sabatons" "Leather Belt" "Crystal Belt" "Stygian Vise"
             SetTextColor 0 100 150 200
             SetBackgroundColor 184 218 242
             SetBorderColor 30 144 255
@@ -3181,8 +3279,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 0 74 192 120
             SetBorderColor 255 200 0
             SetFontSize 41
-            MinimapIcon 1 Purple UpsideDownHouse
-            PlayEffect Purple Temp
+            MinimapIcon 1 White UpsideDownHouse
+            PlayEffect White Temp
             DisableDropSoundIfAlertSound            
 
         Show #鏡像碑牌
@@ -3599,7 +3697,45 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Cyan Hexagon
             PlayEffect Cyan Temp
             DisableDropSoundIfAlertSound
-            
+        #end
+    #L2 2.30黯焰看守者(3.27版本)
+        Show #接肢
+            Class "Grafts"
+            SetTextColor 192 127 225
+            SetBackgroundColor 104 34 44
+            SetBorderColor 255 255 255
+            SetFontSize 39
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 1 Purple UpsideDownHouse
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
+        Show #胎贈
+            Class "Wombgifts"
+            SetTextColor 192 127 225
+            SetBackgroundColor 104 34 44
+            SetBorderColor 255 165 0
+            SetFontSize 42
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 0 Purple Circle
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
+        Show #新裂痕戒指
+            BaseType "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Organic Ring" "Fugitive Ring" "Formless Ring"
+            SetTextColor 128 0 128
+            SetBackgroundColor 255 218 136 202
+            SetBorderColor 128 0 128
+            SetFontSize 41
+            MinimapIcon 1 White UpsideDownHouse
+            PlayEffect White Temp
+            DisableDropSoundIfAlertSound
     #end
         
 #L1 3 命運卡
@@ -4205,7 +4341,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #迴響
             Class "Map Fragment"
-            BaseType "Echo of Trauma" "Echo of Reverence" "Echo of Loneliness"
+            BaseType "Echo of Trauma" "Echo of Reverence" "Echo of Loneliness" "Traumatic Fragment" "Reverent Fragment" "Lonely Fragment"
             SetTextColor 181 181 223
             SetBackgroundColor 61 55 173
             SetBorderColor 91 228 243
@@ -4216,6 +4352,21 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
             MinimapIcon 0 Cyan Triangle
             PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #巢裔主腦腺體
+            Class "Map Fragment"
+            BaseType "Hivebrain Gland"
+            SetTextColor 231 19 200
+            SetBackgroundColor 61 28 90
+            SetBorderColor 143 2 121
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Purple Triangle
+            PlayEffect Purple
             DisableDropSoundIfAlertSound
 
         Show #輿圖斷片
@@ -4524,7 +4675,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show # 元素
             Identified True
             Rarity Rare
-            BaseType   "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Imbued Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
+            BaseType "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Kinetic Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
             HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many"
             HasExplicitMod >=4 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of Celebration" "of Infamy" "of Fame" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury" "Devastating" "Overpowering" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Many"
             SetFontSize 45
@@ -4543,7 +4694,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             Identified True
             Corrupted False
             Rarity Rare
-            BaseType   "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Imbued Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
+            BaseType "Ambusher" "Corsair Sword" "Eye Gouger" "Fancy Foil" "Gemini Claw" "Grove Bow" "Hellion's Paw" "Kinetic Wand" "Imperial Bow" "Imperial Claw" "Imperial Skean" "Jewelled Foil" "Maraketh Bow" "Spiraled Foil" "Thicket Bow"
             HasExplicitMod "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of the Underground" "Subterranean" "of Many"
             HasExplicitMod >=3 "Carbonising" "Cremating" "Blasting" "Crystalising" "Entombing" "Polar" "Vapourising" "Electrocuting" "Discharging" "Matatl's" "Tacati" "Topotante's" "of Celebration" "of Infamy" "of Fame" "of Incision" "of Penetrating" "of Puncturing" "of Destruction" "of Ferocity" "of Fury" "Devastating" "Overpowering" "of the Essence" "Essences" "Veiled" "of the Veil" "of the Underground" "Subterranean" "of Many"
             SetFontSize 45
@@ -5293,6 +5444,22 @@ Import "自定義過濾/自定義配置.filter" Optional
 
 #L1 7 裝備
     #L2 7.1 傳奇裝備
+        Show #傳奇裝備(穢生)
+            Rarity = Unique
+            Foulborn True   
+            CorruptedMods >= 2
+            SetTextColor 175 96 37
+            SetBackgroundColor 82 18 18 255
+            SetBorderColor 255 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 1 300
+            CustomAlertSoundOptional "bubu\bubu-傳說裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\33.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_世界聽命於我.mp3" 300
+            MinimapIcon 0 Red UpsideDownHouse
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
         Show #傳奇裝備(超瓦上綴)
             Rarity = Unique
             CorruptedMods >= 2
@@ -7111,7 +7278,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #記憶絲縷(特定基底) > 40
             MemoryStrands > 40
             Rarity <= Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Kinetic Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
             SetTextColor 47 52 61
             SetBackgroundColor 192 205 249
             SetBorderColor 127 149 163
@@ -7127,7 +7294,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Hide #印鈔 - 記憶絲縷(特定基底)
             MemoryStrands > 0
             Rarity <= Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Kinetic Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
             SetTextColor 192 205 249
             SetBackgroundColor 47 52 61
             SetBorderColor 127 149 163
@@ -7177,8 +7344,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 255 192 203
             SetBorderColor 255 255 255
             SetFontSize 41
-            MinimapIcon 0 Purple UpsideDownHouse
-            PlayEffect Purple
+            MinimapIcon 0 White UpsideDownHouse
+            PlayEffect White
             DisableDropSoundIfAlertSound
             
         Hide #印鈔 - 終局 - 速刷 - 高階異界輿圖限定基底
@@ -7189,8 +7356,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 74 0 160 200
             SetBorderColor 255 255 255
             SetFontSize 39
-            MinimapIcon 1 Purple UpsideDownHouse
-            PlayEffect Purple
+            MinimapIcon 1 White UpsideDownHouse
+            PlayEffect White
             DisableDropSoundIfAlertSound
             
         Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底
@@ -7200,8 +7367,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetTextColor 255 192 203
             SetBackgroundColor 74 0 160 200
             SetFontSize 35
-            MinimapIcon 2 Purple UpsideDownHouse
-            PlayEffect Purple Temp
+            MinimapIcon 2 White UpsideDownHouse
+            PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
         Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底(稀有)
@@ -7211,8 +7378,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 74 0 160 200
             SetBorderColor 255 200 0
             SetFontSize 41
-            MinimapIcon 1 Purple UpsideDownHouse
-            PlayEffect Purple Temp
+            MinimapIcon 1 White UpsideDownHouse
+            PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
             #end
@@ -7233,12 +7400,12 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍
+        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍|動能法杖
             ItemLevel >= 84
             Quality >= 27
             Rarity <= Rare
             Corrupted = False
-            BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword"
+            BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword" "Kinetic Wand"
             SetTextColor 30 30 30
             SetBackgroundColor 255 221 100
             SetBorderColor 255 255 255
@@ -7391,7 +7558,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Hide #印鈔 - 終局 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Imbued Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Kinetic Wand"
             SetTextColor 237 201 128
             SetBorderColor 255 255 0
             SetFontSize 35
