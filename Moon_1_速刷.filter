@@ -1,6 +1,106 @@
 Import "自定義過濾/自定義配置.filter" Optional
 #L1 1 通貨
-    #L2 1.1 通貨碎片
+    #L2 1.1 特殊通貨
+        Show #穢生增幅石
+            Class "Stackable Currency"
+            BaseType "Foulborn Orb of Augmentation"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #穢生富豪石
+            Class "Stackable Currency"
+            BaseType "Foulborn Regal Orb"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #穢生崇高石
+            Class "Stackable Currency"
+            BaseType "Foulborn Exalted Orb"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShGeneral 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+        
+        Show #增幅植入物
+            Class "Stackable Currency"
+            BaseType "Augmentation Implant"
+            SetTextColor 255 94 97
+            SetBorderColor 143 2 121
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
+        Show #富豪植入物
+            Class "Stackable Currency"
+            BaseType "Regal Implant"
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShRegal 300
+            CustomAlertSoundOptional "bubu\bubu-富豪石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #崇高植入物
+            Class "Stackable Currency"
+            BaseType "Exalted Implant"
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShExalted 300
+            CustomAlertSoundOptional "bubu\bubu-崇高石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #不穩定植入物
+            Class "Stackable Currency"
+            BaseType "Unstable Implant"
+            SetTextColor 0 0 0
+            SetBackgroundColor 189 109 118
+            SetBorderColor 143 2 121
+            SetFontSize 43
+            PlayAlertSoundPositional ShVaal 300
+            CustomAlertSoundOptional "bubu\bubu-瓦爾寶珠.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        #end
+    #L2 1.2 通貨碎片
         Hide #印鈔 - 終局 - 速刷 - 蛻變石碎片
             Class "Stackable Currency"
             BaseType "Transmutation Shard"
@@ -110,7 +210,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
             
         #end
-    #L2 1.2 低階通貨
+    #L2 1.3 低階通貨
         Show #低等區域知識卷軸
             Class "Stackable Currency"
             BaseType "Scroll of Wisdom" "Scroll Fragment"
@@ -168,7 +268,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #印鈔 - 終局 - 蛻變石(堆疊>=20)
             StackSize >= 20
             Class "Stackable Currency"
-            BaseType "Orb of Transmutation"
+            BaseType == "Orb of Transmutation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 40
@@ -176,24 +276,16 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Hide #印鈔 - 終局 - 速刷 - 蛻變石
             Class "Stackable Currency"
-            BaseType "Orb of Transmutation"
+            BaseType == "Orb of Transmutation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
-            SetFontSize 39
-            DisableDropSoundIfAlertSound
-
-        Show #增幅植入物
-            Class "Stackable Currency"
-            BaseType "Augmentation Implant"
-            SetTextColor 255 94 97
-            SetBorderColor 143 2 121
             SetFontSize 39
             DisableDropSoundIfAlertSound
         
         Show #印鈔 - 終局 - 增幅石(堆疊>=15)
             StackSize >= 15
             Class "Stackable Currency"
-            BaseType "Orb of Augmentation"
+            BaseType == "Orb of Augmentation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 39
@@ -201,7 +293,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Hide #印鈔 - 終局 - 速刷 - 增幅石
             Class "Stackable Currency"
-            BaseType "Orb of Augmentation"
+            BaseType == "Orb of Augmentation"
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 39
@@ -242,8 +334,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 2 Yellow Circle
             DisableDropSoundIfAlertSound    
 
-            #end
-    #L2 1.3 品質通貨
+        #end
+    #L2 1.4 品質通貨
         Show #玷污的磨刀石
             Class "Stackable Currency"
             BaseType "Tainted Blacksmith's Whetstone"
@@ -255,7 +347,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #印鈔 - 終局 - 磨刀石(堆疊>=10)
             Class "Stackable Currency"
-            BaseType "Blacksmith's Whetstone"
+            BaseType == "Blacksmith's Whetstone"
             StackSize >= 10
             SetBorderColor 210 0 0
             SetFontSize 35
@@ -263,7 +355,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Hide #印鈔 - 終局 - 速刷 - 磨刀石
             Class "Stackable Currency"
-            BaseType "Blacksmith's Whetstone"
+            BaseType == "Blacksmith's Whetstone"
             SetBorderColor 210 0 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
@@ -279,14 +371,14 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #印鈔 - 終局 - 護甲片(堆疊>=20)
             Class "Stackable Currency"
-            BaseType "Armourer's Scrap"
+            BaseType == "Armourer's Scrap"
             StackSize >= 20
             SetBorderColor 210 0 0
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
         Hide #印鈔 - 終局 - 速刷 - 護甲片
-            Class "Stackable Currency"
+            Class == "Stackable Currency"
             BaseType "Armourer's Scrap"
             SetBorderColor 210 0 0
             SetFontSize 35
@@ -366,8 +458,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Green
             DisableDropSoundIfAlertSound
 
-            #end
-    #L2 1.4 藥劑通貨
+        #end
+    #L2 1.5 藥劑通貨
         Show #玻璃彈珠(堆疊>=2)
             StackSize >= 2
             Class "Stackable Currency"
@@ -427,8 +519,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
-            #end
-    #L2 1.5 輿圖通貨
+        #end
+    #L2 1.6 輿圖通貨
         Show #印鈔 - 終局 - 地平石
             Class "Stackable Currency"
             BaseType "Orb of Horizons"
@@ -471,8 +563,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Purple
             DisableDropSoundIfAlertSound
             
-            #end
-    #L2 1.6 中階通貨
+        #end
+    #L2 1.7 中階通貨
         Hide #印鈔 - 終局 - 速刷 - 束縛石
             AreaLevel < 68
             Class "Stackable Currency"
@@ -853,8 +945,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Pink Temp
             DisableDropSoundIfAlertSound
 
-            #end
-    #L2 1.7 高階通貨
+        #end
+    #L2 1.8 高階通貨
         Show #祝福石(堆疊>=4)
             StackSize >= 4
             Class "Stackable Currency"
@@ -931,7 +1023,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #混沌石
             Class "Stackable Currency"
-            BaseType "Chaos Orb"
+            BaseType == "Chaos Orb"
             SetTextColor 0 0 0
             SetBackgroundColor 255 165 0
             SetBorderColor 150 0 0
@@ -943,25 +1035,10 @@ Import "自定義過濾/自定義配置.filter" Optional
             MinimapIcon 1 Yellow Diamond
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
-
-        Show #富豪植入物
-            Class "Stackable Currency"
-            BaseType "Regal Implant"
-            SetTextColor 0 0 0
-            SetBackgroundColor 255 165 0
-            SetBorderColor 143 2 121
-            SetFontSize 43
-            PlayAlertSoundPositional ShRegal 300
-            CustomAlertSoundOptional "bubu\bubu-富豪石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 1 Yellow Diamond
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
         
         Show #富豪石
             Class "Stackable Currency"
-            BaseType "Regal Orb"
+            BaseType == "Regal Orb"
             SetTextColor 0 0 0
             SetBackgroundColor 255 165 0
             SetBorderColor 150 0 0
@@ -974,24 +1051,9 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #不穩定植入物
-            Class "Stackable Currency"
-            BaseType "Unstable Implant"
-            SetTextColor 0 0 0
-            SetBackgroundColor 189 109 118
-            SetBorderColor 143 2 121
-            SetFontSize 43
-            PlayAlertSoundPositional ShVaal 300
-            CustomAlertSoundOptional "bubu\bubu-瓦爾寶珠.mp3" 300
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
-            MinimapIcon 1 Yellow Diamond
-            PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
         Show #瓦爾寶珠
             Class "Stackable Currency"
-            BaseType "Vaal Orb"
+            BaseType == "Vaal Orb"
             SetTextColor 0 0 0
             SetBackgroundColor 255 165 0
             SetBorderColor 150 0 0
@@ -1121,8 +1183,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
-            #end
-    #L2 1.8 稀有通貨
+        #end
+    #L2 1.9 稀有通貨
         Show #聖戰士的崇高石
             Class "Stackable Currency"
             BaseType "Crusader's Exalted Orb"
@@ -1243,69 +1305,9 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #穢生增幅石
-            Class "Stackable Currency"
-            BaseType "Foulborn Orb of Augmentation"
-            SetTextColor 255 144 0 255
-            SetBackgroundColor 37 54 112
-            SetBorderColor 255 200 0
-            SetFontSize 43
-            PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 0 Orange Diamond
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #穢生富豪石
-            Class "Stackable Currency"
-            BaseType "Foulborn Regal Orb"
-            SetTextColor 255 144 0 255
-            SetBackgroundColor 37 54 112
-            SetBorderColor 255 200 0
-            SetFontSize 43
-            PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 0 Orange Diamond
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
-        Show #穢生崇高石
-            Class "Stackable Currency"
-            BaseType "Foulborn Exalted Orb"
-            SetTextColor 255 144 0 255
-            SetBackgroundColor 37 54 112
-            SetBorderColor 255 200 0
-            SetFontSize 43
-            PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
-            CustomAlertSoundOptional "Diablo2\28.mp3" 200
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_事嗎.mp3" 300
-            MinimapIcon 0 Orange Diamond
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-        
-        Show #崇高植入物
-            Class "Stackable Currency"
-            BaseType "Exalted Implant"
-            SetTextColor 255 144 0 255
-            SetBackgroundColor 37 54 112
-            SetBorderColor 143 2 121
-            SetFontSize 43
-            PlayAlertSoundPositional ShExalted 300
-            CustomAlertSoundOptional "bubu\bubu-崇高石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\27.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
-            MinimapIcon 0 Orange Diamond
-            PlayEffect Orange
-            DisableDropSoundIfAlertSound
-
         Show #崇高石
             Class "Stackable Currency"
-            BaseType "Exalted Orb"
+            BaseType == "Exalted Orb"
             SetTextColor 255 144 0 255
             SetBackgroundColor 37 54 112
             SetBorderColor 255 200 0
@@ -1555,7 +1557,6 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         #end 
     #end
-
 #L1 2 賽季
     #L2 2.1魔符聯盟(2.1版本)
         Hide #印鈔 - 終局 - 速刷 - 魔符
@@ -3598,7 +3599,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
         #end
-
     #L2 2.27魔影墓場(3.24版本)
         Show #高價餘燼 虛靈餘燼
             Class "Map Fragment"
@@ -3631,7 +3631,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
     
         #end
-    
     #L2 2.28卡爾葛拓荒者(3.25版本)
         Show #符文之結
             Class "Stackable Currency"
@@ -3733,9 +3732,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 255 218 136 202
             SetBorderColor 128 0 128
             SetFontSize 41
-            MinimapIcon 1 White UpsideDownHouse
-            PlayEffect White Temp
             DisableDropSoundIfAlertSound
+        #end
     #end
         
 #L1 3 命運卡
@@ -3780,7 +3778,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
     Show #T1命運卡
         Class "Divination Card"
-        BaseType == "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Assassin's Gift" "Lonely Warrior" "Divine Justice" "Remembrance" "The Soul" "Azyran's Reward" "Monochrome"
+        BaseType == "The Samurai's Eye" "The Nurse" "Gift of Asenath" "Seven Years Bad Luck" "The Price of Loyalty" "Luminous Trove" "Wealth and Power" "The Enlightened" "The Dragon's Heart" "The Long Con" "The Artist" "Deadly Joy" "The Aspirant" "Judging Voices" "The Destination" "Home" "Doryani's Epiphany" "Gemcutter's Mercy" "Divine Beauty" "The Wedding Gift" "Brother's Stash" "The Sephirot" "Misery in Darkness" "Assassin's Gift" "Lonely Warrior" "Divine Justice" "Remembrance" "The Soul" "Azyran's Reward" "Monochrome" "The Lake" "One Last Score" "Outfoxed"
         SetTextColor 255 117 29
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -3795,7 +3793,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
     Show #印鈔 - T2命運卡
         Class "Divination Card"
-        BaseType == "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "The Eye of Terror" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "The Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death" "Altered Perception" "Baited Expectations" "Audacity" "The Conduit" "The Last Supper" "Tranquillity" "The Wolf" "The Wind" "Runic Luck" "Last Stand" "The One That Got Away" "Avian Pursuit" "The Long Watch" "Friendship"
+        BaseType == "The Journey" "The Thaumaturgist" "Heterochromia" "The Obscured" "The Cursed King" "The Dreamer" "The Devastator" "The Last One Standing" "The Brittle Emperor" "The Hunger" "The Eye of Terror" "The Chosen" "The Tinkerer's Table" "Humility" "The Wolven King's Bite" "The Endless Darkness" "Council of Cats" "The Spark and the Flame" "The Master" "The Professor" "The Progeny of Lunaris" "The Greatest Intentions" "The White Knight" "Fateful Meeting" "The Patient" "Hunter's Reward" "The Sustenance" "The Hive of Knowledge" "Keeper's Corruption" "The Damned" "The Strategist" "The Gulf" "The Academic" "The Astromancer" "Dying Anguish" "Haunting Shadows" "The Craving" "Void of the Elements" "A Note in the Wind" "Blessing of God" "Chaotic Disposition" "The Bitter Blossom" "The Celestial Stone" "The Queen" "The World Eater" "A Familiar Call" "Buried Treasure" "Dark Dreams" "Draped in Dreams" "Dying Light" "Etched in Blood" "Reckless Ambition" "Squandered Prosperity" "The Bargain" "The Eldritch Decay" "The Life Thief" "The Mayor" "The Offering" "The Undaunted" "Bowyer's Dream" "Burning Blood" "Cameria's Cut" "Peaceful Moments" "Pride Before the Fall" "The Awakened" "The Bones" "The Cartographer" "The Polymath" "The Primordial" "The Sacrifice" "The Celestial Justicar" "Mawr Blaidd" "Prometheus' Armoury" "The Dapper Prodigy" "The Ethereal" "The Fishmonger" "The Old Man" "The Porcupine" "The Valkyrie" "The Vast" "The Void" "The Whiteout" "The King's Heart" "The Seeker" "Emperor of Purity" "Winter's Embrace" "Sambodhi's Wisdom" "The Eternal War" "A Modest Request" "The Hook" "Ambitious Obsession" "Dementophobia" "Lachrymal Necrosis" "Costly Curio" "The Blessing of Moosh" "Terrible Secret of Space" "The Mind's Eyes" "The Offspring" "Lucky Deck" "Harmony of Souls" "The Realm" "No Traces" "The Cacophony" "The Ethereal" "The Throne" "Bowyer's Dream" "Boon of the First Ones" "The Dark Mage" "The Warlord" "Deathly Designs" "Vanity" "Acclimatisation" "The Emptiness" "The Valley of Steel Boxes" "Society's Remorse" "Demigod's Wager" "The Pact" "The Escape" "Prejudice" "The One With All" "The Tyrant" "The Messenger" "Arrogance of the Vaal" "Emperor's Luck" "Akil's Prophecy" "The Landing" "Time-Lost Relic" "The Jester" "Sambodhi's Vow" "The Union" "Chasing Risk" "The Prince of Darkness" "The Catch" "The Forgotten Treasure" "A Stone Perfected" "The Wretched" "Bijoux" "Silence and Frost" "Justified Ambition" "Desperate Crusade" "The Innocent" "The Spoiled Prince" "Immortal Resolve" "The Chains that Bind" "Underground Forest" "Guardian's Challenge" "Brush, Paint and Palette" "Further Invention" "The Brawny Battle Mage" "Rebirth and Renewal" "The Forward Gaze" "The Dungeon Master" "Darker Half" "The Rabbit's Foot" "The Price of Protection" "Endless Night" "The Enforcer" "The Shepherd's Sandals" "The Leviathan" "Checkmate" "Something Dark" "Man With Bear" "Auspicious Ambitions" "Ever-Changing" "The Finishing Touch" "The Lion" "The Saint's Treasure" "The Scout" "Abandoned Wealth" "Alluring Bounty" "The Garish Power" "The Mad King" "The Side Quest" "Anarchy's Price" "A Dusty Memory" "The Tireless Extractor" "The Magma Crab" "The Transformation" "The Rusted Bard" "A Chilling Wind" "Matryoshka" "Poisoned Faith" "The Fortunate" "Who Asked" "Eldritch Perfection" "Cursed Words" "Beauty Through Death" "The Visionary" "The Heroic Shot" "Temperance" "Toxic Tidings" "Friendship" "Rebirth and Renewal" "More is Never Enough" "Eternal Bonds" "A Fate Worse Than Death" "Altered Perception" "Baited Expectations" "Audacity" "The Conduit" "The Last Supper" "Tranquillity" "The Wolf" "The Wind" "Runic Luck" "Last Stand" "The One That Got Away" "Avian Pursuit" "The Long Watch" "Friendship" "The Last Laugh"
         SetTextColor 255 200 0
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255
@@ -3810,7 +3808,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
     Hide #印鈔 - 終局 - 速刷 - T3命運卡
         Class "Divination Card"
-        BaseType == "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "The Pack Leader" "The Gladiator" "The Hale Heart" "More is Never Enough" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculated" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "Parasitic Passengers" "Duality" "Magnum Opus" "Imperfect Memories" "Astral Protection" "Lethean Temptation" "Alivia's Grace" "The Return of the Rat" "The Hoarder" "A Dab of Ink"  "The Insatiable" "The Jeweller's Boon" "From Bone to Ashes" "Soul Quenched" "The Long Watch" "Azure Rage" "Broken Truce" "Brotherhood in Exile" "Nook's Crown" "The Fox in the Brambles" "When Currents Blaze"
+        BaseType == "Boon of Justice" "The Lord of Celebration" "The Arena Champion" "The Gladiator" "Glimmer of Hope" "The Risk" "Scholar of the Seas" "The Penitent" "Lysah's Respite" "The Inventor" "Vinia's Token" "Rats" "The Wrath" "Hope" "Treasure Hunter" "The Body" "Jack in the Box" "The Traitor" "Might is Right" "The Fletcher" "The Forsaken" "The Formless Sea" "Merciless Armament" "The Fathomless Depths" "The Puzzle" "Rebirth" "The Dreamland" "The Admirer" "The Darkest Dream" "The Beast" "Loyalty" "The Encroaching Darkness" "Birth of the Three" "Lucky Connections" "Shard of Fate" "Luck of the Vaal" "The Calling" "The Twilight Moon" "Echoes of Love" "Thirst for Knowledge" "The Fool" "The Deep Ones" "Perfection" "The Undisputed" "The Wilted Rose" "Last Hope" "The Aesthete" "The Stormcaller" "The Breach" "Left to Fate" "Atziri's Arsenal" "Lingering Remnants" "Imperial Legacy" "Assassin's Favour" "Vile Power" "The Skeleton" "The Deal" "The Wolf's Legacy" "The Mountain" "The Pack Leader" "The Gladiator" "The Hale Heart" "More is Never Enough" "The Tumbleweed" "The Betrayal" "Three Voices" "The Cache" "Unchained" "The Unexpected Prize" "The Scavenger" "Volatile Power" "Triskaidekaphobia" "A Mother's Parting Gift" "Alone in the Darkness" "Blind Venture" "Boundless Realms" "The Enthusiasts" "Broken Promises" "The Card Sharp" "The Price of Prescience" "Three Faces in the Dark" "Lantador's Lost Love" "The Battle Born" "Vinia's Token" "The Summoner" "The Cataclysm" "The Drunken Aristocrat" "The Gemcutter" "The Gambler" "The Lover" "The Road to Power" "The Avenger" "Rain of Chaos" "Coveted Possession" "Gemcutter's Promise" "Doedre's Madness" "The Trial" "The Catalyst" "The Fox" "The Doppelganger" "Grave Knowledge" "The Surveyor" "Hubris" "Merciless Armament" "Lost Worlds" "Her Mask" "Treasure Hunter" "The Web" "The Harvester" "The Endurance" "The Wolverine" "Mitts" "The Standoff" "Call to the First Ones" "The Opulent" "Atziri's Arsenal" "The Eye of the Dragon" "The Blazing Fire" "The Deceiver" "The Sword King's Salute" "The Archmage's Right Hand" "The Easy Stroll" "The Poet" "The Road to Power" "The Explorer" "Gift of the Gemling Queen" "The Survivalist" "The Opulent" "The Rite of Elements" "The Journalist" "Cartographer's Delight" "Dark Temptation" "Death" "Destined to Crumble" "Dialla's Subjugation" "Earth Drinker" "Forbidden Power" "The Adventuring Spirit" "The Shortcut" "A Sea of Blue" "The King's Blade" "The Feast" "The Hermit" "The Lord in Black" "The Twins" "The Watcher" "The Flora's Gift" "The Coming Storm" "Struck by Lightning" "The Scholar" "The Incantation" "Turn the Other Cheek" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mercenary" "The Gentleman" "The Inoculated" "The Dragon" "The Carrion Crow" "The Sigil" "The Army of Blood" "Light and Truth" "Rain Tempter" "The Lich" "Prosperity" "The Tower" "Thunderous Skies" "The Surgeon" "The Rabid Rhoa" "The Ruthless Ceinture" "The Bear Woman" "The Warden" "The Golden Era" "The Scarred Meadow" "The Witch" "Hunter's Resolve" "Disdain" "The Siren" "The Oath" "The Sun" "Parasitic Passengers" "Duality" "Magnum Opus" "Imperfect Memories" "Astral Protection" "Lethean Temptation" "Alivia's Grace" "The Return of the Rat" "The Hoarder" "A Dab of Ink"  "The Insatiable" "The Jeweller's Boon" "From Bone to Ashes" "Soul Quenched" "The Long Watch" "Azure Rage" "Broken Truce" "Brotherhood in Exile" "Nook's Crown" "The Fox in the Brambles" "When Currents Blaze" "Bound by Flame"
         SetTextColor 255 255 255 200
         SetBackgroundColor 114 110 210 200
         SetBorderColor 255 255 255 200
@@ -7344,8 +7342,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 255 192 203
             SetBorderColor 255 255 255
             SetFontSize 41
-            MinimapIcon 0 White UpsideDownHouse
-            PlayEffect White
             DisableDropSoundIfAlertSound
             
         Hide #印鈔 - 終局 - 速刷 - 高階異界輿圖限定基底
@@ -7356,8 +7352,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 74 0 160 200
             SetBorderColor 255 255 255
             SetFontSize 39
-            MinimapIcon 1 White UpsideDownHouse
-            PlayEffect White
             DisableDropSoundIfAlertSound
             
         Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底
@@ -7367,8 +7361,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetTextColor 255 192 203
             SetBackgroundColor 74 0 160 200
             SetFontSize 35
-            MinimapIcon 2 White UpsideDownHouse
-            PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
         Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底(稀有)
@@ -7378,8 +7370,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetBackgroundColor 74 0 160 200
             SetBorderColor 255 200 0
             SetFontSize 41
-            MinimapIcon 1 White UpsideDownHouse
-            PlayEffect White Temp
             DisableDropSoundIfAlertSound
 
             #end
