@@ -398,6 +398,21 @@
             PlayEffect Blue Temp
             DisableDropSoundIfAlertSound
 
+        Show #特殊催化劑 左旋|右旋
+            Class "Stackable Currency"
+            BaseType "Sinistral Catalyst" "Dextral Catalyst"
+            SetTextColor 184 218 242
+            SetBackgroundColor 63 0 169 192
+            SetBorderColor 210 0 0
+            SetFontSize 45
+            PlayAlertSoundPositional 4 100
+            CustomAlertSoundOptional "bubu\bubu-催化劑.mp3" 300
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-夏陸陸_儘管來挑戰我吧.mp3" 200
+            MinimapIcon 1 Pink Raindrop
+            PlayEffect Pink Temp
+            DisableDropSoundIfAlertSound
+
         Show #高價催化劑 多稜|富饒|玷汙
             Class "Stackable Currency"
             BaseType "Prismatic Catalyst" "Fertile Catalyst" "Tainted Catalyst"
@@ -554,7 +569,7 @@
             BaseType "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Scarabs" "Maven's Chisel of Avarice"
             SetTextColor 246 173 255
             SetBorderColor 30 144 255
-            SetFontSize 42
+            SetFontSize 45
             PlayAlertSoundPositional 6 300
             CustomAlertSoundOptional "bubu\bubu-製圖釘.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
@@ -1636,6 +1651,16 @@
             CustomAlertSoundOptional "bubu\bubu-精髓.mp3" 300
             DisableDropSoundIfAlertSound
 
+        Show #荒蕪精髓
+            Class "Stackable Currency"
+            BaseType "Essence of Desolation"
+            SetTextColor 255 255 0
+            SetBackgroundColor 51 0 18
+            SetBorderColor 244 162 155
+            SetFontSize 45
+            CustomAlertSoundOptional "bubu\bubu-精髓.mp3" 300
+            DisableDropSoundIfAlertSound
+
         #end
     #L2 2.4裂痕聯盟(2.5版本)
         Show #印鈔 - 終局 - 裂痕戒指
@@ -2345,7 +2370,7 @@
     #L2 2.12戰亂聯盟(3.7版本)
         Show #高階培育器
             Class "Incubator"
-            BaseType "Diviner's Incubator" "Skittering Incubator" "Ornate Incubator" "Foreboding Incubator"
+            BaseType "Diviner's Incubator" "Skittering Incubator" "Ornate Incubator" "Foreboding Incubator" "Honoured Incubator" "Sacred Incubator" "Miraged Incubator"
             SetTextColor 0 0 0 255
             SetBackgroundColor 191 153 7 255
             SetBorderColor 128 0 128 255
@@ -2885,6 +2910,20 @@
         Show #神聖結晶生靈之力
             Class "Stackable Currency"
             BaseType "Sacred Crystallised Lifeforce"
+            SetTextColor 0 0 0 200
+            SetBackgroundColor 184 218 242 200
+            SetBorderColor 0 0 0 255
+            SetFontSize 40
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 0 White Kite
+            PlayEffect White
+            DisableDropSoundIfAlertSound
+
+        Show #結晶怨恨
+            Class "Stackable Currency"
+            BaseType "Crystallised Rancour"
             SetTextColor 0 0 0 200
             SetBackgroundColor 184 218 242 200
             SetBorderColor 0 0 0 255
@@ -3734,6 +3773,36 @@
             SetFontSize 41
             DisableDropSoundIfAlertSound
         #end
+    #L2 2.31遠古蜃景(3.28版本)
+        Show #巨靈之幣(技能)
+            Class "Stackable Currency"
+            BaseType "Coin of Skill" "Coin of Power" "Coin of Knowledge"
+            SetTextColor 67 234 73
+            SetBackgroundColor 52 40 0
+            SetBorderColor 116 74 46
+            SetFontSize 39
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 1 Purple UpsideDownHouse
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
+        Show #巨靈之幣(其他)
+            Class "Stackable Currency"
+            BaseType "Coin of Desecration" "Coin of Restoration"
+            SetTextColor 175 233 255
+            SetBackgroundColor 52 40 0
+            SetBorderColor 116 74 46
+            SetFontSize 39
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 1 Purple UpsideDownHouse
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
     #end
         
 #L1 3 命運卡
@@ -3820,6 +3889,20 @@
 #L1 4 技能寶石
     Show #變異寶石
         TransfiguredGem True
+        Class "Skill Gem" "Support Gem"
+        SetTextColor 27 162 155
+        SetBackgroundColor 82 18 18 255
+        SetBorderColor 210 0 220
+        SetFontSize 42
+        CustomAlertSoundOptional "bubu\bubu-不尋常寶石.mp3" 300
+        CustomAlertSoundOptional "Diablo2\21.mp3" 300
+        CustomAlertSoundOptional "Lelouch\Lelouch-CC.mp3" 300
+        MinimapIcon 1 Cyan Pentagon
+        PlayEffect Cyan
+        DisableDropSoundIfAlertSound
+
+    Show #灌注寶石
+        Imbued True
         Class "Skill Gem" "Support Gem"
         SetTextColor 27 162 155
         SetBackgroundColor 82 18 18 255
@@ -4032,7 +4115,7 @@
 
         Show #中階聖甲蟲 復仇犄角|傳統犄角|洞察伏擊|戰儲神諭|攝政神諭|神殿廟之命運|伏擊|時間線穿越|倍增豐收|通牒決鬥|腐化製圖|繁榮祭祀|增生製圖|誘捕裂痕|適性精髓|珍寶泰坦|上升精髓|神諭|永恆鬥爭戰亂|深沉深淵|傳統犄角|尋符探險
             Class "Map Fragments"
-            BaseType "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Ambush Scarab of Discernment" "Harbinger Scarab of Warhoards" "Harbinger Scarab of Regency" "Divination Scarab of The Cloister" "Ambush Scarab" "Incursion Scarab of Timelines" "Harvest Scarab of Doubling" "Ultimatum Scarab of Dueling" "Cartography Scarab of Corruption" "Ritual Scarab of Abundance" "Cartography Scarab of the Multitude" "Breach Scarab of Snares" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Harbinger Scarab" "Legion Scarab of Eternal Conflict" "Abyss Scarab of Profound Depth" "Horned Scarab of Tradition" "Expedition Scarab of Runefinding"
+            BaseType "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Ambush Scarab of Discernment" "Harbinger Scarab of Warhoards" "Harbinger Scarab of Regency" "Divination Scarab of The Cloister" "Ambush Scarab" "Incursion Scarab of Timelines" "Harvest Scarab of Doubling" "Ultimatum Scarab of Dueling" "Cartography Scarab of Corruption" "Ritual Scarab of Abundance" "Cartography Scarab of the Multitude" "Breach Scarab of the Incensed Swarm" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Harbinger Scarab" "Legion Scarab of Eternal Conflict" "Abyss Scarab of Profound Depth" "Horned Scarab of Tradition" "Expedition Scarab of Runefinding"
             SetTextColor 55 237 228
             SetBackgroundColor 128 0 128 255
             SetBorderColor 255 165 0 255
@@ -4064,7 +4147,7 @@
     #L2 5.2 虛空石
         Show #虛空石
             Class "Atlas Upgrade Item"
-            BaseType "Ceremonial Voidstone" "Decayed Voidstone" "Grasping Voidstone" "Omniscient Voidstone"
+            BaseType "Ceremonial Voidstone" "Decayed Voidstone" "Eldritch Voidstone" "Originator Voidstone"
             SetTextColor 10 222 205
             SetBackgroundColor 20 120 255 200
             SetBorderColor 255 255 255
@@ -4379,7 +4462,53 @@
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 5.4 斷片圖
+    #L2 5.4 特殊地圖
+        Show #夢魘地圖
+            Rarity <= Rare
+            Class "Maps"
+            BaseType "Nightmare Map"
+            SetTextColor 202 137 255
+            SetBackgroundColor 28 7 54
+            SetBorderColor 169 113 160
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-高階地圖.mp3" 300
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修.mp3" 100
+            MinimapIcon 0 Purple Cross
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #瓦爾多地圖
+            Class "Maps"
+            BaseType "Valdo Map"
+            SetTextColor 202 137 255
+            SetBackgroundColor 28 7 54
+            SetBorderColor 169 113 160
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-高階地圖.mp3" 300
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修.mp3" 100
+            MinimapIcon 0 Purple Cross
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #塑界守護者地圖
+            Class "Maps"
+            BaseType "Shaper Guardian Map"
+            SetTextColor 112 44 199
+            SetBackgroundColor 17 13 85
+            SetBorderColor 181 139 167
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-四聖獸.mp3" 300
+            CustomAlertSoundOptional "Diablo2\46.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_錯的是世界.mp3" 200
+            MinimapIcon 0 Purple Cross
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+        
         Show #勢力王
             Class "Maps"
             HasInfluence Crusader Redeemer Hunter Warlord 
@@ -4590,25 +4719,38 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        Show #T17
-            Rarity <= Rare
-            MapTier = 17
-            Class "Maps"
-            SetTextColor 202 137 255
-            SetBackgroundColor 28 7 54
-            SetBorderColor 169 113 160
+            #end
+
+    #L2 5.7 輿圖通貨
+        Show #創傷記憶、敬畏記憶、孤獨記憶
+            Class "Stackable Currency"
+            BaseType "Memory of Trauma" "Memory of Reverence" "Memory of Loneliness"
+            SetTextColor 181 181 223
+            SetBackgroundColor 61 55 173
+            SetBorderColor 91 228 243
             SetFontSize 45
             PlayAlertSoundPositional 2 300
-            CustomAlertSoundOptional "bubu\bubu-高階地圖.mp3" 300
-            CustomAlertSoundOptional "Diablo2\42.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修.mp3" 100
-            MinimapIcon 0 Purple Cross
+            CustomAlertSoundOptional "bubu\bubu-釋界之邀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\50.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_敬告全世界.mp3" 300
+            MinimapIcon 0 Cyan Triangle
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #星盤
+            Class "Stackable Currency"
+            BaseType "Astrolabe"
+            SetTextColor 246 173 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Purple Hexagon
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-            #end
-
-    #L2 5.7 記憶
         Show #札娜記憶
             ZanaMemory True
             SetTextColor 5 8 123 255
@@ -7547,7 +7689,7 @@
         Show #印鈔 - 終局 - 速刷 - 高階金裝
             Identified False
             Rarity = Rare
-            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Kinetic Wand"
+            BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Kinetic Wand" "Cord Belt
             SetTextColor 237 201 128
             SetBorderColor 255 255 0
             SetFontSize 35
