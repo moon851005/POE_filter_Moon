@@ -3,5 +3,8 @@
 *.txt
 *.png
 *.credentials
+ETrade/
+EShop/
+
 #線上過濾器
 OnlineFilters/
