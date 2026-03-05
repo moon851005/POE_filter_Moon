@@ -3621,6 +3621,52 @@
             MinimapIcon 1 Purple UpsideDownHouse
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
+
+        Show #烈許的血肉
+            Class "Stackable Currency"
+            BaseType "Flesh of Xesht"
+            SetTextColor 80 0 80
+            SetBackgroundColor 194 73 216
+            SetBorderColor 128 0 128
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero.mp3" 300
+            MinimapIcon 0 Purple Circle
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #不穩定的瓦爾寶珠
+            Class "Stackable Currency"
+            BaseType "Volatile Vaal Orb"
+            SetTextColor 255 72 0
+            SetBackgroundColor 80 0 0
+            SetBorderColor 255 191 105
+            SetFontSize 43
+            PlayAlertSoundPositional ShVaal 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 0 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #Refracting Fog
+            Class "Stackable Currency"
+            BaseType "Refracting Fog"
+            SetTextColor 255 72 0
+            SetBackgroundColor 80 0 0
+            SetBorderColor 255 191 105
+            SetFontSize 43
+            PlayAlertSoundPositional ShVaal 300
+            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 0 White Diamond
+            PlayEffect White Temp
+            DisableDropSoundIfAlertSound
+
     #end
         
 #L1 3 命運卡
@@ -3931,9 +3977,9 @@
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #中階聖甲蟲 復仇犄角|傳統犄角|洞察伏擊|神殿廟之命運|伏擊|時間線穿越|倍增豐收|通牒決鬥|腐化製圖|繁榮祭祀|增生製圖|誘捕裂痕|適性精髓|珍寶泰坦|永恆鬥爭戰亂|深沉深淵|傳統犄角|尋符探險
+        Show #中階聖甲蟲 復仇犄角|傳統犄角|洞察伏擊|神殿廟之命運|伏擊|時間線穿越|倍增豐收|通牒決鬥|腐化製圖|繁榮祭祀|增生製圖|誘捕裂痕|適性精髓|珍寶泰坦|永恆鬥爭戰亂|深沉深淵|傳統犄角|尋符探險|至高混亂|輸液探險|荒屍祭祀
             Class "Map Fragments"
-            BaseType "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Ambush Scarab of Discernment" "Divination Scarab of The Cloister" "Ambush Scarab" "Incursion Scarab of Timelines" "Harvest Scarab of Doubling" "Ultimatum Scarab of Dueling" "Cartography Scarab of Corruption" "Ritual Scarab of Abundance" "Cartography Scarab of the Multitude" "Breach Scarab of the Incensed Swarm" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Legion Scarab of Eternal Conflict" "Abyss Scarab of Profound Depth" "Horned Scarab of Tradition" "Expedition Scarab of Runefinding"
+            BaseType "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Ambush Scarab of Discernment" "Divination Scarab of The Cloister" "Ambush Scarab" "Incursion Scarab of Timelines" "Harvest Scarab of Doubling" "Ultimatum Scarab of Dueling" "Cartography Scarab of Corruption" "Ritual Scarab of Abundance" "Cartography Scarab of the Multitude" "Breach Scarab of the Incensed Swarm" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Legion Scarab of Eternal Conflict" "Abyss Scarab of Profound Depth" "Horned Scarab of Tradition" "Expedition Scarab of Runefinding" "Anarchy Scarab of the Exceptional" "Expedition Scarab of Infusion" "Ritual Scarab of Corpses"
             SetTextColor 55 237 228
             SetBackgroundColor 128 0 128 255
             SetBorderColor 255 165 0 255
