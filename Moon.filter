@@ -1,4 +1,687 @@
 ﻿Import "自定義過濾/自定義配置.filter" Optional
+#L1 0 拓荒
+    #L2 0.1通貨
+        Show #前兩章傳送卷軸
+            Class "Stackable Currency"
+            BaseType "Portal Scroll"
+            AreaLevel <= 22
+            SetBorderColor 0 0 255
+            SetFontSize 42
+            MinimapIcon 2 Blue Square
+            DisableDropSoundIfAlertSound
+
+        Show #前兩章蛻變石
+            Class "Stackable Currency"
+            BaseType == "Orb of Transmutation"
+            AreaLevel <= 22
+            SetTextColor 255 94 97
+            SetBorderColor 255 192 203
+            SetFontSize 42
+            MinimapIcon 2 Pink Circle
+            DisableDropSoundIfAlertSound
+
+        Show #前兩章增幅石
+            Class "Stackable Currency"
+            BaseType == "Orb of Augmentation"
+            AreaLevel <= 22
+            SetTextColor 255 94 97
+            SetBorderColor 255 192 203
+            SetFontSize 42
+            MinimapIcon 2 Pink Circle
+            DisableDropSoundIfAlertSound
+
+        #end
+    #L2 0.2裝備
+        Show #拓荒召喚法杖基底
+            Rarity <= Rare
+            AreaLevel < 68
+            BaseType "Convoking Wand" "Convening Wand" "Calling Wand"
+            SetBorderColor 0 150 150 255
+            SetBackgroundColor 4 67 67 210
+            SetFontSize 40
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級1
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 25
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級2
+            DropLevel >= 10
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 30
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級3
+            DropLevel >= 15
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 35
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級4
+            DropLevel >= 20
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 45
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級5
+            DropLevel >= 25
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 55
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級6
+            DropLevel >= 30
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 60
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級7
+            DropLevel >= 35
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 65
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有弓階級8
+            DropLevel >= 40
+            Rarity Rare
+            Class == "Bows"
+            AreaLevel <= 70
+            SetFontSize 40
+            SetBorderColor 0 150 0 255
+            SetBackgroundColor 4 67 4 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級1
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 25
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級2
+            DropLevel >= 10
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 30
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級3
+            DropLevel >= 15
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 35
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級4
+            DropLevel >= 20
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 45
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級5
+            DropLevel >= 25
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 55
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級6
+            DropLevel >= 30
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 60
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級7
+            DropLevel >= 35
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 65
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有雙手近戰武器階級8
+            DropLevel >= 40
+            Rarity Rare
+            Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
+            AreaLevel <= 70
+            SetFontSize 40
+            SetBorderColor 150 50 50 255
+            SetBackgroundColor 100 43 43 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級1
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 25
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級2
+            DropLevel >= 10
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 30
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級3
+            DropLevel >= 15
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 35
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級4
+            DropLevel >= 20
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 45
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級5
+            DropLevel >= 25
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 55
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級6
+            DropLevel >= 30
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 60
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級7
+            DropLevel >= 35
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 65
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #拓荒稀有單手近戰武器階級8
+            DropLevel >= 40
+            Rarity Rare
+            Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
+            AreaLevel <= 70
+            SetFontSize 40
+            SetBorderColor 180 180 0 255
+            SetBackgroundColor 150 90 0 210
+            DisableDropSoundIfAlertSound
+
+        Show #前兩章飾品
+            Rarity <= Rare
+            AreaLevel <= 22
+            Class "Belt" "Amulets" "Rings"
+            SetBorderColor 255 0 255 220
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主紅綠洞色4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets = 4
+            SocketGroup "RRGG"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 50 50 0
+            SetBorderColor 155 155 0 255
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主綠藍洞色4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets = 4
+            SocketGroup "GGBB"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 0 50 50
+            SetBorderColor 0 155 155 255
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主藍紅洞色4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets = 4
+            SocketGroup "BBRR"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 50 0 50
+            SetBorderColor 155 0 155 255
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主紅洞色3-4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets >= 3
+            SocketGroup "RR"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 50 0 0
+            SetBorderColor 243 91 50
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主綠洞色3-4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets >= 3
+            SocketGroup "GG"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 0 50 0
+            SetBorderColor 55 143 8
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        Show #章節主藍洞色3-4L裝備
+            Rarity <= Rare
+            AreaLevel < 68
+            LinkedSockets >= 3
+            SocketGroup "BB"
+            Class "Helmets" "Gloves" "Boots" "Body Armours"
+            SetBackgroundColor 0 0 50
+            SetBorderColor 27 103 255
+            SetFontSize 35
+            DisableDropSoundIfAlertSound
+
+        #end
+    #L2 0.3藥劑
+        Show #高亮章捷水銀、真銀藥劑
+            AreaLevel < 68
+            Class "Utility Flasks"
+            BaseType "Quicksilver Flask" "Silver Flask"
+            SetTextColor 50 100 200
+            SetBackgroundColor 172 233 76
+            SetBorderColor 184 218 242
+            SetFontSize 42
+            CustomAlertSoundOptional "bubu\bubu-功能藥劑.mp3" 300
+            CustomAlertSoundOptional "Diablo2\7.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Green Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節小型生命藥劑
+            AreaLevel < 3
+            Class "Life Flask"
+            BaseType "Small Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節中型生命藥劑
+            AreaLevel < 6
+            Class "Life Flask"
+            BaseType "Medium Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節大型生命藥劑
+            AreaLevel < 12
+            Class "Life Flask"
+            BaseType "Large Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節良質生命藥劑
+            AreaLevel < 18
+            Class "Life Flask"
+            BaseType "Greater Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節優質生命藥劑
+            AreaLevel < 24
+            Class "Life Flask"
+            BaseType "Grand Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節巨型生命藥劑
+            AreaLevel < 30
+            Class "Life Flask"
+            BaseType "Giant Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節高階生命藥劑
+            AreaLevel < 36
+            Class "Life Flask"
+            BaseType "Colossal Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節聖語生命藥劑
+            AreaLevel < 42
+            Class "Life Flask"
+            BaseType "Sacred Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節祝福生命藥劑
+            AreaLevel < 50
+            Class "Life Flask"
+            BaseType "Hallowed Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節聖化生命藥劑
+            AreaLevel < 60
+            Class "Life Flask"
+            BaseType "Sanctified Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節不朽生命藥劑
+            AreaLevel < 65
+            Class "Life Flask"
+            BaseType "Divine Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節永恆生命藥劑
+            AreaLevel < 68
+            Class "Life Flask"
+            BaseType "Eternal Life Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 150 0 0
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節小型魔力藥劑
+            AreaLevel < 3
+            Class "Mana Flask"
+            BaseType "Small Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 40
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節中型魔力藥劑
+            AreaLevel < 6
+            Class "Mana Flask"
+            BaseType "Medium Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節大型魔力藥劑
+            AreaLevel < 12
+            Class "Mana Flask"
+            BaseType "Large Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節良質魔力藥劑
+            AreaLevel < 18
+            Class "Mana Flask"
+            BaseType "Greater Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節優質魔力藥劑
+            AreaLevel < 24
+            Class "Mana Flask"
+            BaseType "Grand Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節巨型魔力藥劑
+            AreaLevel < 30
+            Class "Mana Flask"
+            BaseType "Giant Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節高階魔力藥劑
+            AreaLevel < 36
+            Class "Mana Flask"
+            BaseType "Colossal Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節聖語魔力藥劑
+            AreaLevel < 42
+            Class "Mana Flask"
+            BaseType "Sacred Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節祝福魔力藥劑
+            AreaLevel < 50
+            Class "Mana Flask"
+            BaseType "Hallowed Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節聖化魔力藥劑
+            AreaLevel < 60
+            Class "Mana Flask"
+            BaseType "Sanctified Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節不朽魔力藥劑
+            AreaLevel < 65
+            Class "Mana Flask"
+            BaseType "Divine Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\6.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 0 Blue Raindrop
+            DisableDropSoundIfAlertSound
+
+        Show #章節永恆魔力藥劑
+            AreaLevel < 68
+            Class "Mana Flask"
+            BaseType "Eternal Mana Flask"
+            SetTextColor 0 0 0
+            SetBackgroundColor 30 144 255
+            SetBorderColor 184 218 242
+            SetFontSize 39
+            CustomAlertSoundOptional "Diablo2\5.mp3" 100
+            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
+            MinimapIcon 1 Red Raindrop
+            DisableDropSoundIfAlertSound
+
+        #end
+    #end
 #L1 1 通貨
     #L2 1.1 特殊通貨
         Show #穢生增幅石
@@ -6861,9 +7544,6 @@
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
             SetFontSize 30
-            CustomAlertSoundOptional "Diablo2\6.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
-            MinimapIcon 2 Blue Raindrop
             DisableDropSoundIfAlertSound
 
         Show #顯示高品質生命藥劑 不朽|永恆
@@ -6906,9 +7586,6 @@
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
             SetFontSize 30
-            CustomAlertSoundOptional "Diablo2\5.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
-            MinimapIcon 2 Red Raindrop
             DisableDropSoundIfAlertSound
 
         Show #顯示高品質複合藥劑 祝福
@@ -6951,9 +7628,6 @@
             SetBackgroundColor 0 0 0
             SetBorderColor 184 218 242
             SetFontSize 30
-            CustomAlertSoundOptional "Diablo2\7.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
-            MinimapIcon 2 Purple Raindrop
             DisableDropSoundIfAlertSound
         
         Show #顯示高品質功能性藥劑
@@ -6991,20 +7665,6 @@
             SetBorderColor 184 218 242
             SetFontSize 39
             MinimapIcon 2 Green Raindrop
-            DisableDropSoundIfAlertSound
-
-        Show #顯示低等水銀、真銀藥劑
-            ItemLevel < 68
-            Class "Utility Flasks"
-            BaseType "Quicksilver Flask" "Silver Flask"
-            SetTextColor 50 100 200
-            SetBackgroundColor 172 233 76
-            SetBorderColor 184 218 242
-            SetFontSize 40
-            CustomAlertSoundOptional "bubu\bubu-功能藥劑.mp3" 300
-            CustomAlertSoundOptional "Diablo2\7.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-水滴.mp3" 300
-            MinimapIcon 0 Green Raindrop
             DisableDropSoundIfAlertSound
 
         Show #顯示低等功能性藥劑
@@ -7516,16 +8176,6 @@
             SetFontSize 41
             MinimapIcon 0 Yellow UpsideDownHouse
             PlayEffect Yellow Temp
-            DisableDropSoundIfAlertSound
-
-        Show #拓荒基底
-            AreaLevel < 68
-            BaseType "Convoking Wand" "Convening Wand" "Calling Wand"
-            Rarity < Rare
-            SetTextColor 255 255 255 220
-            SetBackgroundColor 255 114 0 200
-            SetBorderColor 255 114 0
-            SetFontSize 35
             DisableDropSoundIfAlertSound
 
         Hide #隱藏拓荒用基底
