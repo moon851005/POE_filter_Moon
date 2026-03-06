@@ -4,7 +4,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #前兩章傳送卷軸
             Class "Stackable Currency"
             BaseType "Portal Scroll"
-            AreaLevel <= 22
+            AreaLevel <= 23
             SetBorderColor 0 0 255
             SetFontSize 42
             MinimapIcon 2 Blue Square
@@ -13,7 +13,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #前兩章蛻變石
             Class "Stackable Currency"
             BaseType == "Orb of Transmutation"
-            AreaLevel <= 22
+            AreaLevel <= 23
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 42
@@ -23,7 +23,7 @@ Import "自定義過濾/自定義配置.filter" Optional
         Show #前兩章增幅石
             Class "Stackable Currency"
             BaseType == "Orb of Augmentation"
-            AreaLevel <= 22
+            AreaLevel <= 23
             SetTextColor 255 94 97
             SetBorderColor 255 192 203
             SetFontSize 42
@@ -280,7 +280,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         Show #前兩章飾品
             Rarity <= Rare
-            AreaLevel <= 22
+            AreaLevel <= 23
             Class "Belt" "Amulets" "Rings"
             SetBorderColor 255 0 255 220
             SetFontSize 35
