@@ -4448,6 +4448,36 @@ Import "自定義過濾/自定義配置.filter" Optional
     #end
 
 #L1 4 技能寶石
+    Show #高價卓越技能
+        Class "Support Gems"
+        BaseType "Awakened Empower Support" "Awakened Enhance Support" "Awakened Enlighten Support" "Greater Spell Echo Support" "Greater Multistrike Support" "Vaal Sacrifice Support" "Frostmage Support" "Eclipse Support"
+        SetTextColor 255 0 0 255
+        SetBackgroundColor 255 255 255
+        SetBorderColor 255 0 0 255
+        SetFontSize 45
+        PlayAlertSoundPositional 5 300
+        CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+        CustomAlertSoundOptional "Diablo2\37.mp3" 300
+        CustomAlertSoundOptional "Lelouch\Lelouch-CC_王的力量.mp3" 200
+        MinimapIcon 0 Red Pentagon
+        PlayEffect Red
+        DisableDropSoundIfAlertSound
+
+    Show #卓越技能
+        Class "Support Gem"
+        BaseType "Empower Support" "Enlighten Support" "Enhance Support" "Annihilation Support" "Bloodsoaked Banner Support" "Bonespire Support" "Cast on Ward Break Support" "Companionship Support" "Congregation Support" "Cooldown Recovery Support" "Cull the Weak Support" "Divine Sentinel Support" "Eclipse Support" "Eldritch Blasphemy Support" "Fissure Support" "Foulgrasp Support" "Gluttony Support" "Greater Ancestral Call Support" "Greater Chain Support" "Greater Devour Support" "Greater Fork Support" "Greater Kinetic Instability Support" "Greater Spell Cascade Support" "Greater Unleash Support" "Hexpass Support" "Hextoad Support" "Hiveborn Support" "Invention Support" "Invert the Rules Support" "Item Quantity Support" "Lethal Dose Support" "Machinations Support" "Minion Pact Support" "Overheat Support" "Overloaded Intensity Support" "Pacifism Support" "Pyre Support" "Scornful Herald Support" "Transfusion Support" "Unholy Trinity Support" "Vaal Temptation Support" "Void Shockwave Support" "Voidstorm Support"
+        SetTextColor 100 0 100
+        SetBackgroundColor 20 180 160
+        SetBorderColor 150 50 240
+        SetFontSize 45
+        PlayAlertSoundPositional 10 100
+        CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
+        CustomAlertSoundOptional "Diablo2\21.mp3" 300
+        CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧3.mp3" 300
+        MinimapIcon 0 Purple Pentagon
+        PlayEffect Purple
+        DisableDropSoundIfAlertSound
+
     Show #變異寶石
         TransfiguredGem True
         Class "Skill Gem" "Support Gem"
@@ -4515,21 +4545,6 @@ Import "自定義過濾/自定義配置.filter" Optional
         SetFontSize 39
         MinimapIcon 2 White Pentagon
         PlayEffect White Temp
-        DisableDropSoundIfAlertSound
-
-    Show #啟蒙/增幅/賦予
-        Class "Support Gem"
-        BaseType "Enlighten" "Enhance" "Empower"
-        SetTextColor 100 0 100
-        SetBackgroundColor 20 180 160
-        SetBorderColor 150 50 240
-        SetFontSize 42
-        PlayAlertSoundPositional 10 100
-        CustomAlertSoundOptional "bubu\bubu-技能寶石.mp3" 300
-        CustomAlertSoundOptional "Diablo2\21.mp3" 300
-        CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧3.mp3" 300
-        MinimapIcon 0 Purple Pentagon
-        PlayEffect Purple
         DisableDropSoundIfAlertSound
 
     Show #雙瓦寶石
