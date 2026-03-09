@@ -4393,7 +4393,7 @@
 
     Show #T0命運卡
         Class "Divination Card"
-        BaseType == "House of Mirrors" "The Doctor" "The Fiend" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "I See Brothers" "Fire Of Unknown Origin" "Father's Love" "Damnation" "History" "The Slumbering Beast" "Lucky Bastion"
+        BaseType == "House of Mirrors" "The Doctor" "The Fiend" "Pride of the First Ones" "The Demon" "Succor of the Sinless" "Unrequited Love" "Love Through Ice" "The Astromancer" "The Immortal" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "I See Brothers" "Fire Of Unknown Origin" "Father's Love" "Damnation" "History" "The Slumbering Beast" "Lucky Bastion" "The Eye of Terror"
         SetTextColor 255 0 0 255
         SetBackgroundColor 255 255 255
         SetBorderColor 255 0 0 255
