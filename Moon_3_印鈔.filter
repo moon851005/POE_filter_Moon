@@ -8758,8 +8758,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             Rarity <= Magic
             Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
             SetTextColor 0 0 0 0
-            SetBorderColor 0 0 0 0
-            SetBackgroundColor 0 0 0 
+            SetBackgroundColor 0 0 0 0
+            SetBorderColor 0 0 0 
             SetFontSize 18
             DisableDropSoundIfAlertSound
 
