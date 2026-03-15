@@ -35,6 +35,7 @@
         Show #拓荒召喚法杖基底
             Rarity <= Rare
             AreaLevel < 68
+            ItemLevel < 70
             BaseType "Convoking Wand" "Convening Wand" "Calling Wand"
             SetBorderColor 0 150 150 255
             SetBackgroundColor 4 67 67 210
@@ -45,55 +46,61 @@
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 25
+            ItemLevel < 70
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級2
-            DropLevel >= 10
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 30
+            ItemLevel < 70
+            DropLevel >= 10
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級3
-            DropLevel >= 15
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 35
+            ItemLevel < 70
+            DropLevel >= 15
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級4
-            DropLevel >= 20
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 45
+            ItemLevel < 70
+            DropLevel >= 20
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級5
-            DropLevel >= 25
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 55
+            ItemLevel < 70
+            DropLevel >= 25
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級6
-            DropLevel >= 30
             Rarity Rare
             Class == "Bows"
+            ItemLevel < 70
+            DropLevel >= 30
             AreaLevel <= 60
             SetFontSize 40
             SetBorderColor 0 150 0 255
@@ -101,20 +108,22 @@
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級7
-            DropLevel >= 35
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 65
+            ItemLevel < 70
+            DropLevel >= 35
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有弓階級8
-            DropLevel >= 40
             Rarity Rare
             Class == "Bows"
             AreaLevel <= 70
+            ItemLevel < 70
+            DropLevel >= 40
             SetFontSize 40
             SetBorderColor 0 150 0 255
             SetBackgroundColor 4 67 4 210
@@ -124,76 +133,84 @@
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 25
+            ItemLevel < 70
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級2
-            DropLevel >= 10
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 30
+            ItemLevel < 70
+            DropLevel >= 10
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級3
-            DropLevel >= 15
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 35
+            ItemLevel < 70
+            DropLevel >= 15
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級4
-            DropLevel >= 20
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 45
+            ItemLevel < 70
+            DropLevel >= 20
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級5
-            DropLevel >= 25
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 55
+            ItemLevel < 70
+            DropLevel >= 25
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級6
-            DropLevel >= 30
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 60
+            ItemLevel < 70
+            DropLevel >= 30
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級7
-            DropLevel >= 35
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 65
+            ItemLevel < 70
+            DropLevel >= 35
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有雙手近戰武器階級8
-            DropLevel >= 40
             Rarity Rare
             Class == "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Warstaves"
             AreaLevel <= 70
+            ItemLevel < 70
+            DropLevel >= 40
             SetFontSize 40
             SetBorderColor 150 50 50 255
             SetBackgroundColor 100 43 43 210
@@ -203,76 +220,84 @@
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 25
+            ItemLevel < 70
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級2
-            DropLevel >= 10
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 30
+            ItemLevel < 70
+            DropLevel >= 10
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級3
-            DropLevel >= 15
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 35
+            ItemLevel < 70
+            DropLevel >= 15
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級4
-            DropLevel >= 20
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 45
+            ItemLevel < 70
+            DropLevel >= 20
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級5
-            DropLevel >= 25
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 55
+            ItemLevel < 70
+            DropLevel >= 25
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級6
-            DropLevel >= 30
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 60
+            ItemLevel < 70
+            DropLevel >= 30
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級7
-            DropLevel >= 35
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 65
+            ItemLevel < 70
+            DropLevel >= 35
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
             DisableDropSoundIfAlertSound
 
         Show #拓荒稀有單手近戰武器階級8
-            DropLevel >= 40
             Rarity Rare
             Class == "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Thrusting One Hand Swords"
             AreaLevel <= 70
+            ItemLevel < 70
+            DropLevel >= 40
             SetFontSize 40
             SetBorderColor 180 180 0 255
             SetBackgroundColor 150 90 0 210
@@ -280,6 +305,7 @@
 
         Show #前兩章飾品
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel <= 23
             Class "Belt" "Amulets" "Rings"
             SetBorderColor 255 0 255 220
@@ -288,6 +314,7 @@
 
         Show #章節主紅綠洞色4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets = 4
             SocketGroup "RRGG"
@@ -299,6 +326,7 @@
 
         Show #章節主綠藍洞色4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets = 4
             SocketGroup "GGBB"
@@ -310,6 +338,7 @@
 
         Show #章節主藍紅洞色4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets = 4
             SocketGroup "BBRR"
@@ -321,6 +350,7 @@
 
         Show #章節主紅洞色3-4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets >= 3
             SocketGroup "RR"
@@ -332,6 +362,7 @@
 
         Show #章節主綠洞色3-4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets >= 3
             SocketGroup "GG"
@@ -343,6 +374,7 @@
 
         Show #章節主藍洞色3-4L裝備
             Rarity <= Rare
+            ItemLevel < 70
             AreaLevel < 68
             LinkedSockets >= 3
             SocketGroup "BB"
@@ -355,6 +387,7 @@
         #end
     #L2 0.3藥劑
         Show #高亮章捷水銀、真銀藥劑
+            Rarity <= Magic
             AreaLevel < 68
             Class "Utility Flasks"
             BaseType "Quicksilver Flask" "Silver Flask"
@@ -369,6 +402,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節小型生命藥劑
+            Rarity <= Magic
             AreaLevel < 3
             Class "Life Flask"
             BaseType "Small Life Flask"
@@ -382,6 +416,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節中型生命藥劑
+            Rarity <= Magic
             AreaLevel < 6
             Class "Life Flask"
             BaseType "Medium Life Flask"
@@ -395,6 +430,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節大型生命藥劑
+            Rarity <= Magic
             AreaLevel < 12
             Class "Life Flask"
             BaseType "Large Life Flask"
@@ -408,6 +444,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節良質生命藥劑
+            Rarity <= Magic
             AreaLevel < 18
             Class "Life Flask"
             BaseType "Greater Life Flask"
@@ -421,6 +458,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節優質生命藥劑
+            Rarity <= Magic
             AreaLevel < 24
             Class "Life Flask"
             BaseType "Grand Life Flask"
@@ -434,6 +472,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節巨型生命藥劑
+            Rarity <= Magic
             AreaLevel < 30
             Class "Life Flask"
             BaseType "Giant Life Flask"
@@ -447,6 +486,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節高階生命藥劑
+            Rarity <= Magic
             AreaLevel < 36
             Class "Life Flask"
             BaseType "Colossal Life Flask"
@@ -460,6 +500,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節聖語生命藥劑
+            Rarity <= Magic
             AreaLevel < 42
             Class "Life Flask"
             BaseType "Sacred Life Flask"
@@ -473,6 +514,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節祝福生命藥劑
+            Rarity <= Magic
             AreaLevel < 50
             Class "Life Flask"
             BaseType "Hallowed Life Flask"
@@ -486,6 +528,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節聖化生命藥劑
+            Rarity <= Magic
             AreaLevel < 60
             Class "Life Flask"
             BaseType "Sanctified Life Flask"
@@ -499,6 +542,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節不朽生命藥劑
+            Rarity <= Magic
             AreaLevel < 65
             Class "Life Flask"
             BaseType "Divine Life Flask"
@@ -512,6 +556,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節永恆生命藥劑
+            Rarity <= Magic
             AreaLevel < 68
             Class "Life Flask"
             BaseType "Eternal Life Flask"
@@ -525,6 +570,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節小型魔力藥劑
+            Rarity <= Magic
             AreaLevel < 3
             Class "Mana Flask"
             BaseType "Small Mana Flask"
@@ -538,6 +584,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節中型魔力藥劑
+            Rarity <= Magic
             AreaLevel < 6
             Class "Mana Flask"
             BaseType "Medium Mana Flask"
@@ -551,6 +598,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節大型魔力藥劑
+            Rarity <= Magic
             AreaLevel < 12
             Class "Mana Flask"
             BaseType "Large Mana Flask"
@@ -564,6 +612,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節良質魔力藥劑
+            Rarity <= Magic
             AreaLevel < 18
             Class "Mana Flask"
             BaseType "Greater Mana Flask"
@@ -577,6 +626,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節優質魔力藥劑
+            Rarity <= Magic
             AreaLevel < 24
             Class "Mana Flask"
             BaseType "Grand Mana Flask"
@@ -590,6 +640,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節巨型魔力藥劑
+            Rarity <= Magic
             AreaLevel < 30
             Class "Mana Flask"
             BaseType "Giant Mana Flask"
@@ -603,6 +654,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節高階魔力藥劑
+            Rarity <= Magic
             AreaLevel < 36
             Class "Mana Flask"
             BaseType "Colossal Mana Flask"
@@ -616,6 +668,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節聖語魔力藥劑
+            Rarity <= Magic
             AreaLevel < 42
             Class "Mana Flask"
             BaseType "Sacred Mana Flask"
@@ -629,6 +682,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節祝福魔力藥劑
+            Rarity <= Magic
             AreaLevel < 50
             Class "Mana Flask"
             BaseType "Hallowed Mana Flask"
@@ -642,6 +696,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節聖化魔力藥劑
+            Rarity <= Magic
             AreaLevel < 60
             Class "Mana Flask"
             BaseType "Sanctified Mana Flask"
@@ -655,6 +710,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節不朽魔力藥劑
+            Rarity <= Magic
             AreaLevel < 65
             Class "Mana Flask"
             BaseType "Divine Mana Flask"
@@ -668,6 +724,7 @@
             DisableDropSoundIfAlertSound
 
         Show #章節永恆魔力藥劑
+            Rarity <= Magic
             AreaLevel < 68
             Class "Mana Flask"
             BaseType "Eternal Mana Flask"
@@ -4136,7 +4193,7 @@
             SetTextColor 27 162 93
             SetBackgroundColor 21 28 83 200
             SetBorderColor 27 162 93
-            SetFontSize 39
+            SetFontSize 45
             PlayAlertSoundPositional 9 300
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\24.mp3" 300
@@ -8399,10 +8456,7 @@
 
             #end
     #L2 7.7 一般基底
-        Import "自定義過濾/最高階高品質基底(開).filter" Optional
-        Import "自定義過濾/最高階基底(開).filter" Optional
-        Hide #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
-            ItemLevel >= 84
+        Show #最高階高品質基底 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8412,12 +8466,11 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍|動能法杖
-            ItemLevel >= 84
-            Quality >= 27
+        Show #最高階高品質基底 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍|動能法杖
+            Quality >= 25
             Rarity <= Rare
             Corrupted = False
             BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword" "Kinetic Wand"
@@ -8426,11 +8479,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8440,11 +8492,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8454,11 +8505,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8468,11 +8518,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8482,11 +8531,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8496,11 +8544,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階高品質基底(84) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8510,10 +8557,10 @@
             SetBorderColor 255 255 255
             SetFontSize 45
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
+        Show #最高階基底(86) 盾牌 巨型塔盾|霸者刺盾
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted = False
@@ -8523,10 +8570,10 @@
             SetBorderColor 255 255 255
             SetFontSize 41
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Hide #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓|虎牙巨劍
+        Show #最高階基底(86) 武器 帝國戰爪|脊弓|馬拉克斯弓|林野獵弓|虎牙巨劍
             ItemLevel >= 86
             Rarity <= Rare
             Corrupted = False
@@ -8536,7 +8583,7 @@
             SetBorderColor 255 255 255
             SetFontSize 41
             MinimapIcon 0 Yellow UpsideDownHouse
-            PlayEffect Yellow Temp
+            PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
         Hide #隱藏拓荒用基底
