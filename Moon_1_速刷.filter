@@ -4361,6 +4361,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
         Show #新裂痕戒指
+            Rarity <= Rare
             BaseType "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Organic Ring" "Fugitive Ring" "Formless Ring"
             SetTextColor 128 0 128
             SetBackgroundColor 255 218 136 202
@@ -8456,8 +8457,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
             #end
     #L2 7.7 一般基底
-        Show #最高階高品質基底(84) 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
-            ItemLevel >= 84
+        Show #最高階高品質基底 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8470,9 +8470,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍|動能法杖
-            ItemLevel >= 84
-            Quality >= 27
+        Show #最高階高品質基底 武器 帝國戰爪|脊弓|寶飾細劍|掃蕩者|瓦爾巨斧|精緻之刃|殘暴之斧|虎牙巨劍|動能法杖
+            Quality >= 25
             Rarity <= Rare
             Corrupted = False
             BaseType "Imperial Claw" "Spine Bow" "Jewelled Foil" "Piledriver" "Vaal Axe" "Exquisite Blade" "Reaver Axe" "Tiger Sword" "Kinetic Wand"
@@ -8484,8 +8483,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲 巨人殺手頭盔|皇家之鎧|海獸脛甲|海獸護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8498,8 +8496,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 閃避 莊嚴皮盔|密教束衣|絲絨長靴|絲絨手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8512,8 +8509,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 能量護盾|巫妖之冠|暮光法衣|術士長靴|術士手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8526,8 +8522,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲/閃避 鬧鬼戰盔|征戰薄甲|飛龍鱗長靴|飛龍鱗護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8540,8 +8535,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
-            ItemLevel >= 84
+        Show #最高階高品質基底 護甲/能量護盾 神聖之冠|神聖鎖甲|聖騎士長靴|聖騎士手套
             Quality >= 25
             Rarity <= Rare
             Corrupted = False
@@ -8554,8 +8548,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #最高階高品質基底(84) 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
-            ItemLevel >= 84
+        Show #最高階高品質基底 閃避/能量護盾 刑求面具|亡者護甲|魅影長靴|魅影護手
             Quality >= 25
             Rarity <= Rare
             Corrupted = False

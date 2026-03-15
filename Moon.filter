@@ -4361,6 +4361,7 @@
             DisableDropSoundIfAlertSound
 
         Show #新裂痕戒指
+            Rarity <= Rare
             BaseType "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Organic Ring" "Fugitive Ring" "Formless Ring"
             SetTextColor 128 0 128
             SetBackgroundColor 255 218 136 202
