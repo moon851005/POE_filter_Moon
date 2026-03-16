@@ -966,7 +966,7 @@
             MinimapIcon 0 Yellow Circle
             DisableDropSoundIfAlertSound    
 
-        Show #印鈔 - 終局 - 金幣(堆疊>=300)
+        Show #金幣(堆疊>=300)
             StackSize >= 300
             Class "Gold"
             BaseType "Gold"
@@ -978,7 +978,19 @@
             MinimapIcon 1 Yellow Circle
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 速刷 - 金幣
+        Show #金幣(堆疊>=50)
+            StackSize >= 50
+            Class "Gold"
+            BaseType "Gold"
+            SetTextColor 246 220 130
+            SetBackgroundColor 0 0 0 240
+            SetBorderColor 246 220 130 0
+            SetFontSize 34
+            CustomAlertSoundOptional "Diablo2\2.mp3" 100
+            MinimapIcon 2 Yellow Circle
+            DisableDropSoundIfAlertSound 
+
+        Show #印鈔 - 終局 - 金幣
             Class "Gold"
             BaseType "Gold"
             SetTextColor 246 220 130
@@ -7481,9 +7493,9 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
             
-        Show #傳奇基底 Uber Map 黑曜護身符(磨難之軛)|軟橡魔盾(魔能暴風)|影語權杖(黯黑賢者)|靈骨之冠(憤靈郡主)|暗殺者護手(瑪拉凱之面)
-            AreaLevel == 84
-            ItemLevel == 86
+        Show #傳奇基底 夢魘地圖 黑曜護身符(磨難之軛)|軟橡魔盾(魔能暴風)|影語權杖(黯黑賢者)|靈骨之冠(憤靈郡主)|暗殺者護手(瑪拉凱之面)
+            AreaLevel == 83
+            ItemLevel == 85
             Rarity = Unique
             BaseType "Onyx Amulet" "Lacewood Spirit Shield" "Shadow Sceptre" "Bone Circlet" "Murder Mitts"
             Replica False
