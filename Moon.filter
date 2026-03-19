@@ -8065,7 +8065,7 @@
         Show #鋼鐵藥劑
             ItemLevel >= 85
             Class "Utility Flasks"
-            BaseType "	Iron Flask"
+            BaseType "Iron Flask"
             SetTextColor 50 100 200
             SetBackgroundColor 172 233 76
             SetBorderColor 184 218 242
