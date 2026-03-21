@@ -2054,7 +2054,7 @@
             SetBorderColor 255 200 0
             SetFontSize 42
             PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_死吧5.mp3" 200
             MinimapIcon 1 Red Moon
@@ -4428,13 +4428,7 @@
             SetTextColor 175 233 255
             SetBackgroundColor 78 44 96
             SetBorderColor 160 125 46
-            SetFontSize 45
-            PlayAlertSoundPositional 9 300
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
-            CustomAlertSoundOptional "Diablo2\24.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
-            MinimapIcon 2 Cyan Circle
-            PlayEffect Cyan
+            SetFontSize 42
             DisableDropSoundIfAlertSound
 
         Show #易變瓦爾寶珠
@@ -5786,6 +5780,10 @@
             HasExplicitMod >=4 "Athlete's" "Virile" "of Puhuarte" "of the Underground" "Subterranean" "Elevated " "of Nullification" "of Abjuration" "of Grandmastery" "of Bameth" "of the Godslayer" "of the Gods" "of the Blur" "of the Wind" "of the Polymath" "of the Genius" "of Exile" "of Expulsion" "of Eviction" "of Tzteosh" "of the Magma" "of the Volcano" "of the Furnace" "of Haast" "of the Ice" "of the Polar Bear" "of the Walrus" "of Ephij" "of the Lightning" "of the Maelstrom" "of the Tempest" "of the Span" "of the Rainbow" "of Variegation" "of Revoking" "of Mastery" "of Lioneye" "of the Ranger" "Zaffre" "Rotund" "Abbot's" "Prior's" "Ram's" "Fawn's" "Nautilus's" "Urchin's" "of the Essence" "Essences" "of Tacati" "Veil"
             HasExplicitMod =0 "Hale" "Healthy" "Sanguine"
             SetFontSize 45
+            SetTextColor 255 162 178
+            SetBackgroundColor 47 0 74 255
+            SetBorderColor 255 255 119
+            PlayAlertSound 3 300
             CustomAlertSoundOptional "bubu\bubu-特殊裝備.mp3" 200
             CustomAlertSoundOptional "Diablo2\44.mp3" 200
             CustomAlertSoundOptional "Lelouch\Lelouch-羅伊德_殘念.mp3" 300
@@ -8063,7 +8061,6 @@
             DisableDropSoundIfAlertSound
             
         Show #鋼鐵藥劑
-            ItemLevel >= 85
             Class "Utility Flasks"
             BaseType "Iron Flask"
             SetTextColor 50 100 200
@@ -8752,7 +8749,7 @@
             DisableDropSoundIfAlertSound
 
         Hide #隱藏高等地區汙染稀有裝備
-            AreaLevel > 68
+            AreaLevel >= 68
             Scourged False
             Corrupted True
             Rarity = Rare
@@ -8762,14 +8759,14 @@
             DisableDropSoundIfAlertSound
 
         Hide #隱藏高等地區稀有裝備
-            AreaLevel > 68
+            AreaLevel >= 68
             Rarity = Rare
             Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
             SetFontSize 18
             DisableDropSoundIfAlertSound
 
         Show #顯示低等地區汙染稀有裝備
-            AreaLevel <= 68
+            AreaLevel < 68
             ItemLevel < 70
             Scourged False
             Corrupted True
@@ -8780,7 +8777,7 @@
             DisableDropSoundIfAlertSound
 
         Show #顯示低等地區稀有裝備
-            AreaLevel <= 68
+            AreaLevel < 68
             ItemLevel < 70
             Rarity = Rare
             Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
@@ -8788,7 +8785,7 @@
             DisableDropSoundIfAlertSound
 
         Hide #完全隱藏高等地區普通/魔法裝備
-            ItemLevel > 68
+            ItemLevel >= 68
             Rarity <= Magic
             Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Rune Daggers" "Sceptres" "Shields" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Warstaves"
             SetTextColor 0 0 0 0
