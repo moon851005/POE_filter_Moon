@@ -312,78 +312,27 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #章節主紅綠洞色4L裝備
+        Show #章節4L裝備
             Rarity <= Rare
             ItemLevel < 70
             AreaLevel < 68
             LinkedSockets = 4
-            SocketGroup "RRGG"
             Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 50 50 0
-            SetBorderColor 155 155 0 255
+            SetBackgroundColor 255 255 255
+            SetBorderColor 255 255 255
             SetFontSize 35
             DisableDropSoundIfAlertSound
-
-        Show #章節主綠藍洞色4L裝備
+            
+        Show #章3L裝備
             Rarity <= Rare
-            ItemLevel < 70
-            AreaLevel < 68
-            LinkedSockets = 4
-            SocketGroup "GGBB"
+            ItemLevel < 25
+            AreaLevel < 23
+            LinkedSockets = 3
             Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 0 50 50
-            SetBorderColor 0 155 155 255
+            SetBackgroundColor 255 255 255
+            SetBorderColor 255 255 255
             SetFontSize 35
             DisableDropSoundIfAlertSound
-
-        Show #章節主藍紅洞色4L裝備
-            Rarity <= Rare
-            ItemLevel < 70
-            AreaLevel < 68
-            LinkedSockets = 4
-            SocketGroup "BBRR"
-            Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 50 0 50
-            SetBorderColor 155 0 155 255
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
-        Show #章節主紅洞色3-4L裝備
-            Rarity <= Rare
-            ItemLevel < 70
-            AreaLevel < 68
-            LinkedSockets >= 3
-            SocketGroup "RR"
-            Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 50 0 0
-            SetBorderColor 243 91 50
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
-        Show #章節主綠洞色3-4L裝備
-            Rarity <= Rare
-            ItemLevel < 70
-            AreaLevel < 68
-            LinkedSockets >= 3
-            SocketGroup "GG"
-            Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 0 50 0
-            SetBorderColor 55 143 8
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
-        Show #章節主藍洞色3-4L裝備
-            Rarity <= Rare
-            ItemLevel < 70
-            AreaLevel < 68
-            LinkedSockets >= 3
-            SocketGroup "BB"
-            Class "Helmets" "Gloves" "Boots" "Body Armours"
-            SetBackgroundColor 0 0 50
-            SetBorderColor 27 103 255
-            SetFontSize 35
-            DisableDropSoundIfAlertSound
-
         #end
     #L2 0.3藥劑
         Show #高亮章捷水銀、真銀藥劑
