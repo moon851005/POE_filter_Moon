@@ -2943,7 +2943,7 @@
     #L2 2.12戰亂聯盟(3.7版本)
         Show #永恆不朽帝國壟罩晶石
             Class "Stackable Currency"
-            BaseType "Eternal Enshrouding Crystal"
+            BaseType "Imperial Enshrouding Crystal"
             SetTextColor 0 0 0 255
             SetBackgroundColor 255 255 255
             SetBorderColor 128 0 128 255
