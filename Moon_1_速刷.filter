@@ -1392,46 +1392,19 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 幻色石(堆疊>=4)
-            StackSize >= 4
+        Show #幻色石
             Class "Stackable Currency"
             BaseType "Chromatic Orb"
-            SetTextColor 124 255 196 202
-            SetBorderColor 255 192 203
-            SetFontSize 39
+            SetTextColor 39 255 29
+            SetBackgroundColor 0 128 0 133
+            SetBorderColor 210 0 0
+            SetFontSize 43
             PlayAlertSoundPositional 4 100
             CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
             CustomAlertSoundOptional "Diablo2\2.mp3" 100
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Diamond
-            PlayEffect Pink Temp
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 終局 - 速刷 - 幻色石(T16無堆疊不顯示圖標)
-            MapTier >= 16
-            Class "Stackable Currency"
-            BaseType "Chromatic Orb"
-            SetTextColor 124 255 196 202
-            SetBorderColor 255 192 203
-            SetFontSize 39
-            PlayAlertSoundPositional 4 100
-            CustomAlertSoundOptional "bubu\bubu-小通貨.mp3" 300
-            CustomAlertSoundOptional "Diablo2\2.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 終局 - 速刷 - 幻色石
-            Class "Stackable Currency"
-            BaseType "Chromatic Orb"
-            SetTextColor 124 255 196 202
-            SetBorderColor 255 192 203
-            SetFontSize 39
-            PlayAlertSoundPositional 4 100
-            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
-            CustomAlertSoundOptional "Diablo2\2.mp3" 100
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_你已經預測到了嗎.mp3" 100
-            MinimapIcon 2 Pink Diamond
-            PlayEffect Pink Temp
+            MinimapIcon 1 Green Diamond
+            PlayEffect Green Temp
             DisableDropSoundIfAlertSound
 
         Show #印鈔 - 終局 - 機會石(堆疊>=4)
@@ -2922,6 +2895,51 @@ Import "自定義過濾/自定義配置.filter" Optional
             FracturedItem True
             HasExplicitMod "of the Underground" "Subterranean"
             Rarity <= Rare
+            SetTextColor 0 100 150 200
+            SetBackgroundColor 184 218 242
+            SetBorderColor 30 144 255
+            SetFontSize 39
+            CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\44.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 破碎之物 高閃避敏捷護甲(法壓)
+            Corrupted False
+            FracturedItem True
+            Rarity <= Rare
+            BaseEvasion > 500
+            Class "Body Armours"
+            SetTextColor 0 100 150 200
+            SetBackgroundColor 184 218 242
+            SetBorderColor 30 144 255
+            SetFontSize 39
+            CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\44.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 破碎之物 高閃避敏捷頭盔(法壓)
+            Corrupted False
+            FracturedItem True
+            Rarity <= Rare
+            BaseEvasion > 250
+            Class "Helmets"
+            SetTextColor 0 100 150 200
+            SetBackgroundColor 184 218 242
+            SetBorderColor 30 144 255
+            SetFontSize 39
+            CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\44.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 破碎之物 高閃避敏捷手套鞋子(法壓)
+            Corrupted False
+            FracturedItem True
+            Rarity <= Rare
+            BaseEvasion > 200
+            Class "Gloves" "Boots"
             SetTextColor 0 100 150 200
             SetBackgroundColor 184 218 242
             SetBorderColor 30 144 255
