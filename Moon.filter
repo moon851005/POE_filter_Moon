@@ -747,7 +747,22 @@
             MinimapIcon 1 Purple Circle
             PlayEffect Purple Temp
             DisableDropSoundIfAlertSound
-            
+
+        Show # 靈魂核心
+            Class "Stackable Currency"
+            BaseType "Soul Core"
+            SetTextColor 255 92 75 220
+            SetBackgroundColor 140 110 49
+            SetBorderColor 255 40 0 220
+            SetFontSize 45
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 0 Red Circle
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
         #end
     #L2 1.2 通貨碎片
         Show #印鈔 - 終局 - 速刷 - 蛻變石碎片
@@ -3253,6 +3268,21 @@
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
+        Show #永恆阿法魯德壟罩晶石
+            Class "Stackable Currency"
+            BaseType "Afarud Enshrouding Crystal"
+            SetTextColor 0 0 0 255
+            SetBackgroundColor 255 220 0
+            SetBorderColor 128 0 128 255
+            SetFontSize 45
+            PlayAlertSoundPositional 2 300
+            CustomAlertSoundOptional "bubu\bubu-永恆徽印.mp3" 300
+            CustomAlertSoundOptional "Diablo2\42.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero.mp3" 300
+            MinimapIcon 0 Cyan Triangle
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
         #end
     #L2 2.13凋落聯盟(3.8版本)
         Show #印鈔 - 終局 - 速刷 - 低階油瓶
@@ -4392,7 +4422,7 @@
         #end
     #L2 2.27魔影墓場(3.24版本)
         Show #高價餘燼 虛靈餘燼|骷髏馬克餘燼|鍍金餘燼
-            Class "Map Fragment"
+            Class "Stackable Currency"
             BaseType "Allflame Ember of the Ethereal" "Allflame Ember of Kulemak" "Allflame Ember of the Gilded"
             SetTextColor 255 200 0
             SetBackgroundColor 89 99 101
@@ -4407,7 +4437,7 @@
             DisableDropSoundIfAlertSound
 
         Show #不滅之火餘燼
-            Class "Map Fragment"
+            Class "Stackable Currency"
             BaseType "Allflame Ember"
             SetTextColor 172 219 229
             SetBackgroundColor 89 99 101
@@ -5357,6 +5387,171 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
+        Show #輿圖綢帶 - 探險
+            Class "Map Fragments"
+            BaseType "Expedition Thread"
+            SetTextColor 120 200 220
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Cyan Hexagon
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 深淵
+            Class "Map Fragments"
+            BaseType "Abyss Thread"
+            SetTextColor 184 255 90
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Green Hexagon
+            PlayEffect Green
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 裂痕
+            Class "Map Fragments"
+            BaseType "Breach Thread"
+            SetTextColor 199 125 255
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Purple Hexagon
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 祭祀
+            Class "Map Fragments"
+            BaseType "Ritual Thread"
+            SetTextColor 255 70 120
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Red Hexagon
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 通牒
+            Class "Map Fragments"
+            BaseType "Ultimatum Thread"
+            SetTextColor 255 74 61
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Red Hexagon
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 戰亂
+            Class "Map Fragments"
+            BaseType "Legion Thread"
+            SetTextColor 170 144 193
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Purple Hexagon
+            PlayEffect Purple
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 凋落
+            Class "Map Fragments"
+            BaseType "Blight Thread"
+            SetTextColor 224 228 114
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Yellow Hexagon
+            PlayEffect Yellow
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 獸獵
+            Class "Map Fragments"
+            BaseType "Bestiary Thread"
+            SetTextColor 192 57 43
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Red Hexagon
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 密教
+            Class "Map Fragments"
+            BaseType "Betrayal Thread"
+            SetTextColor 0 224 160
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Cyan Hexagon
+            PlayEffect Cyan
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 穿越
+            Class "Map Fragments"
+            BaseType "Incursion Thread"
+            SetTextColor 237 166 155
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Red Hexagon
+            PlayEffect Red
+            DisableDropSoundIfAlertSound
+
+        Show #輿圖綢帶 - 其他(未列出的綢帶保底)
+            Class "Map Fragments"
+            BaseType "Thread"
+            SetTextColor 246 173 255
+            SetBackgroundColor 12 18 48 255
+            SetBorderColor 30 144 255
+            SetFontSize 42
+            PlayAlertSoundPositional 6 300
+            CustomAlertSoundOptional "bubu\bubu-高尚六分儀.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-朱雀_yes your majesty.mp3" 200
+            MinimapIcon 1 Blue Hexagon
+            PlayEffect Blue
+            DisableDropSoundIfAlertSound
+
         Show #輿圖斷片
             Class "Map Fragments"
             SetTextColor 208 32 144
@@ -5702,8 +5897,17 @@
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
-        #end
+        Show #破損的綢帶
+            Class "Stackable Currency"
+            BaseType "Frayed Thread"
+            SetTextColor 170 158 130
+            SetBorderColor 30 144 255
+            SetFontSize 45
+            MinimapIcon 2 Blue Hexagon
+            PlayEffect Blue
+            DisableDropSoundIfAlertSound
 
+        #end
     #end
 
 #L1 6 已鑑定道具
@@ -8833,7 +9037,30 @@
 
             #end
     #L2 7.8 高階金裝
-        Show #印鈔 - 終局 - 速刷 - 高階金裝(項鍊鑑定+1寶)
+        Show # 最高階級金裝
+            Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rune Daggers" "Warstaves" "Rings" "Belts" "Amulets"
+            Rarity == Rare
+            UnidentifiedItemTier >= 5
+            SetTextColor 237 201 128
+            SetBorderColor 255 154 60
+            SetBackgroundColor 41 29 10 240
+            SetFontSize 42
+            MinimapIcon 2 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show # 高階級金裝
+            Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Gloves" "Boots" "Body Armours" "Helmets" "Shields" "Quivers" "Rune Daggers" "Warstaves" "Rings" "Belts" "Amulets"
+            Rarity == Rare
+            UnidentifiedItemTier >= 3
+            SetTextColor 237 201 128
+            SetBorderColor 255 255 0
+            SetFontSize 42
+            MinimapIcon 2 Yellow UpsideDownHouse
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 終局 - 速刷 - 稀有項鍊(項鍊鑑定+1寶)
             Identified False
             ItemLevel >= 75
             Rarity = Rare
@@ -8843,7 +9070,7 @@
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Show #印鈔 - 終局 - 速刷 - 高階金裝
+        Show #印鈔 - 終局 - 速刷 - 有用基底金裝
             Identified False
             Rarity = Rare
             BaseType "Vaal Regalia" "Hubris Circlet" "Lion Pelt" "Royal Burgonet" "Sorcerer Gloves" "Sorcerer Boots" "Astral Plate" "Colossal Tower Shield" "Supreme Spiked Shield" "Prophecy Wand" "Profane Wand" "Opal Wand" "Platinum Kris" "Ambusher" "Eclipse Staff" "Imperial Staff" "Vaal Axe" "Void Axe" "Fleshripper" "Gemini Claw" "Imperial Claw" "Eye Gouger" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Siege Axe" "Sambar Sceptre" "Void Sceptre" "Harmonic Spirit Shield" "Fossilised Spirit Shield" "Titanium Spirit Shield" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Eternal Burgonet" "Slink Gloves" "Titan Gauntlets" "Slink Boots" "Titan Greaves" "Onyx Amulet" "Turquoise Amulet" "Agate Amulet" "Citrine Amulet" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Unset Ring" "Unset Amulet" "Coral Ring" "Prismatic Ring" "Diamond Ring" "Two-Stone Ring" "Topaz Ring" "Sapphire Ring" "Ruby Ring" "Amethyst Ring" "Rustic Sash" "Leather Belt" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver" "Ezomyte Dagger" "Fiend Dagger" "Spine Bow" "Maraketh Bow" "Bone Ring" "Mechanical Belt" "Tiger Sword" "Thicket Bow" "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet" "Dire Pelt" "Grizzly Pelt" "Majestic Pelt" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Knight Helm" "Conquest Helmet" "Haunted Bascinet" "Faithful Helmet" "Paladin Crown" "Divine Crown" "Jester Mask" "Ancient Mask" "Torturer's Mask" "Titan Plate" "Legion Plate" "Royal Plate" "Supreme Leather" "Astral Leather" "Syndicate's Garb" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Full Wyvernscale" "Marshall's Brigandine" "Conquest Lamellar" "Grand Ringmail" "Paladin's Hauberk" "Sacred Chainmail" "Sanguine Raiment" "Torturer Garb" "Necrotic Armour" "Precursor Gauntlets" "Leviathan Gauntlets" "Harpyskin Gloves" "Velour Gloves" "Sage Gloves" "Warlock Gloves" "Chimerascale Gauntlets" "Wyvernscale Gauntlets" "Martyr Gloves" "Paladin Gloves" "Infiltrator Mitts" "Phantom Mitts" "Precursor Greaves" "Leviathan Greaves" "Harpyskin Boots" "Velour Boots" "Sage Slippers" "Warlock Boots" "Chimerascale Boots" "Wyvernscale Boots" "Martyr Boots" "Paladin Boots" "Infiltrator Boots" "Phantom Boots" "Kinetic Wand"
