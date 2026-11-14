@@ -5177,7 +5177,7 @@
             #end
     #L2 5.3 輿圖道具
         Show #印鈔 - 眾神聖器
-            Class "Map Fragments"
+            Class "Stackable Currency"
             BaseType "Divine Vessel"
             SetTextColor 200 150 0
             SetBackgroundColor 100 0 25
