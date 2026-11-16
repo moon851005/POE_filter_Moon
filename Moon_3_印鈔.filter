@@ -4530,6 +4530,21 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Purple
             DisableDropSoundIfAlertSound
 
+        Hide #印鈔 - 終局 - 速刷 - 垃圾胎贈 供應
+            Class "Wombgifts"
+            BaseType "Provisioning Wombgift"
+            SetTextColor 192 127 225
+            SetBackgroundColor 104 34 44
+            SetBorderColor 255 165 0
+            SetFontSize 39
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-加油.mp3" 300
+            CustomAlertSoundOptional "Diablo2\24.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-所以.mp3" 300
+            MinimapIcon 2 Purple Circle
+            PlayEffect Purple Temp
+            DisableDropSoundIfAlertSound
+
         Show #胎贈
             Class "Wombgifts"
             SetTextColor 192 127 225
@@ -5177,8 +5192,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             #end
     #L2 5.3 輿圖道具
         Hide #印鈔 - 眾神聖器
-            Class "Stackable Currency"
-            BaseType "Divine Vessel"
+            BaseType "Divine Vessel" "Captured Soul of"
             SetTextColor 200 150 0
             SetBackgroundColor 100 0 25
             SetBorderColor 150 170 255
@@ -8861,7 +8875,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
             #end
     #L2 7.6 異界輿圖限定基底
-        Hide #印鈔 - 終局 - 最高階異界輿圖限定基底
+        Show #最高階異界輿圖限定基底
             ItemLevel >= 86
             Rarity < Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -8871,7 +8885,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 41
             DisableDropSoundIfAlertSound
             
-        Hide #印鈔 - 終局 - 速刷 - 高階異界輿圖限定基底
+        Show #高階異界輿圖限定基底
             ItemLevel >= 84
             Rarity < Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -8881,7 +8895,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 39
             DisableDropSoundIfAlertSound
             
-        Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底
+        Show #異界輿圖限定基底
             ItemLevel < 84
             Rarity < Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
@@ -8890,7 +8904,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 35
             DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 速刷 - 異界輿圖限定基底(稀有)
+        Show #異界輿圖限定基底(稀有)
             Rarity = Rare
             BaseType "Marble Amulet" "Opal Ring" "Two-Toned Boots" "Artillery Quiver" "Crystal Belt" "Vermillion Ring" "Convoking Wand" "Iolite Ring" "Cerulean Ring" "Blue Pearl Amulet" "Apothecary's Gloves" "Spiked Gloves" "Gripped Gloves" "Seaglass Amulet" "Fingerless Silk Gloves" "Vanguard Belt" "Bone Helmet" "Fugitive Boots" "Steel Ring"
             SetTextColor 255 192 203
