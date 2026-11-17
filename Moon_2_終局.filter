@@ -2836,6 +2836,20 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         #end
     #L2 2.11追憶聯盟(3.6版本)
+        Show #破碎之物 高階級(Tier5)
+            Corrupted False
+            FracturedItem True
+            Rarity <= Rare
+            UnidentifiedItemTier >= 5
+            SetTextColor 0 100 150 200
+            SetBackgroundColor 184 218 242
+            SetBorderColor 30 144 255
+            SetFontSize 45
+            CustomAlertSoundOptional "bubu\bubu-破碎裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\44.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-Geass.mp3" 300
+            DisableDropSoundIfAlertSound
+
         Show #破碎之物 脊弓|馬拉克斯弓|林野獵弓|月蝕長杖|裂肉者|雙子戰爪|帝國戰爪|刺眼鉤|召喚法杖|召集法杖|褻瀆法杖|箴言法杖|動能法杖|瓦爾戰斧|惡魔權杖|虛影權杖|靈石權杖|寬矢箭袋|巨型塔盾|石化魔盾|巨人魔盾|霸者刺盾|巨人殺手頭盔|莊嚴皮盔|巫妖之冠|鬧鬼戰盔|神聖之冠|刑求面具|喚骨頭盔|魔符皇冠|皇家之鎧|密教束衣|暮光法衣|征戰薄甲|神聖鎖甲|亡者護甲|海獸護手|絲絨手套|術士手套|飛龍鱗護手|聖騎士手套|魅影護手|釦釘手套|擒拿手套|魔指手套|靈藥手套|魔符護手|海獸脛甲|絲絨長靴|術士長靴|飛龍鱗長靴|聖騎士長靴|魅影長靴|異色鞋|逃難短靴|魔符短靴|皮革腰帶|水晶腰帶|冥河腰帶
             Corrupted False
             FracturedItem True
