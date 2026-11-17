@@ -8218,83 +8218,8 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
 
             #end
-    #L2 7.2 商店配方
-        Hide #印鈔 - 終局 - 速刷 - 幻色石配方(1*3)
-            AreaLevel < 81
-            SocketGroup "RGB"
-            Height = 3
-            Width = 1
-            SetTextColor 50 230 100
-            SetBackgroundColor 0 0 0 0
-            SetBorderColor 50 230 100
-            DisableDropSoundIfAlertSound
 
-        Hide #印鈔 - 終局 - 速刷 - 幻色石配方(2*2)
-            AreaLevel < 81
-            SocketGroup "RGB"
-            Height <= 2
-            Width <= 2
-            SetTextColor 50 230 100
-            SetBackgroundColor 0 0 0 0
-            SetBorderColor 50 230 100
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 終局 - 速刷 - 5L裝備 
-            AreaLevel < 81
-            LinkedSockets = 5
-            SetTextColor 222 222 92
-            SetBackgroundColor 0 100 156 180
-            SetBorderColor 255 40 0 220
-            SetFontSize 39
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 終局 - 速刷 - 5L裝備(高T隱藏)
-            AreaLevel >= 81
-            LinkedSockets = 5
-            Sockets = 5
-            SetTextColor 222 222 92
-            SetBackgroundColor 0 100 156 180
-            SetBorderColor 255 40 0 220
-            SetFontSize 39
-            DisableDropSoundIfAlertSound
-
-        Show #印鈔 - 終局 - 6L裝備 鏈結石配方
-            LinkedSockets = 6
-            SetTextColor 255 165 0
-            SetBackgroundColor 127 127 127
-            SetBorderColor 255 40 0 220
-            SetFontSize 42
-            PlayAlertSoundPositional 13 300
-            CustomAlertSoundOptional "bubu\bubu-6連.mp3" 300
-            CustomAlertSoundOptional "Diablo2\48.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-All Hail Lelouch.mp3" 300
-            MinimapIcon 2 Brown UpsideDownHouse
-            PlayEffect Brown
-            DisableDropSoundIfAlertSound
-
-        Hide #印鈔 - 終局 - 速刷 - 6S裝備 工匠石配方
-            Sockets = 6
-            SetTextColor 0 255 255
-            SetBorderColor 255 94 0
-            SetFontSize 33
-            PlayAlertSoundPositional 7 150
-            CustomAlertSoundOptional "bubu\bubu-6洞裝備.mp3" 300
-            CustomAlertSoundOptional "Diablo2\10.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵從ZERO吧2.mp3" 300
-            MinimapIcon 0 White UpsideDownHouse
-            DisableDropSoundIfAlertSound
-
-        Hide #製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
-            Rarity = Normal
-            BaseType "Stone Hammer" "Rock Breaker" "Gavel"
-            SetTextColor 170 158 130
-            SetBorderColor 255 255 255
-            SetFontSize 36
-            MinimapIcon 2 Grey UpsideDownHouse
-            DisableDropSoundIfAlertSound
-
-            #end
-    #L2 7.3 藥劑
+    #L2 7.2 藥劑
         Show #顯示高品質魔力藥劑 不朽|永恆
             Quality >= 25
             Class "Mana Flask"
@@ -8485,7 +8410,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             DisableDropSoundIfAlertSound
         
             #end
-    #L2 7.4 高品質基底
+    #L2 7.3 高品質基底
         Show #最高階高品質基底 盾牌 巨型塔盾|霸者刺盾|巨人魔盾
             Quality >= 25
             Rarity <= Rare
@@ -9083,8 +9008,74 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_笑.mp3" 100
             DisableDropSoundIfAlertSound
             #end
-        
-    #L2 7.11 點機會石用基底
+
+    #L2 7.11 商店配方
+        Hide #印鈔 - 終局 - 速刷 - 幻色石配方(1*3)
+            AreaLevel < 81
+            SocketGroup "RGB"
+            Height = 3
+            Width = 1
+            SetTextColor 50 230 100
+            SetBackgroundColor 0 0 0 0
+            SetBorderColor 50 230 100
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 終局 - 速刷 - 幻色石配方(2*2)
+            AreaLevel < 81
+            SocketGroup "RGB"
+            Height <= 2
+            Width <= 2
+            SetTextColor 50 230 100
+            SetBackgroundColor 0 0 0 0
+            SetBorderColor 50 230 100
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 終局 - 速刷 - 5L裝備 
+            AreaLevel < 81
+            LinkedSockets = 5
+            SetTextColor 222 222 92
+            SetBackgroundColor 0 100 156 180
+            SetBorderColor 255 40 0 220
+            SetFontSize 39
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 終局 - 6L裝備 鏈結石配方
+            LinkedSockets = 6
+            SetTextColor 255 165 0
+            SetBackgroundColor 127 127 127
+            SetBorderColor 255 40 0 220
+            SetFontSize 42
+            PlayAlertSoundPositional 13 300
+            CustomAlertSoundOptional "bubu\bubu-6連.mp3" 300
+            CustomAlertSoundOptional "Diablo2\48.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-All Hail Lelouch.mp3" 300
+            MinimapIcon 2 Brown UpsideDownHouse
+            PlayEffect Brown
+            DisableDropSoundIfAlertSound
+
+        Hide #印鈔 - 終局 - 速刷 - 6S裝備 工匠石配方
+            Sockets = 6
+            SetTextColor 0 255 255
+            SetBorderColor 255 94 0
+            SetFontSize 33
+            PlayAlertSoundPositional 7 150
+            CustomAlertSoundOptional "bubu\bubu-6洞裝備.mp3" 300
+            CustomAlertSoundOptional "Diablo2\10.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_遵從ZERO吧2.mp3" 300
+            MinimapIcon 0 White UpsideDownHouse
+            DisableDropSoundIfAlertSound
+
+        Hide #製圖釘配方(1釘子=20Q槌子+隨便一張地圖)
+            Rarity = Normal
+            BaseType "Stone Hammer" "Rock Breaker" "Gavel"
+            SetTextColor 170 158 130
+            SetBorderColor 255 255 255
+            SetFontSize 36
+            MinimapIcon 2 Grey UpsideDownHouse
+            DisableDropSoundIfAlertSound
+
+            #end
+    #L2 7.12 點機會石用基底
         Import "自定義過濾/傳奇基底(開).filter" Optional
         Hide #潛能魔棒/獵首/魔血/艾爾卡莉之牙/大地主/幻芒聖盾/西里的戰衣/芮勒蓋許的急躁
             ItemLevel >= 78
