@@ -2729,7 +2729,7 @@
             DisableDropSoundIfAlertSound
 
         Show #皇家面容
-            Class "Misc Map Items"
+            Class "Stackable Currency"
             BaseType "Royal Visage"
             SetTextColor 113 149 121
             SetBackgroundColor 56 74 66
