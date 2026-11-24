@@ -1397,7 +1397,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
-        Show #幻色石
+        Show #印鈔 - 幻色石
             Class "Stackable Currency"
             BaseType "Chromatic Orb"
             SetTextColor 39 255 29
@@ -1545,7 +1545,23 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Cyan
             DisableDropSoundIfAlertSound
 
-        Show #混沌石
+        Show #混沌石(堆疊>=2)
+            Class "Stackable Currency"
+            BaseType == "Chaos Orb"
+            StackSize >= 2
+            SetTextColor 0 0 0
+            SetBackgroundColor 255 165 0
+            SetBorderColor 150 0 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShChaos 300
+            CustomAlertSoundOptional "bubu\bubu-混沌石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\28.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍2.mp3" 300
+            MinimapIcon 1 Yellow Diamond
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 混沌石
             Class "Stackable Currency"
             BaseType == "Chaos Orb"
             SetTextColor 0 0 0
@@ -1560,7 +1576,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
         
-        Show #富豪石(堆疊>=2)
+        Show #印鈔 - 富豪石(堆疊>=2)
             Class "Stackable Currency"
             BaseType == "Regal Orb"
             StackSize >= 2
@@ -1591,7 +1607,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #瓦爾寶珠
+        Show #印鈔 - 瓦爾寶珠
             Class "Stackable Currency"
             BaseType == "Vaal Orb"
             SetTextColor 0 0 0
@@ -1606,7 +1622,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Yellow Temp
             DisableDropSoundIfAlertSound
 
-        Show #後悔石
+        Show #印鈔 - 後悔石
             Class "Stackable Currency"
             BaseType "Orb of Regret"
             SetTextColor 0 0 0
@@ -1662,7 +1678,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "bubu\bubu-要發財了.mp3" 300
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_富有被射中的覺悟才有資格開槍3.mp3" 300
-            MinimapIcon 0 Grey Moon
+            MinimapIcon 1 Grey Moon
             PlayEffect Grey
             DisableDropSoundIfAlertSound
 
@@ -1706,22 +1722,6 @@ Import "自定義過濾/自定義配置.filter" Optional
             CustomAlertSoundOptional "Diablo2\27.mp3" 300
             CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
             MinimapIcon 0 Blue Diamond
-            PlayEffect Blue
-            DisableDropSoundIfAlertSound
-
-        Show #撤銷石(堆疊>=2)
-            Class "Stackable Currency"
-            BaseType "Orb of Unmaking"
-            StackSize >= 2
-            SetTextColor 255 255 255
-            SetBackgroundColor 128 128 128 255
-            SetBorderColor 30 144 255
-            SetFontSize 43
-            PlayAlertSoundPositional ShGeneral 300
-            CustomAlertSoundOptional "bubu\bubu-撤銷石.mp3" 300
-            CustomAlertSoundOptional "Diablo2\27.mp3" 300
-            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_消失吧.mp3" 300
-            MinimapIcon 1 Blue Diamond
             PlayEffect Blue
             DisableDropSoundIfAlertSound
 
@@ -1892,7 +1892,23 @@ Import "自定義過濾/自定義配置.filter" Optional
             PlayEffect Purple
             DisableDropSoundIfAlertSound
         
-        Show #崇高石
+        Show #崇高石(堆疊>=3)
+            Class "Stackable Currency"
+            BaseType == "Exalted Orb"
+            StackSize >= 3
+            SetTextColor 255 144 0 255
+            SetBackgroundColor 37 54 112
+            SetBorderColor 255 200 0
+            SetFontSize 43
+            PlayAlertSoundPositional ShExalted 300
+            CustomAlertSoundOptional "bubu\bubu-崇高石.mp3" 300
+            CustomAlertSoundOptional "Diablo2\27.mp3" 300
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_若無力是罪惡.mp3" 200
+            MinimapIcon 0 Orange Diamond
+            PlayEffect Orange
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 崇高石
             Class "Stackable Currency"
             BaseType == "Exalted Orb"
             SetTextColor 255 144 0 255
@@ -2160,7 +2176,7 @@ Import "自定義過濾/自定義配置.filter" Optional
 
         #end
     #L2 2.3精髓聯盟(2.3版本)
-        Show #破空精髓
+        Show #印鈔 - 破空精髓
             Class "Stackable Currency"
             BaseType "Deafening Essence"
             SetTextColor 24 208 255
@@ -2169,7 +2185,7 @@ Import "自定義過濾/自定義配置.filter" Optional
             SetFontSize 39
             DisableDropSoundIfAlertSound
 
-        Show #高階精髓
+        Show #印鈔 - 高階精髓
             Class "Stackable Currency"
             BaseType "Screaming Essence" "Shrieking Essence"
             SetTextColor 24 208 255
