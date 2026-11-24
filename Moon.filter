@@ -3020,7 +3020,21 @@
             PlayEffect White
             DisableDropSoundIfAlertSound
 
-        Show #永恆不朽帝國裂片(堆疊>=2)
+        Show #永恆不朽帝國裂片(堆疊>=20)
+            BaseType "Timeless Eternal Empire Splinter"
+            StackSize >= 20
+            SetTextColor 255 255 255 200
+            SetBackgroundColor 0 0 0 255
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-永恆裂片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 2 White Kite
+            PlayEffect White Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 永恆不朽帝國裂片(堆疊>=2)
             BaseType "Timeless Eternal Empire Splinter"
             StackSize >= 2
             SetTextColor 255 255 255 200
@@ -3033,7 +3047,7 @@
             MinimapIcon 2 White Kite
             PlayEffect White Temp
             DisableDropSoundIfAlertSound
-
+            
         Show #印鈔 - 終局 - 永恆不朽帝國裂片
             BaseType "Timeless Eternal Empire Splinter"
             SetTextColor 255 255 255 200
@@ -3076,7 +3090,21 @@
             PlayEffect Orange
             DisableDropSoundIfAlertSound
 
-        Show #永恆卡魯裂片(堆疊>=2)
+        Show #永恆卡魯裂片(堆疊>=20)
+            BaseType "Timeless Karui Splinter"
+            StackSize >= 20
+            SetTextColor 255 141 0 200
+            SetBackgroundColor 0 0 0 255
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-永恆裂片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 2 Orange Kite
+            PlayEffect Orange Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 永恆卡魯裂片(堆疊>=2)
             BaseType "Timeless Karui Splinter"
             StackSize >= 2
             SetTextColor 255 141 0 200
@@ -3132,7 +3160,21 @@
             PlayEffect Red
             DisableDropSoundIfAlertSound
 
-        Show #永恆瓦爾裂片(堆疊>=2)
+        Show #永恆瓦爾裂片(堆疊>=20)
+            BaseType "Timeless Vaal Splinter"
+            StackSize >= 20
+            SetTextColor 210 0 0 200
+            SetBackgroundColor 0 0 0 255
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-永恆裂片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 2 Red Kite
+            PlayEffect Red Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 永恆瓦爾裂片(堆疊>=2)
             BaseType "Timeless Vaal Splinter"
             StackSize >= 2
             SetTextColor 210 0 0 200
@@ -3188,7 +3230,21 @@
             PlayEffect Green
             DisableDropSoundIfAlertSound
 
-        Show #永恆聖宗裂片(堆疊>=2)
+        Show #永恆聖宗裂片(堆疊>=20)
+            BaseType "Timeless Templar Splinter"
+            StackSize >= 20
+            SetTextColor 0 128 0 200
+            SetBackgroundColor 0 0 0 255
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-永恆裂片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 2 Green Kite
+            PlayEffect Green Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 永恆聖宗裂片(堆疊>=2)
             BaseType "Timeless Templar Splinter"
             StackSize >= 2
             SetTextColor 0 128 0 200
@@ -3244,7 +3300,21 @@
             PlayEffect Yellow
             DisableDropSoundIfAlertSound
 
-        Show #永恆馬拉克斯裂片(堆疊>=2)
+        Show #永恆馬拉克斯裂片(堆疊>=20)
+            BaseType "Timeless Maraketh Splinter"
+            StackSize >= 20
+            SetTextColor 255 220 0 200
+            SetBackgroundColor 0 0 0 255
+            SetFontSize 40
+            PlayAlertSoundPositional 9 300
+            CustomAlertSoundOptional "bubu\bubu-永恆裂片.mp3" 200
+            CustomAlertSoundOptional "Diablo2\1.mp3" 200
+            CustomAlertSoundOptional "Lelouch\Lelouch-魯路修_我的名字叫Zero2.mp3" 200
+            MinimapIcon 2 Yellow Kite
+            PlayEffect Yellow Temp
+            DisableDropSoundIfAlertSound
+
+        Show #印鈔 - 永恆馬拉克斯裂片(堆疊>=2)
             BaseType "Timeless Maraketh Splinter"
             StackSize >= 2
             SetTextColor 255 220 0 200
